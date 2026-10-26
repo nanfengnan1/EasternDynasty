@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "asset_type": "portrait",
+  "character": {
+    "name": "岳飞",
+    "era": "南宋",
+    "pose": "持枪站姿",
+    "expression": "沉稳坚定"
+  },
+  "style": {
+    "preset": "historical-strategy"
+  },
+  "output": {
+    "aspect_ratio": "2:3",
+    "transparent_background": true
+  }
+}

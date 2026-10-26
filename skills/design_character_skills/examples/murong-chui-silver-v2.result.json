@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.1",
+  "status": "generated",
+  "artifacts": [
+    {
+      "kind": "image",
+      "uri": "murong-chui-silver-v2.png",
+      "mime_type": "image/png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "kind": "prompt",
+      "uri": "murong-chui-silver-v2.prompt.txt",
+      "mime_type": "text/plain"
+    },
+    {
+      "kind": "manifest",
+      "uri": "murong-chui-silver.request.json",
+      "mime_type": "application/json"
+    }
+  ],
+  "provider": "built-in image generation tool",
+  "revision_count": 0,
+  "assumptions": [
+    "输入中的“莫容垂”按前文已确定的慕容垂处理。",
+    "燕阵营、龙城再起及属性沿用已有概念卡；技能描述是概念文案，不代表已定义的战斗机制。",
+    "历史简介依据已查看的云端临漳文史资料撰写，来源记录在请求 JSON 中。"
+  ],
+  "reference_status": [
+    {
+      "source": "murong-chui-card-v1.png",
+      "status": "viewed"
+    }
+  ],
+  "review": [
+    {
+      "check": "银甲红披风与人物身份",
+      "status": "pass",
+      "detail": "已目视检查银色主体札甲、红披风，保持原图成熟脸部与姿态。"
+    },
+    {
+      "check": "姓名、阵营与星级",
+      "status": "pass",
+      "detail": "已目视核对慕容垂、燕、后燕世祖、骑兵、五颗星及 COST 3.5。"
+    },
+    {
+      "check": "属性与初始技能",
+      "status": "pass",
+      "detail": "四项数值及初始技能、龙城再起、概念文案均保持准确。"
+    },
+    {
+      "check": "历史简介与版式",
+      "status": "pass",
+      "detail": "人物小传与技能分区；简介与已核实文本一致；边框完整。"
+    },
+    {
+      "check": "文件格式与尺寸",
+      "status": "pass",
+      "detail": "已读取 PNG 文件头，尺寸为 1024 x 1536。"
+    }
+  ],
+  "message": "银甲红披风与历史简介版本。"
+}

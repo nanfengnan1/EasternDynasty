@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "status": "generated",
+  "artifacts": [
+    {
+      "kind": "image",
+      "uri": "murong-chui-card-v1.png",
+      "mime_type": "image/png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "kind": "prompt",
+      "uri": "murong-chui.original-prompt.txt",
+      "mime_type": "text/plain"
+    }
+  ],
+  "provider": "built-in image generation tool",
+  "revision_count": 0,
+  "assumptions": [
+    "属性数值与战法为原创概念设定；服饰为历史启发的视觉设计。"
+  ],
+  "reference_status": [
+    {
+      "source": "images/stzb-card-roster.png",
+      "status": "viewed"
+    },
+    {
+      "source": "images/stzb-character-panel.jpg",
+      "status": "viewed"
+    }
+  ],
+  "review": [
+    {
+      "check": "姓名与称号",
+      "status": "pass",
+      "detail": "上一轮生成后已目视核对：慕容垂、后燕世祖。"
+    },
+    {
+      "check": "星数和卡面文字",
+      "status": "pass",
+      "detail": "上一轮已目视核对五颗星、COST 3.5、四项属性及龙城再起。"
+    },
+    {
+      "check": "布局与人物",
+      "status": "pass",
+      "detail": "上一轮已查看完整边框、竖排名签和铁甲披风人物；该检查不代表历史服饰考据。"
+    },
+    {
+      "check": "文件与尺寸",
+      "status": "pass",
+      "detail": "本次检查 PNG 文件存在，尺寸 1024 x 1536。"
+    }
+  ],
+  "message": "本次会话先前生成的实际成品记录，不是本次新生成或跨模型复现测试。"
+}

@@ -1,0 +1,27 @@
+Use case: precise-object-edit plus UI card update.
+Edit the supplied completed Murong Chui card image. Produce ONE finished portrait 2:3 card at high resolution, ideally matching the input 1024 x 1536 dimensions. Preserve the mature historical painterly realism, recognizable face and facial hair, posture, sword-hand anatomy, dark purple/charcoal and antique-gold UI system, vertical Chinese name ribbon, faction badge and the red cloak.
+
+Required changes:
+1. Transform the character's dark iron lamellar armor into visibly SILVER armor: pale brushed silver and cool steel highlights across the chest, shoulder plates and forearms, realistically weathered, with restrained old-gold fittings. The silver must read clearly at normal size. Retain the rich red cloak. Maintain believable armor structure and the same character; do not turn him into a European knight or redesign his face.
+2. Change the small skill section label to exactly "初始技能".
+3. Add a separate elegant readable biography panel below the skill section, headed "人物小传". Make room by modestly reducing the portrait's vertical area and compacting the lower UI; keep the entire card frame visible. Keep the skill description and biography separate. No source URLs on the artwork.
+
+Keep these existing texts verbatim:
+Faction: "燕"
+Name, prominent vertically: "慕容垂"
+Title: "后燕世祖"
+Troop label: "骑兵"
+Exactly FIVE gold stars, no extra stars.
+"COST 3.5"
+Four stat labels and values: "攻击 94", "防御 90", "谋略 88", "速度 92"
+Skill grade badge: "S"
+Skill name: "龙城再起"
+Skill description: "整军蓄势，铁骑破阵。"
+Small footer: "概念设计"
+
+New biography text, exact simplified Chinese, laid out over two or three readable lines:
+"鲜卑慕容氏，后燕开国君主。曾击退桓温北伐，淝水之战后起兵复燕。"
+
+Use crisp clear Chinese typography for small body text and graceful calligraphy for the main name and skill title. The biography is factual historical context; the skill text and numbers are concept-design data. Do not add new mechanics, numbers, logos or other text.
+Keep the ornate border restrained. Avoid tiny illegible text, duplicated rows, clipped frame edges, extra fingers, distorted hands, excessive glow, oversharpened silver, generic fantasy redesign or a surrounding display mockup.
+Deliver only the single final card, flat front view, non-transparent.

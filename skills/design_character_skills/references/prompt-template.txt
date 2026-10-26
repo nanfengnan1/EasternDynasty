@@ -1,0 +1,53 @@
+Use case: {{asset_type}} — historical or fictional general illustration.
+Primary request: {{operation}} an image of {{character.name}} for {{intended_use}}.
+
+INPUT REFERENCES
+{{For each actually supplied image: image index, role, features to use, features not to transfer.}}
+Only claim a reference is used when it is attached to the image tool.
+For different characters, prefer a face-free layout reference or a text-only layout specification. Do not feed another person's full card as the recurring character/style reference.
+
+CHARACTER
+Name / era / faction / title: {{provided_character_identity}}
+Appearance, clothing, pose, expression: {{provided_details_and_disclosed_design_assumptions}}
+Backdrop: {{provided_or_designed_backdrop}}
+Biography used as character context: {{provided_or_verified_biography_if_any}}
+
+HISTORICAL APPEARANCE AND DISTINCT IDENTITY
+Evidence-backed appearance: {{verified_physical_description_and_its_limits}}
+Depicted life stage and age: {{stage_and_age_with_basis_or_disclosed_assumption}}
+Independent face/build profile: {{face_shape_jaw_brows_eyes_nose_mouth_hair_beard_build}}
+Artistic completion where evidence is absent: {{explicit_artistic_assumptions}}
+Identity differences from other series characters: {{concrete_morphological_differences}}
+Do not turn literary praise, supernatural anecdotes or ethnicity into invented anatomical facts. Preserve the specified identity structure; changing clothes alone is insufficient.
+
+VISUAL DIRECTION
+{{resolved_style_preset_and_user_overrides}}
+Palette: {{specified_palette_or_coherent_design_choice}}
+Framing: {{aspect_ratio}}, {{portrait_or_card_composition}}
+{{transparent_background_requirement_if_any}}
+
+CARD UI — REMOVE FOR PORTRAIT
+{{requested_layout_and_fields}}
+Exact star count: {{card.stars}}
+Exact visible text, verbatim:
+{{character.name_and_card_labels_values_and_extra_text}}
+Omit missing COST, stats and ability instead of inventing them.
+Initial skill / self-owned tactic: render the supplied label, name and description verbatim.
+If enabled and biography text is available, add a separate readable biography block:
+{{card.biography_label}}: {{character.biography.text}}
+Do not merge historical facts with skill effects. Do not print source URLs on the card.
+For portrait output, biography is context only unless extra_text explicitly requests visible text.
+
+EDIT INSTRUCTIONS — ONLY FOR EDIT
+Change: {{edit.change_request}}
+Preserve: {{edit.preserve}}
+Use the edit-target image as the base; avoid unrelated redesign.
+
+CONSTRAINTS
+{{user_constraints}}
+Ensure readable hierarchy and clear identity.
+Check exact text, symbols, star count and anatomy.
+For a series, visually compare faces and body types across cards; reject repeated faces even if names and outfits differ.
+{{concept_label_if_applicable}}
+No extra mockup environment or variants unless requested.
+

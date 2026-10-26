@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "operation": "generate",
+  "asset_type": "card",
+  "character": {
+    "name": "慕容垂",
+    "era": "十六国时期",
+    "faction": "燕",
+    "title": "后燕世祖",
+    "appearance": "五六十岁的沉稳老将，面容有风霜感，鬓角少量灰发，短须，目光坚定。",
+    "clothing": "北方历史风格札甲，深色铁甲配旧金装饰，暗红披风与窄毛领。",
+    "pose": "三分之四角度站姿，头部至大腿上部，一手自然搭在佩刀柄上。",
+    "expression": "克制、睿智、有统帅威严。",
+    "background": "冷色北方山脉、远方城墙、薄雾与暗红军旗。"
+  },
+  "style": {
+    "preset": "stzb-inspired",
+    "description": "细金框与暗紫黑底，人物插画主导，文字清晰。"
+  },
+  "reference_images": [
+    {
+      "source": "images/stzb-card-roster.png",
+      "role": "layout",
+      "notes": "只参考细金框、竖排名签、星级与阵营标记，不复制原人物或整个武将列表。"
+    },
+    {
+      "source": "images/stzb-character-panel.jpg",
+      "role": "art_style",
+      "notes": "参考绘画质感、灰金色文字与暗色信息面板，不复制吕布外形、弓箭姿态或横向布局。"
+    }
+  ],
+  "card": {
+    "stars": 5,
+    "faction_label": "燕",
+    "troop_type": "骑兵",
+    "cost": "3.5",
+    "stats": [
+      {
+        "label": "攻击",
+        "value": "94"
+      },
+      {
+        "label": "防御",
+        "value": "90"
+      },
+      {
+        "label": "谋略",
+        "value": "88"
+      },
+      {
+        "label": "速度",
+        "value": "92"
+      }
+    ],
+    "ability": {
+      "label": "自带战法",
+      "grade": "S",
+      "name": "龙城再起",
+      "description": "整军蓄势，铁骑破阵。"
+    },
+    "concept_label": "概念设计"
+  },
+  "constraints": [
+    "卡片正面平视，边框完整；只输出一张卡，不画桌面、持卡手或展示板。",
+    "姓名、星数、属性和战法文字逐字正确。",
+    "属性与战法是创作设定，不宣称官方数据。"
+  ],
+  "output": {
+    "aspect_ratio": "2:3",
+    "transparent_background": false,
+    "preferred_format": "png",
+    "quantity": 1,
+    "revision_limit": 2
+  }
+}

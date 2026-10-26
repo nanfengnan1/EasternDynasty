@@ -1,0 +1,5 @@
+interface:
+  display_name: "武将卡片设计"
+  short_description: "依据历史形貌与人物参数设计独立容貌的武将卡片，统一版式并检查多人辨识度"
+  default_prompt: "使用 $design-general-card，核实人物形貌依据并设计独立面容，制作武将卡片，检查姓名、星级、卡面文字及是否与同批人物同脸。"
+

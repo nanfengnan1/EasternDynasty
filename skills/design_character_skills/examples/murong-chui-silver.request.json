@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1",
+  "operation": "edit",
+  "asset_type": "card",
+  "character": {
+    "name": "慕容垂",
+    "era": "十六国时期",
+    "faction": "燕",
+    "title": "后燕世祖",
+    "appearance": "保持示例中成熟沉稳的脸部身份、灰黑头发和短须。",
+    "clothing": "银色札甲，保留少量旧金装饰；红色披风，毛领与皮革细节自然。",
+    "pose": "保持原图的三分之四站姿与一手搭在佩刀上的姿态。",
+    "biography": {
+      "mode": "auto",
+      "text": "鲜卑慕容氏，后燕开国君主。曾击退桓温北伐，淝水之战后起兵复燕。",
+      "sources": [
+        {
+          "title": "云端临漳：前燕重臣后燕帝，邺城脚下留足迹",
+          "url": "https://www.thepaper.cn/newsDetail_forward_4866824"
+        }
+      ]
+    }
+  },
+  "style": {
+    "preset": "stzb-inspired",
+    "description": "保留现有暗紫金框、竖排名签和整体绘画质感，银甲成为人物的亮色主体。"
+  },
+  "reference_images": [
+    {
+      "source": "murong-chui-card-v1.png",
+      "role": "edit_target",
+      "notes": "基于这张实际成品修改银甲、技能栏目标签，并加入历史简介；保持人物身份与主要 UI 设计。"
+    }
+  ],
+  "card": {
+    "stars": 5,
+    "faction_label": "燕",
+    "troop_type": "骑兵",
+    "cost": "3.5",
+    "stats": [
+      {
+        "label": "攻击",
+        "value": "94"
+      },
+      {
+        "label": "防御",
+        "value": "90"
+      },
+      {
+        "label": "谋略",
+        "value": "88"
+      },
+      {
+        "label": "速度",
+        "value": "92"
+      }
+    ],
+    "ability": {
+      "label": "初始技能",
+      "grade": "S",
+      "name": "龙城再起",
+      "description": "整军蓄势，铁骑破阵。"
+    },
+    "show_biography": true,
+    "biography_label": "人物小传",
+    "concept_label": "概念设计"
+  },
+  "edit": {
+    "change_request": "把主体铁甲改为清晰可见的银色札甲，保留红披风；将战法栏目标签改为初始技能；增加独立的人物小传区域，采用已核实简介。",
+    "preserve": [
+      "慕容垂的面部身份、年龄气质和姿态",
+      "五星、燕阵营、后燕世祖、骑兵、COST 3.5",
+      "四项属性、龙城再起名称及概念文案",
+      "暗紫金框、竖排名签和成熟历史绘画风格"
+    ]
+  },
+  "constraints": [
+    "文字必须准确且可读，必要时调整人物画幅以容纳简介，不裁掉边框。",
+    "技能描述沿用概念文案，不代表已定义战斗机制；属性为原创概念设定。",
+    "历史简介来源保存在资料中，卡面不印网址。"
+  ],
+  "output": {
+    "aspect_ratio": "2:3",
+    "transparent_background": false,
+    "preferred_format": "png",
+    "quantity": 1,
+    "revision_limit": 2
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "file": "images/stzb-card-roster.png",
+      "page_url": "https://www.sohu.com/a/462375317_120736982",
+      "image_url": "https://p1.itc.cn/q_70/images03/20210422/e3c2e69626e94749a6c0912963e43690.png",
+      "role": "layout",
+      "note": "公开页面中的游戏截图，仅作视觉参考，原素材权利归原权利方。"
+    },
+    {
+      "file": "images/stzb-character-panel.jpg",
+      "page_url": "https://forum.gamer.com.tw/C.php?bsn=30108&snA=3458",
+      "image_url": "https://truth.bahamut.com.tw/s01/202212/b7060a8b3774265ad4c4ddc00b3f9f41.JPG",
+      "role": "art_style",
+      "note": "公开页面中的游戏截图，仅作视觉参考，原素材权利归原权利方。"
+    }
+  ],
+  "example_result": {
+    "file": "murong-chui-card-v1.png",
+    "prompt": "murong-chui.original-prompt.txt",
+    "origin": "本会话使用内置图像工具生成；数值与战法为概念设定。"
+  }
+}

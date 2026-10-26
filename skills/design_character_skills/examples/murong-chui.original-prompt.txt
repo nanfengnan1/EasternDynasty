@@ -1,0 +1,27 @@
+Use case: ui-mockup / historical character card illustration.
+Create ONE finished, polished portrait-oriented character card for 慕容垂 (Murong Chui), inspired by the supplied 率土之滨 game UI references. This is an original concept card, not a screenshot and not an official existing card. Aim for a premium production-quality strategy-game character collectible with clear typography and a dominant original painted portrait.
+
+INPUT REFERENCES:
+Image 1 (stzb-card-roster.png) is a UI reference only: study the restrained thin antique-gold card borders, deep purple/charcoal material, small faction badge, vertical Chinese name placement, exactly five gold stars, and dense but orderly strategy-game visual hierarchy. Do not copy an existing character, roster, desktop window or background.
+Image 2 (stzb-character-panel.jpg) is a visual-language reference only: historical Chinese painterly character art, ivory/gold typography, muted dark panels and clear functional labels. Do not reproduce Lü Bu, archery pose, white flowing hair, dragon, screenshot or wide layout.
+
+OUTPUT:
+One tall portrait card, approximately 2:3 ratio, high resolution, fully visible frame with modest outer dark margin. Flat front view, absolutely no perspective mockup, no desk, no hand holding the card, no multiple variants or presentation board. The card itself occupies 95% of the image. It should look like a usable polished game asset with original art and deliberate UI, not a generic fantasy poster.
+
+SUBJECT:
+Murong Chui, the mature Xianbei military leader and founder of Later Yan, depicted as a commanding veteran in his late fifties/early sixties. Narrow focused eyes, weathered realistic face, strong cheekbones, dark hair with restrained gray at the temples, neat short mustache and beard, composed calculating expression. Strong upright three-quarter portrait from head to upper thighs, hero occupying the large upper 72% of the card. Historically inspired northern Chinese fourth-century lamellar iron armor, dark lacquer plates, restrained worn bronze/gold fittings, dark crimson cloak with a narrow fur collar and subtle Xianbei-influenced geometric textiles. A believable sheathed saber at his hip; one naturally proportioned gloved hand resting on the sword pommel. Dark tied hair and a modest period-evocative headpiece; do not make a youthful idol, a European knight, or a Qing emperor.
+Backdrop inside the portrait: subdued cold northern mountains and distant city wall through ink-wash mist, a faint dark crimson campaign banner. Background subordinate and atmospheric, no additional foreground characters. Lighting draws attention to the face and then armor. Rich painterly textures, art-directed realism, exquisite textile/metal detail, atmospheric brushwork, strong silhouette, gravitas and intelligence rather than screaming aggression. Subtle cold blue-gray shadows and warm muted gold highlights.
+
+UI LAYOUT:
+Thin antique-gold rectangular border with restrained angular corner ornaments and very subtle woven/engraved details, dark aubergine and charcoal panels, crimson accents. Avoid huge rococo filigree, glowing magic, neon, jewels or excessive gold.
+Top-left a small diamond faction emblem reading "燕". Near the upper edge exactly FIVE gold five-pointed stars in a clear horizontal row; top-right small orderly text "COST 3.5".
+Along the left inner side, a vertical dark translucent name ribbon: large beautiful clearly legible Chinese brush-calligraphy characters "慕容垂", stacked vertically with balanced spacing. Smaller secondary title "后燕世祖" on the same ribbon. The ribbon must not obscure the face. A tiny cavalry-horse glyph and label "骑兵" near its lower end.
+The portrait transitions cleanly to an understated bottom information area occupying about 23–25% of the card. This must be finished UI with restrained gold separators and comfortable readable spacing.
+One four-column attribute row, exact labels and values:
+"攻击 94" | "防御 90" | "谋略 88" | "速度 92"
+Beneath it one ability row with a compact circular cavalry silhouette icon and gold S badge. Exact text: small label "自带战法", larger title "龙城再起", and smaller subtitle "整军蓄势，铁骑破阵。"
+At the very bottom small quiet text "概念设计". This identifies the fictional card without dominating the composition.
+All these labels must be rendered in simplified Chinese exactly as specified. Main name visually dominant, stats secondary. Only use English for "COST" and the single S badge. No other text, no publisher logos, no game logo, no watermark.
+
+QUALITY CONSTRAINTS:
+Beautiful convincing historical portrait, crisp coherent UI, tasteful restraint, excellent contrast at normal card size, precise aligned spacing, five stars exactly, all frame edges visible. Avoid illegible decorative pseudo-text, excessive tiny type, distorted face, extra fingers/arms, cheap shiny gradients, photoreal cosplay, anime styling and clutter.
