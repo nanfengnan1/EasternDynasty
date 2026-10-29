@@ -1,0 +1,128 @@
+{
+  "version": "s1-20261029-020752522",
+  "status": "draft-before-export",
+  "reference": {
+    "id": "RB29-LUMBER-A001",
+    "path": "F:/工作项目/率土之滨/rag/assets/8f/8fcba37972ab8cf8c9cbf0a5380be4603753820a759e90d4a518fa0159b7dae2.png",
+    "sha256": "8fcba37972ab8cf8c9cbf0a5380be4603753820a759e90d4a518fa0159b7dae2",
+    "size": [
+      1767,
+      987
+    ],
+    "date": "2022-08-11",
+    "scope": "Historical official city appearance editor, unknown current S1, excluded; circle/caption separation and reset glyph only. Not a lumber icon or current city art."
+  },
+  "baselines": [
+    {
+      "name": "desktop",
+      "path": "Docs/DesignUI/s1-20261029-020752522/baseline/desktop.png",
+      "sourcePath": "F:/EasternDynastyBuild/Releases/s1-20261028-225251901/Project/Validation/Visual/s1-20261028-225251901-youzhou-1440x900/smoke-city-overview.png",
+      "sha256": "2f5ef04d263ca21b2f1d905a99f9d3b06271bae9b56bcf5aee77227cdfdcfdcc",
+      "w": 1440,
+      "h": 900,
+      "scale": 1,
+      "x": 0,
+      "y": 0,
+      "lw": 1440,
+      "lh": 900
+    },
+    {
+      "name": "mobile",
+      "path": "Docs/DesignUI/s1-20261029-020752522/baseline/mobile.png",
+      "sourcePath": "F:/EasternDynastyBuild/Releases/s1-20261028-225251901/Project/Validation/Visual/s1-20261028-225251901-mobile-1600x720/smoke-city-overview.png",
+      "sha256": "43a263a296747dbeaea894fb55aeaf1f963ec69ab94c3fdbd43f441df678fce2",
+      "w": 1600,
+      "h": 720,
+      "scale": 0.8341463414634146,
+      "x": 56,
+      "y": 12,
+      "lw": 1803.0409356725147,
+      "lh": 820
+    }
+  ],
+  "layout": {
+    "height": 56,
+    "titleMaxWidth": 320,
+    "titleText": [
+      54,
+      6,
+      "titleWidth-62",
+      40
+    ],
+    "commandWidth": 80,
+    "commandArt": [
+      26,
+      4,
+      28,
+      28
+    ],
+    "commandCaption": [
+      4,
+      36,
+      72,
+      20
+    ],
+    "expandOffset": 358,
+    "minusOffset": 270,
+    "plusOffset": 220,
+    "resetOffset": 168,
+    "planningOffset": 80,
+    "zoomSize": 44,
+    "viewportUnchanged": true
+  },
+  "components": [
+    {
+      "id": "ui.youzhou.panorama_title",
+      "objectId": "panorama_title",
+      "width": 640,
+      "height": 104
+    },
+    {
+      "id": "ui.youzhou.panorama_command",
+      "objectId": "panorama_command",
+      "width": 160,
+      "height": 112
+    },
+    {
+      "id": "ui.youzhou.panorama_command_active",
+      "objectId": "panorama_command_active",
+      "width": 160,
+      "height": 112
+    },
+    {
+      "id": "ui.youzhou.panorama_zoom",
+      "objectId": "panorama_zoom",
+      "width": 88,
+      "height": 88
+    },
+    {
+      "id": "ui.youzhou.panorama_reset",
+      "objectId": "panorama_reset",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "ui.youzhou.panorama_grid",
+      "objectId": "panorama_grid",
+      "width": 64,
+      "height": 64
+    }
+  ],
+  "reusedAssets": [
+    {
+      "id": "map.youzhou.city",
+      "path": "Assets/EasternDynasty/Resources/Youzhou/city.png",
+      "sha256": "178d9ac249e7178b9669edad891a1a40ec534e156a910e66d898f4155fba6b41"
+    }
+  ],
+  "differences": [
+    "Full-width connected dark text strip becomes a capped independent city identity and separated controls.",
+    "Camera expand/reset/planning gain separate image and caption, based on the historical circle-caption pattern.",
+    "Zoom becomes its own two circular controls; full name keeps two lines and existing viewport/building coordinates remain unchanged."
+  ],
+  "notes": [
+    "No new city rendering, no screenshot pixels in formal assets, no invented rule parameters.",
+    "One standard reset glyph follows visible original; district grid is existing project semantics.",
+    "All live names/captions remain Runtime text; after implementation publisher must capture desktop/mobile, long name, expanded/planning and disabled states."
+  ]
+}

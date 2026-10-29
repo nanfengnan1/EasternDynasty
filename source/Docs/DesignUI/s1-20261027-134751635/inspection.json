@@ -1,0 +1,25 @@
+{
+  "version": "s1-20261027-134751635",
+  "status": "exported-and-inspected-runtime-review-pending",
+  "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+  "inspectionOrder": "Opened original 0499 and 0527, desktop/mobile game baseline, exported desktop/mobile/state/component previews, corrected context patch and re-exported/reopened desktop/mobile, then edited Runtime.",
+  "viewed": [
+    "desktop/exports/map-hud-preview.png",
+    "mobile/exports/map-hud-preview.png",
+    "states/exports/quest-states-preview.png",
+    "components/exports/quest-preview.png"
+  ],
+  "referenceDecision": "The newer 2023 image 0527 uses a small book entrance at lower left; 2021 image 0499 has a clearer vertical task pennant and matches the existing navigation design context. Both are historical variants, not verified current S1 UI. Use 0499 for the bounded pennant composition, not a claim that this is the latest official style.",
+  "findings": [
+    "The 354x174 paper card and large building medallion are replaced by a 56x120 task pennant, a separately readable current objective, progress strip and 132x44 action.",
+    "The total blocked footprint is now 354x120, 31.03 percent shorter. The default objective remains visible and every actionable region is at least 44 logical units in both dimensions.",
+    "Desktop and independently laid-out mobile previews show the same hierarchy. Mobile preview exports at 1600x729 from the 1800x820 logical safe-area canvas, not a device screenshot.",
+    "Active, claimable and completed examples retain distinct live text and real progress semantics; no numbers or Chinese text are baked into the production components.",
+    "An initial context crop accidentally duplicated a city name. The crop was moved to a map-only area, re-exported and visually rechecked before Runtime implementation.",
+    "The map patch, baseline, earlier header and footer are design context only. Their composition is not a new runtime camera image and is never imported into game assets.",
+    "Fine ornament, calligraphic official lettering and current-S1 independent artwork are not available; they were not invented or claimed restored. Runtime transparency and actual Chinese font metrics still require publisher review."
+  ],
+  "figmaUsed": false,
+  "unityOrClientStarted": false,
+  "runtimeVerified": false
+}

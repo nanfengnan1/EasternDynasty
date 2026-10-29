@@ -1,0 +1,15 @@
+{
+  "name": "EasternDynasty.Editor",
+  "rootNamespace": "EasternDynasty",
+  "references": [
+    "EasternDynasty.Core",
+    "EasternDynasty.Application",
+    "EasternDynasty.Infrastructure",
+    "EasternDynasty.Presentation"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true,
+  "noEngineReferences": false
+}

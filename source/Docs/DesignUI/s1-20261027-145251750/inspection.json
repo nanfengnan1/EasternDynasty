@@ -1,0 +1,34 @@
+{
+  "version": "s1-20261027-145251750",
+  "status": "design-export-inspected-runtime-integrated-awaiting-publisher",
+  "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+  "toolEntry": "Tools/Export-UIDesign.ps1",
+  "figmaUsed": false,
+  "referenceImagesActuallyOpened": ["STZB-0499 / 2021 / 2340x1080", "STZB-0527 / 2023 / 720x405"],
+  "baselineImagesActuallyOpened": [
+    "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-youzhou-1440x900/smoke-overview.png",
+    "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-mobile-1600x720/smoke-overview.png"
+  ],
+  "previewImagesActuallyOpened": [
+    "desktop/exports/map-hud-preview.png",
+    "mobile/exports/map-hud-preview.png",
+    "states/exports/army-states-preview.png",
+    "components/exports/army-preview.png",
+    "controls/exports/command-states-preview.png"
+  ],
+  "designBeforeRuntime": true,
+  "inspection": [
+    "The separated portrait tickets expose map context between cards; full rectangular dark backdrop removed. All three current generals and both commands remain visible.",
+    "Complete image regions grow from 76x99 to 80x116. The source image is fitted, not cropped. Name pennants and slot/level bases do not cover portrait regions.",
+    "Overall region remains 354x242. No footprint reduction is claimed. Three-card roster is a project adaptation of existing functionality using visible 2021 map ticket and unit-strip components, not a replica of an official expanded army panel.",
+    "The mobile source has an independent 1800x820 logical layout exported to 1600x729; it is a design preview, not Android or runtime evidence.",
+    "The first control-state sheet used a transparent page, making pale captions hard to read against the viewer's white background. Added an explicit contextual background, re-exported and reopened the sheet. No production screenshot pixels were imported.",
+    "Normal and hover command skins are actual exported components. Returning recall uses the documented 0.55 RGB multiplier and remains disabled, preserving prior behavior.",
+    "CLI returned success. Inkscape stderr reports denied writes to extension-errors.log/recently-used.xbel outside the workspace; PNGs, geometry and receipts were still produced and hash-verified. No permission workaround was attempted."
+  ],
+  "pending": [
+    "Publisher must compare original, exported design and new game screenshots at both desktop resolutions and mobile safe area.",
+    "Validate actual CJK name metrics, transparent gaps, idle/long-name/empty/marching/training/returning states, portrait/name/base clicks and command input.",
+    "Current S1 exact army-panel art and high-resolution state icons remain unverified. Existing S1DEV-06/S1UX-04 gaps are reused without duplicate questions."
+  ]
+}

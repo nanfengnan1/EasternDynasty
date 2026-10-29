@@ -1,0 +1,20 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.join(path.dirname(fileURLToPath(import.meta.url)),'Grid-2026-10-25');
+const ids=['649beaf9994f9590cde932f0klVolFBB03','649beb0c630bf906d1fabc77NVcjH50503','649beb1b00281ed1ceb5667deg40rFRa03','649beb30c30fb97b9b18ba05hX4pCBYe03','649beb472bac50e4f68a5e37JVvr8qBD03'];
+const rows=await Promise.all(ids.map(async(id,index)=>{
+ const url='https://stzbsqos.fp.ps.easebar.com/file/'+id;
+ const response=await fetch(url,{signal:AbortSignal.timeout(25000)});
+ const type=response.headers.get('content-type')||'';
+ if(!response.ok||!type.startsWith('image/'))throw new Error('Invalid image '+url);
+ const bytes=Buffer.from(await response.arrayBuffer());
+ const ext=bytes.subarray(1,4).toString()==='PNG'?'png':'jpg';
+ const name='community-ui-'+(index+1)+'.'+ext;
+ await fs.writeFile(path.join(root,name),bytes);
+ return{name,url,sourcePage:'https://www.ib-cmty.com/timeline/m20230628161424524347851',sourceType:'Creator article on official community, linked by official Taiwan guide index; visible pixels only',published:'2023-06-28',retrieved:new Date().toISOString(),bytes:bytes.length,use:'Reference-only image; not a game asset'};
+}));
+const dest=path.join(root,'sources.json');
+const previous=JSON.parse(await fs.readFile(dest,'utf8'));
+await fs.writeFile(dest,JSON.stringify([...previous.filter(r=>!rows.some(n=>n.name===r.name)),...rows],null,2));
+for(const row of rows)console.log(JSON.stringify(row));

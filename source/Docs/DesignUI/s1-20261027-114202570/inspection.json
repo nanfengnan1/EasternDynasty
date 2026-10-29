@@ -1,0 +1,39 @@
+{
+  "version": "s1-20261027-114202570",
+  "atUtc": "2026-10-27T12:09:00.173Z",
+  "method": "view_image: actual original, desktop/mobile baseline and final Inkscape previews",
+  "files": [
+    {
+      "path": "F:/工作项目/率土之滨/rag/assets/20/20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f.jpg",
+      "sha256": "20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-youzhou-1440x900/smoke-overview.png",
+      "sha256": "b9a143f304199a7323b6200c4b9c1e90609eaad2a6c60f44f42f993bfd54724d"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-mobile-1600x720/smoke-overview.png",
+      "sha256": "1bcc78f5f1f1b76786e283acd2a16dfc5762faeb474f4a48e7312e53726f964e"
+    },
+    {
+      "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-114202570\\desktop\\exports\\map-hud-preview.png",
+      "sha256": "7d7bb9c75f88f6fd3857c743ce266e96001995f2cec4511d79202bbb7ef66bcf"
+    },
+    {
+      "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-114202570\\mobile\\exports\\map-hud-preview.png",
+      "sha256": "04cd13e683de0a0e29ebfc335f98fc24fd9e1f9360aaad3a723f9e69afbaea7d"
+    },
+    {
+      "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\navigation-preview.png",
+      "sha256": "c6eb8f84c1389a1302d6f515ea1e77b86ed4f1ecfb080901c08a9ae0d3a5bb59"
+    }
+  ],
+  "conclusion": "Design inspected: left grouped image tickets, separate vertical labels, independent recruitment and centered utilities. Game runtime acceptance is pending.",
+  "limits": [
+    "2021 reference, current S1 unknown",
+    "Preview outside footer is an old screenshot layer",
+    "Final desktop/mobile previews re-inspected after 1-pixel portrait and caption/spec alignment",
+    "Inkscape user-profile write warnings retained; export and SHA receipts succeeded",
+    "Figma not connected or called"
+  ]
+}

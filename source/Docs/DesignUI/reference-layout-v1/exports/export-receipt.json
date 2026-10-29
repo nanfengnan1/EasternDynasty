@@ -1,0 +1,27 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T11:39:46.0429551Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\reference-layout-v1\\map-hud-reference-measurement.svg",
+    "relativeSource":  "Docs\\DesignUI\\reference-layout-v1\\map-hud-reference-measurement.svg",
+    "sourceSha256":  "275D809FEF462AE135BECFA0EB22E0A155B44EA06F7806BB64F9A95D48E05B60",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\reference-layout-v1\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\reference-layout-v1\\exports\\map-hud-reference-measurement-preview.png",
+                       "sha256":  "52BF9C2DA7A643AFF29FE11B980E3195861C024CF20DE979269CA5AB66EB8F72",
+                       "width":  1920,
+                       "height":  1080,
+                       "relativePath":  "Docs\\DesignUI\\reference-layout-v1\\exports\\map-hud-reference-measurement-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\reference-layout-v1\\exports\\map-hud-reference-measurement-bottom-navigation.png",
+                       "sha256":  "485D4DB2B4E58CDB1D1D6C7A811B4E6661EFE3E6DE2BEFF01BEE0335CD8BAB97",
+                       "width":  628,
+                       "height":  120,
+                       "relativePath":  "Docs\\DesignUI\\reference-layout-v1\\exports\\map-hud-reference-measurement-bottom-navigation.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

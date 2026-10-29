@@ -1,0 +1,99 @@
+{
+  "version": "s1-20261027-201251989",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "id": "STZB-0428",
+    "path": "F:/工作项目/率土之滨/rag/assets/d8/d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350.jpg",
+    "sha256": "d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350",
+    "size": [
+      500,
+      280
+    ],
+    "year": 2015,
+    "scope": "Historical city header compact production strip and round identity only; current S1 appearance unconfirmed; no original pixels imported."
+  },
+  "baselineVersion": "s1-20261027-104752269",
+  "layout": {
+    "identity": [
+      16,
+      4,
+      252,
+      62
+    ],
+    "art": [
+      16,
+      5,
+      72,
+      60
+    ],
+    "name": [
+      96,
+      7,
+      166,
+      32
+    ],
+    "wrappedName": [
+      96,
+      5,
+      166,
+      38
+    ],
+    "detail": [
+      97,
+      44,
+      165,
+      20
+    ],
+    "resources": {
+      "x": 280,
+      "y": 5,
+      "height": 58,
+      "pitch": "min(760,width-604)/4",
+      "gap": 6
+    },
+    "currency": {
+      "x": "width-316+index*150",
+      "y": 5,
+      "width": 144,
+      "height": 58
+    }
+  },
+  "components": [
+    "city_header_identity",
+    "city_header_identity_hover",
+    "city_header_resource"
+  ],
+  "reuse": [
+    "ui.youzhou.header_currency"
+  ],
+  "fonts": {
+    "name": 21,
+    "wrappedName": 14,
+    "stock": 20,
+    "rate": 13,
+    "minimum": 12
+  },
+  "notes": [
+    "No city scene geometry or camera changes; transparency reveals existing page backing, not a newly extended city scene.",
+    "Preview uses the same existing resource crops as Runtime; currency glyphs are cropped from the old baseline solely in the design layer. All three formal components are vectors with no embedded images or text.",
+    "Dynamic text is not baked in components.",
+    "Full-screen contexts include previous inspected designs and old runtime screenshots; not new gameplay evidence."
+  ],
+  "componentsVectorExportScale": 2,
+  "baselines": [
+    {
+      "path": "Docs/DesignUI/s1-20261027-190751837/baseline/desktop-104752269.png",
+      "sha256": "c5a594126173e1eb918bda1153e57896e042bec408353ae16c96de53789b59a4",
+      "version": "s1-20261027-104752269",
+      "actuallyViewed": true,
+      "currentIterationScreenshot": false
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261027-190751837/baseline/mobile-104752269.png",
+      "sha256": "aec64ff80b8622fac9fdbc2be4d5e09aef8d4c63854cf054af9c61fb9fcffb74",
+      "version": "s1-20261027-104752269",
+      "actuallyViewed": true,
+      "currentIterationScreenshot": false
+    }
+  ]
+}

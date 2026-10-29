@@ -1,0 +1,31 @@
+{
+  "status": "exported-inspected-and-implemented-awaiting-runtime",
+  "atUtc": "2026-10-28T11:17:21.874Z",
+  "inspected": [
+    {
+      "target": "desktop",
+      "source": "Docs\\DesignUI\\s1-20261028-110251322\\publication-gallery-fit\\desktop\\gallery.svg",
+      "sourceSha256": "457797404BBD0C62CD8D4AC96FC52A511D549A773254AC6EF2E48DE1894C9635",
+      "preview": "Docs\\DesignUI\\s1-20261028-110251322\\publication-gallery-fit\\desktop\\exports\\gallery-preview.png",
+      "previewSha256": "2FA0460AD8F558607372CF9276E8104502F07B94E1632C3E744104EF2B56120E",
+      "tool": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "receipt": "Docs\\DesignUI\\s1-20261028-110251322\\publication-gallery-fit\\desktop\\exports\\export-receipt.json"
+    },
+    {
+      "target": "mobile",
+      "source": "Docs\\DesignUI\\s1-20261028-110251322\\publication-gallery-fit\\mobile\\gallery.svg",
+      "sourceSha256": "30B129185C4F6550F4452378303B171FA716D197AC547F60AED1F3A27BB3574D",
+      "preview": "Docs\\DesignUI\\s1-20261028-110251322\\publication-gallery-fit\\mobile\\exports\\gallery-preview.png",
+      "previewSha256": "AAE19D739491803CCB23B541FCBBA456972B72E003CDA5DBFCD4D5FEA0F515A3",
+      "tool": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "receipt": "Docs\\DesignUI\\s1-20261028-110251322\\publication-gallery-fit\\mobile\\exports\\export-receipt.json"
+    }
+  ],
+  "notes": [
+    "Both tool-produced PNG previews were opened with view_image before Runtime edits.",
+    "Eight full 58-high building illustrations and 20-high names retain their existing design; the status text now uses a separate 20-high row inside a 40-high footer.",
+    "The tile ends at y=334 on desktop, before the unchanged ledger y=342; mobile uses the same logical 8-unit separation.",
+    "Inherited surrounding layout is design context, not a new runtime capture or a claim that all current facilities match the original game.",
+    "No new artwork, assets, rules, storage or player changes. Actual Unity mobile font measurement and click/screenshot acceptance remain pending."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T21:57:19.1697584Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-214751426\\components\\chrome.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-214751426\\components\\chrome.svg",
+    "sourceSha256":  "DFE30974864FB543335BC37F6580C54C47AFDFEA994A492C3F57FCD328E4F6BB",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-214751426\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-214751426\\components\\exports\\chrome-preview.png",
+                       "sha256":  "891BFB9E186D83F63294996AA7203037222A9CE969C4501041125CC857E01AEB",
+                       "width":  1280,
+                       "height":  440,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-214751426\\components\\exports\\chrome-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-214751426\\components\\exports\\chrome-card-tabs.png",
+                       "sha256":  "C8CA4219162AA81BEC49FB0D549C5641430309CA627A1A4F20E54632753EE443",
+                       "width":  600,
+                       "height":  54,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-214751426\\components\\exports\\chrome-card-tabs.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-214751426\\components\\exports\\chrome-card-tab-active.png",
+                       "sha256":  "13C85B458A4A2E52568C9F32C3E7F545311FB2BE89E681E9C195524162DA830D",
+                       "width":  200,
+                       "height":  54,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-214751426\\components\\exports\\chrome-card-tab-active.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-214751426\\components\\exports\\chrome-card-identity.png",
+                       "sha256":  "71F84F8CDE5BE609BD51012A5B0CF7A8B2B7DE3A95A8BF8571FC0E42058C1C20",
+                       "width":  600,
+                       "height":  40,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-214751426\\components\\exports\\chrome-card-identity.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-214751426\\components\\exports\\chrome-card-close.png",
+                       "sha256":  "441FBB9BBFFB638F6B0BC71CAEEE76A2E075927C616F2929B90EB3195E099149",
+                       "width":  54,
+                       "height":  54,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-214751426\\components\\exports\\chrome-card-close.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-214751426\\components\\exports\\chrome-card-action.png",
+                       "sha256":  "C0009DD343BA108A2B305B93305A716F78252B45493E6D5E864ABD9DF63D8844",
+                       "width":  240,
+                       "height":  54,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-214751426\\components\\exports\\chrome-card-action.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-214751426\\components\\exports\\chrome-card-action-hover.png",
+                       "sha256":  "A3E8CB1CAD950D7AA278B7471E890684736B53335B6139B419E03282F6DF0237",
+                       "width":  240,
+                       "height":  54,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-214751426\\components\\exports\\chrome-card-action-hover.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

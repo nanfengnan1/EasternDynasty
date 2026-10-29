@@ -1,0 +1,34 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T14:41:37.3341013Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-141251981\\components\\army-rows.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-141251981\\components\\army-rows.svg",
+    "sourceSha256":  "1E46382B59310B625B5B723952FBC1D55806328657A51B3ABD2F943D7C1D6917",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-141251981\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-141251981\\components\\exports\\army-rows-preview.png",
+                       "sha256":  "0FAF878D6836C9843A1A7B5F22103E1B8611309092D1515B3E286D02105B3368",
+                       "width":  730,
+                       "height":  200,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-141251981\\components\\exports\\army-rows-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-141251981\\components\\exports\\army-rows-army-row.png",
+                       "sha256":  "FE5DABE8DC13152308BF6093D04F79128C014F832F41E3E64F0D1110CC483036",
+                       "width":  709,
+                       "height":  88,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-141251981\\components\\exports\\army-rows-army-row.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-141251981\\components\\exports\\army-rows-army-row-hover.png",
+                       "sha256":  "98AADCC6ECBADED47D0BF5458B515EEB4055D7738347DF2DCDEEEB4826CD436E",
+                       "width":  709,
+                       "height":  88,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-141251981\\components\\exports\\army-rows-army-row-hover.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

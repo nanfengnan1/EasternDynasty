@@ -1,0 +1,261 @@
+{
+    "schemaVersion":  1,
+    "version":  "s1-20261027-180252216",
+    "atUtc":  "2026-10-27T18:10:27.6583526Z",
+    "auditOnly":  true,
+    "status":  "observed-not-imported",
+    "snapshot":  {
+                     "id":  "rag-20261027-180304028-30328",
+                     "comparedTo":  "rag-20261027-170259250-34896",
+                     "activeVersions":  59,
+                     "previousActiveVersions":  58,
+                     "assetIdentities":  980,
+                     "uniqueImages":  721,
+                     "localFiles":  125,
+                     "addedVersions":  [
+                                           "learn-question-20261027-174754517-Q04:learn-question-20261027-174754517-Q04-0bfdb437ad524bc49365"
+                                       ],
+                     "addedConfigurationFiles":  [
+                                                     "imports/learning/learn-question-20261027-174754517-Q04-0bfdb437ad524bc49365/batch.json"
+                                                 ],
+                     "newImageCount":  0
+                 },
+    "newBatch":  {
+                     "path":  "F:\\工作项目\\率土之滨\\rag\\imports\\learning\\learn-question-20261027-174754517-Q04-0bfdb437ad524bc49365\\batch.json",
+                     "sha256":  "54260570243302c12df37c5aec5e55dabdabd4178d7f71a3067792924bc108c5",
+                     "summary":  "Q04花鬘100520介绍小批：4条来源内容/比较记录，1份查询说明和1份结构化附件；6个新URL、1份复用JSON，0图。补充戏曲分类、主体关联、关索介绍逐项作品出处与同名饰物排错；戏曲底本及当前常规S1显示仍缺，未更新数据库。",
+                     "scope":  {
+                                   "region":  "CN",
+                                   "season":  "S1",
+                                   "server_mode":  "classic",
+                                   "as_of":  "2026-10-28",
+                                   "theme":  null,
+                                   "server_opened_at":  null,
+                                   "content_scope":  "research_for_classic_s1_using_official_all_seasons_and_external_text_reference",
+                                   "s1_applicability":  "unknown"
+                               },
+                     "facts":  4,
+                     "assets":  0,
+                     "sources":  [
+                                     {
+                                         "id":  "official-json",
+                                         "path":  "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\question-20261027-174754517-Q04\\attempt-1\\validation-stage\\S1_持续学习\\批次\\question-20261027-174754517-Q04\\evidence\\hero_extra.json",
+                                         "expectedSha256":  "0cec43233465e72f15c48685c479477cbe5a7bb1724733820bcf5718171493e2",
+                                         "actualSha256":  "0cec43233465e72f15c48685c479477cbe5a7bb1724733820bcf5718171493e2",
+                                         "match":  true,
+                                         "url":  "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero_extra.json?gameid=g10"
+                                     },
+                                     {
+                                         "id":  "hero-100520",
+                                         "path":  "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\question-20261027-174754517-Q04\\attempt-1\\validation-stage\\S1_持续学习\\批次\\question-20261027-174754517-Q04\\evidence\\hero-100520.html",
+                                         "expectedSha256":  "3d8e8b77cc2c9d08d61cebe021c0a9c999b93d771076d411ab439c1d129b29e0",
+                                         "actualSha256":  "3d8e8b77cc2c9d08d61cebe021c0a9c999b93d771076d411ab439c1d129b29e0",
+                                         "match":  true,
+                                         "url":  "https://stzb.163.com/herolist/100520.html"
+                                     },
+                                     {
+                                         "id":  "hero-100642",
+                                         "path":  "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\question-20261027-174754517-Q04\\attempt-1\\validation-stage\\S1_持续学习\\批次\\question-20261027-174754517-Q04\\evidence\\hero-100642.html",
+                                         "expectedSha256":  "517d62f0ddfa3b0a82f7afc62d2ff0f9a6020b5885c91a537f3701629ffd5c09",
+                                         "actualSha256":  "517d62f0ddfa3b0a82f7afc62d2ff0f9a6020b5885c91a537f3701629ffd5c09",
+                                         "match":  true,
+                                         "url":  "https://stzb.163.com/herolist/100642.html"
+                                     },
+                                     {
+                                         "id":  "dict-huaman",
+                                         "path":  "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\question-20261027-174754517-Q04\\attempt-1\\validation-stage\\S1_持续学习\\批次\\question-20261027-174754517-Q04\\evidence\\dict-huaman.html",
+                                         "expectedSha256":  "a095e1ede7406fd5a6714666a7d90b63fafc21f11ed4148036415862ee358cf1",
+                                         "actualSha256":  "a095e1ede7406fd5a6714666a7d90b63fafc21f11ed4148036415862ee358cf1",
+                                         "match":  true,
+                                         "url":  "https://dict.revised.moe.edu.tw/dictView.jsp?ID=166325\u0026q=1\u0026word=%E8%8A%B1"
+                                     },
+                                     {
+                                         "id":  "dict-huaman-variant",
+                                         "path":  "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\question-20261027-174754517-Q04\\attempt-1\\validation-stage\\S1_持续学习\\批次\\question-20261027-174754517-Q04\\evidence\\dict-huaman-variant.html",
+                                         "expectedSha256":  "fc749026c3681af323c47a28a9f4422c03b67f150fa44ca1c57ab4b9961efde2",
+                                         "actualSha256":  "fc749026c3681af323c47a28a9f4422c03b67f150fa44ca1c57ab4b9961efde2",
+                                         "match":  true,
+                                         "url":  "https://dict.revised.moe.edu.tw/dictView.jsp?ID=83628"
+                                     },
+                                     {
+                                         "id":  "xikao-event488",
+                                         "path":  "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\question-20261027-174754517-Q04\\attempt-1\\validation-stage\\S1_持续学习\\批次\\question-20261027-174754517-Q04\\evidence\\xikao-event488.html",
+                                         "expectedSha256":  "40c39182630d3ecab925e58d2165441f4e493ff1f9b69d266c1a1f87f3be49df",
+                                         "actualSha256":  "40c39182630d3ecab925e58d2165441f4e493ff1f9b69d266c1a1f87f3be49df",
+                                         "match":  true,
+                                         "url":  "https://history.xikao.com/event/488"
+                                     },
+                                     {
+                                         "id":  "museum-M0906637",
+                                         "path":  "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\question-20261027-174754517-Q04\\attempt-1\\validation-stage\\S1_持续学习\\批次\\question-20261027-174754517-Q04\\evidence\\museum-M0906637.web.txt",
+                                         "expectedSha256":  "9ae4a32ce4c0bf94959fed14a662e643ec76254d6d360870ecfe789aea091d09",
+                                         "actualSha256":  "9ae4a32ce4c0bf94959fed14a662e643ec76254d6d360870ecfe789aea091d09",
+                                         "match":  true,
+                                         "url":  "https://openmuseum.tw/muse/digi_object/c70c97288c343ff80cfda936931f0cb5"
+                                     }
+                                 ],
+                     "originalTextRead":  [
+                                              "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\question-20261027-174754517-Q04\\attempt-1\\validation-stage\\S1_持续学习\\批次\\question-20261027-174754517-Q04\\documents\\hua-man-biography-review.md",
+                                              "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\question-20261027-174754517-Q04\\attempt-1\\validation-stage\\S1_持续学习\\批次\\question-20261027-174754517-Q04\\evidence\\hero-100520.html"
+                                          ],
+                     "decision":  "花鬘100520与关索100642介绍来源比较，当前常规S1身份/显示未确认；本轮不导入卡池、规则或正式图像。"
+                 },
+    "images":  [
+                   {
+                       "id":  "STZB-0428",
+                       "versionId":  "base-d728496fa74ee1ee61ed",
+                       "title":  "城内主界面",
+                       "path":  "F:\\工作项目\\率土之滨\\rag\\assets\\d8\\d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350.jpg",
+                       "width":  500,
+                       "height":  280,
+                       "expectedSha256":  "d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350",
+                       "actualSha256":  "d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350",
+                       "match":  true,
+                       "s1Status":  "unknown",
+                       "subcategory":  "2015版界面截图",
+                       "excludedFromS1":  false,
+                       "note":  "早期国服界面；按钮图是说明页原图中的局部，不代表完整面板",
+                       "actuallyViewed":  true
+                   },
+                   {
+                       "id":  "STZB-0429",
+                       "versionId":  "base-d728496fa74ee1ee61ed",
+                       "title":  "设施按钮",
+                       "path":  "F:\\工作项目\\率土之滨\\rag\\assets\\7e\\7ea7250a26d3e32a02433edacdc093a66e30260f140c0e3cba5da45e52d50b4f.jpg",
+                       "width":  123,
+                       "height":  88,
+                       "expectedSha256":  "7ea7250a26d3e32a02433edacdc093a66e30260f140c0e3cba5da45e52d50b4f",
+                       "actualSha256":  "7ea7250a26d3e32a02433edacdc093a66e30260f140c0e3cba5da45e52d50b4f",
+                       "match":  true,
+                       "s1Status":  "unknown",
+                       "subcategory":  "2015版按钮与局部",
+                       "excludedFromS1":  false,
+                       "note":  "早期国服界面；按钮图是说明页原图中的局部，不代表完整面板",
+                       "actuallyViewed":  false
+                   },
+                   {
+                       "id":  "STZB-0499",
+                       "versionId":  "base-d728496fa74ee1ee61ed",
+                       "title":  "新版主界面",
+                       "path":  "F:\\工作项目\\率土之滨\\rag\\assets\\20\\20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f.jpg",
+                       "width":  2340,
+                       "height":  1080,
+                       "expectedSha256":  "20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f",
+                       "actualSha256":  "20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f",
+                       "match":  true,
+                       "s1Status":  "unknown",
+                       "subcategory":  "2021版界面展示",
+                       "excludedFromS1":  false,
+                       "note":  "六周年视觉升级展示图，含宣传文字，非2026版本截图",
+                       "actuallyViewed":  true
+                   },
+                   {
+                       "id":  "RB-A001",
+                       "versionId":  "learn-daily-2026-10-25-track-resources-buildings-4214be0c25d21f4b62ee",
+                       "title":  "2021六周年探索版主界面：石料资源栏上下文",
+                       "path":  "F:\\工作项目\\率土之滨\\rag\\assets\\c6\\c6c35e07702bc5009dd1e19c0f1ebff1ef3ac6634ebccf6c85132ff975d5076c.png",
+                       "width":  800,
+                       "height":  369,
+                       "expectedSha256":  "c6c35e07702bc5009dd1e19c0f1ebff1ef3ac6634ebccf6c85132ff975d5076c",
+                       "actualSha256":  "c6c35e07702bc5009dd1e19c0f1ebff1ef3ac6634ebccf6c85132ff975d5076c",
+                       "match":  true,
+                       "s1Status":  "unknown",
+                       "subcategory":  "资源与设施_历史探索版上下文",
+                       "excludedFromS1":  true,
+                       "note":  "",
+                       "actuallyViewed":  false
+                   },
+                   {
+                       "id":  "RB-A002",
+                       "versionId":  "learn-daily-2026-10-25-track-resources-buildings-4214be0c25d21f4b62ee",
+                       "title":  "2021六周年探索版设施树上段：资源设施与仓库节点上下文",
+                       "path":  "F:\\工作项目\\率土之滨\\rag\\assets\\3c\\3c3028b7fc084275bbf0d5dc75d1f4a9a49d4d68b89a57927dda43c1d7c04f88.png",
+                       "width":  800,
+                       "height":  368,
+                       "expectedSha256":  "3c3028b7fc084275bbf0d5dc75d1f4a9a49d4d68b89a57927dda43c1d7c04f88",
+                       "actualSha256":  "3c3028b7fc084275bbf0d5dc75d1f4a9a49d4d68b89a57927dda43c1d7c04f88",
+                       "match":  true,
+                       "s1Status":  "unknown",
+                       "subcategory":  "资源与设施_历史探索版上下文",
+                       "excludedFromS1":  true,
+                       "note":  "",
+                       "actuallyViewed":  false
+                   },
+                   {
+                       "id":  "Q08-A001",
+                       "versionId":  "learn-question-20261025-154754815-Q08-867e7eab10fd38fe0b67",
+                       "title":  "历史S1教程设施树：仓库11/20与倒计时上下文",
+                       "path":  "F:\\工作项目\\率土之滨\\rag\\assets\\85\\857a6e5afaa30ad8669c8b9197ba5cfe59ddf1362d30bf6158940d2be993555e.png",
+                       "width":  767,
+                       "height":  393,
+                       "expectedSha256":  "857a6e5afaa30ad8669c8b9197ba5cfe59ddf1362d30bf6158940d2be993555e",
+                       "actualSha256":  "857a6e5afaa30ad8669c8b9197ba5cfe59ddf1362d30bf6158940d2be993555e",
+                       "match":  true,
+                       "s1Status":  "historical",
+                       "subcategory":  "仓库_设施树局部上下文",
+                       "excludedFromS1":  true,
+                       "note":  "",
+                       "actuallyViewed":  false
+                   }
+               ],
+    "cityReference":  {
+                          "selected":  "STZB-0428",
+                          "sourceUrl":  "https://stzb.163.com/strategy/2015/9/10/20401_564811.html",
+                          "sourcePublishedAt":  "2015-09-10",
+                          "allowedUse":  "500×280历史城内全景只作布局测量；独立设施圆章与信息分层可作设计依据；禁止放大裁图作为正式高清组件。",
+                          "currentClassicS1Verified":  false,
+                          "modernMapAlternative":  "STZB-0499为2340×1080、2021六周年城外地图展示，不能证明同年代城内页面。",
+                          "laterLeads":  [
+                                             "2025-09-02官方公告提到古朴典雅视觉升级及部分设施尺寸变化，但无本批同页图。",
+                                             "2026-09-29百家社入口未取得正文，2026-10-28本轮web打开仍报不可重试错误；不能按转载文字发明新UI。"
+                                         ],
+                          "externalLookup":  {
+                                                 "queries":  [
+                                                                 "率土之滨 城邑 外观，domain=stzb.163.com",
+                                                                 "率土之滨 2026 城主府 美术，domain=stzb.163.com"
+                                                             ],
+                                                 "result":  "Empty search results",
+                                                 "attemptedUrl":  "https://stbj.163.com/timeline/m2026092916004791413402401Ii",
+                                                 "attemptedUrlResult":  "non-retryable open error",
+                                                 "imported":  0
+                                             }
+                      },
+    "baseline":  {
+                     "path":  "F:\\EasternDynastyBuild\\Releases\\s1-20261027-104752269\\Project\\Validation\\Visual\\s1-20261027-104752269-youzhou-1440x900\\smoke-city-developed.png",
+                     "sha256":  "c5a594126173e1eb918bda1153e57896e042bec408353ae16c96de53789b59a4",
+                     "version":  "s1-20261027-104752269",
+                     "actuallyViewed":  true,
+                     "width":  1440,
+                     "height":  900,
+                     "currentIterationScreenshot":  false
+                 },
+    "visibleGaps":  [
+                        "原图设施入口为城景边缘的独立圆章；基线城务406×218黑板将圆章、摘要、进度、命令和任务压入一块。",
+                        "原图保留大量连续城景；基线右侧宽面板与顶部工具横条形成粗重矩形包围，信息与城景层级不清。",
+                        "城务信息、设施/进度操作与章节任务在基线有相似水平矩形权重，缺乏独立图像入口与明确标题/状态分层。"
+                    ],
+    "publication":  {
+                        "failureVersion":  "s1-20261027-094252047",
+                        "failureLog":  "F:\\EasternDynastyBuild\\Releases\\s1-20261027-094252047\\Project\\Validation\\Visual\\s1-20261027-094252047-youzhou-1440x900\\player.log",
+                        "failureLogSha256":  "0c3483d14029d3ddf65c22dace23fbf5aa936ba1c53c340f66f30290e68d8b12",
+                        "failureLine":  80,
+                        "error":  "Visible city composition target missing: city-overview",
+                        "cause":  "CityOverviewPlanningSmoke未独立启用reviewMode，真实绘制目标未被采集。",
+                        "sourceFix":  "Assets/EasternDynasty/Scripts/Runtime/Diagnostics/CityOverviewDiagnostics.cs:566保存oldReview；575开启reviewMode；630恢复并清理；原断言保留。",
+                        "fixedLog":  "F:\\EasternDynastyBuild\\Releases\\s1-20261027-104752269\\Project\\Validation\\Visual\\s1-20261027-104752269-youzhou-1440x900\\player.log",
+                        "fixedLogSha256":  "4e6be62795f84ca4c0f9eb40f7749bb7adf0fd3dd8f096a95acdba138f2b0332",
+                        "fixedLogLine":  79,
+                        "verifiedMarker":  "CITY_PLANNING_RUNTIME_OK",
+                        "newFixRequired":  false,
+                        "currentWaitReason":  "DESKTOP_BUSY: Pointer or focus changed during review click；不是需要修改游戏逻辑的新失败。",
+                        "previousWorkerResult":  ".local/continuous-development/runs/s1-20261027-170251762/worker-result.json",
+                        "previousWorkerStatus":  "changed",
+                        "previousWorkerStderrBytes":  0,
+                        "publicationOperated":  false
+                    },
+    "remaining":  [
+                      "当前常规S1高清城内总览、城务、设施同页及控件状态原图仍缺；延续S1UX-04/S1DEV-06，勿重复建问题。",
+                      "本轮RAG增量保持observed，不能用历史卡名证明S1可获取。",
+                      "新设计接入后由发布者检查新截图与实际图像/文字命令点击，旧基线与设计图均非运行验收。"
+                  ]
+}

@@ -1,0 +1,20 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T23:30:29.0122571Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\states\\dossier.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261027-232251526\\states\\dossier.svg",
+    "sourceSha256":  "033E92BF915832ED3333BC7AD84B43E76DB18D8D78C84907701B3183E8DB90EF",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\states\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\states\\exports\\dossier-preview.png",
+                       "sha256":  "6E1940DF6C3F5DFD1A1609A881F2B04A2708699F3F107DE1A57CEE2882F5D9CB",
+                       "width":  1320,
+                       "height":  510,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-232251526\\states\\exports\\dossier-preview.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

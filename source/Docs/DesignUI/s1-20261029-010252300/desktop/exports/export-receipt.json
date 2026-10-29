@@ -1,0 +1,20 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-29T01:13:55.0410219Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-010252300\\desktop\\skill-sheet.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261029-010252300\\desktop\\skill-sheet.svg",
+    "sourceSha256":  "0EB8FC6E9D9072ACF9456F377533007DC5BA92304980CE0C29B2C718A4E0EE52",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-010252300\\desktop\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-010252300\\desktop\\exports\\skill-sheet-preview.png",
+                       "sha256":  "D06677AD0C99682237E018746A78F8BC1AE6BF87BF5BFA3DAD1ECEF6C71DBA63",
+                       "width":  1440,
+                       "height":  900,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261029-010252300\\desktop\\exports\\skill-sheet-preview.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

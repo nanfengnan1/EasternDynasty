@@ -1,0 +1,96 @@
+{
+  "version": "s1-20261028-110251322",
+  "status": "implemented-awaiting-publisher",
+  "reference": {
+    "id": "S1-RES-009",
+    "path": "F:/工作项目/率土之滨/rag/assets/ea/ead909e3cd3ff7f4a6b2a1c98bcada429ae47bb1a77d5801c202c2c26b10dd6a.jpg",
+    "sha256": "ead909e3cd3ff7f4a6b2a1c98bcada429ae47bb1a77d5801c202c2c26b10dd6a",
+    "size": [
+      554,
+      236
+    ],
+    "scope": "2021 historical S1 tutorial, silhouette/layout only; not 2026 rules or HD art"
+  },
+  "baselines": [
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-095751175/Project/Validation/Visual/s1-20261028-095751175-youzhou-1440x900/smoke-land-design.png",
+      "sha256": "adb4fb12ed873a9fb89eeb7e9e5e7db570f092b1dc618894d3f07d9ef733f53b"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-mobile-1600x720/smoke-land-owned.png",
+      "sha256": "8dbe6ea84f946b5ada3843c4d9131b8f9ba952e00b948d7aa432847b8e74b0ee"
+    }
+  ],
+  "differences": [
+    "Continuous dark action rectangle becomes a short information surface and separate circular icon/tapered label strips.",
+    "Busy/city/single-command states shrink to their actual content; no 220-unit fixed button offset.",
+    "Icon at the leading circular end and title at x48 remain independent; selected command uses the light strip seen in the reference."
+  ],
+  "contracts": {
+    "owned": {
+      "height": 292,
+      "info": 116,
+      "ys": [
+        128,
+        180,
+        232
+      ]
+    },
+    "busy": {
+      "height": 216,
+      "info": 96,
+      "ys": [
+        108,
+        160
+      ]
+    },
+    "city": {
+      "height": 144,
+      "info": 76,
+      "ys": [
+        88
+      ]
+    },
+    "neutral": {
+      "height": 268,
+      "info": 200,
+      "ys": [
+        212
+      ]
+    },
+    "blocked": {
+      "height": 268,
+      "info": 200,
+      "ys": [
+        212
+      ]
+    }
+  },
+  "command": {
+    "width": 208,
+    "height": 44,
+    "icon": [
+      5,
+      5,
+      34,
+      34
+    ],
+    "label": [
+      48,
+      4,
+      156,
+      36
+    ]
+  },
+  "components": [
+    "land_order",
+    "land_order_active"
+  ],
+  "context": "Same-resolution actual 095 baseline; only right action region is cleared by a disclosed neighboring-map montage. Other panels remain that baseline. State text is editable project sample data, not official rules. Preview is not a runtime screenshot. Mobile uses the older 104752269 screenshot and the inspected 095 editable fact layout; 095 mobile captures were not copied after player failure. Other-state drafts show only the new right command region over the owned baseline.",
+  "contentBounds": {
+    "x": 16,
+    "y": 12,
+    "width": 208,
+    "height": "menuHeight - 24"
+  }
+}

@@ -1,0 +1,62 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-29T02:21:35.3850387Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-020752522\\components\\toolbar.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261029-020752522\\components\\toolbar.svg",
+    "sourceSha256":  "0C32BDFFC4CDDCFC1C6379B28C0BF2EE4D0205C23693825C721D52535737ECDD",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-020752522\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-020752522\\components\\exports\\toolbar-preview.png",
+                       "sha256":  "BA7F7DCBB19190A684C2C8E3BFAFA497D580A0A6AC472D3DA823B14A876409D0",
+                       "width":  1400,
+                       "height":  1240,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261029-020752522\\components\\exports\\toolbar-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-020752522\\components\\exports\\toolbar-panorama_title.png",
+                       "sha256":  "666ACDF1695EEDAD64828DEAB91573B5808321D336BD2B2802CB7BE7C1C874B9",
+                       "width":  640,
+                       "height":  104,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261029-020752522\\components\\exports\\toolbar-panorama_title.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-020752522\\components\\exports\\toolbar-panorama_command.png",
+                       "sha256":  "4638A0FB30BD420DECF8F4D0C2CE0D7269F26BCCFE36677F2586A3F031C04C3D",
+                       "width":  160,
+                       "height":  112,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261029-020752522\\components\\exports\\toolbar-panorama_command.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-020752522\\components\\exports\\toolbar-panorama_command_active.png",
+                       "sha256":  "CEA45FBFB15018113C0B1F0A2762A3B0C18EE65C3792FD5EF2CB7710F2CCC39F",
+                       "width":  160,
+                       "height":  112,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261029-020752522\\components\\exports\\toolbar-panorama_command_active.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-020752522\\components\\exports\\toolbar-panorama_zoom.png",
+                       "sha256":  "BA65BF807D2BB98254ED66BDEA00FD27D144304B0707080A89D4002B1A5319C4",
+                       "width":  88,
+                       "height":  88,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261029-020752522\\components\\exports\\toolbar-panorama_zoom.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-020752522\\components\\exports\\toolbar-panorama_reset.png",
+                       "sha256":  "88C8AA8A37F83C2F7B4A49848676D032D4ABCAF8A52593BF7BA0AD10153B471C",
+                       "width":  64,
+                       "height":  64,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261029-020752522\\components\\exports\\toolbar-panorama_reset.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-020752522\\components\\exports\\toolbar-panorama_grid.png",
+                       "sha256":  "CEDC2AAFCC8926E0888D40848F4F099AD23162CC9E2DD5E21FF329D37AFE0CE8",
+                       "width":  64,
+                       "height":  64,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261029-020752522\\components\\exports\\toolbar-panorama_grid.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

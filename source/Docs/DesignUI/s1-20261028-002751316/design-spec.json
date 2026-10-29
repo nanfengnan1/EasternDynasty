@@ -1,0 +1,103 @@
+{
+  "version": "s1-20261028-002751316",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "id": "Q09-CU-A001",
+    "path": "F:/工作项目/率土之滨/rag/assets/08/08627a10e55883e80f67fb768ac95327aae33b4610dbdb45858ec548b930b5c9.png",
+    "resolution": [
+      800,
+      450
+    ],
+    "publishedAt": "2024-05-15",
+    "currentS1": "unknown",
+    "excludedFromS1": true,
+    "use": "Layout only; no screenshot pixels, official costs or continuous-upgrade rules imported"
+  },
+  "baselineVersion": "s1-20261027-104752269",
+  "layout": {
+    "contentHeight": 374,
+    "description": [
+      8,
+      0,
+      "innerWidth-16",
+      34
+    ],
+    "effect": [
+      0,
+      44,
+      "innerWidth",
+      76
+    ],
+    "effectFractions": {
+      "unit": [
+        0.02,
+        0.32
+      ],
+      "current": [
+        0.38,
+        0.18
+      ],
+      "arrow": [
+        0.64,
+        36
+      ],
+      "next": [
+        0.76,
+        0.22
+      ]
+    },
+    "costHeadingY": 126,
+    "costs": [
+      0,
+      154,
+      "innerWidth",
+      88
+    ],
+    "requirement": [
+      4,
+      258,
+      "innerWidth-8",
+      44
+    ],
+    "duration": [
+      4,
+      312,
+      "innerWidth-8",
+      28
+    ],
+    "note": [
+      4,
+      350,
+      "innerWidth-8",
+      24
+    ],
+    "action": {
+      "width": 360,
+      "height": 44,
+      "bottom": 18
+    },
+    "optionHeight": 96,
+    "optionPitch": 108
+  },
+  "components": [
+    "facility_effect",
+    "facility_cost",
+    "facility_arrow",
+    "facility_command",
+    "facility_command_hover"
+  ],
+  "notes": [
+    "Five project costs are retained, even though the 2024 reference shows three resources.",
+    "Existing building raster and eight selectors retained; no new program art.",
+    "Description precedes the compact horizontal effect row.",
+    "First-screen costs remain complete; requirements/notes scroll at the shortest viewport.",
+    "The design preserves the isolated fixed command and all original world rules."
+  ],
+  "actualMobileSafeArea": {
+    "x": 56,
+    "y": 12,
+    "width": 1504,
+    "height": 684,
+    "scale": 0.8341463414634146
+  }
+}

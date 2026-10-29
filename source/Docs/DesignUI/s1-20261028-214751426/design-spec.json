@@ -1,0 +1,98 @@
+{
+    "version":  "s1-20261028-214751426",
+    "status":  "exported-inspected-runtime-integrated-awaiting-publisher",
+    "reference":  {
+                      "id":  "STZB-0467",
+                      "path":  "F:/工作项目/率土之滨/rag/assets/e5/e5abedde334d978717e308c869709386316d462218423043087044a4c13134db.png",
+                      "sha256":  "e5abedde334d978717e308c869709386316d462218423043087044a4c13134db",
+                      "size":  [
+                                   1793,
+                                   1008
+                               ],
+                      "year":  2022,
+                      "scope":  "Historical official detail reference; current S1 styling unknown. Three tabs and two footer actions are project adaptations."
+                  },
+    "baselines":  [
+                      {
+                          "path":  "Docs/DesignUI/s1-20261028-214751426/baseline/desktop.png",
+                          "sourcePath":  "F:/EasternDynastyBuild/Releases/s1-20261028-204251299/Project/Validation/Visual/s1-20261028-204251299-youzhou-1440x900/smoke-card-dossier-design.png",
+                          "sha256":  "364578300981b7dd94a6212fc4f9980e0cb5b9a41c52cde4e779b24dbc7d6ac4",
+                          "size":  [
+                                       1440,
+                                       900
+                                   ]
+                      },
+                      {
+                          "path":  "Docs/DesignUI/s1-20261028-214751426/baseline/mobile.png",
+                          "sourcePath":  "F:/EasternDynastyBuild/Releases/s1-20261028-204251299/Project/Validation/Visual/s1-20261028-204251299-mobile-1600x720/smoke-card-dossier-design.png",
+                          "sha256":  "2f80424ef23585d16ff700e3d75b66f77e493ca48f392a4dda5680ace982e600",
+                          "size":  [
+                                       1600,
+                                       720
+                                   ]
+                      }
+                  ],
+    "layout":  {
+                   "right":  "existing info x, panel.y, existing info width, panel.height",
+                   "navigation":  [
+                                      0,
+                                      24,
+                                      "width-66",
+                                      54
+                                  ],
+                   "tabs":  "three equal adjacent segments",
+                   "close":  [
+                                 "width-54",
+                                 24,
+                                 54,
+                                 54
+                             ],
+                   "identity":  [
+                                    0,
+                                    90,
+                                    "width",
+                                    40
+                                ],
+                   "viewport":  [
+                                    0,
+                                    142,
+                                    "width",
+                                    "height-226"
+                                ],
+                   "return":  [
+                                  "width-180",
+                                  "height-62",
+                                  180,
+                                  54
+                              ],
+                   "manage":  [
+                                  0,
+                                  "height-62",
+                                  "min(240,width-196)",
+                                  54
+                              ],
+                   "footerNote":  [
+                                      0,
+                                      "height-58",
+                                      "width-196",
+                                      44
+                                  ],
+                   "viewportGain":  56
+               },
+    "components":  [
+                       "ui.youzhou.card_tabs",
+                       "ui.youzhou.card_tab_active",
+                       "ui.youzhou.card_identity",
+                       "ui.youzhou.card_close",
+                       "ui.youzhou.card_action",
+                       "ui.youzhou.card_action_hover"
+                   ],
+    "notes":  [
+                  "Preserve all existing card sections, scrolling, full portrait, owned UID and return commands.",
+                  "No duplicate name/heading on the right: name remains in the portrait ribbon.",
+                  "Preview/archive scope moves to the fixed footer; owned scope remains in the existing portrait base.",
+                  "Historical image pixels are never used in exported production components.",
+                  "Actual body preview is labeled locked baseline context, shifted up 56 logical pixels; not a runtime screenshot.",
+                  "No new generated portrait, inferred skill image, stats, locked slots, or S1 identities."
+              ]
+}

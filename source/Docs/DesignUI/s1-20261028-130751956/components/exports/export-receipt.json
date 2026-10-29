@@ -1,0 +1,41 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T13:24:29.2044868Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-130751956\\components\\city-label.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-130751956\\components\\city-label.svg",
+    "sourceSha256":  "B950563C1B6151791CFBE22E80B9D84DF037397272C2BFA15BCE5A449568E385",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-130751956\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-130751956\\components\\exports\\city-label-preview.png",
+                       "sha256":  "FC21DF770892827E93D958537DC7393C581D309A8D4762AA58D4A05556CE127A",
+                       "width":  760,
+                       "height":  144,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-130751956\\components\\exports\\city-label-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-130751956\\components\\exports\\city-label-city-marker-crest.png",
+                       "sha256":  "9E4DE179E50912B5EC086C179E66AE6730FACA0F2D8A3698C55628814BD560E1",
+                       "width":  104,
+                       "height":  104,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-130751956\\components\\exports\\city-label-city-marker-crest.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-130751956\\components\\exports\\city-label-city-marker-selected.png",
+                       "sha256":  "B9BE0A61C0B3E3B3DE03118B174BA360CC5C93AC36930BEC315FB205E8C4E5E8",
+                       "width":  104,
+                       "height":  104,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-130751956\\components\\exports\\city-label-city-marker-selected.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-130751956\\components\\exports\\city-label-city-marker-ribbon.png",
+                       "sha256":  "6A0140FA0C6E158CC1E466856C8DBFDD7D5764ADC9B09ECBD1892A0B4C738812",
+                       "width":  280,
+                       "height":  104,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-130751956\\components\\exports\\city-label-city-marker-ribbon.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Unity - Manual: Terrain Layers",
+  "source_url": "https://docs.unity3d.com/6000.3/Documentation/Manual/class-TerrainLayer.html",
+  "final_url": "https://docs.unity3d.com/6000.3/Documentation/Manual/class-TerrainLayer.html",
+  "accessed_at": "2026-10-24T10:36:25.668Z",
+  "sha256": "14a3c2daf279ccef979c4d71b6cc1c10ce72dc37563c2c4bea95c187eb190557",
+  "byte_length": 27311,
+  "headings": [
+    "Unity Manual",
+    "Terrain Layers",
+    "Creating Terrain Layers",
+    "Adding Terrain Layers",
+    "Terrain Layer properties",
+    "Diffuse settings",
+    "Normal map",
+    "Normal scale settings",
+    "Mask map",
+    "Visual settings",
+    "Tile settings",
+    "Texture painting",
+    "Rendering performance"
+  ],
+  "image_links": [
+    "https://docs.unity3d.com/6000.3/Documentation/uploads/Main/1.4-SandyTerrain.png",
+    "https://docs.unity3d.com/6000.3/Documentation/uploads/Main/1.4-CreateLayer.png",
+    "https://docs.unity3d.com/6000.3/Documentation/uploads/Main/terrainOverlays-MaterialModeMenuButton.png",
+    "https://docs.unity3d.com/6000.3/Documentation/uploads/Main/terrainOverlays-PaintTextureButton.png",
+    "https://docs.unity3d.com/6000.3/Documentation/uploads/Main/terrainOverlays-LayersExample.png",
+    "https://docs.unity3d.com/6000.3/Documentation/uploads/Main/1.4-TerrainLayerSettings.png"
+  ],
+  "storage_note": "Stores bibliographic metadata and image URLs only; full article body is not saved."
+}

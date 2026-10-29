@@ -1,0 +1,103 @@
+{
+  "version": "s1-20261027-180252216",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "id": "STZB-0428",
+    "year": 2015,
+    "width": 500,
+    "height": 280,
+    "sha256": "d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350",
+    "path": "F:/工作项目/率土之滨/rag/assets/d8/d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350.jpg",
+    "scope": "Historical city page; current S1 applicability unknown. Round facility seal with lower caption and dark/gold independent controls. No historical pixels enter production assets."
+  },
+  "baselineVersion": "s1-20261027-104752269",
+  "layout": {
+    "height": 218,
+    "seal": [
+      8,
+      0,
+      112,
+      112
+    ],
+    "building": [
+      12,
+      4,
+      104,
+      78
+    ],
+    "sealCaption": [
+      20,
+      82,
+      88,
+      26
+    ],
+    "summary": [
+      132,
+      2,
+      "width-140",
+      108
+    ],
+    "commandsY": 116,
+    "touchHeight": 44,
+    "quest": [
+      8,
+      168,
+      "width-16",
+      44
+    ],
+    "questArt": [
+      12,
+      172,
+      36,
+      36
+    ]
+  },
+  "components": [
+    "city_affairs_seal",
+    "city_affairs_seal_hover",
+    "city_affairs_ribbon",
+    "city_affairs_quest",
+    "city_affairs_quest_hover"
+  ],
+  "reuse": [
+    "ui.youzhou.city_army_command",
+    "ui.youzhou.city_army_command_hover",
+    "existing facility and document artwork"
+  ],
+  "fonts": {
+    "heading": 18,
+    "label": 16,
+    "summary": 13,
+    "quest": 14,
+    "questState": 12
+  },
+  "runtime": "CityAffairsDesignPresentation / CityAffairsLayout",
+  "notes": [
+    "Entire 218-high backing removed; separated round facility seal, tapered live summary and chapter ribbon.",
+    "Existing actions and city/army geometry retained. No rules or save fields changed.",
+    "Context uses old game pixels and prior army design; this is not a new game screenshot. Existing TownHall/Mill pure-raster artifacts illustrate the unchanged runtime images; source geometry is not modified."
+  ],
+  "colors": {
+    "text": "#eee6cb",
+    "muted": "#b5bbaa",
+    "accent": "#e1cc8e",
+    "progress": "#d4ba78",
+    "track": "#46534a"
+  },
+  "baselines": [
+    {
+      "version": "s1-20261027-104752269",
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-youzhou-1440x900/smoke-city-developed.png",
+      "sha256": "c5a594126173e1eb918bda1153e57896e042bec408353ae16c96de53789b59a4",
+      "actuallyViewed": true,
+      "currentIterationScreenshot": false
+    },
+    {
+      "version": "s1-20261027-104752269",
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-mobile-1600x720/smoke-city-developed.png",
+      "sha256": "e1622a4a5a9b4b77e200b05f7ee3aba50be6ac5e7be746ecc17a67948e927e79",
+      "actuallyViewed": true,
+      "currentIterationScreenshot": false
+    }
+  ]
+}

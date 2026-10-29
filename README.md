@@ -1,5 +1,7 @@
 # EasternDynasty：游戏 AI 协作与目录设计
 
+> 2026-10-29：已将 S1 幽州 Unity 工程、正式资源、UI 设计稿与验证源码纳入 [source/](source/)。构建运行见 [工程 README](source/README.md)，当前停机与未完成事项见 [交接记录](source/Docs/Project-Status.md)，副本范围见 [仓库导入说明](source/Docs/Repository-Import.md)。自动开发、发布和 RAG 任务保持停止；Git 提交不代表发布新游戏版本。下文 2026-10-26 的部署描述作为历史架构记录保留。
+
 本项目通过资料研究 AI、RAG 知识管理 AI、游戏研发 AI、Skills/工具 AI 和独立审查 AI，形成“研究 → 知识发布 → 开发应用 → 验收交付 → 问题反馈”的循环。
 
 本文说明 **AI 之间的任务交接、调度时间、状态反馈和版本发布方式**，不涉及公司人员编制。

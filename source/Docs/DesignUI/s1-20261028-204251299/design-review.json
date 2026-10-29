@@ -1,0 +1,23 @@
+{
+  "version": "s1-20261028-204251299",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "tool": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+  "viewedReferenceIds": ["STZB-0428", "STZB-0527"],
+  "viewedBaselineVersion": "s1-20261028-193752561",
+  "viewedPreviews": ["desktop/exports/city-header-preview.png", "mobile/exports/city-header-preview.png", "states/exports/city-header-preview.png", "components/exports/city-header-preview.png"],
+  "correction": "首次预览发现货币图标的基线采样带有旧页残留，改用同版干净地图图标采样；重新实际导出并查看三个最终预览。采样仅在设计说明层，不进入正式资产。",
+  "findings": [
+    "桌面六库存统一下行、产量上行；四类生产资源共享连续账栏，货币紧邻，原六项数据保留。",
+    "手机使用单独1600×720基线和56/12安全区、684/820精确缩放；已修正继承模板5/6近似值并重导出复看。长城名分两行，库存压力示例与城名不重叠。",
+    "主城不透明底面完整覆盖70逻辑高顶栏和空白；身份城徽、174宽城名与等级分层。旧顶栏残影不作为设计上下文保留。",
+    "城徽内府邸示意沿用既有项目图，未扩写程序美术，未声称取得当前S1原作高清素材。",
+    "四份SVG有独立可编辑层与嵌入锁定参考；正式背景只含矢量矩形，不含历史图或烘焙文字。"
+  ],
+  "limits": [
+    "最终来源链检查发现重生成后桌面源稿与旧收据不一致，已将本轮基线/图标样本固定到baseline目录，重新导出查看桌面稿并复查全部SHA；不将发布中的截图路径当作永久不变输入。",
+    "预览为设计与193版上下文的合成，不是本轮运行截图。",
+    "模态状态示意控件禁用与底面不透明；实际Unity字体、禁用反馈、图文点击和残影修复由发布者验。",
+    "底栏与城景未改，正式城景素材和现行S1同页美术差距仍存在。",
+    "Inkscape用户扩展日志/最近文件写入权限警告保留，PNG、geometry和收据已成功产出。"
+  ]
+}

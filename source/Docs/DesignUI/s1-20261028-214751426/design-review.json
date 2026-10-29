@@ -1,0 +1,34 @@
+{
+  "version": "s1-20261028-214751426",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+  "toolEntry": "Tools/Export-UIDesign.ps1",
+  "actualInspection": [
+    "STZB-0467 official 2022 card detail image, original 1793x1008",
+    "Q07 Sun Jian supplementary image, original 2772x1240; webpage published 2026-06-25, capture date unknown",
+    "204 candidate desktop 1440x900 and mobile 1600x720 smoke-card-dossier-design.png",
+    "Desktop and mobile real Inkscape PNG exports, inspected again after removing old close-button edge from the design composite",
+    "Preview, owned-hover and disabled source-tab state export",
+    "Six-component real Inkscape export and its recorded dimensions"
+  ],
+  "findings": [
+    "No duplicated right-side general name; the actual identity remains visible in the unchanged portrait ribbon.",
+    "A single top navigation strip precedes the complete troop/distance/COST band; three project tabs remain available.",
+    "The body starts 56 logical pixels earlier. Existing body pixels in the design preview are locked baseline context, not a newly rendered game.",
+    "Close has its own 54-square target; return and optional owned management remain separate 54-high footer actions.",
+    "Final desktop/mobile composites contain no old blue close-button edge. This preview correction is not a runtime bug fix.",
+    "No screenshot pixels or runtime text are baked into the six production components; no new procedural art algorithm."
+  ],
+  "receipts": [
+    "Docs/DesignUI/s1-20261028-214751426/desktop/exports/export-receipt.json",
+    "Docs/DesignUI/s1-20261028-214751426/mobile/exports/export-receipt.json",
+    "Docs/DesignUI/s1-20261028-214751426/states/exports/export-receipt.json",
+    "Docs/DesignUI/s1-20261028-214751426/components/exports/export-receipt.json"
+  ],
+  "runtimeVerified": false,
+  "remaining": [
+    "Publisher compares new two-desktop and mobile screenshots with reference and inspected design.",
+    "Check actual CJK font fit, selected/hover/disabled contrast, three tab clicks, scroll, close, return and owned management.",
+    "Full-scene character artwork, official skill illustrations and current S1 appearance remain missing."
+  ]
+}

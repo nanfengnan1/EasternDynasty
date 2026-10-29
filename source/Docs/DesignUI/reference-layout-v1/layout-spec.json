@@ -1,0 +1,112 @@
+{
+  "status": "reference-measurement-not-final-design",
+  "reference": {
+    "id": "STZB-0395",
+    "file": "F:/工作项目/率土之滨/rag/assets/56/569e93a9a0edd8355952f123f61a895f02a717c01049f2d349c3ec3c2fcd87c0.jpg",
+    "sha256": "569e93a9a0edd8355952f123f61a895f02a717c01049f2d349c3ec3c2fcd87c0",
+    "width": 500,
+    "height": 280,
+    "source": "https://stzb.163.com/strategy/2015/9/10/20401_564811.html",
+    "scope": "2015 historical UI; current S1 unknown; composition only"
+  },
+  "measurements": "Manual approximate bounds from the inspected source; do not claim pixel-perfect reconstruction.",
+  "zones": [
+    {
+      "id": "task-badge",
+      "label": "任务主标",
+      "box": [
+        6,
+        3,
+        51,
+        50
+      ],
+      "anchor": "top-left",
+      "runtime": "保留任务入口，不新增奖励规则"
+    },
+    {
+      "id": "status-strip",
+      "label": "身份与状态",
+      "box": [
+        56,
+        4,
+        205,
+        29
+      ],
+      "anchor": "top-left",
+      "runtime": "读取真实势力、领地与时钟"
+    },
+    {
+      "id": "tracked-quest",
+      "label": "紧凑任务追踪",
+      "box": [
+        6,
+        56,
+        49,
+        42
+      ],
+      "anchor": "top-left",
+      "runtime": "复用现有前往、领奖与章节入口"
+    },
+    {
+      "id": "minimap",
+      "label": "角落小地图",
+      "box": [
+        367,
+        0,
+        111,
+        86
+      ],
+      "anchor": "top-right",
+      "runtime": "真实40x40地图、镜头与归城"
+    },
+    {
+      "id": "map-tools",
+      "label": "地图快捷操作",
+      "box": [
+        477,
+        5,
+        23,
+        84
+      ],
+      "anchor": "top-right",
+      "runtime": "只显示当前已经实现的操作"
+    },
+    {
+      "id": "resource-wallet",
+      "label": "资源与货币",
+      "box": [
+        7,
+        237,
+        148,
+        43
+      ],
+      "anchor": "bottom-left",
+      "runtime": "图标与动态数值分层，不烘焙数值"
+    },
+    {
+      "id": "bottom-navigation",
+      "label": "图像主导航",
+      "box": [
+        163,
+        238,
+        223,
+        42
+      ],
+      "anchor": "bottom-center",
+      "runtime": "映射主城、领地、武将、战报等现有入口"
+    },
+    {
+      "id": "recruit-entry",
+      "label": "主要招募入口",
+      "box": [
+        422,
+        232,
+        78,
+        48
+      ],
+      "anchor": "bottom-right",
+      "runtime": "试玩池入口，沿用真实卡池限制"
+    }
+  ],
+  "preview": "exports/map-hud-reference-measurement-preview.png"
+}

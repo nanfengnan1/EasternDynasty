@@ -1,0 +1,20 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T15:02:32.6340882Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-145251750\\states\\army-states.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261027-145251750\\states\\army-states.svg",
+    "sourceSha256":  "DC5B60CB217DEDD32E0B5C89595E7B46F9E614FF5FF85048C9846BD0C4EEFC3D",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-145251750\\states\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-145251750\\states\\exports\\army-states-preview.png",
+                       "sha256":  "DE554FFFD3ED170EA148B7EB9F39816A3D7C4BD96EB649058CA0080E4EB75FF9",
+                       "width":  1710,
+                       "height":  453,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-145251750\\states\\exports\\army-states-preview.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

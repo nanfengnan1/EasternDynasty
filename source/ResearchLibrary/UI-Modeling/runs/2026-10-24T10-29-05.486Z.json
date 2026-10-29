@@ -1,0 +1,30 @@
+{
+  "started_at": "2026-10-24T10:29:05.486Z",
+  "finished_at": "2026-10-24T10:29:10.809Z",
+  "batch": "1",
+  "finite_run": true,
+  "recurring_schedule_created": false,
+  "results": [
+    {
+      "id": "unity-ui-compare",
+      "status": "success",
+      "change": "new",
+      "bytes": 28873,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-ui-compare.json"
+    },
+    {
+      "id": "ugui-canvas-scaler",
+      "status": "success",
+      "change": "new",
+      "bytes": 16781,
+      "path": "ResearchLibrary/UI-Modeling/metadata/ugui-canvas-scaler.json"
+    },
+    {
+      "id": "unity-panel-settings",
+      "status": "success",
+      "change": "new",
+      "bytes": 29638,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-panel-settings.json"
+    }
+  ]
+}

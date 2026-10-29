@@ -1,0 +1,51 @@
+{
+  "started_at": "2026-10-24T10:31:52.845Z",
+  "finished_at": "2026-10-24T10:32:04.267Z",
+  "batch": "3",
+  "finite_run": true,
+  "recurring_schedule_created": false,
+  "results": [
+    {
+      "id": "unity-ui-performance",
+      "status": "success",
+      "change": "new",
+      "bytes": 13007,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-ui-performance.json"
+    },
+    {
+      "id": "unity-sprite-atlas",
+      "status": "success",
+      "change": "new",
+      "bytes": 26554,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-sprite-atlas.json"
+    },
+    {
+      "id": "unity-gpu-instancing",
+      "status": "success",
+      "change": "new",
+      "bytes": 14773,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-gpu-instancing.json"
+    },
+    {
+      "id": "unity-fbx-model",
+      "status": "success",
+      "change": "new",
+      "bytes": 30814,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-fbx-model.json"
+    },
+    {
+      "id": "blender-fbx",
+      "status": "success",
+      "change": "new",
+      "bytes": 429381,
+      "path": "ResearchLibrary/UI-Modeling/metadata/blender-fbx.json"
+    },
+    {
+      "id": "unity-frame-debugger",
+      "status": "success",
+      "change": "new",
+      "bytes": 13321,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-frame-debugger.json"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+[
+    {
+        "name":  "official-resource-grid-2023.png",
+        "url":  "https://r.res.easebar.com/pic/20230721/305d6ef6-3bdd-45e5-83c5-8474bb036cea.png",
+        "sourcePage":  "https://www.daisangoku.com/news/update/20230721/31220_1100067.html",
+        "published":  "2023-07-21",
+        "retrieved":  "2026-10-25T03:08:02.067Z",
+        "bytes":  3090975,
+        "use":  "Reference-only image; not a game asset",
+        "width":  1772,
+        "height":  992
+    },
+    {
+        "name":  "official-land-management-2023.png",
+        "url":  "https://r.res.easebar.com/pic/20230721/a8d1c67a-aa03-4bf1-891a-2f3d826f4f39.png",
+        "sourcePage":  "https://www.daisangoku.com/news/update/20230721/31220_1100067.html",
+        "published":  "2023-07-21",
+        "retrieved":  "2026-10-25T03:08:01.822Z",
+        "bytes":  2819165,
+        "use":  "Reference-only image; not a game asset",
+        "width":  1920,
+        "height":  1080
+    },
+    {
+        "name":  "official-cultivation-land-2025.png",
+        "url":  "https://r.res.easebar.com/pic/20250220/c21cfd03-e73e-443a-b384-980c0ed4def2.png",
+        "sourcePage":  "https://www.daisangoku.com/news/update/20250220/31220_1213285.html",
+        "published":  "2025-02-20",
+        "retrieved":  "2026-10-25T03:08:00.620Z",
+        "bytes":  405058,
+        "use":  "Reference-only image; not a game asset",
+        "width":  554,
+        "height":  312
+    },
+    {
+        "name":  "official-selected-land-2025.png",
+        "url":  "https://r.res.easebar.com/pic/20250220/015ca831-f59c-4514-a999-4bca87c38fb1.png",
+        "sourcePage":  "https://www.daisangoku.com/news/update/20250220/31220_1213285.html",
+        "published":  "2025-02-20",
+        "retrieved":  "2026-10-25T03:08:00.789Z",
+        "bytes":  437272,
+        "use":  "Reference-only image; not a game asset",
+        "width":  554,
+        "height":  312
+    },
+    {
+        "name":  "community-ui-1.png",
+        "url":  "https://stzbsqos.fp.ps.easebar.com/file/649beaf9994f9590cde932f0klVolFBB03",
+        "sourcePage":  "https://www.ib-cmty.com/timeline/m20230628161424524347851",
+        "sourceType":  "Creator article on official community, linked by official Taiwan guide index; visible pixels only",
+        "published":  "2023-06-28",
+        "retrieved":  "2026-10-25T03:11:28.050Z",
+        "bytes":  1224460,
+        "use":  "Reference-only image; not a game asset",
+        "width":  997,
+        "height":  443
+    },
+    {
+        "name":  "community-ui-2.png",
+        "url":  "https://stzbsqos.fp.ps.easebar.com/file/649beb0c630bf906d1fabc77NVcjH50503",
+        "sourcePage":  "https://www.ib-cmty.com/timeline/m20230628161424524347851",
+        "sourceType":  "Creator article on official community, linked by official Taiwan guide index; visible pixels only",
+        "published":  "2023-06-28",
+        "retrieved":  "2026-10-25T03:11:28.411Z",
+        "bytes":  855077,
+        "use":  "Reference-only image; not a game asset",
+        "width":  864,
+        "height":  486
+    },
+    {
+        "name":  "community-ui-3.png",
+        "url":  "https://stzbsqos.fp.ps.easebar.com/file/649beb1b00281ed1ceb5667deg40rFRa03",
+        "sourcePage":  "https://www.ib-cmty.com/timeline/m20230628161424524347851",
+        "sourceType":  "Creator article on official community, linked by official Taiwan guide index; visible pixels only",
+        "published":  "2023-06-28",
+        "retrieved":  "2026-10-25T03:11:27.516Z",
+        "bytes":  590067,
+        "use":  "Reference-only image; not a game asset",
+        "width":  1111,
+        "height":  220
+    },
+    {
+        "name":  "community-ui-4.png",
+        "url":  "https://stzbsqos.fp.ps.easebar.com/file/649beb30c30fb97b9b18ba05hX4pCBYe03",
+        "sourcePage":  "https://www.ib-cmty.com/timeline/m20230628161424524347851",
+        "sourceType":  "Creator article on official community, linked by official Taiwan guide index; visible pixels only",
+        "published":  "2023-06-28",
+        "retrieved":  "2026-10-25T03:11:27.291Z",
+        "bytes":  735644,
+        "use":  "Reference-only image; not a game asset",
+        "width":  1011,
+        "height":  569
+    },
+    {
+        "name":  "community-ui-5.png",
+        "url":  "https://stzbsqos.fp.ps.easebar.com/file/649beb472bac50e4f68a5e37JVvr8qBD03",
+        "sourcePage":  "https://www.ib-cmty.com/timeline/m20230628161424524347851",
+        "sourceType":  "Creator article on official community, linked by official Taiwan guide index; visible pixels only",
+        "published":  "2023-06-28",
+        "retrieved":  "2026-10-25T03:11:27.592Z",
+        "bytes":  810450,
+        "use":  "Reference-only image; not a game asset",
+        "width":  994,
+        "height":  302
+    }
+]

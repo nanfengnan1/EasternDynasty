@@ -1,0 +1,141 @@
+{
+  "version": "s1-20261028-022752190",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "id": "Q08-A001",
+    "path": "F:/工作项目/率土之滨/rag/assets/85/857a6e5afaa30ad8669c8b9197ba5cfe59ddf1362d30bf6158940d2be993555e.png",
+    "resolution": [
+      767,
+      393
+    ],
+    "publishedAt": "2021 (tutorial; source date fields conflict)",
+    "s1Status": "historical",
+    "use": "Historical facility atlas hierarchy only; no tree or cost rules imported",
+    "excludedFromS1": true,
+    "currentS1Applicability": "unknown",
+    "versionId": "learn-question-20261025-154754815-Q08-867e7eab10fd38fe0b67",
+    "sha256": "857a6e5afaa30ad8669c8b9197ba5cfe59ddf1362d30bf6158940d2be993555e"
+  },
+  "secondaryReference": {
+    "id": "STZB-0453",
+    "versionId": "base-d728496fa74ee1ee61ed",
+    "resolution": [
+      510,
+      288
+    ],
+    "s1Status": "unknown",
+    "excludedFromS1": false,
+    "publishedAt": "unknown",
+    "sha256": "a4f629bfbae411dfcf180358c23e12b300c93b078e8929da803371fb9bc04f4f"
+  },
+  "baselineVersion": "s1-20261027-104752269",
+  "layout": {
+    "cardHeight": 206,
+    "gap": 16,
+    "threeColumnThreshold": 1460,
+    "art": [
+      10,
+      14,
+      216,
+      162
+    ],
+    "name": [
+      238,
+      8,
+      "width-250",
+      32
+    ],
+    "state": [
+      238,
+      42,
+      "width-250",
+      22
+    ],
+    "effect": [
+      238,
+      72,
+      "width-250",
+      24
+    ],
+    "condition": [
+      238,
+      102,
+      "width-250",
+      28
+    ],
+    "action": [
+      238,
+      150,
+      "width-250",
+      44
+    ],
+    "ruleY": 204,
+    "hall": [
+      12,
+      56,
+      184,
+      138
+    ]
+  },
+  "components": [
+    "catalog_sheet",
+    "catalog_rule",
+    "catalog_category",
+    "catalog_category_active"
+  ],
+  "reused": [
+    "facility_command",
+    "facility_command_hover"
+  ],
+  "notes": [
+    "Complete existing project building art; no new raster algorithm.",
+    "Horizontal node is project adaptation of compact unframed reference atlas.",
+    "Only fully visible nodes enable actions; existing routes/filters/back retained.",
+    "Baseline surrounding chrome is old runtime, not current screenshot."
+  ],
+  "fonts": {
+    "family": "Microsoft YaHei; Runtime uses existing Chinese body font",
+    "name": 22,
+    "state": 14,
+    "effect": 14,
+    "condition": 14,
+    "action": 16,
+    "category": 17,
+    "heading": 24,
+    "minimum": 13,
+    "sourceNote": 12,
+    "fit": "Fit using actual GUI width and height; reduce to minimum, then fail diagnostic if still clipped."
+  },
+  "colors": {
+    "heading": "#D8C68F",
+    "body": "#E3E2D9",
+    "state": "#D8C68F",
+    "effect": "#CBD4D5",
+    "condition": "#B8C3C7",
+    "action": "#202526",
+    "category": "#262D32",
+    "categoryActive": "#5A5747",
+    "sheet": [
+      "#3A4041",
+      "#292F33",
+      "#21262C"
+    ]
+  },
+  "states": [
+    "unbuilt",
+    "built",
+    "hall-required",
+    "queue-blocked",
+    "working",
+    "maximum-level",
+    "unavailable",
+    "scrolled-partial-input-disabled",
+    "modal-covered-input-disabled"
+  ],
+  "runtime": [
+    "CityFacilityAtlasLayout.cs",
+    "CityFacilityAtlasPresentation.cs",
+    "CityFacilityCatalogPresentation.cs",
+    "Diagnostics/CityFacilityCatalogDiagnostics.cs"
+  ]
+}

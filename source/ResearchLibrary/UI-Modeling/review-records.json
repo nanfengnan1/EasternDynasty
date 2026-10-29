@@ -1,0 +1,104 @@
+{
+    "unity-ui-compare":  {
+                             "actual_review_status":  "reviewed_relevant_sections",
+                             "reviewed_at":  "2026-10-24T10:36:12.7026338Z",
+                             "reviewed_sha256":  "82570021dabe4cbea922f98688e83f7ef7481902813661e34738924d4ce5de0e",
+                             "review_method":  "Read primary source content using bounded collector inspection; conclusions recorded in technical notes with source link and version."
+                         },
+    "ugui-canvas-scaler":  {
+                               "actual_review_status":  "reviewed_relevant_sections",
+                               "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                               "reviewed_sha256":  "1753a2949fadcee24a3012e97564b9a12114f129bef823a7a956fd1195c17232",
+                               "review_method":  "Read primary source content using bounded collector inspection; conclusions recorded in technical notes with source link and version."
+                           },
+    "unity-panel-settings":  {
+                                 "actual_review_status":  "reviewed_relevant_sections",
+                                 "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                                 "reviewed_sha256":  "44743fd54034fa960f911118c7e155b009e9d0ba2abae381e06fd07c506ab916",
+                                 "review_method":  "Read primary source content using bounded collector inspection; conclusions recorded in technical notes with source link and version."
+                             },
+    "unity-terrain-layer":  {
+                                "actual_review_status":  "reviewed_relevant_sections",
+                                "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                                "reviewed_sha256":  "14a3c2daf279ccef979c4d71b6cc1c10ce72dc37563c2c4bea95c187eb190557",
+                                "review_method":  "Read primary source content using bounded collector inspection; conclusions recorded in technical notes with source link and version."
+                            },
+    "unity-neighbor-terrain":  {
+                                   "actual_review_status":  "reviewed_relevant_sections",
+                                   "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                                   "reviewed_sha256":  "501c23f9d98d0acf52d0bd5d91b3bd27a591ed84cc9b07f23583644bdbea6ff1",
+                                   "review_method":  "Read primary source content using bounded collector inspection; conclusions recorded in technical notes with source link and version."
+                               },
+    "unity-lod-group":  {
+                            "actual_review_status":  "reviewed_relevant_sections",
+                            "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                            "reviewed_sha256":  "09a288e79491ad35dbafead0ecfccd5ff82e8d130badba512fe8070e4d01f2da",
+                            "review_method":  "Read primary source content using bounded collector inspection; conclusions recorded in technical notes with source link and version."
+                        },
+    "blender-decimate":  {
+                             "actual_review_status":  "reviewed_relevant_sections",
+                             "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                             "reviewed_sha256":  "e8388c58e3406ec57afa93040e6527f499323a4b73eb032c35a6ccb0e9d30746",
+                             "review_method":  "Read primary source content using bounded collector inspection; conclusions recorded in technical notes with source link and version."
+                         },
+    "ugui-scaler-inspector-image":  {
+                                        "actual_review_status":  "visually_inspected",
+                                        "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                                        "reviewed_sha256":  "f70a70e20ba05f241f82a44aa471bcd6b8ab069234b2152dd6000678afb273dd",
+                                        "review_method":  "Opened saved image with view_image; visual observations recorded in UI-Notes.md or Map-Modeling-Notes.md."
+                                    },
+    "unity-sandy-terrain-image":  {
+                                      "actual_review_status":  "visually_inspected",
+                                      "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                                      "reviewed_sha256":  "1eb364ef87f9f8f07a8344de289073da8db340d9bbc96c04681452e57e4cf35b",
+                                      "review_method":  "Opened saved image with view_image; visual observations recorded in UI-Notes.md or Map-Modeling-Notes.md."
+                                  },
+    "unity-neighbor-terrain-image":  {
+                                         "actual_review_status":  "visually_inspected",
+                                         "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                                         "reviewed_sha256":  "5652956341b007844061c04ed40f119c42f1b925a36e4aac58ed3b553fb31132",
+                                         "review_method":  "Opened saved image with view_image; visual observations recorded in UI-Notes.md or Map-Modeling-Notes.md."
+                                     },
+    "unity-lod-image":  {
+                            "actual_review_status":  "visually_inspected",
+                            "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                            "reviewed_sha256":  "974c183336381a0678b03946f763b0006ed9904e726813a5da814c304bcc955e",
+                            "review_method":  "Opened saved image with view_image; visual observations recorded in UI-Notes.md or Map-Modeling-Notes.md."
+                        },
+    "unity-ui-performance":  {
+                                 "actual_review_status":  "reviewed_relevant_sections",
+                                 "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                                 "reviewed_sha256":  "ecf077b8262853629dcc848b6b5c9b15faaf0032501cd2ed6ef44bef6da3c1a2",
+                                 "review_method":  "Read primary source content using bounded collector inspection; conclusions recorded in technical notes with source link and version."
+                             },
+    "unity-sprite-atlas":  {
+                               "actual_review_status":  "reviewed_relevant_sections",
+                               "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                               "reviewed_sha256":  "579a3bdf4085070bd2af6953df3f699ffe722b8e8b844b11a797fc9ecde3e8ad",
+                               "review_method":  "Read primary source content using bounded collector inspection; conclusions recorded in technical notes with source link and version."
+                           },
+    "unity-gpu-instancing":  {
+                                 "actual_review_status":  "reviewed_relevant_sections",
+                                 "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                                 "reviewed_sha256":  "d76c3b9e6208b29357fc104bc904d90782709b4bf8d9bb86cae0bdfb64869381",
+                                 "review_method":  "Read primary source content using bounded collector inspection; conclusions recorded in technical notes with source link and version."
+                             },
+    "unity-fbx-model":  {
+                            "actual_review_status":  "reviewed_relevant_sections",
+                            "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                            "reviewed_sha256":  "c84452dc56501194eaf979424b60e792359dd5850045b59837af9b680ada6d60",
+                            "review_method":  "Read primary source content using bounded collector inspection; conclusions recorded in technical notes with source link and version."
+                        },
+    "blender-fbx":  {
+                        "actual_review_status":  "reviewed_relevant_sections",
+                        "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                        "reviewed_sha256":  "4121f680e288ffef74edf0cf94915a626c97104cc4c65e9e1eb9340655e197d1",
+                        "review_method":  "Read primary source content using bounded collector inspection; conclusions recorded in technical notes with source link and version."
+                    },
+    "unity-frame-debugger":  {
+                                 "actual_review_status":  "reviewed_relevant_sections",
+                                 "reviewed_at":  "2026-10-24T10:36:12.7114363Z",
+                                 "reviewed_sha256":  "d12254b45c9ca794ef67dce64c24faee10067a6f1215633323640feba6cdb6a4",
+                                 "review_method":  "Read primary source content using bounded collector inspection; conclusions recorded in technical notes with source link and version."
+                             }
+}

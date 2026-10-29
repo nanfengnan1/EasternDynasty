@@ -1,0 +1,172 @@
+{
+  "version": "s1-20261028-193752561",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "id": "STZB-0527",
+    "path": "F:/工作项目/率土之滨/rag/assets/4f/4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376.jpg",
+    "sha256": "4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376",
+    "size": [
+      720,
+      405
+    ],
+    "date": "2023-02-01",
+    "scope": "Historical map HUD; current S1 appearance unknown; layout reference only"
+  },
+  "support": {
+    "id": "STZB-0499",
+    "path": "F:/工作项目/率土之滨/rag/assets/20/20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f.jpg",
+    "sha256": "20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f",
+    "size": [
+      2340,
+      1080
+    ],
+    "date": "2021-12-22",
+    "scope": "Sixth-anniversary map reference, not current S1"
+  },
+  "baselines": [
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-183252245/Project/Validation/Visual/s1-20261028-183252245-youzhou-1440x900/smoke-hud-design-header.png",
+      "size": [
+        1440,
+        900
+      ],
+      "scale": 1,
+      "x": 0,
+      "y": 0,
+      "logicalWidth": 1440,
+      "sha256": "d8f13bffc905565d959d6eba5c4fae3544c476e553500a38c3425547eb1288d0"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-183252245/Project/Validation/Visual/s1-20261028-183252245-mobile-1600x720/smoke-hud-long-values.png",
+      "size": [
+        1600,
+        720
+      ],
+      "scale": 0.8333333333333334,
+      "x": 56,
+      "y": 12,
+      "logicalWidth": 1804.8,
+      "sha256": "75243f49c5e9d4da85d678ecc6e3f397052377afd43e940369c0c4cff01bfdbb"
+    }
+  ],
+  "layout": {
+    "identity": [
+      16,
+      4,
+      246,
+      62
+    ],
+    "crest": [
+      16,
+      4,
+      62,
+      62
+    ],
+    "art": [
+      22,
+      13,
+      50,
+      44
+    ],
+    "name": [
+      84,
+      7,
+      174,
+      30
+    ],
+    "wrappedName": [
+      84,
+      5,
+      174,
+      38
+    ],
+    "identityDetail": [
+      84,
+      44,
+      174,
+      20
+    ],
+    "productionStart": 280,
+    "productionPitch": "min(168,(width-604)/4)",
+    "productionCell": [
+      "pitch-6",
+      58
+    ],
+    "currencyStart": "280+pitch*4+16",
+    "currencyPitch": 150,
+    "currencyWidth": 144,
+    "stock": [
+      44,
+      30,
+      "cell-48",
+      26
+    ],
+    "detail": [
+      44,
+      6,
+      "cell-48",
+      23
+    ],
+    "icon": [
+      6,
+      19,
+      32,
+      26
+    ],
+    "currencyStock": [
+      40,
+      30,
+      100,
+      26
+    ],
+    "currencyDetail": [
+      40,
+      6,
+      100,
+      23
+    ],
+    "headerHeight": 70
+  },
+  "fonts": {
+    "ruler": 20,
+    "stock": 21,
+    "rate": 13,
+    "secondary": 13
+  },
+  "components": [
+    "ui.youzhou.header_identity",
+    "ui.youzhou.header_ledger"
+  ],
+  "reusedAssets": [
+    {
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/header_veil.png",
+      "sha256": "342c8825052c013f761e0fac623c4ec1541fe560a871a1711be3d628e05cf707"
+    },
+    {
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/header_currency.png",
+      "sha256": "3a79bf938004dbf11aa9f21527ed6731ffee7260e0b914e199adf2102ebec581"
+    },
+    {
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/city_marker_crest.png",
+      "sha256": "9e4de179e50912b5ec086c179e66ae6730faca0f2d8a3698c55628814bd560e1"
+    },
+    {
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/city_marker_selected.png",
+      "sha256": "b9be0a61c0b3e3b3de03118b174ba360cc5c93ac36930bec315fb205e8c4e5e8"
+    },
+    {
+      "path": "Assets/EasternDynasty/Resources/Youzhou/city.png",
+      "sha256": "178d9ac249e7178b9669edad891a1a40ec534e156a910e66d898f4155fba6b41"
+    },
+    {
+      "path": "Assets/EasternDynasty/Resources/YouzhouReferences/resource_hud.png",
+      "sha256": "30fbedbfbae80f06a8a34175bc2a4ef1baeab965034d0621274bec7de2f90ea9"
+    }
+  ],
+  "notes": [
+    "Project adaptation: compact contiguous six-resource ledger, larger complete city image with existing map crest; no invented official capacity or currency controls.",
+    "The source retains native-size historical resource samples below their source dimensions; no upscale or new standalone resource icon claimed.",
+    "All live text remains separate; design background is an explicitly labelled collage, not a new runtime screenshot.",
+    "Top header input and camera boundaries are unchanged; blank upper-right band does not become a new map interaction region."
+  ]
+}

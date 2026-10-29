@@ -1,0 +1,117 @@
+{
+  "version": "s1-20261029-010252300",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "id": "Q07-JA-A003",
+    "path": "F:/工作项目/率土之滨/rag/assets/cd/cda6606c2a9244c8751d1a0bc91c6c6c33086502298efc45e857eb54b41e4385.png",
+    "sha256": "cda6606c2a9244c8751d1a0bc91c6c6c33086502298efc45e857eb54b41e4385",
+    "size": [
+      572,
+      321
+    ],
+    "scope": "Historical skill popup, screenshot/client/season unknown; use composition only. No official skill parameters applied."
+  },
+  "baselines": [
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-225251901/Project/Validation/Visual/s1-20261028-225251901-youzhou-1440x900/smoke-card-skill.png",
+      "sha256": "ee7ccd502cc8679c4037cfd2cfa1d51b74ea7ccf6cacd2f9e6122f89653fa586",
+      "version": "s1-20261028-225251901"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-225251901/Project/Validation/Visual/s1-20261028-225251901-mobile-1600x720/smoke-card-skill.png",
+      "sha256": "3bd0fd1017811178e7c8084359b26ec52b257d8bb9d8f31fd14377e44f6ac736",
+      "version": "s1-20261028-225251901"
+    }
+  ],
+  "layout": {
+    "width": 636,
+    "nativeY": 88,
+    "nativeX": 160,
+    "nativeWidth": "width-184",
+    "sheetHeight": "max(240,nativeTextHeight+104)",
+    "icon": [
+      26,
+      78,
+      96,
+      96
+    ],
+    "book": [
+      41,
+      108,
+      66,
+      36
+    ],
+    "learningY": "sheetHeight+18",
+    "learningHeight": "max(84,learnedTextHeight+44)",
+    "title": [
+      24,
+      8,
+      "width-48",
+      32
+    ],
+    "role": [
+      14,
+      184,
+      120,
+      26
+    ],
+    "nativeLabel": [
+      160,
+      56,
+      "width-184",
+      28
+    ],
+    "nativeSheet": [
+      8,
+      4,
+      "width-16",
+      "max(240,nativeTextHeight+104)"
+    ],
+    "verticalSlices": {
+      "sourceHeight": 240,
+      "top": 48,
+      "bottom": 4,
+      "center": "stretch only the middle"
+    }
+  },
+  "components": [
+    "ui.youzhou.skill_sheet",
+    "ui.youzhou.skill_learning"
+  ],
+  "reusedAssets": [
+    {
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/nav_book.png",
+      "sha256": "b3723281a06730a503f6dd0253f6612c816136a24c081c2f30b858f513c29a05"
+    },
+    {
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/dossier_skill_ring.png",
+      "sha256": "3ca7eaaf936a35c4c66068cd6a384f56309ea71c0a5e0d842f40ff66466be596"
+    }
+  ],
+  "notes": [
+    "Left icon and right effect text share one sheet; same column continues in the learning row.",
+    "Book is existing project illustration, not the official skill art. No invented types, trigger rates or upgrades.",
+    "Full description remains live wrapped text and retains measured scroll bounds.",
+    "Skill title/description are a design example; actual runtime values remain unchanged."
+  ],
+  "actualToolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+  "fonts": {
+    "title": 24,
+    "titleMinimum": 18,
+    "body": 18,
+    "caption": 16,
+    "learningLabel": 17
+  },
+  "colors": {
+    "surface": "#191d20",
+    "titleBand": "#292a2b",
+    "border": "#817766",
+    "title": "#d3bc83",
+    "role": "#c2b597",
+    "caption": "#b9b3a5"
+  },
+  "runtime": [
+    "Assets/EasternDynasty/Scripts/Runtime/CardDossierSkillLayout.cs",
+    "Assets/EasternDynasty/Scripts/Runtime/CardDossierPresentation.cs"
+  ]
+}

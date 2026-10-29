@@ -1,0 +1,132 @@
+{
+  "version": "s1-20261027-190751837",
+  "recordedAtUtc": "2026-10-27T19:27:10.914Z",
+  "status": "design-inspected-and-integrated-runtime-review-pending",
+  "originalsActuallyViewed": [
+    "STZB-0428",
+    "STZB-0429"
+  ],
+  "baselines": [
+    {
+      "path": "Docs\\DesignUI\\s1-20261027-190751837\\baseline\\desktop-104752269.png",
+      "sourcePath": "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-youzhou-1440x900/smoke-city-developed.png",
+      "sha256": "c5a594126173e1eb918bda1153e57896e042bec408353ae16c96de53789b59a4",
+      "actuallyViewed": true,
+      "currentIterationScreenshot": false
+    },
+    {
+      "path": "Docs\\DesignUI\\s1-20261027-190751837\\baseline\\mobile-104752269.png",
+      "sourcePath": "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-mobile-1600x720/smoke-city-developed.png",
+      "sha256": "aec64ff80b8622fac9fdbc2be4d5e09aef8d4c63854cf054af9c61fb9fcffb74",
+      "actuallyViewed": true,
+      "currentIterationScreenshot": false
+    }
+  ],
+  "previews": [
+    {
+      "target": "desktop",
+      "source": "Docs\\DesignUI\\s1-20261027-190751837\\desktop\\city-dock.svg",
+      "sourceSha256": "9BE6D0454BDE26D588468AAD340AE4A04EA2350C5343041D1A1370935EA96060",
+      "receipt": "Docs\\DesignUI\\s1-20261027-190751837\\desktop\\exports\\export-receipt.json",
+      "preview": "Docs\\DesignUI\\s1-20261027-190751837\\desktop\\exports\\city-dock-preview.png",
+      "previewSha256": "CEEBA5D8F59947840D0054552BAAF7E7C693FC5637F217654A0A08DEF807AE62",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "actuallyViewed": true
+    },
+    {
+      "target": "mobile",
+      "source": "Docs\\DesignUI\\s1-20261027-190751837\\mobile\\city-dock.svg",
+      "sourceSha256": "4B704A0FF61C35B1B937054CF061287B646B0BFAFE38BC2369444264E709F61F",
+      "receipt": "Docs\\DesignUI\\s1-20261027-190751837\\mobile\\exports\\export-receipt.json",
+      "preview": "Docs\\DesignUI\\s1-20261027-190751837\\mobile\\exports\\city-dock-preview.png",
+      "previewSha256": "D8FEC876D89EBE1ADC4039D338CB781400E0EE7264173AE644D161909B7CA1AA",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "actuallyViewed": true
+    },
+    {
+      "target": "states",
+      "source": "Docs\\DesignUI\\s1-20261027-190751837\\states\\city-dock.svg",
+      "sourceSha256": "897CB6E51E63FFFC75D4F7C560335F97AFEB2BCC2FC47A1FB7CB63F31CE984D7",
+      "receipt": "Docs\\DesignUI\\s1-20261027-190751837\\states\\exports\\export-receipt.json",
+      "preview": "Docs\\DesignUI\\s1-20261027-190751837\\states\\exports\\city-dock-preview.png",
+      "previewSha256": "6A3E8A46B7E31C5973F36CA6D7E63EF71217D6CF7ECED1ED2F8D744F1E97BE30",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "actuallyViewed": true
+    },
+    {
+      "target": "components",
+      "source": "Docs\\DesignUI\\s1-20261027-190751837\\components\\city-dock.svg",
+      "sourceSha256": "EA1952415F65A083C61AD5948A3BB34F53F88482C93F0B0ADBF427561B7C19D4",
+      "receipt": "Docs\\DesignUI\\s1-20261027-190751837\\components\\exports\\export-receipt.json",
+      "preview": "Docs\\DesignUI\\s1-20261027-190751837\\components\\exports\\city-dock-preview.png",
+      "previewSha256": "B3EB31E33BC9FA6BD65C52EBD890E54597DAA07A715CAC95854DC003D27D1D6F",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "actuallyViewed": true
+    }
+  ],
+  "assets": [
+    {
+      "id": "ui.youzhou.city_dock_seal",
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/city_dock_seal.png",
+      "sha256": "9fc9797a6cb4c36f8f11369f51f53a65b8ef1ad17e2e1e8ab119fc9693921d6e",
+      "width": 168,
+      "height": 172,
+      "sourceReference": "Docs/DesignUI/s1-20261027-190751837/components/exports/export-receipt.json",
+      "metaPresent": false
+    },
+    {
+      "id": "ui.youzhou.city_dock_seal_active",
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/city_dock_seal_active.png",
+      "sha256": "3844678f2adc82e3d47245286de506d8a7a696b7e45cae5c0cc039d641b769df",
+      "width": 168,
+      "height": 172,
+      "sourceReference": "Docs/DesignUI/s1-20261027-190751837/components/exports/export-receipt.json",
+      "metaPresent": false
+    },
+    {
+      "id": "ui.youzhou.city_dock_seal_hover",
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/city_dock_seal_hover.png",
+      "sha256": "597383a15e56cf6cabd4c14488dad88c1cc8552e5da79730a599462e3edbd848",
+      "width": 168,
+      "height": 172,
+      "sourceReference": "Docs/DesignUI/s1-20261027-190751837/components/exports/export-receipt.json",
+      "metaPresent": false
+    },
+    {
+      "id": "ui.youzhou.city_dock_back",
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/city_dock_back.png",
+      "sha256": "a7f558743ba4d51fd6c8eb61900b4316542095396902062bfb1cdfb124d8bba7",
+      "width": 168,
+      "height": 128,
+      "sourceReference": "Docs/DesignUI/s1-20261027-190751837/components/exports/export-receipt.json",
+      "metaPresent": false
+    },
+    {
+      "id": "ui.youzhou.city_dock_back_hover",
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/city_dock_back_hover.png",
+      "sha256": "14509ee5fe27dbc2d401e22ee837c31ac9164cc69f8fd0423af1532eef484589",
+      "width": 168,
+      "height": 128,
+      "sourceReference": "Docs/DesignUI/s1-20261027-190751837/components/exports/export-receipt.json",
+      "metaPresent": false
+    }
+  ],
+  "differencesBefore": [
+    "Full-height black left rail forms a hard divider instead of separate round entrances.",
+    "60x48 icon bounds keep the image smaller than its large rectangular parent.",
+    "Selected page and back action use flat rectangular fills and an underline; the reference separates circular artwork from the lower caption."
+  ],
+  "inspection": [
+    "Viewed desktop/mobile compositions and four-state minimum-height sheet. Five image/caption pairs and bottom return are separate without overlap.",
+    "Viewed final component export: independent transparent silhouettes with normal/active/hover states. 2x outputs come directly from editable vector paths.",
+    "No source screenshot pixels in the five production textures. All city/building artwork and district/document symbols are reused.",
+    "Preview context uses old runtime screenshots plus prior accepted design exports. It is not a screenshot of this iteration.",
+    "Read-only review found a 1-pixel-wide vector stroke overflow. Rounded joins were re-exported and viewed; final seals are exactly 168x172 and return components 168x128.",
+    "The publisher refreshed the old 104752269 mobile screenshot during development. Both baseline copies were viewed again and preserved inside this design directory; preview context remains the explicitly identified prior-iteration design export."
+  ],
+  "limitations": [
+    "The reference is 2015 historical city UI; current S1 applicability unknown. The five-entry left dock is a project adaptation.",
+    "Actual Unity font fit, texture import, screenshots and desktop/mobile input await the publisher. Android hardware remains untested.",
+    "Inkscape exits successfully but stderr reports denied profile/recent-file writes outside workspace; export files, geometry and hashes are valid and logs retained."
+  ]
+}

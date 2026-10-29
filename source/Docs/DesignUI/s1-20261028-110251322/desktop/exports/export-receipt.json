@@ -1,0 +1,20 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T11:14:45.9546092Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-110251322\\desktop\\land-orders.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-110251322\\desktop\\land-orders.svg",
+    "sourceSha256":  "C57F8F5005AA35C96EB093C5B7ED96DBF4FD298852202D0FB071ADD3B6A7C4F4",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-110251322\\desktop\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-110251322\\desktop\\exports\\land-orders-preview.png",
+                       "sha256":  "DA7FE5EFC2E71FA0DD1334B29E1CCC0BC9444CB24E53BF540D7914DDCF0879AC",
+                       "width":  1440,
+                       "height":  900,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-110251322\\desktop\\exports\\land-orders-preview.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

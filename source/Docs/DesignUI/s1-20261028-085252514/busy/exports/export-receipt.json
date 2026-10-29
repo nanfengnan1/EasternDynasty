@@ -1,0 +1,20 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T09:09:45.4488228Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-085252514\\busy\\land.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-085252514\\busy\\land.svg",
+    "sourceSha256":  "8A9F81CB7167801BA0E340FE80539ADE6B89E99163F582004C74B6499C178B7B",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-085252514\\busy\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-085252514\\busy\\exports\\land-preview.png",
+                       "sha256":  "FEFFF24BD4C87878383FC3018792FF71ED9BCC35F45C18D6607906E3415FD09B",
+                       "width":  1440,
+                       "height":  900,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-085252514\\busy\\exports\\land-preview.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

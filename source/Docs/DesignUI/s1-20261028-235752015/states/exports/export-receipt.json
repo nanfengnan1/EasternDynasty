@@ -1,0 +1,20 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-29T00:05:35.6983317Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-235752015\\states\\quest-sleeve.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-235752015\\states\\quest-sleeve.svg",
+    "sourceSha256":  "AE6181A76DC3B3D2733A7B006682E9566A8E06FC84BF52AE2FCBDFBB6F3766FF",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-235752015\\states\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-235752015\\states\\exports\\quest-sleeve-preview.png",
+                       "sha256":  "CB1C0013CB466BCB8E43CC18066CFFA38F0C099978EC3C90E3A705FF7E27058A",
+                       "width":  1200,
+                       "height":  840,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-235752015\\states\\exports\\quest-sleeve-preview.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

@@ -1,0 +1,126 @@
+{
+  "version": "s1-20261028-183252245",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "id": "STZB-0527",
+    "path": "F:/工作项目/率土之滨/rag/assets/4f/4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376.jpg",
+    "sha256": "4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376",
+    "size": [
+      720,
+      405
+    ],
+    "year": 2023,
+    "scope": "Historical map HUD: floating atlas and dark round locator. Current S1 appearance unknown; measurement only."
+  },
+  "support": {
+    "id": "STZB-0395",
+    "path": "F:/工作项目/率土之滨/rag/assets/56/569e93a9a0edd8355952f123f61a895f02a717c01049f2d349c3ec3c2fcd87c0.jpg",
+    "sha256": "569e93a9a0edd8355952f123f61a895f02a717c01049f2d349c3ec3c2fcd87c0",
+    "size": [
+      500,
+      280
+    ],
+    "year": 2015,
+    "scope": "Historical same-page vertical map controls; supplementary composition only."
+  },
+  "baselines": [
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-162252252/Project/Validation/Visual/s1-20261028-162252252-youzhou-1440x900/smoke-hud-design-minimap.png",
+      "size": [
+        1440,
+        900
+      ],
+      "map": [
+        1202,
+        144,
+        204,
+        204
+      ],
+      "sha256": "bbdca99f2b37ba2d6d8a92f22a4dd8a9c627948f6499898513b3a808e3a87aac"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-162252252/Project/Validation/Visual/s1-20261028-162252252-mobile-1600x720/smoke-hud-design-minimap.png",
+      "size": [
+        1600,
+        720
+      ],
+      "map": [
+        1361,
+        132,
+        170,
+        170
+      ],
+      "sha256": "efab80cc59ea17f02dd7534aa6f20b615f92f3d9e617f07906624768e8defaa1"
+    }
+  ],
+  "layout": {
+    "panel": [
+      "width-302",
+      90,
+      282,
+      204
+    ],
+    "terrain": [
+      0,
+      0,
+      204,
+      204
+    ],
+    "title": [
+      210,
+      0,
+      72,
+      54
+    ],
+    "locate": [
+      216,
+      64,
+      60,
+      60
+    ],
+    "pin": [
+      236,
+      70,
+      20,
+      28
+    ],
+    "caption": [
+      216,
+      101,
+      60,
+      20
+    ],
+    "legend": [
+      210,
+      134,
+      72,
+      70
+    ],
+    "terrainOpacity": 0.88
+  },
+  "fonts": {
+    "title": 15,
+    "coordinate": 13,
+    "home": 13,
+    "legend": 12,
+    "scope": 11
+  },
+  "components": [
+    "ui.youzhou.atlas_locate_dark",
+    "ui.youzhou.atlas_locate_dark_hover",
+    "ui.youzhou.atlas_pin_light"
+  ],
+  "reusedAssets": [
+    {
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/atlas_strip.png",
+      "sha256": "ec50f6b0ad0c84c39664cd3bfd7d90f5df8cf218653ccd9537f45bf7f65413e9"
+    }
+  ],
+  "notes": [
+    "Project adaptation of two dated same-page references, not a claimed current official S1 reconstruction.",
+    "Preserves full square 204x204 live terrain and all 1600 lands; no crop, stretch or hidden map state.",
+    "Bounding area 232x286 becomes 282x204: wider by 50, shorter by 82; not a claim of narrower UI.",
+    "No raster art algorithm added; no change to minimap pixels/viewport computation/navigation semantics.",
+    "Desktop and mobile have separate actual baseline sources; montage labels are explicit."
+  ]
+}

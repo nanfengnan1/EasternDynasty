@@ -1,0 +1,59 @@
+{
+  "version": "s1-20261028-012751756",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "id": "Q09-CU-A001",
+    "path": "F:/工作项目/率土之滨/rag/assets/08/08627a10e55883e80f67fb768ac95327aae33b4610dbdb45858ec548b930b5c9.png",
+    "resolution": [
+      800,
+      450
+    ],
+    "publishedAt": "2024-05-15",
+    "s1Status": "unknown",
+    "excludedFromS1": true,
+    "use": "Only rectangular facility artwork stage/footer hierarchy; existing eight-option selector is a project adaptation."
+  },
+  "baselineVersion": "s1-20261027-104752269",
+  "context": "Right ledger is inherited previous Inkscape design, not a runtime result; surrounding baseline is historical runtime screenshot.",
+  "layout": {
+    "stage": [
+      12,
+      8,
+      "districtWidth-24",
+      "districtHeight-314"
+    ],
+    "image": [
+      12,
+      22,
+      "stageWidth-24",
+      "stageHeight-58"
+    ],
+    "footerHeight": 34,
+    "locatorHeadingBottom": 298,
+    "gridBottom": 268,
+    "gridHeight": 156,
+    "queueBottom": 100,
+    "optionHeight": 96,
+    "optionImage": [
+      4,
+      1,
+      "optionWidth-8",
+      58
+    ],
+    "optionFooterY": 60,
+    "optionNameY": 60,
+    "optionNameHeight": 20,
+    "optionStateY": 80,
+    "optionStateHeight": 16
+  },
+  "components": [
+    "facility_stage",
+    "facility_stage_footer",
+    "facility_stage_selected"
+  ],
+  "notes": [
+    "No new building art or program raster algorithm. Existing 240x180 project silhouettes remain labeled illustrations.",
+    "Grid is district positioning, not a panoramic city interior.",
+    "Source values, eight commands, cost panel and construction behavior are unchanged."
+  ]
+}

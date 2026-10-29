@@ -1,0 +1,41 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T09:03:52.8653873Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-085252514\\components\\land.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-085252514\\components\\land.svg",
+    "sourceSha256":  "93DD7F51C4769D26CBE5F72E80A0681E1A9EBB29540984975F84DE6536B4A5F6",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-085252514\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-085252514\\components\\exports\\land-preview.png",
+                       "sha256":  "6ADA087A4B0A03BD9D7078B69CE8158500940909C1271AE5E9A0B7C6469EDA60",
+                       "width":  720,
+                       "height":  540,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-085252514\\components\\exports\\land-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-085252514\\components\\exports\\land-land-surface.png",
+                       "sha256":  "09CC4F6A0067C2344749F9D8B07194A0C6CCAF75DD1AB8CD1B5070B507DDA2E2",
+                       "width":  720,
+                       "height":  336,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-085252514\\components\\exports\\land-land-surface.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-085252514\\components\\exports\\land-land-command.png",
+                       "sha256":  "EF692CB95BD9BED45304D50A223789F84162055BD1F8F31498ADC9E78FB25EAD",
+                       "width":  656,
+                       "height":  88,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-085252514\\components\\exports\\land-land-command.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-085252514\\components\\exports\\land-land-command-active.png",
+                       "sha256":  "4C1AF8B281CDD9FA16C6A3D8593C400B1F14203E8471BEF602A9F699DD30E879",
+                       "width":  656,
+                       "height":  88,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-085252514\\components\\exports\\land-land-command-active.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

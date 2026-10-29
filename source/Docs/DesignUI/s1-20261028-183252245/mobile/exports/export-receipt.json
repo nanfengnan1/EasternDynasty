@@ -1,0 +1,20 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T18:44:40.6615982Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-183252245\\mobile\\atlas.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-183252245\\mobile\\atlas.svg",
+    "sourceSha256":  "88B4C8C5562D597C24DCDB5D162644352288DCDFE698EEE6F4671D282B5B4FCE",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-183252245\\mobile\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-183252245\\mobile\\exports\\atlas-preview.png",
+                       "sha256":  "EF934231A88F42BA79545FB88261F06F5C744994F6E321EFF34107BF7B093087",
+                       "width":  1600,
+                       "height":  790,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-183252245\\mobile\\exports\\atlas-preview.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

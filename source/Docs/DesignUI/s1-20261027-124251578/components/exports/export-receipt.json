@@ -1,0 +1,41 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T12:49:37.9668613Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-124251578\\components\\header.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261027-124251578\\components\\header.svg",
+    "sourceSha256":  "5B755E94F489852D740C219EF1E87CF26E2A021715D8C48A08CC22890AE504D3",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-124251578\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-124251578\\components\\exports\\header-preview.png",
+                       "sha256":  "5F555B7108E8E31E18B4ED30D158906C63A22FBA9FA882FD7D74676618128D30",
+                       "width":  1200,
+                       "height":  240,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-124251578\\components\\exports\\header-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-124251578\\components\\exports\\header-header-veil.png",
+                       "sha256":  "342C8825052C013F761E0FAC623C4EC1541FE560A871A1711BE3D628E05CF707",
+                       "width":  400,
+                       "height":  70,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-124251578\\components\\exports\\header-header-veil.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-124251578\\components\\exports\\header-header-divider.png",
+                       "sha256":  "F86B137A273439240E2DA7865D1EF0F898561C0BDEC0274F010A0F96B5DF1F36",
+                       "width":  2,
+                       "height":  46,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-124251578\\components\\exports\\header-header-divider.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-124251578\\components\\exports\\header-header-currency.png",
+                       "sha256":  "3A79BF938004DBF11AA9F21527ED6731FFEE7260E0B914E199ADF2102EBEC581",
+                       "width":  144,
+                       "height":  54,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-124251578\\components\\exports\\header-header-currency.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

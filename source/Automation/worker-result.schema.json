@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "status": {"type":"string","enum":["changed","no_change","blocked"]},
+    "summary": {"type":"string"},
+    "changes": {"type":"array","items":{"type":"string"}},
+    "evidence": {"type":"array","items":{"type":"string"}},
+    "remaining": {"type":"array","items":{"type":"string"}}
+  },
+  "required":["status","summary","changes","evidence","remaining"],
+  "additionalProperties":false
+}

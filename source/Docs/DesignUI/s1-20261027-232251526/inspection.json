@@ -1,0 +1,121 @@
+{
+  "version": "s1-20261027-232251526",
+  "atUtc": "2026-10-27T23:42:12.965Z",
+  "status": "design-inspected-runtime-pending",
+  "previews": [
+    {
+      "target": "desktop",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261027-232251526/desktop/exports/export-receipt.json",
+        "sha256": "94d14f59e33fe286e95a38785dad0020cc3ab6da482780b9fce739edd81e6697",
+        "bytes": 1362
+      },
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261027-232251526\\desktop\\dossier.svg",
+        "sha256": "3673ec8527cc405dcdb9dde0e9118f81451bc2831c29d887a839b59f2ec605f3",
+        "bytes": 4750761
+      },
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": {
+        "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\desktop\\exports\\dossier-preview.png",
+        "sha256": "1C3E1C79AE34386D4400E0F477D13B5729DEE99BC648B6454D82FD6BD4EC431D",
+        "width": 1440,
+        "height": 900,
+        "relativePath": "Docs\\DesignUI\\s1-20261027-232251526\\desktop\\exports\\dossier-preview.png"
+      }
+    },
+    {
+      "target": "mobile",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261027-232251526/mobile/exports/export-receipt.json",
+        "sha256": "5c7bbca346aa9ffa515bdf3de5e56fa8c4278b4a7e5cb87fd927df5bcad09d8f",
+        "bytes": 1357
+      },
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261027-232251526\\mobile\\dossier.svg",
+        "sha256": "3d51d26247328cb1ebdfc8899d31644e3277b50be7a84ff265b7a3ff504ebb5e",
+        "bytes": 4626734
+      },
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": {
+        "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\mobile\\exports\\dossier-preview.png",
+        "sha256": "60EF2479AEA558ABDC400DAE53D2EFD2ED476D139F3F5D5CCDF93EB170F00DFF",
+        "width": 1600,
+        "height": 720,
+        "relativePath": "Docs\\DesignUI\\s1-20261027-232251526\\mobile\\exports\\dossier-preview.png"
+      }
+    },
+    {
+      "target": "states",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261027-232251526/states/exports/export-receipt.json",
+        "sha256": "177b62528b3c78ff4466f032cc65ed5550d9b71f3eaacf2625e1d70bfc70d8a3",
+        "bytes": 1357
+      },
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261027-232251526\\states\\dossier.svg",
+        "sha256": "033e92bf915832ed3333bc7ad84b43e76db18d8d78c84907701b3183e8db90ef",
+        "bytes": 1049476
+      },
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": {
+        "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\states\\exports\\dossier-preview.png",
+        "sha256": "6E1940DF6C3F5DFD1A1609A881F2B04A2708699F3F107DE1A57CEE2882F5D9CB",
+        "width": 1320,
+        "height": 510,
+        "relativePath": "Docs\\DesignUI\\s1-20261027-232251526\\states\\exports\\dossier-preview.png"
+      }
+    },
+    {
+      "target": "components",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261027-232251526/components/exports/export-receipt.json",
+        "sha256": "5dd70660d9be766626ff4997893bfd4ce4ce60c5c1ef856544099e6851c7a5f7",
+        "bytes": 4497
+      },
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261027-232251526\\components\\dossier.svg",
+        "sha256": "186e2714f95c55dcbf33e6f9fd0996de7811b0e339d1f999007078e65f131c91",
+        "bytes": 1717
+      },
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": {
+        "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-preview.png",
+        "sha256": "33A99808964ABD750A182FBF9DF56A138D4CE33A7DDB93EDFCA3D0E9226B7F8B",
+        "width": 1120,
+        "height": 320,
+        "relativePath": "Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-preview.png"
+      }
+    }
+  ],
+  "referenceReview": [
+    "STZB-0467 2022 official card details opened before design; primary composition and silhouette reference.",
+    "Q07-community-card opened as a later-published cross-check; original screenshot age/S1 unknown and excludedFromS1 preserved.",
+    "104752269 desktop/mobile actual card screenshots opened before design; predecessor portrait editable layers reused in this composition."
+  ],
+  "baseline": [
+    {
+      "path": "Docs/DesignUI/s1-20261027-232251526/baseline/desktop.png",
+      "sha256": "e3e0c54223921625164bd95e8d386d8c11a0c89698ae59b9d394a3215490b402",
+      "bytes": 597703
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261027-232251526/baseline/mobile.png",
+      "sha256": "107cd9bf33b7c6b30ae01229eb0368398d4ecfdb5d2408b21b27816d90021a1b",
+      "bytes": 503959
+    }
+  ],
+  "inspectedFindings": [
+    "The vertical skill rail was removed; all five real attributes share the full information width in two columns.",
+    "Names, base values and growth remain on one line; the independent level/preview band stays above them.",
+    "Two lower horizontal skill groups show their own image, type and name with separate editable text and hit regions.",
+    "First preview exposed incorrect aspect handling of reused surface images; preserveAspectRatio=none was applied and final desktop/mobile/state PNGs re-exported and opened before Runtime integration.",
+    "Five reference-derived vector symbols and a neutral round container are exported without historical screenshot pixels or baked text. Existing book is a project record icon, not an official skill image or grade.",
+    "Final desktop/mobile/state/component previews have been opened. State samples are illustrative, not player-save evidence."
+  ],
+  "limitations": [
+    "No Unity, client, screenshot capture or desktop interaction performed. New runtime appearance is awaiting publisher.",
+    "Full-body scene art, current S1 card assets and official skill images remain unavailable; the detailed skill/source tabs were not redesigned.",
+    "Inkscape profile/recent-file write warnings are retained; export, geometry and receipts succeeded."
+  ]
+}

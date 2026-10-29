@@ -1,0 +1,41 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T20:24:20.3891570Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-201251989\\components\\city-header.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261027-201251989\\components\\city-header.svg",
+    "sourceSha256":  "84EE1F8DB683F38AA4F163AE47CA641B8CA6CACAA0DBA3D3F67443404C67D3F9",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-201251989\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-201251989\\components\\exports\\city-header-preview.png",
+                       "sha256":  "475E353131991AE4B42041855100918553EC372EB53F36B028651C63C9BD6F6C",
+                       "width":  1440,
+                       "height":  140,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-201251989\\components\\exports\\city-header-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-201251989\\components\\exports\\city-header-city-identity.png",
+                       "sha256":  "6FD71D784C59BFFBEEB819FF2AEB7DF784DEF5C4C0982C61431EA80A082EFD37",
+                       "width":  504,
+                       "height":  124,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-201251989\\components\\exports\\city-header-city-identity.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-201251989\\components\\exports\\city-header-city-identity-hover.png",
+                       "sha256":  "7D55E9FF7E9EBA0CDCD128B544EEE9112626A72A4B581C8B79BE91275DAEC780",
+                       "width":  504,
+                       "height":  124,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-201251989\\components\\exports\\city-header-city-identity-hover.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-201251989\\components\\exports\\city-header-city-resource.png",
+                       "sha256":  "B7EF4CAC5373274D675B219DF6FE5C549E3B78AC1325A07CEFB6509242EA6613",
+                       "width":  368,
+                       "height":  116,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-201251989\\components\\exports\\city-header-city-resource.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

@@ -1,0 +1,146 @@
+{
+    "version":  "s1-20261028-085252514",
+    "status":  "implemented-awaiting-publisher",
+    "reference":  {
+                      "id":  "S1-RES-009",
+                      "path":  "F:/工作项目/率土之滨/rag/assets/ea/ead909e3cd3ff7f4a6b2a1c98bcada429ae47bb1a77d5801c202c2c26b10dd6a.jpg",
+                      "scope":  "2021-12-11 historical S1 tutorial; current S1 unverified; composition only",
+                      "sha256":  "EAD909E3CD3FF7F4A6B2A1C98BCADA429AE47BB1A77D5801C202C2C26B10DD6A",
+                      "originalSize":  [
+                                           554,
+                                           236
+                                       ]
+                  },
+    "baselines":  {
+                      "desktop":  "F:/EasternDynastyBuild/Releases/s1-20261028-022752190/Project/Validation/Visual/s1-20261028-022752190-youzhou-1440x900/smoke-land-grain.png",
+                      "mobile":  "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-mobile-1600x720/smoke-land-grain.png"
+                  },
+    "context":  "Editable montage using each resolution own baseline; patch only clears old panel. Not a new runtime screenshot.",
+    "layout":  {
+                   "panel":  [
+                                 360,
+                                 418
+                             ],
+                   "header":  [
+                                  0,
+                                  0,
+                                  360,
+                                  168
+                              ],
+                   "art":  [
+                               12,
+                               68,
+                               336,
+                               100
+                           ],
+                   "image":  [
+                                 16,
+                                 70,
+                                 192,
+                                 96
+                             ],
+                   "identity":  [
+                                    220,
+                                    70,
+                                    124,
+                                    96
+                                ],
+                   "summary":  [
+                                   16,
+                                   180,
+                                   328,
+                                   86
+                               ],
+                   "actions":  [
+                                   16,
+                                   278,
+                                   328,
+                                   128
+                               ],
+                   "surfaceActions":  [
+                                          0,
+                                          278,
+                                          360,
+                                          140
+                                      ],
+                   "surfaceGap":  12
+               },
+    "components":  [
+                       "land_surface",
+                       "land_command",
+                       "land_command_active"
+                   ],
+    "runtime":  "LandSelectionPresentation.cs / LandSelectionLayout.cs",
+    "remaining":  [
+                      "Official current S1 land selection art unavailable; existing project tiles reused without enlarging historical screenshots.",
+                      "Existing command icons retained; inline commands now 44 high with 34 icons and separate 36-high captions; geometry diagram fallback for water/bridge retained."
+                  ],
+    "states":  [
+                   "neutral",
+                   "owned",
+                   "busy",
+                   "city",
+                   "blocked"
+               ],
+    "mobile":  {
+                   "width":  1600,
+                   "height":  720,
+                   "safeArea":  [
+                                    56,
+                                    12,
+                                    1504,
+                                    684
+                                ],
+                   "scale":  0.8341463414634146
+               },
+    "baselineEvidence":  [
+                             {
+                                 "path":  "F:/EasternDynastyBuild/Releases/s1-20261028-022752190/Project/Validation/Visual/s1-20261028-022752190-youzhou-1440x900/smoke-land-grain.png",
+                                 "sha256":  "724F08A586D47B6219F004C0214D2941C041FBA7CD4B2066DF42BE4CA4A5193A",
+                                 "id":  "desktop"
+                             },
+                             {
+                                 "path":  "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-mobile-1600x720/smoke-land-grain.png",
+                                 "sha256":  "B5F0F505D8F05F4D13510B240A3AB9C0787D619EF364A562BA4875F0BC3094C2",
+                                 "id":  "mobile"
+                             }
+                         ],
+    "commandLayout":  {
+                          "city":  [
+                                       0,
+                                       76,
+                                       328,
+                                       44
+                                   ],
+                          "owned":  [
+                                        0,
+                                        76,
+                                        104,
+                                        44
+                                    ],
+                          "neutral":  [
+                                          0,
+                                          84,
+                                          328,
+                                          44
+                                      ],
+                          "captionMinimumFont":  14,
+                          "icon":  [
+                                       34,
+                                       34
+                                   ],
+                          "captionHeight":  36,
+                          "busy":  [
+                                       0,
+                                       76,
+                                       160,
+                                       44
+                                   ]
+                      },
+    "previewLimitations":  [
+                               "Contextual montage uses old screenshots and adjacent-map patch; it is not new game output.",
+                               "Dynamic sample values describe sample states; game uses existing Core values.",
+                               "Legacy resource and action symbols are preserved; formal exports contain only three text-free vector surfaces.",
+                               "Full original placement around the selected map tile remains a separate layout gap."
+                           ]
+}

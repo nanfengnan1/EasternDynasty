@@ -1,0 +1,21 @@
+{
+  "title": "FBX - Blender 4.5 LTS Manual",
+  "source_url": "https://docs.blender.org/manual/en/4.5/addons/import_export/scene_fbx.html",
+  "final_url": "https://docs.blender.org/manual/en/4.5/addons/import_export/scene_fbx.html",
+  "accessed_at": "2026-10-24T10:36:39.607Z",
+  "sha256": "4121f680e288ffef74edf0cf94915a626c97104cc4c65e9e1eb9340655e197d1",
+  "byte_length": 429381,
+  "headings": [
+    "FBX ¶",
+    "Enabling Add-on ¶",
+    "Usage ¶",
+    "Properties ¶",
+    "Import ¶",
+    "Export ¶",
+    "Compatibility ¶",
+    "Import ¶",
+    "Export ¶"
+  ],
+  "image_links": [],
+  "storage_note": "Stores bibliographic metadata and image URLs only; full article body is not saved."
+}

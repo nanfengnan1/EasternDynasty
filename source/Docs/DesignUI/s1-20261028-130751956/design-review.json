@@ -1,0 +1,40 @@
+{
+  "version": "s1-20261028-130751956",
+  "status": "design-inspected-runtime-pending",
+  "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+  "referenceViewed": [
+    "STZB-0499",
+    "STZB-0527"
+  ],
+  "baselineVersion": "s1-20261028-110251322",
+  "previews": [
+    {
+      "path": "Docs/DesignUI/s1-20261028-130751956/desktop/exports/city-label-preview.png",
+      "sha256": "a837b1685518fb2231ca347c2df70afaffaa8f4ea37ce7747003a8add1fe6938",
+      "receipt": "Docs/DesignUI/s1-20261028-130751956/desktop/exports/export-receipt.json"
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261028-130751956/mobile/exports/city-label-preview.png",
+      "sha256": "81d4c814d75f0b469987b04ff16798a0b09045ec194906f5c3d3c41fba5d9ffa",
+      "receipt": "Docs/DesignUI/s1-20261028-130751956/mobile/exports/export-receipt.json"
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261028-130751956/states/exports/city-label-preview.png",
+      "sha256": "b5a9af18d302319325d41e2ae7649c6e5759153fdb6353ec71ec9c86ce06aa40",
+      "receipt": "Docs/DesignUI/s1-20261028-130751956/states/exports/export-receipt.json"
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261028-130751956/components/exports/city-label-preview.png",
+      "sha256": "fc21df770892827e93d958537dc7393c581d309a8d4762aa58d4a05556ce127a",
+      "receipt": "Docs/DesignUI/s1-20261028-130751956/components/exports/export-receipt.json"
+    }
+  ],
+  "findings": [
+    "独立圆章与完整城市图接横向名签，区别于原124×29纯色矩形。",
+    "城名、真实归属和等级分层，长名称两行，不把动态文字烘焙。",
+    "已修透明组件边界及设计叠加文本编码，查看最终桌面/手机/状态导出。",
+    "设计预览复用旧地图，旧图边缘像素与运行时实际透明混合仍待发布者新截图。",
+    "圆章内城市图是既有派生图，未取得正式单体城市图标；不能称还原原作。"
+  ],
+  "runtimeAccepted": false
+}

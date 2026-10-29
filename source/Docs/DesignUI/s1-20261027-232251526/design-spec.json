@@ -1,0 +1,107 @@
+{
+  "version": "s1-20261027-232251526",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "id": "STZB-0467",
+    "path": "F:/工作项目/率土之滨/rag/assets/e5/e5abedde334d978717e308c869709386316d462218423043087044a4c13134db.png",
+    "size": [
+      1793,
+      1008
+    ],
+    "year": 2022,
+    "scope": "Historical official card detail; current S1 styling unknown"
+  },
+  "baselineVersion": "s1-20261027-104752269",
+  "layout": {
+    "contentHeight": 440,
+    "attributes": [
+      8,
+      0,
+      "width-16",
+      312
+    ],
+    "status": [
+      8,
+      62,
+      "width-16",
+      38
+    ],
+    "rowStart": 116,
+    "rowPitch": 54,
+    "iconSize": 32,
+    "columnGap": 12,
+    "statOffsets": {
+      "label": 42,
+      "value": 90,
+      "growth": 176
+    },
+    "troops": [
+      8,
+      278,
+      "width-16",
+      34
+    ],
+    "skillY": 332,
+    "skillHeight": 100,
+    "skillGap": 12,
+    "skillRing": [
+      8,
+      14,
+      72,
+      72
+    ],
+    "skillBook": [
+      20,
+      37,
+      48,
+      26
+    ],
+    "skillTitle": [
+      92,
+      8,
+      "width-100",
+      30
+    ],
+    "skillName": [
+      92,
+      38,
+      "width-100",
+      54
+    ]
+  },
+  "components": [
+    "dossier_attack",
+    "dossier_siege",
+    "dossier_defense",
+    "dossier_speed",
+    "dossier_strategy",
+    "dossier_skill_ring"
+  ],
+  "reusedComponents": [
+    "portrait_base",
+    "nav_book"
+  ],
+  "notes": [
+    "Attributes span the full information width; two skills move from the vertical rail to one lower row.",
+    "Five symbols are editable silhouettes based on official reference; no screenshot pixels exported.",
+    "Existing neutral book denotes a skill record, not official native-skill artwork or grade.",
+    "No invented locked slots, troop/stamina totals or level-adjusted attributes.",
+    "The preceding editable portrait composition is retained. Previews are composites, not new runtime captures."
+  ],
+  "actualMobileSafeArea": {
+    "x": 56,
+    "y": 12,
+    "width": 1504,
+    "height": 684,
+    "scale": 0.8341463414634146
+  },
+  "supplementaryReference": {
+    "id": "Q07-community-card",
+    "path": "F:/工作项目/率土之滨/rag/assets/38/381febccce9065421a0eff6731ad21abd368f0e4d8b0a82cd3c38c46969d9568.webp",
+    "sourcePublishedAt": "2026-06-25",
+    "screenshotAt": null,
+    "currentS1": "unknown",
+    "excludedFromS1": true,
+    "use": "Layout cross-check only; no rules, identity or production pixels imported."
+  }
+}

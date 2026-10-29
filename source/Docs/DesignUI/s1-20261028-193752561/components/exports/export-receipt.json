@@ -1,0 +1,34 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T19:47:41.8866814Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-193752561\\components\\header.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-193752561\\components\\header.svg",
+    "sourceSha256":  "50192652F528C7830C2762D70FF121721B892E451235CD4EF3B6966590F24ECE",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-193752561\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-193752561\\components\\exports\\header-preview.png",
+                       "sha256":  "06147D1C2B25F2BA3E56E467D1887E75EF4C67E1E3993874A51EDE3DA9762922",
+                       "width":  1920,
+                       "height":  411,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-193752561\\components\\exports\\header-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-193752561\\components\\exports\\header-header-identity.png",
+                       "sha256":  "A551B65D93D6EAD78B58D86E15261ABF42CADF2085FA93D2E557EA4377A63A55",
+                       "width":  492,
+                       "height":  124,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-193752561\\components\\exports\\header-header-identity.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-193752561\\components\\exports\\header-header-ledger.png",
+                       "sha256":  "7D8919C6DBFCB11A97A45F1A0812192790C0FDC821E5236F2E6671E775B6411D",
+                       "width":  1344,
+                       "height":  116,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-193752561\\components\\exports\\header-header-ledger.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

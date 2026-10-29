@@ -1,0 +1,41 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T22:31:59.4821885Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-222251138\\components\\portrait.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261027-222251138\\components\\portrait.svg",
+    "sourceSha256":  "EE8D7C1A1BEA8A90CC5B75A810973F5B7C557F911F29C267D18B87865351E7BE",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-222251138\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-222251138\\components\\exports\\portrait-preview.png",
+                       "sha256":  "63B3A85D39E40A78E3CE5E740F22CC4E996FBE3A0787081FA77B87D4E56411A3",
+                       "width":  1240,
+                       "height":  500,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-222251138\\components\\exports\\portrait-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-222251138\\components\\exports\\portrait-portrait-ribbon.png",
+                       "sha256":  "853DDFBAFB2ED2E7D3915ADFCD8EEEF222EA759424450622F5F089E4A022F5C3",
+                       "width":  96,
+                       "height":  480,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-222251138\\components\\exports\\portrait-portrait-ribbon.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-222251138\\components\\exports\\portrait-portrait-seal.png",
+                       "sha256":  "C13054B21E336C9CBAB97246284E05D36B19DCDCFABDAC2C292F11BA27BC6E1E",
+                       "width":  96,
+                       "height":  96,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-222251138\\components\\exports\\portrait-portrait-seal.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-222251138\\components\\exports\\portrait-portrait-base.png",
+                       "sha256":  "A7525DDF41A510D95E1A664A9062D7F057A960507BCB76D90CC5306E36BB0F28",
+                       "width":  1040,
+                       "height":  136,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-222251138\\components\\exports\\portrait-portrait-base.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

@@ -1,0 +1,48 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T13:55:20.8081117Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-134751635\\components\\quest.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261027-134751635\\components\\quest.svg",
+    "sourceSha256":  "E0468A85EF9EFBCF5A51CA42276E56C5A58A09A87AC739E009800D6A5791FEC8",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-134751635\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-134751635\\components\\exports\\quest-preview.png",
+                       "sha256":  "8E8E14FCDE1A0CA9104A153BF314B28D0D36DBEDA1FAEA6FD4D3D1DFA70597A5",
+                       "width":  1080,
+                       "height":  320,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-134751635\\components\\exports\\quest-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-134751635\\components\\exports\\quest-quest-banner.png",
+                       "sha256":  "20F4FC52BE3B33CB3D845C4BE8D509197666E5A85348F8B45BAE96F759C04595",
+                       "width":  56,
+                       "height":  120,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-134751635\\components\\exports\\quest-quest-banner.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-134751635\\components\\exports\\quest-quest-strip.png",
+                       "sha256":  "E4CC9D78CA2E4C2AC88D328B1B9732495D250972A62CD45C30F725D353BAFBEC",
+                       "width":  290,
+                       "height":  72,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-134751635\\components\\exports\\quest-quest-strip.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-134751635\\components\\exports\\quest-quest-action.png",
+                       "sha256":  "B1C422A9DEC8DD91F09904848F6F41760682A1BDB21BC9552C8C52E4F3FEA7F9",
+                       "width":  132,
+                       "height":  44,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-134751635\\components\\exports\\quest-quest-action.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-134751635\\components\\exports\\quest-quest-action-ready.png",
+                       "sha256":  "BCC8B0AABABD738B6FEFD6DDAF5B583730ECB274D0A347E12787C87E2082A058",
+                       "width":  132,
+                       "height":  44,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-134751635\\components\\exports\\quest-quest-action-ready.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

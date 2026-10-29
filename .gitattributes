@@ -1,0 +1,3 @@
+
+# Preserve source bytes: UI manifests and design receipts bind SHA-256.
+source/** -text

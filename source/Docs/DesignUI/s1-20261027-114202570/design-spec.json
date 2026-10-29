@@ -1,0 +1,108 @@
+{
+  "version": "s1-20261027-114202570",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "id": "STZB-0499",
+    "file": "F:/工作项目/率土之滨/rag/assets/20/20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f.jpg",
+    "scope": "2021 anniversary interface, current S1 unknown; composition only",
+    "width": 2340,
+    "height": 1080,
+    "officialVisualRationale": "https://stzb.163.com/news/20210820/20395_967644.html"
+  },
+  "baselineVersion": "s1-20261027-104752269",
+  "footerHeight": 78,
+  "button": {
+    "width": 108,
+    "height": 70,
+    "pitch": 116,
+    "yFromBottom": 74,
+    "image": [
+      34,
+      8,
+      70,
+      56
+    ],
+    "caption": [
+      5,
+      4,
+      25,
+      50
+    ],
+    "captionFlow": "vertical two characters in 25-unit rows"
+  },
+  "group": {
+    "width": 580,
+    "anchor": "left-bottom",
+    "order": [
+      "city-open",
+      "map-tab",
+      "roster-tab",
+      "reports-tab",
+      "hud-help"
+    ],
+    "left": 20
+  },
+  "recruit": {
+    "anchor": "right-bottom",
+    "right": 20,
+    "width": 132,
+    "image": [
+      46,
+      7,
+      40,
+      38
+    ],
+    "caption": [
+      8,
+      47,
+      116,
+      22
+    ],
+    "skinBounds": [
+      12.5,
+      0,
+      107,
+      70
+    ]
+  },
+  "utilities": {
+    "anchor": "bottom",
+    "x": "max(620,(width-262)/2)",
+    "save": [
+      0,
+      13,
+      82,
+      49
+    ],
+    "clock": [
+      82,
+      13,
+      180,
+      49
+    ]
+  },
+  "fonts": {
+    "family": "Microsoft YaHei / Noto Sans SC",
+    "caption": 16,
+    "utility": 16,
+    "title": 18
+  },
+  "colors": {
+    "caption": "#e0d2aa",
+    "background": "#1b2428"
+  },
+  "states": [
+    "normal",
+    "selected/hover active frame",
+    "modal no targets"
+  ],
+  "runtime": "MapHudPresentation.DrawYouzhouMapFooter",
+  "notes": [
+    "Only navigation region is redesigned; baseline outside footer is old screenshot context.",
+    "City/mountain and existing portraits are reused at native small display sizes.",
+    "Envelope retains the 2015 documented mail motif; help book retains existing compatibility appearance. Neither is a new official UI asset.",
+    "Recruit portrait is existing starter/pool identity, not a result preview or new recruitable identity.",
+    "No reference screenshot is included in exported production objects.",
+    "2021 portrait tickets adapted to 70-unit footer controls so map viewport and touch/navigation remain stable; this is not a full reconstruction."
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "version": "s1-20261028-183252245",
+  "status": "design-reviewed-source-integrated-runtime-pending",
+  "atUtc": "2026-10-28T18:51:54.035Z",
+  "views": [
+    {
+      "part": "desktop",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "source": "Docs\\DesignUI\\s1-20261028-183252245\\desktop\\atlas.svg",
+      "sourceSha256": "bb58b3cd850939153091a8dc5b6faf811365f85f361273c4d440fd7d603ba263",
+      "preview": "Docs\\DesignUI\\s1-20261028-183252245\\desktop\\exports\\atlas-preview.png",
+      "previewSha256": "eb6f92658b856eaa223562c4b5dbff1ddd95baa3f24efa51290a1ec6dddbcd9c",
+      "receipt": "Docs/DesignUI/s1-20261028-183252245/desktop/exports/export-receipt.json",
+      "inspectedBy": "primary-agent with view_image before Runtime implementation"
+    },
+    {
+      "part": "mobile",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "source": "Docs\\DesignUI\\s1-20261028-183252245\\mobile\\atlas.svg",
+      "sourceSha256": "88b4c8c5562d597c24dcdb5d162644352288dcdfe698eee6f4671d282b5b4fce",
+      "preview": "Docs\\DesignUI\\s1-20261028-183252245\\mobile\\exports\\atlas-preview.png",
+      "previewSha256": "ef934231a88f42ba79545fb88261f06f5c744994f6e321eff34107bf7b093087",
+      "receipt": "Docs/DesignUI/s1-20261028-183252245/mobile/exports/export-receipt.json",
+      "inspectedBy": "primary-agent with view_image before Runtime implementation"
+    },
+    {
+      "part": "states",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "source": "Docs\\DesignUI\\s1-20261028-183252245\\states\\atlas.svg",
+      "sourceSha256": "954fcb98e3b337775c8eec76166e8d6111ab98719b928bce979105abbe9bcd0b",
+      "preview": "Docs\\DesignUI\\s1-20261028-183252245\\states\\exports\\atlas-preview.png",
+      "previewSha256": "a35a2f332b868983687167736c5258a0220bf9e3ff79672a2282e631f9cef2fd",
+      "receipt": "Docs/DesignUI/s1-20261028-183252245/states/exports/export-receipt.json",
+      "inspectedBy": "primary-agent with view_image before Runtime implementation"
+    },
+    {
+      "part": "components",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "source": "Docs\\DesignUI\\s1-20261028-183252245\\components\\atlas.svg",
+      "sourceSha256": "5dc566f4865d8bffc7052b4227a1ccb277de2330858af665f22bde2e0a47f6d2",
+      "preview": "Docs\\DesignUI\\s1-20261028-183252245\\components\\exports\\atlas-preview.png",
+      "previewSha256": "629ab0cef822bd5650d6154d00c836ccd5040c0bfab750bacd9cee571638f0a4",
+      "receipt": "Docs/DesignUI/s1-20261028-183252245/components/exports/export-receipt.json",
+      "inspectedBy": "primary-agent with view_image before Runtime implementation"
+    }
+  ],
+  "referencesActuallyOpened": [
+    "STZB-0527",
+    "STZB-0395"
+  ],
+  "baselineActuallyOpened": [
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-162252252/Project/Validation/Visual/s1-20261028-162252252-youzhou-1440x900/smoke-hud-design-minimap.png",
+      "sha256": "bbdca99f2b37ba2d6d8a92f22a4dd8a9c627948f6499898513b3a808e3a87aac"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-162252252/Project/Validation/Visual/s1-20261028-162252252-mobile-1600x720/smoke-hud-design-minimap.png",
+      "sha256": "efab80cc59ea17f02dd7534aa6f20b615f92f3d9e617f07906624768e8defaa1"
+    }
+  ],
+  "corrections": [
+    "Removed duplicate locator image layer.",
+    "Matched side strip gradient to reused editable original and exported texture.",
+    "Re-exported all four sources and inspected final previews before Runtime changes."
+  ],
+  "findings": [
+    "204-square whole-map imagery remains separate from 72-wide live text rail.",
+    "60-circle locator has a separate 20x28 image and 60x20 live caption.",
+    "Desktop/mobile labels fit the editable preview; actual Unity font fit and alpha remain mandatory publisher gates.",
+    "Panel is wider by 50 and shorter by 82; no claim of narrower footprint."
+  ],
+  "limitations": [
+    "Terrain/viewport on design board is an explicitly labelled old screenshot sample.",
+    "Edge coordinate state demonstrates text only; no claim of new camera geometry.",
+    "References are historical, S1 unknown. No current official UI restoration claim.",
+    "No Unity/client/desktop run performed."
+  ],
+  "productionComponents": [
+    "ui.youzhou.atlas_locate_dark",
+    "ui.youzhou.atlas_locate_dark_hover",
+    "ui.youzhou.atlas_pin_light"
+  ],
+  "specSha256": "fe9ac1568c4993cdab36987fb37bd63057df28bfe22171317e1026441fb133b3"
+}

@@ -1,0 +1,231 @@
+{
+    "version":  "s1-20261028-095751175",
+    "status":  "implemented-awaiting-publisher",
+    "reference":  {
+                      "id":  "S1-RES-009",
+                      "path":  "F:/工作项目/率土之滨/rag/assets/ea/ead909e3cd3ff7f4a6b2a1c98bcada429ae47bb1a77d5801c202c2c26b10dd6a.jpg",
+                      "sha256":  "ead909e3cd3ff7f4a6b2a1c98bcada429ae47bb1a77d5801c202c2c26b10dd6a",
+                      "size":  [
+                                   554,
+                                   236
+                               ],
+                      "scope":  "2021 historical S1 land selection; layout only; not current S1 art or rules"
+                  },
+    "baselines":  [
+                      {
+                          "path":  "F:/EasternDynastyBuild/Releases/s1-20261028-085252514/Project/Validation/Visual/s1-20261028-085252514-youzhou-1440x900/smoke-land-design.png",
+                          "sha256":  "f8ca718d66daf2f373753c317dbe04ec33154622d52d5896ec340ffe44f9ff51"
+                      },
+                      {
+                          "path":  "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-mobile-1600x720/smoke-land-owned.png",
+                          "sha256":  "8dbe6ea84f946b5ada3843c4d9131b8f9ba952e00b948d7aa432847b8e74b0ee"
+                      }
+                  ],
+    "differences":  [
+                        "Fixed remote right rail becomes two target-relative cards with an open center.",
+                        "Compact 140x70 complete terrain image reduces duplicated landscape dominance.",
+                        "Three narrow side-by-side commands become vertical 208x44 horizontal picture/text strips, 140-wide captions."
+                    ],
+    "layout":  {
+                   "facts":  [
+                                 280,
+                                 266
+                             ],
+                   "commandSurface":  [
+                                          240,
+                                          292
+                                      ],
+                   "art":  [
+                               12,
+                               68,
+                               256,
+                               84
+                           ],
+                   "image":  [
+                                 16,
+                                 76,
+                                 140,
+                                 70
+                             ],
+                   "identity":  [
+                                    166,
+                                    74,
+                                    102,
+                                    78
+                                ],
+                   "summary":  [
+                                   16,
+                                   164,
+                                   248,
+                                   102
+                               ],
+                   "actions":  [
+                                   16,
+                                   12,
+                                   208,
+                                   264
+                               ],
+                   "commandYs":  [
+                                     116,
+                                     168,
+                                     220
+                                 ],
+                   "minimumFontSize":  14,
+                   "preferredFontSize":  18
+               },
+    "drafts":  [
+                   {
+                       "name":  "desktop",
+                       "state":  "owned",
+                       "canvas":  [
+                                      1440,
+                                      900
+                                  ],
+                       "scale":  1,
+                       "target":  [
+                                      720,
+                                      540
+                                  ],
+                       "placement":  {
+                                         "fx":  394,
+                                         "fy":  407,
+                                         "cx":  792,
+                                         "cy":  394,
+                                         "mode":  "flanking"
+                                     }
+                   },
+                   {
+                       "name":  "mobile",
+                       "state":  "owned",
+                       "canvas":  [
+                                      1600,
+                                      720
+                                  ],
+                       "scale":  0.8341463414634146,
+                       "target":  [
+                                      902,
+                                      516
+                                  ],
+                       "placement":  {
+                                         "fx":  550,
+                                         "fy":  383,
+                                         "cx":  974,
+                                         "cy":  370,
+                                         "mode":  "flanking"
+                                     }
+                   },
+                   {
+                       "name":  "neutral",
+                       "state":  "neutral",
+                       "canvas":  [
+                                      1440,
+                                      900
+                                  ],
+                       "scale":  1,
+                       "target":  [
+                                      720,
+                                      540
+                                  ],
+                       "placement":  {
+                                         "fx":  394,
+                                         "fy":  407,
+                                         "cx":  792,
+                                         "cy":  394,
+                                         "mode":  "flanking"
+                                     }
+                   },
+                   {
+                       "name":  "busy",
+                       "state":  "busy",
+                       "canvas":  [
+                                      1440,
+                                      900
+                                  ],
+                       "scale":  1,
+                       "target":  [
+                                      720,
+                                      540
+                                  ],
+                       "placement":  {
+                                         "fx":  394,
+                                         "fy":  407,
+                                         "cx":  792,
+                                         "cy":  394,
+                                         "mode":  "flanking"
+                                     }
+                   },
+                   {
+                       "name":  "city",
+                       "state":  "city",
+                       "canvas":  [
+                                      1440,
+                                      900
+                                  ],
+                       "scale":  1,
+                       "target":  [
+                                      720,
+                                      540
+                                  ],
+                       "placement":  {
+                                         "fx":  394,
+                                         "fy":  407,
+                                         "cx":  792,
+                                         "cy":  394,
+                                         "mode":  "flanking"
+                                     }
+                   },
+                   {
+                       "name":  "blocked",
+                       "state":  "blocked",
+                       "canvas":  [
+                                      1440,
+                                      900
+                                  ],
+                       "scale":  1,
+                       "target":  [
+                                      720,
+                                      540
+                                  ],
+                       "placement":  {
+                                         "fx":  394,
+                                         "fy":  407,
+                                         "cx":  792,
+                                         "cy":  394,
+                                         "mode":  "flanking"
+                                     }
+                   },
+                   {
+                       "name":  "edge",
+                       "state":  "neutral",
+                       "canvas":  [
+                                      1440,
+                                      900
+                                  ],
+                       "scale":  1,
+                       "target":  [
+                                      1350,
+                                      200
+                                  ],
+                       "placement":  {
+                                         "fx":  880,
+                                         "fy":  521,
+                                         "cx":  1180,
+                                         "cy":  508,
+                                         "mode":  "edge-dock"
+                                     }
+                   }
+               ],
+    "reusedAssets":  [
+                         "ui.youzhou.land_surface",
+                         "ui.youzhou.land_command",
+                         "ui.youzhou.land_command_active",
+                         "map.youzhou.stone",
+                         "map.youzhou.city",
+                         "map.youzhou.mountain"
+                     ],
+    "newAssets":  [
+
+                  ],
+    "context":  "Locked same-resolution older runtime baseline with adjacent-map clearing montage; previews are not runtime screenshots. Resource values are project sample data. Reference and baseline layers embedded. Existing icon vectors are layout traces only.",
+    "textAdaptation":  "Runtime measures complete text width, height and lineHeight. Commands use 18 to 14; fact title minimum17, coordinates12, level20, numeric values18, identity13. Draft uses preferred typography; publisher validates actual fonts."
+}

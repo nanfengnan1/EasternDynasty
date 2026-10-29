@@ -1,0 +1,41 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T18:45:25.4159333Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-183252245\\components\\atlas.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-183252245\\components\\atlas.svg",
+    "sourceSha256":  "5DC566F4865D8BFFC7052B4227A1CCB277DE2330858AF665F22BDE2E0A47F6D2",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-183252245\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-183252245\\components\\exports\\atlas-preview.png",
+                       "sha256":  "629AB0CEF822BD5650D6154D00C836CCD5040C0BFAB750BACD9CEE571638F0A4",
+                       "width":  680,
+                       "height":  260,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-183252245\\components\\exports\\atlas-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-183252245\\components\\exports\\atlas-atlas-locate-dark.png",
+                       "sha256":  "E8B14D85AFAB91F564CB110438EEDD6C404BDD1725F71761F9B0D0CBD8C6180F",
+                       "width":  120,
+                       "height":  120,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-183252245\\components\\exports\\atlas-atlas-locate-dark.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-183252245\\components\\exports\\atlas-atlas-locate-dark-hover.png",
+                       "sha256":  "695A542A6C61E195680B2FE7BBB5E6CCE268D8D9C9306CDBF810BEA1554C3321",
+                       "width":  120,
+                       "height":  120,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-183252245\\components\\exports\\atlas-atlas-locate-dark-hover.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-183252245\\components\\exports\\atlas-atlas-pin-light.png",
+                       "sha256":  "1B286FCF5E8D1818250DFD031F90B86EDA0C11A39384A24F0425D9362350A515",
+                       "width":  40,
+                       "height":  56,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-183252245\\components\\exports\\atlas-atlas-pin-light.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

@@ -1,0 +1,116 @@
+{
+  "version": "s1-20261028-120252024",
+  "status": "implemented-awaiting-publisher",
+  "reference": {
+    "id": "S1-RES-009",
+    "path": "F:/工作项目/率土之滨/rag/assets/ea/ead909e3cd3ff7f4a6b2a1c98bcada429ae47bb1a77d5801c202c2c26b10dd6a.jpg",
+    "sha256": "ead909e3cd3ff7f4a6b2a1c98bcada429ae47bb1a77d5801c202c2c26b10dd6a",
+    "size": [
+      554,
+      236
+    ],
+    "scope": "2021 historical S1 tutorial; layout only, no official rule or HD material claim"
+  },
+  "baselines": [
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-110251322/Project/Validation/Visual/s1-20261028-110251322-youzhou-1440x900/smoke-land-orders.png",
+      "sha256": "378afaeabaa60fb577b005dbb1fce312b8d58bf589d3ae78f5d0190432271e25",
+      "version": "s1-20261028-110251322"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-110251322/Project/Validation/Visual/s1-20261028-110251322-mobile-1600x720/smoke-land-orders.png",
+      "sha256": "a1dd14a9a9254589b3cb2269f2140a77814a81e4d4ba9ee70a336562bc5324c3",
+      "version": "s1-20261028-110251322"
+    }
+  ],
+  "differences": [
+    "Two separated dark fact blocks become one compact information leaf with two horizontal label/value rows.",
+    "Control and yield values use a subordinate 20-22px hierarchy instead of competing 27px columns; level and ownership remain distinct.",
+    "Complete tile increases from 140x70 to 156x78 while the total leaf shrinks from 280x266 to 280x228."
+  ],
+  "layout": {
+    "facts": [
+      280,
+      228
+    ],
+    "header": [
+      0,
+      0,
+      280,
+      148
+    ],
+    "art": [
+      12,
+      64,
+      256,
+      84
+    ],
+    "image": [
+      12,
+      68,
+      156,
+      78
+    ],
+    "identity": [
+      178,
+      72,
+      90,
+      70
+    ],
+    "summary": [
+      16,
+      156,
+      248,
+      60
+    ],
+    "defense": [
+      16,
+      156,
+      248,
+      28
+    ],
+    "yield": [
+      16,
+      188,
+      248,
+      28
+    ],
+    "label": [
+      0,
+      0,
+      112,
+      28
+    ],
+    "icon": [
+      116,
+      3,
+      22,
+      22
+    ],
+    "value": [
+      144,
+      0,
+      104,
+      28
+    ],
+    "close": [
+      224,
+      12,
+      44,
+      44
+    ]
+  },
+  "components": [
+    "land_facts"
+  ],
+  "reusedAssets": [
+    "map.youzhou.stone",
+    "map.youzhou.city",
+    "map.youzhou.mountain"
+  ],
+  "runtime": [
+    "LandSelectionLayout.cs",
+    "LandSelectionPresentation.cs"
+  ],
+  "context": "Desktop and mobile are separate actual 110 baseline screenshots. Only the old fact rectangle is cleared using a disclosed neighboring-map montage; repeated terrain in that region is not a new game render. State sheet contains editable sample game data, not official rules. Existing guard symbol is a layout placeholder, not exported new art."
+}

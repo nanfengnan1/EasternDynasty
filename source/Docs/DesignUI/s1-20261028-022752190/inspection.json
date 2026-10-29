@@ -1,0 +1,148 @@
+{
+  "version": "s1-20261028-022752190",
+  "status": "design-export-inspected-runtime-pending",
+  "atUtc": "2026-10-28T02:52:54.570Z",
+  "inspected": [
+    "Q08-A001 original 767x393",
+    "STZB-0453 original 510x288",
+    "Q09-CU-A001 original 800x450",
+    "104752269 desktop/mobile facility-catalog baseline",
+    "desktop/mobile/working/component Inkscape previews before Runtime changes"
+  ],
+  "findings": [
+    "Removed circular medallions and separate level ticks; full building artwork occupies a 216x162 rectangle beside factual rows and the action.",
+    "Desktop preview shows four complete nodes; mobile preview six. Partially visible rows still require scrolling before interaction.",
+    "Initial example benefits and busy queue labels corrected against existing Core/Application, then re-exported and viewed.",
+    "Font budget prompted increasing the three-column threshold to 1460; the inspected desktop/mobile compositions are byte-identical after regeneration and their receipts remain valid.",
+    "Historical reference is layout research. Existing 240x180 project building illustrations remain; not current S1 official art or runtime screenshots."
+  ],
+  "baselines": [
+    {
+      "path": "Docs/DesignUI/s1-20261028-022752190/baseline/desktop.png",
+      "sha256": "b0b671973dfbaa5cd3f4d38c90541ece0fe3cd319aac34ca1fd6da6c93c7022f",
+      "bytes": 420592
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261028-022752190/baseline/mobile.png",
+      "sha256": "2f2d44fb297368ca4967da0382ebcb9c38dfd0b535e0825a4ac1a7ff23783ea0",
+      "bytes": 337710
+    }
+  ],
+  "receipts": [
+    {
+      "path": "Docs/DesignUI/s1-20261028-022752190/desktop/exports/export-receipt.json",
+      "sha256": "5b4b935ec5b79eb26cd107ffe65ecac87bae91f3639347ee52731dbac321c80f",
+      "bytes": 1362,
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261028-022752190\\desktop\\catalog.svg",
+        "sha256": "900ae12714cc7d5cd9958a47689a0c78b17a55046f3ec796cadde5632d33e100",
+        "bytes": 1071745
+      },
+      "images": [
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-022752190\\desktop\\exports\\catalog-preview.png",
+          "sha256": "f371d141305f5fc7a7b69c26badc0d6fb044c10a2fd52615e30334b1e17ed2fa",
+          "bytes": 421759,
+          "width": 1440,
+          "height": 900
+        }
+      ]
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261028-022752190/mobile/exports/export-receipt.json",
+      "sha256": "de898b8730faac737ef2b9efe1efdb03b8734c807019c994bfefed48e8c6ba11",
+      "bytes": 1357,
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261028-022752190\\mobile\\catalog.svg",
+        "sha256": "93999c6cb603ceef2027f83511d2f46f04021faa4297c014930bc5b6ac1bda49",
+        "bytes": 962566
+      },
+      "images": [
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-022752190\\mobile\\exports\\catalog-preview.png",
+          "sha256": "bf32895ffaef236bcd5d685fad32d4c18236809565d56667b784583eebb71f72",
+          "bytes": 360138,
+          "width": 1600,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261028-022752190/states/exports/export-receipt.json",
+      "sha256": "54dc5284b4a0e9eeccff209989a464720ece070e257565df47792652f885c71d",
+      "bytes": 1357,
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261028-022752190\\states\\catalog.svg",
+        "sha256": "a482a6b7806c2c52273695bd6f0879336b6742586cdcca392d683716fedd2487",
+        "bytes": 1072959
+      },
+      "images": [
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-022752190\\states\\exports\\catalog-preview.png",
+          "sha256": "10144c29ea31daaf9ab921eddddc1df0681d20d78a43fb9f57a5fb850310460b",
+          "bytes": 416217,
+          "width": 1440,
+          "height": 900
+        }
+      ]
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261028-022752190/components/exports/export-receipt.json",
+      "sha256": "f9fe578d39f8ef70234ac2d33b4ca5ee80f268785631ad860bc8cc82514936fa",
+      "bytes": 3471,
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261028-022752190\\components\\catalog.svg",
+        "sha256": "06f712426fb9eae7bad634e14fd5a137b0d1496b213c59dc06c637bc4a0a754b",
+        "bytes": 1219
+      },
+      "images": [
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\catalog-preview.png",
+          "sha256": "5394af89467aa947aee9d6c8e69cf639815e6728b3b92b1af67ca1f4560332fc",
+          "bytes": 388104,
+          "width": 1024,
+          "height": 760
+        },
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\catalog-catalog-sheet.png",
+          "sha256": "3ada45466e9103fd3f1883fce52951859a0efeff511ec32c4779ad0185bd6324",
+          "bytes": 385628,
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\catalog-catalog-rule.png",
+          "sha256": "4e78734dffe775901fe67f04df14cb0a6cd91a3fab6138a43d61960b24bb940c",
+          "bytes": 1560,
+          "width": 1024,
+          "height": 2
+        },
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\catalog-catalog-category.png",
+          "sha256": "2291fb220fab980d72ceebd6ff3f0110341fdcf9a56ee513d7b38aa1f469fe00",
+          "bytes": 459,
+          "width": 368,
+          "height": 88
+        },
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\catalog-catalog-category-active.png",
+          "sha256": "d249ba7d4d884a54dc2e32a889167ab00d13cecea338fabc0164cf23d8b526de",
+          "bytes": 459,
+          "width": 368,
+          "height": 88
+        }
+      ]
+    }
+  ],
+  "sourceBoundaries": "Locked references are excluded from component exports. Components contain only editable vector surfaces; dynamic text and existing building images are independent.",
+  "publisherRequired": [
+    "Both desktop resolutions and mobile safe-area actual screenshots",
+    "Actual Chinese font fit including level-10 barracks",
+    "Image/name/action input, touch scroll cancellation, actual navigation/back and modal isolation",
+    "Three-way original/design/runtime visual review; Android device validation remains outstanding"
+  ]
+}

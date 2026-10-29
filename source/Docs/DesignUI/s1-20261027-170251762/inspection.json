@@ -1,0 +1,126 @@
+{
+  "version": "s1-20261027-170251762",
+  "atUtc": "2026-10-27T17:28:35.897Z",
+  "status": "design-inspected-and-integrated-runtime-review-pending",
+  "referencesActuallyViewed": [
+    "STZB-0428",
+    "STZB-0431"
+  ],
+  "runtimeBaselinesViewed": [
+    "104752269 youzhou-1440x900 smoke-city-developed",
+    "104752269 mobile-1600x720 smoke-city-developed"
+  ],
+  "reviewed": [
+    {
+      "target": "desktop",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "receipt": "Docs/DesignUI/s1-20261027-170251762/desktop/exports/export-receipt.json",
+      "source": "Docs\\DesignUI\\s1-20261027-170251762\\desktop\\city-army.svg",
+      "sourceSha256": "BE40A74166D189177F1E08AF9B1838F34989CFB894EE8E934EEFAB7A940E99C7",
+      "outputs": [
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\desktop\\exports\\city-army-preview.png",
+          "sha256": "2F5C679C9A06957F7C9B961B995B04AB70D772D7F456CECE699FC8140239FCBB",
+          "width": 1440,
+          "height": 900,
+          "relativePath": "Docs\\DesignUI\\s1-20261027-170251762\\desktop\\exports\\city-army-preview.png"
+        }
+      ]
+    },
+    {
+      "target": "mobile",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "receipt": "Docs/DesignUI/s1-20261027-170251762/mobile/exports/export-receipt.json",
+      "source": "Docs\\DesignUI\\s1-20261027-170251762\\mobile\\city-army.svg",
+      "sourceSha256": "3FB65AB6EBBD736AF6D4426634030F567D0ACDD627FB0A5AC5BC0E4763C46257",
+      "outputs": [
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\mobile\\exports\\city-army-preview.png",
+          "sha256": "C2A47B9CDDD6B549AB4C667CA6962D59331C32BE89C48E9FAEB7006BF0D07CA2",
+          "width": 1600,
+          "height": 720,
+          "relativePath": "Docs\\DesignUI\\s1-20261027-170251762\\mobile\\exports\\city-army-preview.png"
+        }
+      ]
+    },
+    {
+      "target": "states",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "receipt": "Docs/DesignUI/s1-20261027-170251762/states/exports/export-receipt.json",
+      "source": "Docs\\DesignUI\\s1-20261027-170251762\\states\\city-army.svg",
+      "sourceSha256": "7138F8E06B0280940E4C27B1F74BA2709E39CBF9F061368301D705FF31B6F009",
+      "outputs": [
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\states\\exports\\city-army-preview.png",
+          "sha256": "23581638FE1D86E495584B0656A59AF024CB029DE7C3FBEB405EA06E44391636",
+          "width": 1420,
+          "height": 530,
+          "relativePath": "Docs\\DesignUI\\s1-20261027-170251762\\states\\exports\\city-army-preview.png"
+        }
+      ]
+    },
+    {
+      "target": "components",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "receipt": "Docs/DesignUI/s1-20261027-170251762/components/exports/export-receipt.json",
+      "source": "Docs\\DesignUI\\s1-20261027-170251762\\components\\city-army.svg",
+      "sourceSha256": "BF4028C84D7B92B3F185D34B9732B15C92AA394A70A2DE528225B83C395AB8F6",
+      "outputs": [
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-preview.png",
+          "sha256": "67A1ECAD4D19046133D2C112BA857B6B3A71C19A650D8B67901FE2B71B71C7DC",
+          "width": 1400,
+          "height": 500,
+          "relativePath": "Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-preview.png"
+        },
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-card.png",
+          "sha256": "D885D156FF8D6D9841C4474586B94AA7CC48F3AEBD73F9675124852BE5F9B58C",
+          "width": 128,
+          "height": 219,
+          "relativePath": "Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-card.png"
+        },
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-card-hover.png",
+          "sha256": "FA6308F87CDF1F3F413C8F309FB3F92827EFAF5E75641EECF65DF866CD93E86C",
+          "width": 128,
+          "height": 219,
+          "relativePath": "Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-card-hover.png"
+        },
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-strip.png",
+          "sha256": "75C391590A745F4977E0E49B04018A2D01CE1C4D7AA4B9DE2C97055D87F5C265",
+          "width": 380,
+          "height": 44,
+          "relativePath": "Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-strip.png"
+        },
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-command.png",
+          "sha256": "5686A436AD2ACC0E607F9649CA5BAFED7E72C2690E55707BCCE0AAEC719CBFA4",
+          "width": 126,
+          "height": 44,
+          "relativePath": "Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-command.png"
+        },
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-command-hover.png",
+          "sha256": "7E8C751C4716FEFEECBCAA2751EF6E5CAE146306B505BCA75A85D8DFA7432368",
+          "width": 126,
+          "height": 44,
+          "relativePath": "Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-command-hover.png"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "Three full paintings fit their own frames, with separate 42-unit names and levels; empty state uses appointment plus and no fabricated troop cost.",
+    "Independent title, troop/supply plinth and 44-unit commands remove the monolithic background and stretched portrait mats.",
+    "Found nested SVG context overflow during inspection; explicit clipPath replaced it. Final desktop/mobile/state exports were opened and checked after correction.",
+    "Prior runtime imagery remains locked composition context. Legacy command-art crops are context only and absent from the five formal component PNGs."
+  ],
+  "runtimeExecuted": false,
+  "figmaUsed": false,
+  "remaining": [
+    "Current S1 city same-page HD references and interaction states remain missing.",
+    "Publisher must compare new screenshots, fonts, actual image/name clicks, commands and safe area."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+    "version":  "s1-20261027-134751635",
+    "status":  "exported-inspected-runtime-integrated-awaiting-publisher",
+    "reference":  {
+                      "id":  "STZB-0499",
+                      "file":  "F:/工作项目/率土之滨/rag/assets/20/20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f.jpg",
+                      "year":  2021,
+                      "width":  2340,
+                      "height":  1080,
+                      "scope":  "Task pennant is clearly visible; current S1 unknown; composition only"
+                  },
+    "newerReference":  {
+                           "id":  "STZB-0527",
+                           "year":  2023,
+                           "width":  720,
+                           "height":  405,
+                           "role":  "Newer same map page; book-like task entrance at lower left; a different historical variant, not a reason to invent detailed artwork"
+                       },
+    "baselineVersion":  "s1-20261027-104752269",
+    "area":  [
+                 20,
+                 90,
+                 354,
+                 120
+             ],
+    "banner":  [
+                   20,
+                   90,
+                   56,
+                   120
+               ],
+    "open":  [
+                 84,
+                 90,
+                 290,
+                 72
+             ],
+    "chapter":  [
+                    94,
+                    92,
+                    270,
+                    20
+                ],
+    "title":  [
+                  94,
+                  112,
+                  270,
+                  26
+              ],
+    "objective":  [
+                      94,
+                      140,
+                      270,
+                      22
+                  ],
+    "progress":  [
+                     84,
+                     168,
+                     148,
+                     34
+                 ],
+    "action":  [
+                   242,
+                   166,
+                   132,
+                   44
+               ],
+    "fonts":  {
+                  "banner":  27,
+                  "chapter":  13,
+                  "title":  19,
+                  "objective":  14,
+                  "progress":  13,
+                  "action":  16
+              },
+    "components":  [
+                       "ui.youzhou.quest_banner",
+                       "ui.youzhou.quest_strip",
+                       "ui.youzhou.quest_action",
+                       "ui.youzhou.quest_action_ready"
+                   ],
+    "states":  [
+                   "active",
+                   "claimable",
+                   "all-complete",
+                   "land-objective-return",
+                   "modal-suppressed"
+               ],
+    "runtime":  "MapHudQuestPresentation / MapHudQuestLayout",
+    "notes":  [
+                  "Vertical black/red pennant follows visible reference, without invented ornaments.",
+                  "Horizontal transparent strips borrow the readable label hierarchy visible in the map reference; current project objective and progress remain explicit. This is a project adaptation, not official task expansion artwork.",
+                  "Area height reduces 174 to 120; no bitmap screenshot is a production component.",
+                  "No new building/portrait illustrations; all dynamic text remains runtime labels.",
+                  "Desktop and mobile retain their existing independent safe-area context layouts."
+              ]
+}

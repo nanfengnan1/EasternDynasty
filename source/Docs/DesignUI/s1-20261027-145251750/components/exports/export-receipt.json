@@ -1,0 +1,48 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T15:07:39.5024055Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-145251750\\components\\army.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261027-145251750\\components\\army.svg",
+    "sourceSha256":  "38C6761A683143B43B2D48F558A1FBF5771EFBCBD9D2D86CAB3F4D488523B8D6",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-145251750\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-145251750\\components\\exports\\army-preview.png",
+                       "sha256":  "A4963574738E68E40EB80B945D044D75E5841BC8FCC73E9CCB9A4C4E6268C8BB",
+                       "width":  1040,
+                       "height":  320,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-145251750\\components\\exports\\army-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-145251750\\components\\exports\\army-army-card.png",
+                       "sha256":  "63B5359DA155F456FAC65197B5868291A6D1A1C98F805D06BD45AD33E22E1AC3",
+                       "width":  110,
+                       "height":  142,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-145251750\\components\\exports\\army-army-card.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-145251750\\components\\exports\\army-army-strip.png",
+                       "sha256":  "A12670E04709B7E1820C8E5B5E113E9FE62F02A3B352BF81A98EED8A31EEAB7D",
+                       "width":  354,
+                       "height":  28,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-145251750\\components\\exports\\army-army-strip.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-145251750\\components\\exports\\army-army-command.png",
+                       "sha256":  "A3B0BC89F19C0CB0896402244BD8C9094F3D2818C2EB6FB83CAA3047032E7E27",
+                       "width":  171,
+                       "height":  44,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-145251750\\components\\exports\\army-army-command.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-145251750\\components\\exports\\army-army-command-hover.png",
+                       "sha256":  "93B46726386BC851841455DA3C1C5DC26AAA102F7688DEB96E9FC3FA5A40D868",
+                       "width":  171,
+                       "height":  44,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-145251750\\components\\exports\\army-army-command-hover.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

@@ -1,0 +1,159 @@
+{
+  "version": "s1-20261028-002751316",
+  "atUtc": "2026-10-28T01:01:51.993Z",
+  "status": "design-inspected-runtime-pending",
+  "exports": [
+    {
+      "target": "desktop",
+      "tool": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261028-002751316/desktop/exports/export-receipt.json",
+        "sha256": "50464ae5a103773a6ba13fbca602f545ab3059e12060cbe03e9d1aa55b3e4151",
+        "bytes": 1366
+      },
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261028-002751316\\desktop\\facility.svg",
+        "sha256": "4ee51c17d52011fc1b87a21cf9a1498d9ffc2d3457671188ce1acad563c79b37",
+        "bytes": 1662355
+      },
+      "images": [
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\desktop\\exports\\facility-preview.png",
+          "sha256": "4A54D20EEF741C2FA773A74D5FFE28433E3843DBFDB210D2FD9877F9F66DC9D2",
+          "width": 1440,
+          "height": 900,
+          "relativePath": "Docs\\DesignUI\\s1-20261028-002751316\\desktop\\exports\\facility-preview.png"
+        }
+      ]
+    },
+    {
+      "target": "mobile",
+      "tool": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261028-002751316/mobile/exports/export-receipt.json",
+        "sha256": "518b3e19677f187a5edef4325d270c79075064b443a9092655ce8d6c04349953",
+        "bytes": 1361
+      },
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261028-002751316\\mobile\\facility.svg",
+        "sha256": "2ac996176d193213d38ef9ddab92c15d5948fa0dfeddde31dc554bf1d8b7d261",
+        "bytes": 1547997
+      },
+      "images": [
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\mobile\\exports\\facility-preview.png",
+          "sha256": "73459B09FED3F69FFA9D83D7832702DF7A9C275B9431A40BF5E41FA4B9E3EDA7",
+          "width": 1600,
+          "height": 720,
+          "relativePath": "Docs\\DesignUI\\s1-20261028-002751316\\mobile\\exports\\facility-preview.png"
+        }
+      ]
+    },
+    {
+      "target": "states",
+      "tool": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261028-002751316/states/exports/export-receipt.json",
+        "sha256": "01baf6bbccc1626caadfa389c6d8c42139099a7bd7092841f91f7df773b7abef",
+        "bytes": 1361
+      },
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261028-002751316\\states\\facility.svg",
+        "sha256": "dc09434f8948713f602ed03fa1e271cd5b8ad574a2804bb7f1ace857da6d0202",
+        "bytes": 1566990
+      },
+      "images": [
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\states\\exports\\facility-preview.png",
+          "sha256": "9F1F3EA5213F9789F237DD9653D92311DF137D3110F541A71330195A33795C54",
+          "width": 1700,
+          "height": 740,
+          "relativePath": "Docs\\DesignUI\\s1-20261028-002751316\\states\\exports\\facility-preview.png"
+        }
+      ]
+    },
+    {
+      "target": "components",
+      "tool": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261028-002751316/components/exports/export-receipt.json",
+        "sha256": "1b06d2e42eac91e160763089f2969f0f16a2a48b54c2ed5c5cb5d45bb22078e2",
+        "bytes": 4009
+      },
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261028-002751316\\components\\facility.svg",
+        "sha256": "df75679155350b6775e3b26519df0a1e8734133b2e8549c6f22360cdb15c6b29",
+        "bytes": 1784
+      },
+      "images": [
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-preview.png",
+          "sha256": "9A37A835597F80F767F0DCFD44E2100398A52BBB56C781839CE18B9178BC227A",
+          "width": 1920,
+          "height": 558,
+          "relativePath": "Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-preview.png"
+        },
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-effect.png",
+          "sha256": "DADA4F539E26ACA223631C5671410707D71356434AF9504804FE5CAE6D50F282",
+          "width": 1920,
+          "height": 152,
+          "relativePath": "Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-effect.png"
+        },
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-cost.png",
+          "sha256": "FD355E7EF927CE5A2033950D5B5778F7192FF6465F29695298D6039CABDCD1EB",
+          "width": 1920,
+          "height": 176,
+          "relativePath": "Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-cost.png"
+        },
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-arrow.png",
+          "sha256": "8AE2AC5E3ADA8E94E04F4A625AD41633E3FFE3D53A3D96A1BBC01FA94883632C",
+          "width": 72,
+          "height": 48,
+          "relativePath": "Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-arrow.png"
+        },
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-command.png",
+          "sha256": "CAB4164C70596B8251627C04A384CA02E97EBF683C900B6D91FDF49CB5A70A4A",
+          "width": 720,
+          "height": 88,
+          "relativePath": "Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-command.png"
+        },
+        {
+          "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-command-hover.png",
+          "sha256": "693DD6C68876C1D75A976B573AFFB53EF8348780B36E8956B63166F5DF595BB2",
+          "width": 720,
+          "height": 88,
+          "relativePath": "Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-command-hover.png"
+        }
+      ]
+    }
+  ],
+  "baselines": [
+    {
+      "path": "Docs/DesignUI/s1-20261028-002751316/baseline/desktop.png",
+      "sha256": "cb9a9cedc94245d77b115158917aa036290e4c3587ead4e40dd8ce2d0fe21e1f",
+      "bytes": 379268
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261028-002751316/baseline/mobile.png",
+      "sha256": "1e0fecc9922f6f359111497aef11daa78e357f06181b10fbbd0246499ae36317",
+      "bytes": 293134
+    }
+  ],
+  "inspected": [
+    "Opened Q09-CU-A001 official 2024 facility page, S1-RES-029 historical residence detail and 104752269 desktop/mobile facility baselines before design.",
+    "Description now leads a compact horizontal current/next effect row; five project resources share one horizontal strip.",
+    "The fixed 360x44 command keeps time next to build/upgrade and keeps prerequisite/cancel/maximum states.",
+    "First two previews exposed nested SVG atlas overflow; corrected with explicit clipPath, then re-exported and opened desktop/mobile/states before Runtime implementation.",
+    "State preview corrected to level-zero construction, paid receipt-only cost, correct next-level costs and visibly disabled shortage command.",
+    "Five vector components inspected; no original screenshot pixels or live labels in the production exports."
+  ],
+  "limitations": [
+    "Design previews are composites, not runtime screenshots.",
+    "Existing building illustrations and eight selectors retained; current S1 high-resolution facility artwork still missing.",
+    "Inkscape profile/recent-file warning logs retained. No Figma, Unity or desktop activity."
+  ]
+}

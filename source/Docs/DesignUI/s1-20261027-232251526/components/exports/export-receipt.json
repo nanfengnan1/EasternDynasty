@@ -1,0 +1,62 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T23:29:35.5325847Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\components\\dossier.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261027-232251526\\components\\dossier.svg",
+    "sourceSha256":  "186E2714F95C55DCBF33E6F9FD0996DE7811B0E339D1F999007078E65F131C91",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-preview.png",
+                       "sha256":  "33A99808964ABD750A182FBF9DF56A138D4CE33A7DDB93EDFCA3D0E9226B7F8B",
+                       "width":  1120,
+                       "height":  320,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-dossier-attack.png",
+                       "sha256":  "52577063FB2A1733955CBB200BA3CE671AEE4B9A2BF341A6EA2EE8866ACC7F2E",
+                       "width":  64,
+                       "height":  64,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-dossier-attack.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-dossier-siege.png",
+                       "sha256":  "C297DE28BE651F7520C7865ADC107E5E03B8A4FE34C21B65C201D1B920270A15",
+                       "width":  64,
+                       "height":  64,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-dossier-siege.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-dossier-defense.png",
+                       "sha256":  "5459FC3E8CB5D0D6DD5DE8800F9E743B2FCA7142A1649A280192DD4C017F0D82",
+                       "width":  64,
+                       "height":  64,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-dossier-defense.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-dossier-speed.png",
+                       "sha256":  "1EBA2256E70D04EA81AA5BFFC59F6C2D8A938C1BA43F4C6CBC5A09F543017A4A",
+                       "width":  64,
+                       "height":  64,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-dossier-speed.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-dossier-strategy.png",
+                       "sha256":  "16218544BD995A4C01B19355E6C4272DB43F2330963F93A3F5FAE094695828D2",
+                       "width":  64,
+                       "height":  64,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-dossier-strategy.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-dossier-skill-ring.png",
+                       "sha256":  "3CA7EAAF936A35C4C66068CD6A384F56309EA71C0A5E0D842F40FF66466BE596",
+                       "width":  144,
+                       "height":  144,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-232251526\\components\\exports\\dossier-dossier-skill-ring.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

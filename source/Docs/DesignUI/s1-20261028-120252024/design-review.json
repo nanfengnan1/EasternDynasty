@@ -1,0 +1,66 @@
+{
+  "version": "s1-20261028-120252024",
+  "atUtc": "2026-10-28T12:22:32.148Z",
+  "status": "design-inspected-runtime-pending",
+  "tool": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+  "referencesInspected": [
+    {
+      "id": "S1-RES-009",
+      "path": "F:/工作项目/率土之滨/rag/assets/ea/ead909e3cd3ff7f4a6b2a1c98bcada429ae47bb1a77d5801c202c2c26b10dd6a.jpg",
+      "sha256": "ead909e3cd3ff7f4a6b2a1c98bcada429ae47bb1a77d5801c202c2c26b10dd6a",
+      "size": [
+        554,
+        236
+      ],
+      "scope": "2021 historical S1 tutorial; layout only, no official rule or HD material claim"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-110251322/Project/Validation/Visual/s1-20261028-110251322-youzhou-1440x900/smoke-land-orders.png",
+      "sha256": "378afaeabaa60fb577b005dbb1fce312b8d58bf589d3ae78f5d0190432271e25",
+      "version": "s1-20261028-110251322"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-110251322/Project/Validation/Visual/s1-20261028-110251322-mobile-1600x720/smoke-land-orders.png",
+      "sha256": "a1dd14a9a9254589b3cb2269f2140a77814a81e4d4ba9ee70a336562bc5324c3",
+      "version": "s1-20261028-110251322"
+    }
+  ],
+  "exportsInspected": [
+    {
+      "receipt": "Docs/DesignUI/s1-20261028-120252024/desktop/exports/export-receipt.json",
+      "receiptSha256": "e9a81224ca36c4e5633103a9ac513c9487210226b18c7fadc82d05a92b990446",
+      "preview": "Docs/DesignUI/s1-20261028-120252024/desktop/exports/land-facts-preview.png"
+    },
+    {
+      "receipt": "Docs/DesignUI/s1-20261028-120252024/mobile/exports/export-receipt.json",
+      "receiptSha256": "55226fe12df32ebe0348181b268eadaa9e6533292f5b4d99598b71a8cd353f9d",
+      "preview": "Docs/DesignUI/s1-20261028-120252024/mobile/exports/land-facts-preview.png"
+    },
+    {
+      "receipt": "Docs/DesignUI/s1-20261028-120252024/states/exports/export-receipt.json",
+      "receiptSha256": "96295e6cdb887655e65a81ed387ec8a976f63efb5d15bf2646dc93edf902e6db",
+      "preview": "Docs/DesignUI/s1-20261028-120252024/states/exports/land-facts-preview.png"
+    },
+    {
+      "receipt": "Docs/DesignUI/s1-20261028-120252024/components/exports/export-receipt.json",
+      "receiptSha256": "aabf46b4ac1e9c6bf96fe605c4b5afadce48d00c3b6ba5908822dd3d11c27a24",
+      "preview": "Docs/DesignUI/s1-20261028-120252024/components/exports/land-facts-preview.png"
+    }
+  ],
+  "observations": [
+    "桌面和手机的守军/产量两行均保持标签与图标/值分离，标题、等级与归属独立。",
+    "完整地块图区域面积增加约24%，事实页总面积减少约14.3%；地图目标与全部右侧命令保留。",
+    "首版邻接地图蒙版带入其它城池标签，已调整取样区域、重新导出并查看桌面/手机稿。",
+    "状态稿显示中立守军、主城辖区及不可通行；行内数值是示例，Runtime绑定当前World。"
+  ],
+  "limits": [
+    "基线上清除旧事实页所用的地图蒙版会产生重复地形，设计稿不是新运行截图。",
+    "原图只有554×236且为历史教程，只采用紧凑行式信息层级；没有导入原图像素。",
+    "原作更小的浮签、高清地图、正式图标仍有差距；保留完整地块图是项目可读性的适配。",
+    "Windows实际字体与手机CJK行高仍须发布者测量，移动预览不等于真机。"
+  ],
+  "runtimeEntry": [
+    "LandSelectionLayout.cs",
+    "LandSelectionPresentation.cs"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": "s1-20261027-155751815",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "primary": "STZB-0527",
+    "year": 2023,
+    "dimensions": [
+      720,
+      405
+    ],
+    "support": "STZB-0499",
+    "supportYear": 2021,
+    "supportDimensions": [
+      2340,
+      1080
+    ],
+    "scope": "Same map page: floating minimap, round location control and compact coordinate label; current S1 appearance unconfirmed. Historical images are measurement-only."
+  },
+  "baselineVersion": "s1-20261027-104752269",
+  "area": {
+    "right": 20,
+    "top": 90,
+    "width": 232,
+    "height": 286
+  },
+  "title": [
+    0,
+    0,
+    162,
+    44
+  ],
+  "locate": [
+    178,
+    0,
+    44,
+    44
+  ],
+  "pin": [
+    192,
+    4,
+    16,
+    22
+  ],
+  "terrain": [
+    14,
+    54,
+    204,
+    204
+  ],
+  "legend": [
+    14,
+    264,
+    204,
+    22
+  ],
+  "terrainOpacity": 0.88,
+  "fonts": {
+    "title": 17,
+    "coordinate": 13,
+    "legend": 12,
+    "home": 11
+  },
+  "components": [
+    "ui.youzhou.atlas_strip",
+    "ui.youzhou.atlas_locate",
+    "ui.youzhou.atlas_locate_hover",
+    "ui.youzhou.atlas_pin"
+  ],
+  "runtime": "MinimapPresentation / MapHudAtlasLayout",
+  "notes": [
+    "No full backdrop; same 204-square terrain, dynamic ownership and camera polygon.",
+    "Baseline atlas image is clipped for design preview only; never imported as an asset.",
+    "No new map geography, gameplay, save state or original-game icon raster import.",
+    "Inherited header/army/quest/navigation are prior design context, not new runtime screenshots."
+  ]
+}

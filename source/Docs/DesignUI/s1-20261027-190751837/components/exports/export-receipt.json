@@ -1,0 +1,55 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T19:20:42.8164934Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-190751837\\components\\city-dock.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261027-190751837\\components\\city-dock.svg",
+    "sourceSha256":  "EA1952415F65A083C61AD5948A3BB34F53F88482C93F0B0ADBF427561B7C19D4",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-190751837\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-190751837\\components\\exports\\city-dock-preview.png",
+                       "sha256":  "B3EB31E33BC9FA6BD65C52EBD890E54597DAA07A715CAC95854DC003D27D1D6F",
+                       "width":  1000,
+                       "height":  200,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-190751837\\components\\exports\\city-dock-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-190751837\\components\\exports\\city-dock-dock-seal.png",
+                       "sha256":  "9FC9797A6CB4C36F8F11369F51F53A65B8EF1AD17E2E1E8AB119FC9693921D6E",
+                       "width":  168,
+                       "height":  172,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-190751837\\components\\exports\\city-dock-dock-seal.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-190751837\\components\\exports\\city-dock-dock-seal-active.png",
+                       "sha256":  "3844678F2ADC82E3D47245286DE506D8A7A696B7E45CAE5C0CC039D641B769DF",
+                       "width":  168,
+                       "height":  172,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-190751837\\components\\exports\\city-dock-dock-seal-active.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-190751837\\components\\exports\\city-dock-dock-seal-hover.png",
+                       "sha256":  "597383A15E56CF6CABD4C14488DAD88C1CC8552E5DA79730A599462E3EDBD848",
+                       "width":  168,
+                       "height":  172,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-190751837\\components\\exports\\city-dock-dock-seal-hover.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-190751837\\components\\exports\\city-dock-dock-back.png",
+                       "sha256":  "A7F558743BA4D51FD6C8EB61900B4316542095396902062BFB1CDFB124D8BBA7",
+                       "width":  168,
+                       "height":  128,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-190751837\\components\\exports\\city-dock-dock-back.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-190751837\\components\\exports\\city-dock-dock-back-hover.png",
+                       "sha256":  "14509EE5FE27DBC2D401E22EE837C31AC9164CC69F8FD0423AF1532EEF484589",
+                       "width":  168,
+                       "height":  128,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-190751837\\components\\exports\\city-dock-dock-back-hover.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

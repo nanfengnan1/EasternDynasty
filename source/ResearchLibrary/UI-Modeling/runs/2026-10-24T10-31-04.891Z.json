@@ -1,0 +1,16 @@
+{
+  "started_at": "2026-10-24T10:31:04.891Z",
+  "finished_at": "2026-10-24T10:31:07.123Z",
+  "batch": "images-1",
+  "finite_run": true,
+  "recurring_schedule_created": false,
+  "results": [
+    {
+      "id": "ugui-scaler-inspector-image",
+      "status": "success",
+      "change": "new",
+      "bytes": 14782,
+      "path": "References/UI-Modeling/ugui-scaler-inspector-image-f70a70e20ba0.png"
+    }
+  ]
+}

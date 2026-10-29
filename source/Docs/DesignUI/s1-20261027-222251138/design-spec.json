@@ -1,0 +1,74 @@
+{
+  "version": "s1-20261027-222251138",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "id": "STZB-0467",
+    "path": "F:/工作项目/率土之滨/rag/assets/e5/e5abedde334d978717e308c869709386316d462218423043087044a4c13134db.png",
+    "year": 2022,
+    "size": [
+      1793,
+      1008
+    ],
+    "scope": "Historical official details layout only; current S1 appearance unknown"
+  },
+  "baselineVersion": "s1-20261027-104752269",
+  "layout": {
+    "image": [
+      68,
+      12,
+      "width-82",
+      "height-104"
+    ],
+    "banner": [
+      10,
+      12,
+      48,
+      "68+nameLength*nameStep"
+    ],
+    "nameStep": "min(38,(height-200)/nameLength)",
+    "stars": [
+      "banner.x",
+      "banner.yMax+8",
+      48,
+      "stars*30"
+    ],
+    "base": [
+      12,
+      "height-80",
+      "width-24",
+      68
+    ]
+  },
+  "components": [
+    "portrait_ribbon",
+    "portrait_seal",
+    "portrait_base"
+  ],
+  "notes": [
+    "Full portrait source preserved; no historical pixels in exported components.",
+    "Vertical identity column references STZB-0467. Bottom owned/scope strip is project adaptation retaining real fields.",
+    "No Figma; Inkscape exports must be inspected before Runtime changes.",
+    "Previews composite an old runtime screenshot; not runtime acceptance."
+  ],
+  "supplementaryReference": {
+    "id": "Q07-community-card",
+    "path": "F:/工作项目/率土之滨/rag/assets/38/381febccce9065421a0eff6731ad21abd368f0e4d8b0a82cd3c38c46969d9568.webp",
+    "sha256": "381febccce9065421a0eff6731ad21abd368f0e4d8b0a82cd3c38c46969d9568",
+    "bytes": 139870,
+    "size": [
+      2772,
+      1240
+    ],
+    "sourcePublishedAt": "2026-06-25",
+    "screenshotAt": null,
+    "currentS1": "unknown",
+    "use": "Later reference cross-check: same vertical name and rarity composition; not primary official provenance or production asset."
+  },
+  "actualMobileSafeArea": {
+    "x": 56,
+    "y": 12,
+    "width": 1504,
+    "height": 684,
+    "scale": 0.8341463414634146
+  }
+}

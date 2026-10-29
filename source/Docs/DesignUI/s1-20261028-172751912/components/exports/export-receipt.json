@@ -1,0 +1,34 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T17:38:13.9222635Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-172751912\\components\\navigation.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-172751912\\components\\navigation.svg",
+    "sourceSha256":  "AD102AAF466037B64506267AF4D7C03A11388A57B1073EE75CA88215D0E36F2C",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-172751912\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-172751912\\components\\exports\\navigation-preview.png",
+                       "sha256":  "DC969763DC8B5C03A2FC0C53566D433F3705418B25CC545CAD0883F20CF4A23C",
+                       "width":  1000,
+                       "height":  320,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-172751912\\components\\exports\\navigation-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-172751912\\components\\exports\\navigation-navigation-panel.png",
+                       "sha256":  "494251E9976DE3E106F8E8A5ED9ACEB87614DB4D31D137A9D0041705F04D3CB8",
+                       "width":  216,
+                       "height":  140,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-172751912\\components\\exports\\navigation-navigation-panel.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-172751912\\components\\exports\\navigation-navigation-panel-active.png",
+                       "sha256":  "973F8EB202835EE7F94C04CA055F1F96B031B9D541490105BF37BDEEA97DF7DE",
+                       "width":  216,
+                       "height":  140,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-172751912\\components\\exports\\navigation-navigation-panel-active.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

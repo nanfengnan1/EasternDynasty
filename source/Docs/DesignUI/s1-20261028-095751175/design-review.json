@@ -1,0 +1,30 @@
+{
+  "version": "s1-20261028-095751175",
+  "status": "design-inspected-runtime-implemented-awaiting-publisher",
+  "tool": "Inkscape 1.4.4",
+  "exportEntry": "Tools/Export-UIDesign.ps1",
+  "actuallyViewed": [
+    "desktop/exports/land-preview.png",
+    "mobile/exports/land-preview.png",
+    "neutral/exports/land-preview.png",
+    "busy/exports/land-preview.png",
+    "city/exports/land-preview.png",
+    "blocked/exports/land-preview.png",
+    "edge/exports/land-preview.png"
+  ],
+  "findings": [
+    "事实与行动分置目标两侧，保持中央地块可见；手机采用独立基线与真实安全区比例。",
+    "图像完整缩放、身份独立，208×44竖排动作及140宽标题有明确层级。",
+    "源稿使用已登记皮肤、既有图像和符号；没有新增自绘程序美术或放大历史截图作正式资产。",
+    "边缘目标采用安全停靠，原全部命令与返回保留；须由运行截图验证投影、遮挡、字形与禁用态。"
+  ],
+  "limits": [
+    "旧面板清除区复用同分辨率邻近地图，右侧重复城池/地块属于设计合成痕迹，不是本轮游戏渲染。",
+    "状态稿为项目示例数据，不是官方数值或状态结算证据。",
+    "独立命令区的中立/主城状态留白较多；当前S1高清同页及正式命令图仍缺。",
+    "没有调用Figma，也没有启动Unity或客户端；实际运行观感和真实输入均未在开发阶段验收。"
+  ],
+  "reusedStableIds": ["ui.youzhou.land_surface", "ui.youzhou.land_command", "ui.youzhou.land_command_active"],
+  "newOrReplacedAssets": [],
+  "runtimeAcceptance": "pending-publisher"
+}

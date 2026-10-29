@@ -1,0 +1,37 @@
+{
+  "started_at": "2026-10-24T10:29:23.332Z",
+  "finished_at": "2026-10-24T10:29:30.672Z",
+  "batch": "2",
+  "finite_run": true,
+  "recurring_schedule_created": false,
+  "results": [
+    {
+      "id": "unity-terrain-layer",
+      "status": "success",
+      "change": "new",
+      "bytes": 27311,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-terrain-layer.json"
+    },
+    {
+      "id": "unity-neighbor-terrain",
+      "status": "success",
+      "change": "new",
+      "bytes": 16006,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-neighbor-terrain.json"
+    },
+    {
+      "id": "unity-lod-group",
+      "status": "success",
+      "change": "new",
+      "bytes": 19460,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-lod-group.json"
+    },
+    {
+      "id": "blender-decimate",
+      "status": "success",
+      "change": "new",
+      "bytes": 414500,
+      "path": "ResearchLibrary/UI-Modeling/metadata/blender-decimate.json"
+    }
+  ]
+}

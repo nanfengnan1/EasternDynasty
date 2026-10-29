@@ -1,0 +1,55 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T17:13:09.0061157Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\components\\city-army.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261027-170251762\\components\\city-army.svg",
+    "sourceSha256":  "BF4028C84D7B92B3F185D34B9732B15C92AA394A70A2DE528225B83C395AB8F6",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-preview.png",
+                       "sha256":  "67A1ECAD4D19046133D2C112BA857B6B3A71C19A650D8B67901FE2B71B71C7DC",
+                       "width":  1400,
+                       "height":  500,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-card.png",
+                       "sha256":  "D885D156FF8D6D9841C4474586B94AA7CC48F3AEBD73F9675124852BE5F9B58C",
+                       "width":  128,
+                       "height":  219,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-card.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-card-hover.png",
+                       "sha256":  "FA6308F87CDF1F3F413C8F309FB3F92827EFAF5E75641EECF65DF866CD93E86C",
+                       "width":  128,
+                       "height":  219,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-card-hover.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-strip.png",
+                       "sha256":  "75C391590A745F4977E0E49B04018A2D01CE1C4D7AA4B9DE2C97055D87F5C265",
+                       "width":  380,
+                       "height":  44,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-strip.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-command.png",
+                       "sha256":  "5686A436AD2ACC0E607F9649CA5BAFED7E72C2690E55707BCCE0AAEC719CBFA4",
+                       "width":  126,
+                       "height":  44,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-command.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-command-hover.png",
+                       "sha256":  "7E8C751C4716FEFEECBCAA2751EF6E5CAE146306B505BCA75A85D8DFA7432368",
+                       "width":  126,
+                       "height":  44,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-170251762\\components\\exports\\city-army-city-command-hover.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

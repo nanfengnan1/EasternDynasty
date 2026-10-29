@@ -1,0 +1,62 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T11:59:07.2485191Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-114202570\\components\\navigation.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261027-114202570\\components\\navigation.svg",
+    "sourceSha256":  "EF42603D075915B2E163B577FC9079D981B2DF83D8D19B16B371142B905EA1AA",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\navigation-preview.png",
+                       "sha256":  "C6EB8F84C1389A1302D6F515EA1E77B86ED4F1ECFB080901C08A9AE0D3A5BB59",
+                       "width":  1200,
+                       "height":  320,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\navigation-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\navigation-normal.png",
+                       "sha256":  "61EDECD68C8C3A9895F6231601F476C8C9AB122951A6148EC37A5A23329BB22D",
+                       "width":  108,
+                       "height":  70,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\navigation-normal.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\navigation-active.png",
+                       "sha256":  "2A13C6DA55282CD49298A26857274C823B85352C2B50F3482B258A07D38696BD",
+                       "width":  108,
+                       "height":  70,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\navigation-active.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\navigation-recruit.png",
+                       "sha256":  "0EBFC6E6E7EEE96B776E520E804644C7C88F46A6C418CC328E8A8159AA3DF773",
+                       "width":  107,
+                       "height":  71,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\navigation-recruit.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\navigation-letter.png",
+                       "sha256":  "409775EC3C73B0F92466E3D5361AAA9ECF757FE6AD713998ADB99AB727D17713",
+                       "width":  74,
+                       "height":  40,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\navigation-letter.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\navigation-book.png",
+                       "sha256":  "B3723281A06730A503F6DD0253F6612C816136A24C081C2F30B858F513C29A05",
+                       "width":  66,
+                       "height":  36,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\navigation-book.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\navigation-footer-shelf.png",
+                       "sha256":  "B5A5195EB27153826BB2E43BD3FE195AFCBD324AF6174BF5A5330FE797C50167",
+                       "width":  600,
+                       "height":  78,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-114202570\\components\\exports\\navigation-footer-shelf.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

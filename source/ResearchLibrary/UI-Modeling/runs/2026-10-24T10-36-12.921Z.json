@@ -1,0 +1,128 @@
+{
+  "started_at": "2026-10-24T10:36:12.921Z",
+  "finished_at": "2026-10-24T10:36:43.790Z",
+  "batch": "all",
+  "finite_run": true,
+  "recurring_schedule_created": false,
+  "results": [
+    {
+      "id": "unity-sandy-terrain-image",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 412042,
+      "path": "References/UI-Modeling/unity-sandy-terrain-image-1eb364ef87f9.png"
+    },
+    {
+      "id": "unity-neighbor-terrain-image",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 212484,
+      "path": "References/UI-Modeling/unity-neighbor-terrain-image-5652956341b0.png"
+    },
+    {
+      "id": "unity-lod-image",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 8380,
+      "path": "References/UI-Modeling/unity-lod-image-974c18333638.png"
+    },
+    {
+      "id": "ugui-scaler-inspector-image",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 14782,
+      "path": "References/UI-Modeling/ugui-scaler-inspector-image-f70a70e20ba0.png"
+    },
+    {
+      "id": "unity-ui-compare",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 28873,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-ui-compare.json"
+    },
+    {
+      "id": "ugui-canvas-scaler",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 16781,
+      "path": "ResearchLibrary/UI-Modeling/metadata/ugui-canvas-scaler.json"
+    },
+    {
+      "id": "unity-panel-settings",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 29638,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-panel-settings.json"
+    },
+    {
+      "id": "unity-terrain-layer",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 27311,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-terrain-layer.json"
+    },
+    {
+      "id": "unity-neighbor-terrain",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 16006,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-neighbor-terrain.json"
+    },
+    {
+      "id": "unity-lod-group",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 19460,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-lod-group.json"
+    },
+    {
+      "id": "blender-decimate",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 414500,
+      "path": "ResearchLibrary/UI-Modeling/metadata/blender-decimate.json"
+    },
+    {
+      "id": "unity-ui-performance",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 13007,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-ui-performance.json"
+    },
+    {
+      "id": "unity-sprite-atlas",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 26554,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-sprite-atlas.json"
+    },
+    {
+      "id": "unity-gpu-instancing",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 14773,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-gpu-instancing.json"
+    },
+    {
+      "id": "unity-fbx-model",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 30814,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-fbx-model.json"
+    },
+    {
+      "id": "blender-fbx",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 429381,
+      "path": "ResearchLibrary/UI-Modeling/metadata/blender-fbx.json"
+    },
+    {
+      "id": "unity-frame-debugger",
+      "status": "success",
+      "change": "unchanged",
+      "bytes": 13321,
+      "path": "ResearchLibrary/UI-Modeling/metadata/unity-frame-debugger.json"
+    }
+  ]
+}

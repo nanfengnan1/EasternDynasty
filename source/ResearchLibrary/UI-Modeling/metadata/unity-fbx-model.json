@@ -1,0 +1,21 @@
+{
+  "title": "Unity - Manual: Model tab Import Settings reference",
+  "source_url": "https://docs.unity3d.com/6000.3/Documentation/Manual/FBXImporter-Model.html",
+  "final_url": "https://docs.unity3d.com/6000.3/Documentation/Manual/FBXImporter-Model.html",
+  "accessed_at": "2026-10-24T10:36:38.087Z",
+  "sha256": "c84452dc56501194eaf979424b60e792359dd5850045b59837af9b680ada6d60",
+  "byte_length": 30814,
+  "headings": [
+    "Unity Manual",
+    "Model tab Import Settings reference",
+    "Scene",
+    "Meshes",
+    "Mesh LOD properties section",
+    "Geometry",
+    "Additional resources"
+  ],
+  "image_links": [
+    "https://docs.unity3d.com/6000.3/Documentation/uploads/Main/model-import-settings.png"
+  ],
+  "storage_note": "Stores bibliographic metadata and image URLs only; full article body is not saved."
+}

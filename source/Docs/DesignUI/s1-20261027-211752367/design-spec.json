@@ -1,0 +1,145 @@
+{
+  "version": "s1-20261027-211752367",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "references": [
+    {
+      "id": "STZB-0428",
+      "path": "F:/工作项目/率土之滨/rag/assets/d8/d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350.jpg",
+      "sha256": "d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350",
+      "size": [
+        500,
+        280
+      ],
+      "year": 2015,
+      "scope": "City same-page placement context only; low-resolution historical image, not production pixels."
+    },
+    {
+      "id": "STZB-0499",
+      "path": "F:/工作项目/率土之滨/rag/assets/20/20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f.jpg",
+      "sha256": "20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f",
+      "size": [
+        2340,
+        1080
+      ],
+      "year": 2021,
+      "scope": "Shared navigation visual language from map; adapted to project city shell, NOT claimed official city layout."
+    },
+    {
+      "id": "STZB-0527",
+      "path": "F:/工作项目/率土之滨/rag/assets/4f/4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376.jpg",
+      "sha256": "4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376",
+      "size": [
+        720,
+        405
+      ],
+      "year": 2023,
+      "scope": "Newer map variant reviewed; not corresponding city page. Does not establish current S1 city design."
+    }
+  ],
+  "baselineVersion": "s1-20261027-104752269",
+  "baselines": [
+    {
+      "path": "Docs/DesignUI/s1-20261027-190751837/baseline/desktop-104752269.png",
+      "sha256": "c5a594126173e1eb918bda1153e57896e042bec408353ae16c96de53789b59a4"
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261027-190751837/baseline/mobile-104752269.png",
+      "sha256": "aec64ff80b8622fac9fdbc2be4d5e09aef8d4c63854cf054af9c61fb9fcffb74"
+    }
+  ],
+  "reusedEditableComponents": {
+    "path": "Docs/DesignUI/s1-20261027-114202570/components/navigation.svg",
+    "sha256": "ef42603d075915b2e163b577fc9079d981b2df83d8d19b16b371142b905ea1aa",
+    "receipt": "Docs/DesignUI/s1-20261027-114202570/components/exports/export-receipt.json"
+  },
+  "components": [
+    "ui.youzhou.nav_ticket",
+    "ui.youzhou.nav_ticket_active",
+    "ui.youzhou.nav_recruit",
+    "ui.youzhou.nav_letter",
+    "ui.youzhou.nav_book",
+    "ui.youzhou.nav_shelf"
+  ],
+  "productionIds": [
+    "ui.youzhou.nav_ticket",
+    "ui.youzhou.nav_ticket_active",
+    "ui.youzhou.nav_recruit",
+    "ui.youzhou.nav_letter",
+    "ui.youzhou.nav_book",
+    "ui.youzhou.nav_shelf"
+  ],
+  "layout": {
+    "footerHeight": 78,
+    "entry": [
+      20,
+      -74,
+      108,
+      70
+    ],
+    "button": [
+      108,
+      70
+    ],
+    "left": 20,
+    "pitch": 116,
+    "yFromBottom": 74,
+    "art": [
+      34,
+      8,
+      70,
+      56
+    ],
+    "caption": [
+      5,
+      4,
+      25,
+      50
+    ],
+    "recruit": [
+      -152,
+      -74,
+      132,
+      70
+    ],
+    "recruitRight": 20,
+    "recruitArt": [
+      46,
+      7,
+      40,
+      38
+    ],
+    "recruitCaption": [
+      8,
+      47,
+      116,
+      22
+    ],
+    "utilityX": "max(620,(width-262)/2)",
+    "save": [
+      82,
+      49
+    ],
+    "clock": [
+      180,
+      49
+    ],
+    "utilityBottom": 12
+  },
+  "fonts": {
+    "title": 18,
+    "titleMinimum": 14,
+    "caption": 16,
+    "captionMinimum": 12,
+    "family": "Microsoft YaHei / Noto Sans SC, measured at runtime",
+    "emptyColor": "#46413d"
+  },
+  "runtime": "MapHudPresentation.DrawYouzhouMapFooter shared by city and map; MapHudNavigationLayout unchanged",
+  "notes": [
+    "No new production pixels or imported assets; reuse six provenance-checked stable UI IDs and existing portraits.",
+    "No new runtime illustration, building art or screenshot upscaling.",
+    "Main-city art and letter/book keep native proportions; image slot is taller (56 vs 43), actual artwork sizes differ by aspect ratio.",
+    "78-unit footprint and all commands preserved. Six entries grouped left/right; utilities centered.",
+    "Context is old runtime plus preceding inspected designs, NOT current runtime proof.",
+    "2015 same-page image is insufficient for current city art; existing S1UX-04 and S1DEV-06 gaps remain."
+  ]
+}

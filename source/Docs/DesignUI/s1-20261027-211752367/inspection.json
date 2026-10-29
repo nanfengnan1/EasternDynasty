@@ -1,0 +1,159 @@
+{
+  "version": "s1-20261027-211752367",
+  "atUtc": "2026-10-27T21:34:47.212Z",
+  "method": "view_image on original images, actual historical desktop/mobile screenshots and real Inkscape exports before Runtime changes",
+  "references": [
+    {
+      "id": "STZB-0428",
+      "path": "F:/工作项目/率土之滨/rag/assets/d8/d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350.jpg",
+      "sha256": "d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350",
+      "size": [
+        500,
+        280
+      ],
+      "year": 2015,
+      "scope": "City same-page placement context only; low-resolution historical image, not production pixels."
+    },
+    {
+      "id": "STZB-0499",
+      "path": "F:/工作项目/率土之滨/rag/assets/20/20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f.jpg",
+      "sha256": "20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f",
+      "size": [
+        2340,
+        1080
+      ],
+      "year": 2021,
+      "scope": "Shared navigation visual language from map; adapted to project city shell, NOT claimed official city layout."
+    },
+    {
+      "id": "STZB-0527",
+      "path": "F:/工作项目/率土之滨/rag/assets/4f/4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376.jpg",
+      "sha256": "4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376",
+      "size": [
+        720,
+        405
+      ],
+      "year": 2023,
+      "scope": "Newer map variant reviewed; not corresponding city page. Does not establish current S1 city design."
+    }
+  ],
+  "baselines": [
+    {
+      "path": "Docs/DesignUI/s1-20261027-190751837/baseline/desktop-104752269.png",
+      "sha256": "c5a594126173e1eb918bda1153e57896e042bec408353ae16c96de53789b59a4",
+      "actuallyViewed": true,
+      "currentIterationScreenshot": false
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261027-190751837/baseline/mobile-104752269.png",
+      "sha256": "aec64ff80b8622fac9fdbc2be4d5e09aef8d4c63854cf054af9c61fb9fcffb74",
+      "actuallyViewed": true,
+      "currentIterationScreenshot": false
+    }
+  ],
+  "drafts": [
+    {
+      "target": "desktop",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261027-211752367\\desktop\\city-footer.svg",
+        "sha256": "f23b0c3ffa7797e526b72ecc4d0fe67af00aed0bf744a4fda0de0072610387eb"
+      },
+      "preview": {
+        "path": "Docs\\DesignUI\\s1-20261027-211752367\\desktop\\exports\\city-footer-preview.png",
+        "sha256": "c47b8e8442d0901a983e51362177c87fa33951fc94d0eb9efb5fabf95a87efac"
+      },
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261027-211752367/desktop/exports/export-receipt.json",
+        "sha256": "0eed401cac68521f32a884bb1ec9a71fae6b43f89e19fe825ed0db7051bde496"
+      },
+      "actuallyViewed": true
+    },
+    {
+      "target": "mobile",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261027-211752367\\mobile\\city-footer.svg",
+        "sha256": "790283da98ad4fa32a840c70f02d8aa8175dd6af37832c34571692dee8524238"
+      },
+      "preview": {
+        "path": "Docs\\DesignUI\\s1-20261027-211752367\\mobile\\exports\\city-footer-preview.png",
+        "sha256": "58e5e7217edb7f85806617a1c475fb2484c8fc784d7bff36c4bd140e5e32245e"
+      },
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261027-211752367/mobile/exports/export-receipt.json",
+        "sha256": "7f10203feedab4e807ca8cfa5e9665c7427fe16a2076ed5e597a6499cd6fc8a8"
+      },
+      "actuallyViewed": true
+    },
+    {
+      "target": "states",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261027-211752367\\states\\city-footer.svg",
+        "sha256": "e9d8af8dbd76532202491f0dee3543a48749a44db6a8ffd39aaf75fd740291ed"
+      },
+      "preview": {
+        "path": "Docs\\DesignUI\\s1-20261027-211752367\\states\\exports\\city-footer-preview.png",
+        "sha256": "2d80162a8a7fb005cdea19a6c176cd8ead30672a75fb6966d82370f224982c36"
+      },
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261027-211752367/states/exports/export-receipt.json",
+        "sha256": "2c6e247eeb1be2c32a8cce052fe74aa176c7f171b9424ca040c8f4c002eaa438"
+      },
+      "actuallyViewed": true
+    }
+  ],
+  "assets": [
+    {
+      "id": "ui.youzhou.nav_ticket",
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/nav_ticket.png",
+      "sha256": "61edecd68c8c3a9895f6231601f476c8c9ab122951a6148ec37a5a23329bb22d",
+      "originalExportReceipt": "Docs/DesignUI/s1-20261027-114202570/components/exports/export-receipt.json",
+      "reusedWithoutImport": true
+    },
+    {
+      "id": "ui.youzhou.nav_ticket_active",
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/nav_ticket_active.png",
+      "sha256": "2a13c6da55282cd49298a26857274c823b85352c2b50f3482b258a07d38696bd",
+      "originalExportReceipt": "Docs/DesignUI/s1-20261027-114202570/components/exports/export-receipt.json",
+      "reusedWithoutImport": true
+    },
+    {
+      "id": "ui.youzhou.nav_recruit",
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/nav_recruit.png",
+      "sha256": "0ebfc6e6e7eee96b776e520e804644c7c88f46a6c418cc328e8a8159aa3df773",
+      "originalExportReceipt": "Docs/DesignUI/s1-20261027-114202570/components/exports/export-receipt.json",
+      "reusedWithoutImport": true
+    },
+    {
+      "id": "ui.youzhou.nav_letter",
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/nav_letter.png",
+      "sha256": "409775ec3c73b0f92466e3d5361aaa9ecf757fe6ad713998adb99ab727d17713",
+      "originalExportReceipt": "Docs/DesignUI/s1-20261027-114202570/components/exports/export-receipt.json",
+      "reusedWithoutImport": true
+    },
+    {
+      "id": "ui.youzhou.nav_book",
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/nav_book.png",
+      "sha256": "b3723281a06730a503f6dd0253f6612c816136a24c081c2f30b858f513c29a05",
+      "originalExportReceipt": "Docs/DesignUI/s1-20261027-114202570/components/exports/export-receipt.json",
+      "reusedWithoutImport": true
+    },
+    {
+      "id": "ui.youzhou.nav_shelf",
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/nav_shelf.png",
+      "sha256": "b5a5195eb27153826bb2e43bd3fe195afcbd324af6174bf5a5330fe797c50167",
+      "originalExportReceipt": "Docs/DesignUI/s1-20261027-114202570/components/exports/export-receipt.json",
+      "reusedWithoutImport": true
+    }
+  ],
+  "outcome": "Grouped image tickets, vertical labels, separated recruitment and utility group inspected; empty-formation contrast corrected in SVG and re-exported/re-inspected before code.",
+  "limits": [
+    "Runtime acceptance pending publisher; no Unity or client launched.",
+    "Full-screen contexts include previous designs on old runtime screenshots.",
+    "Modal opacity is illustrative only; actual modal overlay/input must be verified.",
+    "Historical city same-page reference and 2021 map language do not prove current S1 city appearance.",
+    "No new production assets, no new raw-generator art, Figma not connected or called."
+  ]
+}

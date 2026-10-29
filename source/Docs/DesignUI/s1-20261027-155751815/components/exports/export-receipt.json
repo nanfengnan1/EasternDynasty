@@ -1,0 +1,48 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T16:03:21.1510201Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-155751815\\components\\atlas.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261027-155751815\\components\\atlas.svg",
+    "sourceSha256":  "47BC5FAA572C1DEE7133823A969E5C523EF1615E4E51F4ABE322D470B08E9543",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-155751815\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-155751815\\components\\exports\\atlas-preview.png",
+                       "sha256":  "CC833570D76E9CBDA60F9CD14EA65367B7F57E3837AEC63A6AA37A7D356D6C2C",
+                       "width":  680,
+                       "height":  180,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-155751815\\components\\exports\\atlas-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-155751815\\components\\exports\\atlas-atlas-strip.png",
+                       "sha256":  "EC50F6B0AD0C84C39664CD3BFD7D90F5DF8CF218653CCD9537F45BF7F65413E9",
+                       "width":  162,
+                       "height":  44,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-155751815\\components\\exports\\atlas-atlas-strip.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-155751815\\components\\exports\\atlas-atlas-locate.png",
+                       "sha256":  "5D1F22F7A55F39800FDB60416B6127389DA7A2E6EF3712DD16CD007432A32068",
+                       "width":  44,
+                       "height":  44,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-155751815\\components\\exports\\atlas-atlas-locate.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-155751815\\components\\exports\\atlas-atlas-locate-hover.png",
+                       "sha256":  "F069B85AE89E3A90DB506584B3182ACC9781491AA1E233E44F93DA2BBDC328F0",
+                       "width":  44,
+                       "height":  44,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-155751815\\components\\exports\\atlas-atlas-locate-hover.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-155751815\\components\\exports\\atlas-atlas-pin.png",
+                       "sha256":  "904353EE2E2BDE8C3CDE59B170154D7E61076A3494CD401DB44385D291FB187F",
+                       "width":  16,
+                       "height":  22,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-155751815\\components\\exports\\atlas-atlas-pin.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

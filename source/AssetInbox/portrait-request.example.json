@@ -1,0 +1,10 @@
+{
+  "Id": "portrait.zhu_jun",
+  "Kind": "portrait",
+  "SourcePath": ".\\AssetInbox\\zhu_jun.png",
+  "Purpose": "朱儁武将卡肖像",
+  "SourceKind": "imagegen",
+  "SourceReference": "填写本次真实生成记录的路径或编号",
+  "Rights": "填写实际权属说明；此示例不构成商业授权",
+  "CreatedUtc": ""
+}

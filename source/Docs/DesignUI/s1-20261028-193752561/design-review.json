@@ -1,0 +1,65 @@
+{
+  "version": "s1-20261028-193752561",
+  "atUtc": "2026-10-28T20:05:51.911Z",
+  "status": "design-inspected-source-integrated-runtime-pending",
+  "inspections": [
+    {
+      "target": "desktop",
+      "source": "Docs\\DesignUI\\s1-20261028-193752561\\desktop\\header.svg",
+      "sourceSha256": "06032022b783926dac0291eca96b98038e4829828fe906289e65c80cf5b8d446",
+      "receipt": "Docs/DesignUI/s1-20261028-193752561/desktop/exports/export-receipt.json",
+      "receiptSha256": "7e2025e587e76a26673f0cbd1ea3bc0129e5a2d82f1a29c61b6bf8ad46915dc8",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": "Docs\\DesignUI\\s1-20261028-193752561\\desktop\\exports\\header-preview.png",
+      "previewSha256": "866642cf216f75cadc50577f2f136eded87cb74db5ea4d488ce227cbb38ec945",
+      "inspectedBy": "root agent using view_image after real Inkscape export",
+      "result": "inspected for design integration; runtime appearance still pending"
+    },
+    {
+      "target": "mobile",
+      "source": "Docs\\DesignUI\\s1-20261028-193752561\\mobile\\header.svg",
+      "sourceSha256": "26c46610c7f0b5ac1e0c9286773e938eb8fca7479d590c4b3d0bfc4a7f9fdb6c",
+      "receipt": "Docs/DesignUI/s1-20261028-193752561/mobile/exports/export-receipt.json",
+      "receiptSha256": "226068062100d3a285cdd3d8cc04ed8dd2f13d8091562c30c83c8776388fe463",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": "Docs\\DesignUI\\s1-20261028-193752561\\mobile\\exports\\header-preview.png",
+      "previewSha256": "4ad8f5ea0432ef662fd06ff1b11398812913383930a4e201d666e9b80e080b7b",
+      "inspectedBy": "root agent using view_image after real Inkscape export",
+      "result": "inspected for design integration; runtime appearance still pending"
+    },
+    {
+      "target": "states",
+      "source": "Docs\\DesignUI\\s1-20261028-193752561\\states\\header.svg",
+      "sourceSha256": "1b95e89a2e59492334584e71b54f198f9be30bd8fe9cb552b412af8923682af9",
+      "receipt": "Docs/DesignUI/s1-20261028-193752561/states/exports/export-receipt.json",
+      "receiptSha256": "8184c3367295bb004510d49db7b5e2732ea5c1c65bef36acdb274a448e345965",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": "Docs\\DesignUI\\s1-20261028-193752561\\states\\exports\\header-preview.png",
+      "previewSha256": "1738ed28cd64f9a80ddfc791c30031eba6ec025397b26f24a4e3bc5cf49e63de",
+      "inspectedBy": "root agent using view_image after real Inkscape export",
+      "result": "inspected for design integration; runtime appearance still pending"
+    },
+    {
+      "target": "components",
+      "source": "Docs\\DesignUI\\s1-20261028-193752561\\components\\header.svg",
+      "sourceSha256": "50192652f528c7830c2762d70ff121721b892e451235cd4ef3b6966590f24ece",
+      "receipt": "Docs/DesignUI/s1-20261028-193752561/components/exports/export-receipt.json",
+      "receiptSha256": "733c183a7aa1951a278b54d11c7b34c83a09570ac47dc4de540617fabf03fd87",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": "Docs\\DesignUI\\s1-20261028-193752561\\components\\exports\\header-preview.png",
+      "previewSha256": "06147d1c2b25f2ba3e56e467d1887e75ef4c67e1e3993874a51ede3da9762922",
+      "inspectedBy": "root agent using view_image after real Inkscape export",
+      "result": "inspected for design integration; runtime appearance still pending"
+    }
+  ],
+  "findings": [
+    "Actual 2023/2021 originals and 183 desktop/mobile baseline images opened before design.",
+    "Rejected first top background montage because it contained old map labels; exported neutral background is explicitly labelled as design context.",
+    "Revised long-name sample to match the wider 174-unit text region; actual Unity CJK metrics remain a separate gate.",
+    "Hover uses the existing selected city crest; no extra identity line style is invented at runtime.",
+    "Six commodity/currency descriptions now use the same inspected secondary gold style; final reference compilation repeated after this correction.",
+    "Inkscape export exit codes and hashes are successful; sandbox warnings concern optional user-profile extension/recent-file logs, not the SVG/PNG exports."
+  ],
+  "runtimeVerified": false,
+  "figmaCalled": false
+}

@@ -1,0 +1,39 @@
+{
+    "version":  "s1-20261028-162252252",
+    "status":  "inspected-integrated-runtime-pending",
+    "inspected":  [
+                      {
+                          "preview":  "Docs/DesignUI/s1-20261028-162252252/desktop/exports/quest-docket-preview.png",
+                          "receipt":  "Docs/DesignUI/s1-20261028-162252252/desktop/exports/export-receipt.json",
+                          "sha256":  "c2dc0677089cb267104ea8a68e29e8a5744929964b1413004d3ddab2c5297df5"
+                      },
+                      {
+                          "preview":  "Docs/DesignUI/s1-20261028-162252252/mobile/exports/quest-docket-preview.png",
+                          "receipt":  "Docs/DesignUI/s1-20261028-162252252/mobile/exports/export-receipt.json",
+                          "sha256":  "a48925bff676fdff3f1282bb660943e4c701480ac3a7eb034769b47c31e05bc1"
+                      },
+                      {
+                          "preview":  "Docs/DesignUI/s1-20261028-162252252/states/exports/quest-docket-preview.png",
+                          "receipt":  "Docs/DesignUI/s1-20261028-162252252/states/exports/export-receipt.json",
+                          "sha256":  "88e890fcac3d46f03abb14f3924338438b63b6b994ee0c027608ee7655e8846f"
+                      },
+                      {
+                          "preview":  "Docs/DesignUI/s1-20261028-162252252/components/exports/quest-docket-preview.png",
+                          "receipt":  "Docs/DesignUI/s1-20261028-162252252/components/exports/export-receipt.json",
+                          "sha256":  "37c5134010989977226682453b7d40f9497a16552fbc75b500e45e1d07e952cb"
+                      }
+                  ],
+    "tool":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "findings":  [
+                     "Book entrance uses existing registered artwork; 2023 reference supports entrance only, expanded arrangement is project adaptation.",
+                     "Full-width objective is independent of book and heading; progress and action remain separate.",
+                     "First state draft corrected to actual third chapter name and task 8 before final export and inspection.",
+                     "Area grows 12 logical units; no reduced-footprint claim.",
+                     "Formal skin is exactly 708x164, contains neither screenshot pixels nor dynamic text.",
+                     "Design comparison boards include old baselines and proposed components; they are not new runtime screenshots.",
+                     "Final desktop/mobile comparison context replaced with the newer 141 runtime images, both exports reopened. Task region unchanged; formal component and UI geometry unchanged."
+                 ],
+    "runtimeChanged":  true,
+    "productionImported":  true,
+    "runtimeAccepted":  false
+}

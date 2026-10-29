@@ -1,0 +1,17 @@
+{
+    "status":  "rejected-draft-not-integrated",
+    "inspected":  [
+                      "desktop/exports/army-rows-preview.png",
+                      "mobile/exports/army-rows-preview.png",
+                      "states/exports/army-rows-preview.png",
+                      "components/exports/army-rows-preview.png"
+                  ],
+    "findings":  [
+                     "Mobile complete portraits are too small for useful identity recognition",
+                     "Long-name state pairs wrong name with portrait",
+                     "Empty army state incorrectly shows filled troop bar",
+                     "Formal slices include half-unit stroke overshoot; actual 709x88"
+                 ],
+    "runtimeChanged":  false,
+    "productionImported":  false
+}

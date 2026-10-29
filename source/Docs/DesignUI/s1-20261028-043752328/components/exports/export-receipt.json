@@ -1,0 +1,48 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T08:26:19.6581198Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-043752328\\components\\archive.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-043752328\\components\\archive.svg",
+    "sourceSha256":  "2E24ADE5FC8380913A82B687994BBB65E48968BA628B8008A7BECC14D218D1A8",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-043752328\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-043752328\\components\\exports\\archive-preview.png",
+                       "sha256":  "D3395223D6CD07B7A5AC61FA26BC58BE9AF6A7B2015AFE92EC1A876265B2B0CC",
+                       "width":  1600,
+                       "height":  1360,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-043752328\\components\\exports\\archive-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-043752328\\components\\exports\\archive-archive-frame.png",
+                       "sha256":  "D9604F1A24DA9D823AE1BFF93B5CAE431684C611056D7571F8AD5F0261B9A9EB",
+                       "width":  384,
+                       "height":  504,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-043752328\\components\\exports\\archive-archive-frame.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-043752328\\components\\exports\\archive-archive-selected.png",
+                       "sha256":  "EEC2596984AE029B2CEE8FF2D92AFFAC40E3D58CBAE3B1F6D33768CA7098D013",
+                       "width":  384,
+                       "height":  504,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-043752328\\components\\exports\\archive-archive-selected.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-043752328\\components\\exports\\archive-archive-ribbon.png",
+                       "sha256":  "ACBB5F0B3F474217408BC6A71E863EB543B06596F7737F539CDF34888A180F5B",
+                       "width":  56,
+                       "height":  140,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-043752328\\components\\exports\\archive-archive-ribbon.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-043752328\\components\\exports\\archive-archive-footer.png",
+                       "sha256":  "A2DD3D5ABB0591C4CD4DCC9B710FC43332A450F0C236A34095F47B9CBC550118",
+                       "width":  384,
+                       "height":  96,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-043752328\\components\\exports\\archive-archive-footer.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

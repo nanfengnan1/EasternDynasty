@@ -1,0 +1,112 @@
+{
+  "version": "s1-20261027-170251762",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "id": "STZB-0428",
+    "support": "STZB-0431",
+    "year": 2015,
+    "scope": "Historical city page and army-card crop; current S1 appearance unknown. Dark independent cards, bronze edges, curved plinth. Three full vertical paintings are an explicit project adaptation.",
+    "files": [
+      {
+        "id": "STZB-0428",
+        "versionId": "base-d728496fa74ee1ee61ed",
+        "title": "城内主界面",
+        "sha256": "d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350",
+        "category": "UI",
+        "subcategory": "2015版界面截图",
+        "width": 500,
+        "height": 280,
+        "bytes": 66760,
+        "s1Status": "unknown",
+        "verificationStatus": "hash_verified",
+        "sourceIds": [
+          "url-4e27c88faf8c1494"
+        ],
+        "relativePath": "assets/d8/d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350.jpg",
+        "localPath": "F:\\工作项目\\率土之滨\\rag\\assets\\d8\\d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350.jpg",
+        "detailEndpoint": "/assets/STZB-0428?version=base-d728496fa74ee1ee61ed",
+        "fileEndpoint": "/assets/STZB-0428/file?version=base-d728496fa74ee1ee61ed",
+        "scope": null,
+        "role": "",
+        "excludedFromS1": false,
+        "note": "早期国服界面；按钮图是说明页原图中的局部，不代表完整面板"
+      },
+      {
+        "id": "STZB-0431",
+        "versionId": "base-d728496fa74ee1ee61ed",
+        "title": "部队头像入口",
+        "sha256": "76b55208245e862eed3a78c02c1b8f5e8e633d5f43ac45e1eeababc81e387a0a",
+        "category": "UI",
+        "subcategory": "2015版按钮与局部",
+        "width": 169,
+        "height": 108,
+        "bytes": 13581,
+        "s1Status": "unknown",
+        "verificationStatus": "hash_verified",
+        "sourceIds": [
+          "url-4e27c88faf8c1494"
+        ],
+        "relativePath": "assets/76/76b55208245e862eed3a78c02c1b8f5e8e633d5f43ac45e1eeababc81e387a0a.jpg",
+        "localPath": "F:\\工作项目\\率土之滨\\rag\\assets\\76\\76b55208245e862eed3a78c02c1b8f5e8e633d5f43ac45e1eeababc81e387a0a.jpg",
+        "detailEndpoint": "/assets/STZB-0431?version=base-d728496fa74ee1ee61ed",
+        "fileEndpoint": "/assets/STZB-0431/file?version=base-d728496fa74ee1ee61ed",
+        "scope": null,
+        "role": "",
+        "excludedFromS1": false,
+        "note": "早期国服界面；按钮图是说明页原图中的局部，不代表完整面板"
+      }
+    ]
+  },
+  "baselineVersion": "s1-20261027-104752269",
+  "layout": {
+    "inset": 8,
+    "gap": 8,
+    "cardTop": 52,
+    "cardWidth": "(width-32)/3",
+    "cardHeight": "min(availableHeight-190,(cardWidth-8)*1.45+48)",
+    "portraitInset": [
+      4,
+      4,
+      8,
+      48
+    ],
+    "identityHeight": 42,
+    "strengthAfterCard": 6,
+    "supplyGap": 6,
+    "commandGap": 8,
+    "touchHeight": 44
+  },
+  "components": [
+    "city_army_card",
+    "city_army_card_hover",
+    "city_army_strip",
+    "city_army_command",
+    "city_army_command_hover"
+  ],
+  "fonts": {
+    "name": 16,
+    "level": 13,
+    "strength": 21,
+    "state": 13
+  },
+  "runtime": "CityOverviewPresentation.DrawCityOverviewArmy / CityArmyLayout",
+  "notes": [
+    "No full-rail black panel; compact art proportions remove empty mats.",
+    "Panorama, affairs and all gameplay remain as before. No historical portrait crop imported.",
+    "Numbers remain live runtime text. Existing command icons are shown through clipped baseline samples for design context only; samples are not imported as components.",
+    "Desktop/mobile previews use old screenshots for surrounding context, not new game output."
+  ],
+  "measuredFootprints": {
+    "desktop": {
+      "width": 406,
+      "oldHeight": 490,
+      "newHeight": 407.166667
+    },
+    "mobileLogical": {
+      "width": 342,
+      "oldHeight": 410,
+      "newHeight": 376.233333
+    }
+  },
+  "compatibility": "245 S1 source paintings retain complete actual size; three old 2:3 prototype images remain complete with up to 3.33% smaller ScaleToFit size."
+}

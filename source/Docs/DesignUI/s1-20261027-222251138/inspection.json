@@ -1,0 +1,165 @@
+{
+  "version": "s1-20261027-222251138",
+  "atUtc": "2026-10-27T22:41:27.288Z",
+  "status": "design-reviewed-runtime-pending",
+  "previews": [
+    {
+      "target": "desktop",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261027-222251138/desktop/exports/export-receipt.json",
+        "sha256": "8f3abe700d88eff517ed9fa6ce6224249c5701eb0f04f940b11c9e9167ad739c",
+        "bytes": 1366
+      },
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261027-222251138\\desktop\\portrait.svg",
+        "sha256": "fee498ca77ce2248d192585a28bbe82c8a6474d77ef93f6fe8dd04271375c448",
+        "bytes": 4225574
+      },
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": {
+        "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-222251138\\desktop\\exports\\portrait-preview.png",
+        "sha256": "54EE5CB52D19AD39D232F6B35BF38CE60EBE2DB5BCE52947D9F6A83A8434CFE7",
+        "width": 1440,
+        "height": 900,
+        "relativePath": "Docs\\DesignUI\\s1-20261027-222251138\\desktop\\exports\\portrait-preview.png"
+      }
+    },
+    {
+      "target": "mobile",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261027-222251138/mobile/exports/export-receipt.json",
+        "sha256": "1ae6fa62634b1b13d7a93be7ebb0776dd11548ecc196e2d270456f36abf0bfbf",
+        "bytes": 1361
+      },
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261027-222251138\\mobile\\portrait.svg",
+        "sha256": "5d252f6b37c6e4eefa0de536aeabb620ba4355f9ce388e252c4afcbed7b54592",
+        "bytes": 4100939
+      },
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": {
+        "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-222251138\\mobile\\exports\\portrait-preview.png",
+        "sha256": "8A3E93F5903DEC78D43DB6E28AD45926E16455A39F2BC73E289B167E2B3C4131",
+        "width": 1600,
+        "height": 720,
+        "relativePath": "Docs\\DesignUI\\s1-20261027-222251138\\mobile\\exports\\portrait-preview.png"
+      }
+    },
+    {
+      "target": "states",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261027-222251138/states/exports/export-receipt.json",
+        "sha256": "67566c953d4b28895864989ed82b386a62f50b97be894ace4e4c9b64d502a41e",
+        "bytes": 1361
+      },
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261027-222251138\\states\\portrait.svg",
+        "sha256": "bc7b6fa2cfcfe73577d10c8344d30825d986aca6ce8c7f068b137c92f940802a",
+        "bytes": 828975
+      },
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": {
+        "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-222251138\\states\\exports\\portrait-preview.png",
+        "sha256": "4F0B895FADE4FB8BB9B366778E19939EE41FAB1B11E251DF680441E58328EFF1",
+        "width": 1800,
+        "height": 820,
+        "relativePath": "Docs\\DesignUI\\s1-20261027-222251138\\states\\exports\\portrait-preview.png"
+      }
+    },
+    {
+      "target": "components",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261027-222251138/components/exports/export-receipt.json",
+        "sha256": "2e008a485f71c788719f78a36eeab23f922fb2570abdc6b2cc971c04a572e7b2",
+        "bytes": 2943
+      },
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261027-222251138\\components\\portrait.svg",
+        "sha256": "ee8d7c1a1bea8a90cc5b75a810973f5b7c557f911f29c267d18b87865351e7be",
+        "bytes": 1363
+      },
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": {
+        "path": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-222251138\\components\\exports\\portrait-preview.png",
+        "sha256": "63B3A85D39E40A78E3CE5E740F22CC4E996FBE3A0787081FA77B87D4E56411A3",
+        "width": 1240,
+        "height": 500,
+        "relativePath": "Docs\\DesignUI\\s1-20261027-222251138\\components\\exports\\portrait-preview.png"
+      }
+    }
+  ],
+  "referenceReview": [
+    "STZB-0467 official 2022 full details opened before design; primary layout source.",
+    "STZB-0505 early complete frame opened before design; historical comparison only.",
+    "104752269 desktop and mobile actual card screenshots opened before design.",
+    "Q07-community-card later publication inspected as supplementary cross-check; screenshot age/client/S1 unknown."
+  ],
+  "supplementarySource": {
+    "id": "community-233",
+    "url": "https://www.233leyuan.com/post-detail/2070114842385301504",
+    "status": 200,
+    "collected_at": "2026-10-25T13:54:07.663Z",
+    "local_path": "evidence/community-233.raw.html",
+    "sha256": "f30200b55ab577287aeb5e112e5b99674cd3a00eafb819cd2408bf8db19708f7",
+    "title": "233乐园转载：孙坚S级战法讨论（图片出处未标明）",
+    "published_at": "2026-06-25",
+    "reuse_status": "new",
+    "catalog": [
+      {
+        "type": "hero",
+        "name": "孙坚·汉·弓·5星",
+        "entity_id": "100805",
+        "role": "context"
+      }
+    ],
+    "source_kind": "third_party_repost",
+    "evidence_use": "source_content_observation",
+    "publication_raw_jsonld": "2026-06-25T12:00:13.000Z",
+    "publication_note": "页面显示日期与JSON-LD的日相同；页面显示时分秒和JSON-LD时区对应未核实，published_at仅保留日期。图片实际制作/截图日期未知。",
+    "scope": {
+      "region": null,
+      "server_mode": null,
+      "season": null,
+      "source_published_at": "2026-06-25",
+      "screenshot_at": null,
+      "client_version": null,
+      "as_of": "2026-10-25",
+      "content_scope": "unknown_provenance_repost",
+      "s1_applicability": "unknown"
+    },
+    "actualFile": {
+      "path": "C:/Users/fenglei/Downloads/率土之滨_素材集_2026-10-25/S1_持续学习/批次/question-20261025-134754707-Q07/evidence/community-233.raw.html",
+      "sha256": "f30200b55ab577287aeb5e112e5b99674cd3a00eafb819cd2408bf8db19708f7",
+      "bytes": 170526
+    },
+    "image": {
+      "path": "F:/工作项目/率土之滨/rag/assets/38/381febccce9065421a0eff6731ad21abd368f0e4d8b0a82cd3c38c46969d9568.webp",
+      "sha256": "381febccce9065421a0eff6731ad21abd368f0e4d8b0a82cd3c38c46969d9568",
+      "bytes": 139870
+    }
+  },
+  "baseline": [
+    {
+      "path": "Docs/DesignUI/s1-20261027-222251138/baseline/desktop.png",
+      "sha256": "e3e0c54223921625164bd95e8d386d8c11a0c89698ae59b9d394a3215490b402",
+      "bytes": 597703
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261027-222251138/baseline/mobile.png",
+      "sha256": "107cd9bf33b7c6b30ae01229eb0368398d4ecfdb5d2408b21b27816d90021a1b",
+      "bytes": 503959
+    }
+  ],
+  "inspectedFindings": [
+    "Removed continuous opaque frame/edge bands; complete stable-ID portrait and independent identity column remain visually separate.",
+    "Desktop and mobile previews show portrait, name, faction, rarity and unchanged factual base without overlap.",
+    "Actual long-name four-star Shu and low-rarity three-star Jin identities are shown as historical collection; owned Sun Jian is explicitly a design-state sample.",
+    "Final source uses unique editable object IDs and transparent slice bounds at 2x dimensions.",
+    "Final desktop/mobile/state preview hashes remained the same after slice-bound/object-ID corrections; final components also viewed."
+  ],
+  "limitations": [
+    "Not a current game screenshot or visual approval.",
+    "Existing 240x348 portrait detail is unchanged; full-body background and faction-specific ornamentation remain unavailable.",
+    "Inkscape user-profile/recent-file warnings retained; exports and receipts succeeded."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "enabled": false,
+  "intervalHours": 1,
+  "workerTimeoutMinutes": 40,
+  "releaseTimeoutMinutes": 35,
+  "publishAndroid": true,
+  "androidTimeoutMinutes": 30,
+  "taskName": "EasternDynasty-S1-ContinuousDevelopment",
+  "publicationEnabled": false,
+  "publicationTaskName": "EasternDynasty-S1-Publication",
+  "snapshotBase": "F:\\EasternDynastyBuild\\Releases"
+}

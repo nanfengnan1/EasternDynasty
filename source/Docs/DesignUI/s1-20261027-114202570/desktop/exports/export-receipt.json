@@ -1,0 +1,20 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T12:05:58.6791382Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-114202570\\desktop\\map-hud.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261027-114202570\\desktop\\map-hud.svg",
+    "sourceSha256":  "EF851343A6BD61A840179D518481408E4F6283E6AB84AE260BEBF0445920A514",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-114202570\\desktop\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-114202570\\desktop\\exports\\map-hud-preview.png",
+                       "sha256":  "7D7BB9C75F88F6FD3857C743CE266E96001995F2CEC4511D79202BBB7EF66BCF",
+                       "width":  1440,
+                       "height":  900,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-114202570\\desktop\\exports\\map-hud-preview.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

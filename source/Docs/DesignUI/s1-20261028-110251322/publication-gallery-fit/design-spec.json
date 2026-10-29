@@ -1,0 +1,68 @@
+{
+  "status": "exported-inspected-and-implemented-awaiting-runtime",
+  "purpose": "Publication mobile font-fit correction; not a new visual-redesign claim",
+  "reference": {
+    "id": "Q09-CU-A001",
+    "path": "F:/工作项目/率土之滨/rag/assets/08/08627a10e55883e80f67fb768ac95327aae33b4610dbdb45858ec548b930b5c9.png",
+    "sha256": "08627a10e55883e80f67fb768ac95327aae33b4610dbdb45858ec548b930b5c9",
+    "resolution": [
+      800,
+      450
+    ],
+    "publishedAt": "2024-05-15",
+    "s1Identity": "unknown; layout research only"
+  },
+  "baseline": {
+    "path": "F:/EasternDynastyBuild/Releases/s1-20261028-095751175/Project/Validation/Visual/s1-20261028-095751175-youzhou-1440x900/smoke-facility-locked.png",
+    "sha256": "ad11ac5d5a69de09364c2fa829b16f2082bb921ee8b47a3ea5cc904114581c59",
+    "version": "s1-20261028-095751175",
+    "scope": "Actual desktop runtime; mobile run aborted before screenshot export"
+  },
+  "inheritedDesign": "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-012751756",
+  "scope": "Only eight facility selection tiles; no new art or rules. Existing 58-high complete thumbnails and 20-high facility names remain unchanged.",
+  "before": {
+    "tileHeight": 96,
+    "footerHeight": 36,
+    "statusY": 80,
+    "statusHeight": 16
+  },
+  "after": {
+    "tileHeight": 100,
+    "footerHeight": 40,
+    "statusY": 80,
+    "statusHeight": 20
+  },
+  "unchanged": {
+    "optionImage": [
+      4,
+      1,
+      "width-8",
+      58
+    ],
+    "name": [
+      0,
+      60,
+      "width",
+      20
+    ],
+    "rowSpacing": 108,
+    "minimumStatusFont": 12
+  },
+  "font": {
+    "path": "Assets/EasternDynasty/Resources/Fonts/CJK.otf",
+    "sha256": "faa6c9df652116dde789d351359f3d7e5d2285a2b2a1f04a2d7244df706d5ea9",
+    "unitsPerEm": 1000,
+    "ascender": 1160,
+    "descender": -288,
+    "lineGap": 0,
+    "lineHeightAt12": 17.376,
+    "oldStatusFits": false,
+    "newStatusFits": true,
+    "scope": "OpenType line metrics; actual Unity GUIStyle remains a publication gate"
+  },
+  "notes": [
+    "Mobile preview inherits the existing editable 012 design and historical embedded backdrop; it is not a new runtime capture.",
+    "The 4-unit extension uses existing row spacing and preserves the first-screen ledger.",
+    "Current runtime uses existing selected texture scaled to 100; no resource import required."
+  ]
+}

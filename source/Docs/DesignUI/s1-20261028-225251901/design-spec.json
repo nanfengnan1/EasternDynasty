@@ -1,0 +1,108 @@
+{
+  "version": "s1-20261028-225251901",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "id": "STZB-0499",
+    "path": "F:/工作项目/率土之滨/rag/assets/20/20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f.jpg",
+    "sha256": "20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f",
+    "size": [
+      2340,
+      1080
+    ],
+    "date": "2021-12-22",
+    "scope": "Historical sixth-anniversary map; independent recruitment diamond composition only, current S1 unknown"
+  },
+  "recentReference": {
+    "id": "STZB-0527",
+    "path": "F:/工作项目/率土之滨/rag/assets/4f/4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376.jpg",
+    "sha256": "4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376",
+    "size": [
+      720,
+      405
+    ],
+    "date": "2023-02-01",
+    "scope": "Newer same-page map, lower-right recruitment obscured; not used to invent absent details"
+  },
+  "baselines": [
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-204251299/Project/Validation/Visual/s1-20261028-204251299-youzhou-1440x900/smoke-hud-header-ledger.png",
+      "sha256": "31179974f5fa0e7a5f33042feeef6c85224839cd4d9f353dff1adabbc3864532",
+      "size": [
+        1440,
+        900
+      ],
+      "scale": 1,
+      "safe": [
+        0,
+        0
+      ],
+      "logicalSize": [
+        1440,
+        900
+      ]
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-204251299/Project/Validation/Visual/s1-20261028-204251299-mobile-1600x720/smoke-hud-header-ledger.png",
+      "sha256": "d4dd52e3c68723b0d9d6dd6f12ee106e5751699233082cd622b51e9e2e0916d2",
+      "size": [
+        1600,
+        720
+      ],
+      "scale": 0.8341463414634146,
+      "safe": [
+        56,
+        12
+      ],
+      "logicalSize": [
+        1803.0409356725147,
+        820
+      ]
+    }
+  ],
+  "layout": {
+    "entry": [
+      "width-180",
+      "height-144",
+      160,
+      140
+    ],
+    "art": [
+      50,
+      10,
+      60,
+      88
+    ],
+    "caption": [
+      10,
+      114,
+      140,
+      24
+    ],
+    "footer": 78,
+    "protrusion": 66,
+    "expandedWhen": "tab == 领地 && map.selected < 0",
+    "compactWhen": "city page or selected land; existing 132x70 command retained"
+  },
+  "fonts": {
+    "caption": 19,
+    "minimum": 12
+  },
+  "components": [
+    "ui.youzhou.map_recruit_seal",
+    "ui.youzhou.map_recruit_seal_hover"
+  ],
+  "portrait": {
+    "id": "portrait.s1_100039",
+    "path": "Assets/EasternDynasty/Resources/Portraits/s1_100039.png",
+    "sha256": "8aedfdee76a6804087a00b4337dc77e7ccf82ae2cd073fe22f6bb8592572fd9b",
+    "meaning": "Existing illustrative identity, never guaranteed pull or changed pool"
+  },
+  "notes": [
+    "Keeps existing independent diamond language; reference pixels are not copied or enlarged.",
+    "Larger complete existing portrait and a detached caption pedestal replace the compressed portrait over a short diamond.",
+    "City keeps the compact recruitment variant to avoid obscuring its content; map alone uses the raised pedestal.",
+    "Live caption remains Runtime text.",
+    "No new rule, pool, save field or procedural illustration."
+  ],
+  "actualToolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)"
+}

@@ -1,0 +1,55 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T00:37:50.1738255Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\components\\facility.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-002751316\\components\\facility.svg",
+    "sourceSha256":  "DF75679155350B6775E3B26519DF0A1E8734133B2E8549C6F22360CDB15C6B29",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-preview.png",
+                       "sha256":  "9A37A835597F80F767F0DCFD44E2100398A52BBB56C781839CE18B9178BC227A",
+                       "width":  1920,
+                       "height":  558,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-effect.png",
+                       "sha256":  "DADA4F539E26ACA223631C5671410707D71356434AF9504804FE5CAE6D50F282",
+                       "width":  1920,
+                       "height":  152,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-effect.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-cost.png",
+                       "sha256":  "FD355E7EF927CE5A2033950D5B5778F7192FF6465F29695298D6039CABDCD1EB",
+                       "width":  1920,
+                       "height":  176,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-cost.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-arrow.png",
+                       "sha256":  "8AE2AC5E3ADA8E94E04F4A625AD41633E3FFE3D53A3D96A1BBC01FA94883632C",
+                       "width":  72,
+                       "height":  48,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-arrow.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-command.png",
+                       "sha256":  "CAB4164C70596B8251627C04A384CA02E97EBF683C900B6D91FDF49CB5A70A4A",
+                       "width":  720,
+                       "height":  88,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-command.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-command-hover.png",
+                       "sha256":  "693DD6C68876C1D75A976B573AFFB53EF8348780B36E8956B63166F5DF595BB2",
+                       "width":  720,
+                       "height":  88,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-002751316\\components\\exports\\facility-facility-command-hover.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

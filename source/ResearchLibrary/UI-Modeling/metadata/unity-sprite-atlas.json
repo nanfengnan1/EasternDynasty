@@ -1,0 +1,23 @@
+{
+  "title": "Unity - Manual: Sprite Atlas Inspector window reference",
+  "source_url": "https://docs.unity3d.com/6000.3/Documentation/Manual/class-SpriteAtlas.html",
+  "final_url": "https://docs.unity3d.com/6000.3/Documentation/Manual/sprite/atlas/sprite-atlas-reference.html",
+  "accessed_at": "2026-10-24T10:36:34.299Z",
+  "sha256": "579a3bdf4085070bd2af6953df3f699ffe722b8e8b844b11a797fc9ecde3e8ad",
+  "byte_length": 26554,
+  "headings": [
+    "Unity Manual",
+    "Sprite Atlas Inspector window reference",
+    "Variant",
+    "Packing",
+    "Texture",
+    "Show Platform Settings",
+    "Default tab",
+    "Platform-specific overrides tabs",
+    "Objects for Packing",
+    "Preview window",
+    "Additional resources"
+  ],
+  "image_links": [],
+  "storage_note": "Stores bibliographic metadata and image URLs only; full article body is not saved."
+}

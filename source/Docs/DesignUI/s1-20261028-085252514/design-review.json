@@ -1,0 +1,70 @@
+{
+    "version":  "s1-20261028-085252514",
+    "status":  "design-reviewed-implemented-awaiting-runtime",
+    "atUtc":  "2026-10-28T09:20:39.6377968Z",
+    "tool":  "Inkscape 1.4.4",
+    "sourceAndReceipts":  [
+                              {
+                                  "preview":  "Docs/DesignUI/s1-20261028-085252514/desktop/exports/land-preview.png",
+                                  "receipt":  "Docs/DesignUI/s1-20261028-085252514/desktop/exports/export-receipt.json",
+                                  "source":  "Docs/DesignUI/s1-20261028-085252514/desktop/land.svg",
+                                  "openedWith":  "view_image",
+                                  "board":  "desktop"
+                              },
+                              {
+                                  "preview":  "Docs/DesignUI/s1-20261028-085252514/mobile/exports/land-preview.png",
+                                  "receipt":  "Docs/DesignUI/s1-20261028-085252514/mobile/exports/export-receipt.json",
+                                  "source":  "Docs/DesignUI/s1-20261028-085252514/mobile/land.svg",
+                                  "openedWith":  "view_image",
+                                  "board":  "mobile"
+                              },
+                              {
+                                  "preview":  "Docs/DesignUI/s1-20261028-085252514/states/exports/land-preview.png",
+                                  "receipt":  "Docs/DesignUI/s1-20261028-085252514/states/exports/export-receipt.json",
+                                  "source":  "Docs/DesignUI/s1-20261028-085252514/states/land.svg",
+                                  "openedWith":  "view_image",
+                                  "board":  "states"
+                              },
+                              {
+                                  "preview":  "Docs/DesignUI/s1-20261028-085252514/busy/exports/land-preview.png",
+                                  "receipt":  "Docs/DesignUI/s1-20261028-085252514/busy/exports/export-receipt.json",
+                                  "source":  "Docs/DesignUI/s1-20261028-085252514/busy/land.svg",
+                                  "openedWith":  "view_image",
+                                  "board":  "busy"
+                              },
+                              {
+                                  "preview":  "Docs/DesignUI/s1-20261028-085252514/city/exports/land-preview.png",
+                                  "receipt":  "Docs/DesignUI/s1-20261028-085252514/city/exports/export-receipt.json",
+                                  "source":  "Docs/DesignUI/s1-20261028-085252514/city/land.svg",
+                                  "openedWith":  "view_image",
+                                  "board":  "city"
+                              },
+                              {
+                                  "preview":  "Docs/DesignUI/s1-20261028-085252514/blocked/exports/land-preview.png",
+                                  "receipt":  "Docs/DesignUI/s1-20261028-085252514/blocked/exports/export-receipt.json",
+                                  "source":  "Docs/DesignUI/s1-20261028-085252514/blocked/land.svg",
+                                  "openedWith":  "view_image",
+                                  "board":  "blocked"
+                              },
+                              {
+                                  "preview":  "Docs/DesignUI/s1-20261028-085252514/components/exports/land-preview.png",
+                                  "receipt":  "Docs/DesignUI/s1-20261028-085252514/components/exports/export-receipt.json",
+                                  "source":  "Docs/DesignUI/s1-20261028-085252514/components/land.svg",
+                                  "openedWith":  "view_image",
+                                  "board":  "components"
+                              }
+                          ],
+    "reviewFindings":  [
+                           "Desktop and independent mobile canvas: complete tile separated from identity, no circular/diamond overlay; three dark surfaces isolate foreground from the map.",
+                           "Owned, busy, city, neutral and blocked action rows reviewed; retained command icon and label are horizontally separated.",
+                           "Inherited 426-unit partial design shortened to418 and original runtime506 shortened by88; owned/busy controls change72 to44 high.",
+                           "Formal surfaces are text-free vector exports, not enlarged historical art."
+                       ],
+    "limitations":  [
+                        "Contextual montage uses old screenshots and adjacent-map patch; it is not new game output.",
+                        "Dynamic sample values describe sample states; game uses existing Core values.",
+                        "Legacy resource and action symbols are preserved; formal exports contain only three text-free vector surfaces.",
+                        "Full original placement around the selected map tile remains a separate layout gap."
+                    ],
+    "runtimeReview":  "Pending independent publisher screenshots and real inputs."
+}

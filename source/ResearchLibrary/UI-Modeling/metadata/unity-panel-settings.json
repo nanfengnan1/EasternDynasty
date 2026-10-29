@@ -1,0 +1,26 @@
+{
+  "title": "Unity - Manual: Panel Settings properties reference",
+  "source_url": "https://docs.unity3d.com/6000.3/Documentation/Manual/UIE-Runtime-Panel-Settings.html",
+  "final_url": "https://docs.unity3d.com/6000.3/Documentation/Manual/UIE-Runtime-Panel-Settings.html",
+  "accessed_at": "2026-10-24T10:36:24.188Z",
+  "sha256": "44743fd54034fa960f911118c7e155b009e9d0ba2abae381e06fd07c506ab916",
+  "byte_length": 29638,
+  "headings": [
+    "Unity Manual",
+    "Panel Settings properties reference",
+    "Collider Update Mode",
+    "Collider is Trigger",
+    "Screen Space Overlay parameters",
+    "Scale Mode parameters",
+    "Constant Pixel Size",
+    "Constant Physical Size",
+    "Scale with Screen Size",
+    "Dynamic Atlas Settings",
+    "Active Filters",
+    "Clear Settings",
+    "Buffer Management",
+    "Additional resources"
+  ],
+  "image_links": [],
+  "storage_note": "Stores bibliographic metadata and image URLs only; full article body is not saved."
+}

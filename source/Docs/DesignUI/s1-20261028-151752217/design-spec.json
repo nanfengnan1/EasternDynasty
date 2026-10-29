@@ -1,0 +1,147 @@
+{
+  "version": "s1-20261028-151752217",
+  "status": "exported-inspected-integrated-runtime-pending",
+  "reference": {
+    "id": "STZB-0499",
+    "path": "F:/工作项目/率土之滨/rag/assets/20/20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f.jpg",
+    "sha256": "20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f",
+    "width": 2340,
+    "height": 1080,
+    "year": 2021,
+    "scope": "Historical exploration/promotion map, current S1 unknown. Horizontal unit-name strips only; three member rows are a project adaptation, not an official army list."
+  },
+  "newerReference": {
+    "id": "STZB-0527",
+    "path": "F:/工作项目/率土之滨/rag/assets/4f/4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376.jpg",
+    "sha256": "4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376",
+    "year": 2023,
+    "width": 720,
+    "height": 405,
+    "scope": "Later same map page; inspected, too low-resolution for production artwork; no clearer left army structure."
+  },
+  "baselines": [
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-110251322/Project/Validation/Visual/s1-20261028-110251322-youzhou-1440x900/smoke-hud-design-quest.png",
+      "sha256": "408074df3fe27bfe07f415ac28af43bc5e7fff833591b96500878e67e9f6d279"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-110251322/Project/Validation/Visual/s1-20261028-110251322-mobile-1600x720/smoke-hud-design-quest.png",
+      "sha256": "4e669b7d59daefa5374b3d69dcf2c518e7a1679014342da67630f09226d68c1e"
+    }
+  ],
+  "layout": {
+    "area": [
+      20,
+      "height-396",
+      354,
+      302
+    ],
+    "header": [
+      0,
+      0,
+      354,
+      28
+    ],
+    "card": [
+      0,
+      32,
+      354,
+      64
+    ],
+    "pitch": 68,
+    "art": [
+      4,
+      1,
+      44,
+      62
+    ],
+    "name": [
+      62,
+      12,
+      164,
+      40
+    ],
+    "identity": [
+      242,
+      12,
+      102,
+      40
+    ],
+    "status": [
+      0,
+      236,
+      354,
+      20
+    ],
+    "actions": [
+      [
+        0,
+        258,
+        171,
+        44
+      ],
+      [
+        183,
+        258,
+        171,
+        44
+      ]
+    ]
+  },
+  "fonts": {
+    "name": 18,
+    "minimumName": 12,
+    "identity": 13
+  },
+  "components": [
+    "ui.youzhou.army_row",
+    "ui.youzhou.army_row_hover"
+  ],
+  "reusedAssets": [
+    {
+      "id": "portrait.s1_100630",
+      "path": "Assets/EasternDynasty/Resources/Portraits/s1_100630.png",
+      "sha256": "47f3a48d9718772b49b94465d9e3f3fc0c547bf31b77e587e19b54a34530a00a"
+    },
+    {
+      "id": "portrait.s1_100744",
+      "path": "Assets/EasternDynasty/Resources/Portraits/s1_100744.png",
+      "sha256": "4073a37982acb03126b9c60748fa27d38f785cd0b97cebe7539b54fb49dfbc93"
+    },
+    {
+      "id": "portrait.s1_100746",
+      "path": "Assets/EasternDynasty/Resources/Portraits/s1_100746.png",
+      "sha256": "be1051c234e8d4d3a617593435af4f5ef82ba0217ac39a7a7ea36943d1b9f2f0"
+    },
+    {
+      "id": "portrait.s1_100490",
+      "path": "Assets/EasternDynasty/Resources/Portraits/s1_100490.png",
+      "sha256": "9aec01494d987b64b1d1edbcfb740491297fcfb51abd8dcf515dfdc550fe786c"
+    },
+    {
+      "id": "ui.youzhou.army_strip",
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/army_strip.png",
+      "sha256": "a12670e04709b7e1820c8e5b5e113e9fe62f02a3b352bf81a98eed8a31eeab7d"
+    },
+    {
+      "id": "ui.youzhou.army_command",
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/army_command.png",
+      "sha256": "a3b0bc89f19c0cb0896402244bd8c9094f3d2818c2eb6fb83caa3047032e7e27"
+    },
+    {
+      "id": "ui.youzhou.army_command_hover",
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/army_command_hover.png",
+      "sha256": "93b46726386bc851841455da3c1c5dc26aaa102f7688deb96e9fc3fa5a40d868"
+    }
+  ],
+  "notes": [
+    "Preserve true formation order, all member details and existing commands; rows represent members of one project army, not multiple armies.",
+    "Full portrait uses ScaleToFit; portrait and text are separate live clickable regions in a 354x64 row; name and identity lie in the central 40-high ribbon.",
+    "No screenshot pixels or dynamic text in formal row skins. No new illustration algorithm.",
+    "Desktop/mobile use independent real baselines; design boards are not new runtime screenshots."
+  ],
+  "runtimeFiles": [
+    "Assets/EasternDynasty/Scripts/Runtime/MapHudArmyLayout.cs",
+    "Assets/EasternDynasty/Scripts/Runtime/MapHudArmyPresentation.cs"
+  ]
+}

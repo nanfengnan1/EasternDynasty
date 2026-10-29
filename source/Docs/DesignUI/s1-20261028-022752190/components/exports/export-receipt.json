@@ -1,0 +1,48 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T02:39:15.7396443Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-022752190\\components\\catalog.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-022752190\\components\\catalog.svg",
+    "sourceSha256":  "06F712426FB9EAE7BAD634E14FD5A137B0D1496B213C59DC06C637BC4A0A754B",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\catalog-preview.png",
+                       "sha256":  "5394AF89467AA947AEE9D6C8E69CF639815E6728B3B92B1AF67CA1F4560332FC",
+                       "width":  1024,
+                       "height":  760,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\catalog-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\catalog-catalog-sheet.png",
+                       "sha256":  "3ADA45466E9103FD3F1883FCE52951859A0EFEFF511EC32C4779AD0185BD6324",
+                       "width":  1024,
+                       "height":  640,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\catalog-catalog-sheet.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\catalog-catalog-rule.png",
+                       "sha256":  "4E78734DFFE775901FE67F04DF14CB0A6CD91A3FAB6138A43D61960B24BB940C",
+                       "width":  1024,
+                       "height":  2,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\catalog-catalog-rule.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\catalog-catalog-category.png",
+                       "sha256":  "2291FB220FAB980D72CEEBD6FF3F0110341FDCF9A56EE513D7B38AA1F469FE00",
+                       "width":  368,
+                       "height":  88,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\catalog-catalog-category.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\catalog-catalog-category-active.png",
+                       "sha256":  "D249BA7D4D884A54DC2E32A889167AB00D13CECEA338FABC0164CF23D8B526DE",
+                       "width":  368,
+                       "height":  88,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-022752190\\components\\exports\\catalog-catalog-category-active.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

@@ -1,0 +1,82 @@
+{
+  "version": "s1-20261028-130751956",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "id": "STZB-0499",
+    "path": "F:/工作项目/率土之滨/rag/assets/20/20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f.jpg",
+    "sha256": "20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f",
+    "width": 2340,
+    "height": 1080,
+    "year": 2021,
+    "scope": "historical unknown S1; city crest and horizontal name hierarchy only"
+  },
+  "baselines": [
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-110251322/Project/Validation/Visual/s1-20261028-110251322-youzhou-1440x900/smoke-hud-design-quest.png",
+      "sha256": "408074df3fe27bfe07f415ac28af43bc5e7fff833591b96500878e67e9f6d279"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-110251322/Project/Validation/Visual/s1-20261028-110251322-mobile-1600x720/smoke-hud-design-quest.png",
+      "sha256": "4e669b7d59daefa5374b3d69dcf2c518e7a1679014342da67630f09226d68c1e"
+    }
+  ],
+  "layout": {
+    "minimumWidth": 184,
+    "maximumWidth": 304,
+    "height": 52,
+    "wrappedHeight": 72,
+    "crest": [
+      0,
+      "(height-52)/2",
+      52,
+      52
+    ],
+    "image": [
+      6,
+      "(height-52)/2+12",
+      40,
+      28
+    ],
+    "name": [
+      60,
+      2,
+      "width-70",
+      "24 or 44"
+    ],
+    "detail": [
+      60,
+      "height-24",
+      "width-70",
+      22
+    ],
+    "ribbon": [
+      44,
+      0,
+      "width-44",
+      "height"
+    ],
+    "anchor": "centered over projected city, bottom 12 above anchor"
+  },
+  "fonts": {
+    "name": 16,
+    "minimumName": 14,
+    "detail": 12
+  },
+  "components": [
+    "city_marker_crest",
+    "city_marker_selected",
+    "city_marker_ribbon"
+  ],
+  "reusedArt": {
+    "id": "map.youzhou.city",
+    "path": "Assets/EasternDynasty/Resources/Youzhou/city.png",
+    "sha256": "178d9ac249e7178b9669edad891a1a40ec534e156a910e66d898f4155fba6b41",
+    "scope": "existing derived image, not an official city icon"
+  },
+  "notes": [
+    "No current-S1 rule or skin claim. No screenshot is a production asset.",
+    "Round city crest and narrow dark horizontal name strip follow visible 2021 reference; 2023 auxiliary screenshot is too small for icon artwork.",
+    "Separate status row and responsive width are project readability/touch adaptations.",
+    "Desktop/mobile use different real baselines with independent marker overlays and a labelled component comparison board; these are design composites, not new runtime screenshots."
+  ]
+}

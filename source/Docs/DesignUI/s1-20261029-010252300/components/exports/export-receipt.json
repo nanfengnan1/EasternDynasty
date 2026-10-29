@@ -1,0 +1,34 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-29T01:14:46.9712790Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-010252300\\components\\skill-sheet.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261029-010252300\\components\\skill-sheet.svg",
+    "sourceSha256":  "3FD316D101DF7B2EB64F010A620158B858D9E0170DA5F311F7B7BD275D5DB011",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-010252300\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-010252300\\components\\exports\\skill-sheet-preview.png",
+                       "sha256":  "83E20D527F63CF9EF2725C791744BB764A4B29025617F6B9C3E0F8E051A48351",
+                       "width":  1240,
+                       "height":  700,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261029-010252300\\components\\exports\\skill-sheet-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-010252300\\components\\exports\\skill-sheet-skill-sheet.png",
+                       "sha256":  "BB8DC35EAA1D0B024C20B5065920B3C261E774FA9FC90EF7BCA9518207CBB3AB",
+                       "width":  1240,
+                       "height":  480,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261029-010252300\\components\\exports\\skill-sheet-skill-sheet.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261029-010252300\\components\\exports\\skill-sheet-skill-learning.png",
+                       "sha256":  "866E2D76D52BC90347400CBF5DEA6641C18BC36CFEE8FAFB39ABBBF07B127DED",
+                       "width":  1240,
+                       "height":  168,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261029-010252300\\components\\exports\\skill-sheet-skill-learning.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

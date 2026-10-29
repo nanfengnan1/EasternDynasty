@@ -1,0 +1,24 @@
+{
+  "version": "s1-20261028-110251322",
+  "atUtc": "2026-10-28T11:35:40.493Z",
+  "status": "design-inspected-implemented-runtime-pending",
+  "tool": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+  "inspected": [
+    "Docs/DesignUI/s1-20261028-110251322/desktop/exports/land-orders-preview.png",
+    "Docs/DesignUI/s1-20261028-110251322/mobile/exports/land-orders-preview.png",
+    "Docs/DesignUI/s1-20261028-110251322/busy/exports/land-orders-preview.png",
+    "Docs/DesignUI/s1-20261028-110251322/city/exports/land-orders-preview.png",
+    "Docs/DesignUI/s1-20261028-110251322/neutral/exports/land-orders-preview.png",
+    "Docs/DesignUI/s1-20261028-110251322/blocked/exports/land-orders-preview.png",
+    "Docs/DesignUI/s1-20261028-110251322/components/exports/land-orders-preview.png"
+  ],
+  "corrections": [
+    "Initial 414x86 tight component export corrected to explicit transparent 416x88 canvas and re-exported.",
+    "Initial desktop montage left old border; clearing bounds corrected, all affected previews re-exported and inspected."
+  ],
+  "scope": "Layout composition and actual vector exports inspected; actual runtime Chinese fonts, contrast, pixels and real clicks remain publisher gates. Reference and older baseline montage are not new runtime captures.",
+  "newAssets": [
+    "ui.youzhou.land_order",
+    "ui.youzhou.land_order_active"
+  ]
+}

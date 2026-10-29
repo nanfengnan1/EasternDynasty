@@ -1,0 +1,22 @@
+{
+  "title": "Canvas Scaler | uGUI | 2.0.0",
+  "source_url": "https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/script-CanvasScaler.html",
+  "final_url": "https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/script-CanvasScaler.html",
+  "accessed_at": "2026-10-24T10:36:22.690Z",
+  "sha256": "1753a2949fadcee24a3012e97564b9a12114f129bef823a7a956fd1195c17232",
+  "byte_length": 16781,
+  "headings": [
+    "Canvas Scaler",
+    "Properties",
+    "Details",
+    "Constant Pixel Size",
+    "Scale With Screen Size",
+    "Constant Physical Size",
+    "World Space",
+    "Hints"
+  ],
+  "image_links": [
+    "https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/images/UI_CanvasScalerInspector.png"
+  ],
+  "storage_note": "Stores bibliographic metadata and image URLs only; full article body is not saved."
+}

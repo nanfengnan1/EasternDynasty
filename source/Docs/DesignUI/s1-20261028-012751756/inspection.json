@@ -1,0 +1,96 @@
+{
+  "version": "s1-20261028-012751756",
+  "atUtc": "2026-10-28T01:51:54.671Z",
+  "status": "design-inspected-runtime-pending",
+  "inspected": [
+    {
+      "target": "desktop",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261028-012751756/desktop/exports/export-receipt.json",
+        "sha256": "adc6f992da8a9546c775a2996ae29b953ff1b8adc9fe22b1040d889de7184ef3",
+        "bytes": 1362
+      },
+      "source": {
+        "path": "Docs/DesignUI/s1-20261028-012751756/desktop/gallery.svg",
+        "sha256": "54b086d89eb46b5c823877a78aa4cda41d2a4e91d33fbb3c645d37fef9839819",
+        "bytes": 1736868
+      },
+      "preview": {
+        "path": "Docs/DesignUI/s1-20261028-012751756/desktop/exports/gallery-preview.png",
+        "sha256": "25e04de1eff5ec9d5fe9f3e3c0e69f7b60de684d8587a0e6a9c0a45df1545824",
+        "bytes": 385112
+      },
+      "viewed": true
+    },
+    {
+      "target": "mobile",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261028-012751756/mobile/exports/export-receipt.json",
+        "sha256": "9acb22229f491d19d16692aba59dd5a22b6d00279b5a835c3a58645f6490e625",
+        "bytes": 1357
+      },
+      "source": {
+        "path": "Docs/DesignUI/s1-20261028-012751756/mobile/gallery.svg",
+        "sha256": "23e2d16518e1f473f2de140c1497e5de38d7657a6b1145f51d13884ada9bfb07",
+        "bytes": 1623415
+      },
+      "preview": {
+        "path": "Docs/DesignUI/s1-20261028-012751756/mobile/exports/gallery-preview.png",
+        "sha256": "4e2413e52949582c9deaf0a7cbf2c5a8058177980a0e345529e72f3e6820bf5c",
+        "bytes": 298230
+      },
+      "viewed": true
+    },
+    {
+      "target": "states",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261028-012751756/states/exports/export-receipt.json",
+        "sha256": "f0a70b586ace5274d588da231a23569ebce20ec040f5042538c65cc869ceec35",
+        "bytes": 1357
+      },
+      "source": {
+        "path": "Docs/DesignUI/s1-20261028-012751756/states/gallery.svg",
+        "sha256": "605cbfa96ea06d708d149ee07e054ad1f66eabea5ab6a31adb20babe3b4151e2",
+        "bytes": 15194
+      },
+      "preview": {
+        "path": "Docs/DesignUI/s1-20261028-012751756/states/exports/gallery-preview.png",
+        "sha256": "8a967f1092c1cb431609a7a68003874e5616e5146816fad91ba3cfe68fc6df86",
+        "bytes": 94008
+      },
+      "viewed": true
+    },
+    {
+      "target": "components",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261028-012751756/components/exports/export-receipt.json",
+        "sha256": "9fec185ffe367b8945783fb85359d75f34feeb5e4859c6c53f2b1c94bbf39abc",
+        "bytes": 2969
+      },
+      "source": {
+        "path": "Docs/DesignUI/s1-20261028-012751756/components/gallery.svg",
+        "sha256": "3ec3f6ecbf65c84b7ca1116ce557f880292e1ad34c253269a3f325fa10bfcf46",
+        "bytes": 952
+      },
+      "preview": {
+        "path": "Docs/DesignUI/s1-20261028-012751756/components/exports/gallery-preview.png",
+        "sha256": "8a36835e437bbb5cc0370b2cfb31522376a34217ae6af525c23c26909a1c8b3a",
+        "bytes": 18334
+      },
+      "viewed": true
+    }
+  ],
+  "corrections": [
+    "Moved selected emphasis from the bottom to the top to clear the status label, re-exported and viewed desktop/mobile.",
+    "Corrected construction-state district 0 to the actual mill/working labels; re-exported and viewed."
+  ],
+  "limitations": [
+    "Right ledger inherits the prior inspected design; surrounding UI uses old 104752269 screenshots. These composites are not current runtime evidence.",
+    "Existing 240x180 project building silhouettes are illustrations, not new official high-resolution art.",
+    "Inkscape configuration/recent-file write warnings retained; exported files and hashes verified."
+  ]
+}

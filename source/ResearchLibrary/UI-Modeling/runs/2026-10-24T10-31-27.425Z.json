@@ -1,0 +1,30 @@
+{
+  "started_at": "2026-10-24T10:31:27.425Z",
+  "finished_at": "2026-10-24T10:31:34.883Z",
+  "batch": "images-2",
+  "finite_run": true,
+  "recurring_schedule_created": false,
+  "results": [
+    {
+      "id": "unity-sandy-terrain-image",
+      "status": "success",
+      "change": "new",
+      "bytes": 412042,
+      "path": "References/UI-Modeling/unity-sandy-terrain-image-1eb364ef87f9.png"
+    },
+    {
+      "id": "unity-neighbor-terrain-image",
+      "status": "success",
+      "change": "new",
+      "bytes": 212484,
+      "path": "References/UI-Modeling/unity-neighbor-terrain-image-5652956341b0.png"
+    },
+    {
+      "id": "unity-lod-image",
+      "status": "success",
+      "change": "new",
+      "bytes": 8380,
+      "path": "References/UI-Modeling/unity-lod-image-974c18333638.png"
+    }
+  ]
+}

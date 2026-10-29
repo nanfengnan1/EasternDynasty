@@ -1,0 +1,69 @@
+{
+  "version": "s1-20261028-235752015",
+  "status": "design-inspected-source-integrated-runtime-pending",
+  "atUtc": "2026-10-29T00:18:39.533Z",
+  "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+  "referencesActuallyViewed": [
+    "STZB-0527",
+    "STZB-0499"
+  ],
+  "baselines": [
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-225251901/Project/Validation/Visual/s1-20261028-225251901-youzhou-1440x900/smoke-hud-recruit-seal.png",
+      "sha256": "aba944191f90c6a3109408507bf0fdb5127b90b17478acc0ea0352bb13377b03"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-225251901/Project/Validation/Visual/s1-20261028-225251901-mobile-1600x720/smoke-hud-recruit-seal.png",
+      "sha256": "15f35279ac76e7be6ba8a13cc8315fe0dfc2d3d7d712a0e0a084e05fab5c4fe9"
+    }
+  ],
+  "exports": [
+    {
+      "target": "desktop",
+      "receipt": "Docs/DesignUI/s1-20261028-235752015/desktop/exports/export-receipt.json",
+      "preview": "Docs/DesignUI/s1-20261028-235752015/desktop/exports/quest-sleeve-preview.png",
+      "source": "Docs/DesignUI/s1-20261028-235752015/desktop/quest-sleeve.svg",
+      "actuallyViewed": true
+    },
+    {
+      "target": "mobile",
+      "receipt": "Docs/DesignUI/s1-20261028-235752015/mobile/exports/export-receipt.json",
+      "preview": "Docs/DesignUI/s1-20261028-235752015/mobile/exports/quest-sleeve-preview.png",
+      "source": "Docs/DesignUI/s1-20261028-235752015/mobile/quest-sleeve.svg",
+      "actuallyViewed": true
+    },
+    {
+      "target": "states",
+      "receipt": "Docs/DesignUI/s1-20261028-235752015/states/exports/export-receipt.json",
+      "preview": "Docs/DesignUI/s1-20261028-235752015/states/exports/quest-sleeve-preview.png",
+      "source": "Docs/DesignUI/s1-20261028-235752015/states/quest-sleeve.svg",
+      "actuallyViewed": true
+    },
+    {
+      "target": "components",
+      "receipt": "Docs/DesignUI/s1-20261028-235752015/components/exports/export-receipt.json",
+      "preview": "Docs/DesignUI/s1-20261028-235752015/components/exports/quest-sleeve-preview.png",
+      "source": "Docs/DesignUI/s1-20261028-235752015/components/quest-sleeve.svg",
+      "actuallyViewed": true
+    }
+  ],
+  "findings": [
+    "Desktop and correctly scaled mobile boards retain separate book/information/action regions.",
+    "Active, ready, complete, longest existing objective, hover and disabled illustrative states were opened and inspected.",
+    "Book aspect ratio is preserved; complete objective and history caption fit the design preview. Runtime font metrics remain mandatory.",
+    "Detached 80x68 book, 264x68 right information sleeve and 118-high region are the implemented composition; no full-screen bitmap UI."
+  ],
+  "independentReview": {
+    "agent": "rag_review",
+    "scope": "Read-only preview, design geometry and input/modal source inspection",
+    "blockingIssues": 0,
+    "adjustment": "Use +/-0.40 book height for the real in-bounds drag, exceeding the maximum 30-pixel cancellation threshold even at the supported 1024-wide minimum."
+  },
+  "limitations": [
+    "The existing project book is an illustration, not a recovered official icon.",
+    "2023 historical map is low resolution and unknown current S1; used only as composition reference.",
+    "Inkscape stderr reports denied user-profile extension/recent-file logging; exported images, geometry and receipts are valid.",
+    "No new Unity/desktop/phone runtime screenshot was captured this round; disabled preview is illustrative."
+  ],
+  "uiIteration": "Docs/UIIterations/s1-20261028-235752015.md"
+}

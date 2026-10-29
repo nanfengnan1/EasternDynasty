@@ -1,0 +1,23 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+const version='s1-20261028-130751956',root=process.cwd(),design=`Docs/DesignUI/${version}`,evidence=`Validation/UIRound/${version}`;
+const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8').replace(/^\uFEFF/,''));
+const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
+const spec=read(`${design}/design-spec.json`);spec.status='exported-inspected-runtime-integrated-awaiting-publisher';
+spec.notes=spec.notes.map(s=>s.replace('Desktop/mobile boards use different real baselines and mobile component scale; boards are not new game screenshots.','Desktop/mobile use different real baselines with independent marker overlays and a labelled component comparison board; these are design composites, not new runtime screenshots.'));
+write(`${design}/design-spec.json`,spec);
+write(`${design}/design-review.json`,{version,status:'design-inspected-runtime-pending',toolVersion:'Inkscape 1.4.4 (dcaf3e7, 2026-05-05)',referenceViewed:['STZB-0499','STZB-0527'],baselineVersion:'s1-20261028-110251322',previews:['desktop','mobile','states','components'].map(t=>({path:`${design}/${t}/exports/city-label-preview.png`,sha256:sha(`${design}/${t}/exports/city-label-preview.png`),receipt:`${design}/${t}/exports/export-receipt.json`})),findings:['独立圆章与完整城市图接横向名签，区别于原124×29纯色矩形。','城名、真实归属和等级分层，长名称两行，不把动态文字烘焙。','已修透明组件边界及设计叠加文本编码，查看最终桌面/手机/状态导出。','设计预览复用旧地图，旧图边缘像素与运行时实际透明混合仍待发布者新截图。','圆章内城市图是既有派生图，未取得正式单体城市图标；不能称还原原作。'],runtimeAccepted:false});
+const logBytes=fs.readFileSync(`${evidence}/validate.log`);
+const log=logBytes.toString(logBytes[0]===255&&logBytes[1]===254?'utf16le':'utf8');
+if(!log.includes('PASS: runtime and Editor scripts compile against installed Unity references.'))throw new Error('Missing completed static compilation');
+if(!log.includes('405 city marker geometry checks'))throw new Error('Missing new geometry suite');
+write(`${evidence}/result.json`,{version,status:'passed-development-checks-runtime-pending',atUtc:new Date().toISOString(),validation:{path:`${evidence}/validate.log`,sha256:sha(`${evidence}/validate.log`),coreApplicationAndMobile:'passed',mapCityGeometry:405,mapCityExperienceRules:23,publicationFooterRegression:7,existingCityPanoramaRegression:38,runtimeEditorReferenceCompilation:'passed-no-editor-started',designProvenance:'73 formal UI assets passed'},assets:{path:`${evidence}/assets.log`,sha256:sha(`${evidence}/assets.log`),ready:331,existingMissing:16,pendingUnityMeta:73,imported:['ui.youzhou.city_marker_crest','ui.youzhou.city_marker_selected','ui.youzhou.city_marker_ribbon']},rag:`${evidence}/rag-audit.json`,uiIteration:`Docs/UIIterations/${version}.md`,runtime:{performed:false,requiredScreenshots:['smoke-map-city-markers.png','smoke-map-city-markers-long.png'],requiredMarker:'MAP_CITY_MARKER_DESIGN_RUNTIME_OK',remaining:'双桌面/手机实际字体、视觉、图文点击、地块拾取/拖动/模态及Android真机由发布者验收'},noCoreOrSaveChanges:true});
+const section=`\n## ${version} / 地图城市图章与分层名签\n\n**专业稿、三张正式资源与UI源码已接入；运行观感/真实点击待发布者。** 对照2021 STZB-0499、2023辅助地图与110桌面/手机基线，124×29纯色城市标签改为52圆章、完整城市图和独立城名/归属横签；至少184×52、长名最多304×72，真实投影、安全区避让和原地块点击保留。四份Inkscape分层稿实际导出并查看，三个city_marker稳定ID受控导入，无规则/存档/卡池变化。[原图、三个差距及专业导出](UIIterations/${version}.md)。\n\n优先修110发布城市底栏断言仍沿用旧262/82几何的问题，改为现有270/90且保留严格容差；新增7例冻结实际几何回归、原38例通过。统一纯逻辑与Runtime/Editor引用编译通过，新405布局性质/23交互验收规则、73正式UI来源链通过；331 ready/16既有missing/73 meta待正常Unity导入。[结果](../${evidence}/result.json)。新增两张必需城市名牌截图、长名/实际字体marker，以及主城图像/名称/归属和中立城图像/名称真实点击往返。未启动Unity或客户端。\n\nRAG120252765→130752473新增Q09税收历史批，74版本/140配置/987身份/728图；配置、19份来源及4图SHA匹配。新增均observed，不能从三时代资料推定现行S1税收；只部分采用base0499名牌展示结构。缺口沿既有Q09/S1UX-02/04去重保留。下一轮先读发布反馈，验名牌透明混合、长名、密集城市和图文操作；地图重复纹理、正式图标/城景、练兵/任务/冻结回放/本场观看与Android真机继续待办。本轮未交付Windows/APK或修改发布快照/状态、调度和锁。\n`;
+for(const file of ['Docs/Iteration-Review.md','Docs/Hourly-UI-Gameplay-Backlog.md']){let s=fs.readFileSync(file,'utf8');if(!s.includes(`## ${version} /`)){const at=s.indexOf('\n');s=s.slice(0,at+1)+section+s.slice(at+1);fs.writeFileSync(file,s);}}
+const nav='agent.md';let s=fs.readFileSync(nav,'utf8');const heading='| 当前任务 | 优先读取 | 修改归属 |';
+const newRow='| 地图城市图章与分层名签 | Runtime/MapCityLabelLayout.cs、MapCityLabelPresentation.cs；Diagnostics/MapCityLabelDiagnostics.cs；Docs/DesignUI/'+version+' | 52圆章/完整城市图、名称与归属独立、长名两行；三Inkscape正式资源，405布局/23交互规则与引用编译通过；新图/真实点击待发布者，无规则或存档变化 |\n';
+const lines=s.split('\n');const tableIndex=lines.findIndex(l=>l.includes('当前任务')&&l.includes('优先读取'));
+if(tableIndex>=0&&!s.includes('| 地图城市图章与分层名签 |')){lines.splice(tableIndex+2,0,newRow.trimEnd());fs.writeFileSync(nav,lines.join('\n'));}
+console.log('Final development evidence and handoff updated.');

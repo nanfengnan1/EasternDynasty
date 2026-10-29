@@ -1,0 +1,34 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T11:14:32.3868678Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-110251322\\components\\land-orders.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-110251322\\components\\land-orders.svg",
+    "sourceSha256":  "A1B59A4EE58B2B9EFC77F17447CED4CCBE71911CBB65F8AAC39AC081C521019D",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-110251322\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-110251322\\components\\exports\\land-orders-preview.png",
+                       "sha256":  "3C6141F98ACDD9197EF9D4872BAF1893D7B09B93FA0636A92B71BCFD8F86A37E",
+                       "width":  960,
+                       "height":  520,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-110251322\\components\\exports\\land-orders-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-110251322\\components\\exports\\land-orders-land-order.png",
+                       "sha256":  "6C1F7D779262E23D3112B3B9076CEED5D92D726EDDB8A0A3F22C7C0480E137F3",
+                       "width":  416,
+                       "height":  88,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-110251322\\components\\exports\\land-orders-land-order.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-110251322\\components\\exports\\land-orders-land-order-active.png",
+                       "sha256":  "94CFFC66A59742835CA311803308E554C49543075981729BA6B8CFD4D8BE3188",
+                       "width":  416,
+                       "height":  88,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-110251322\\components\\exports\\land-orders-land-order-active.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

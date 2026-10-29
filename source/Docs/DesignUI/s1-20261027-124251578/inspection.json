@@ -1,0 +1,46 @@
+{
+  "version": "s1-20261027-124251578",
+  "recordedAtUtc": "2026-10-27T13:10:20.432Z",
+  "method": "Primary agent actually opened images via view_image; final three page previews inspected before Runtime implementation.",
+  "viewed": [
+    {
+      "file": "F:/工作项目/率土之滨/rag/assets/4f/4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376.jpg",
+      "sha256": "4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376"
+    },
+    {
+      "file": "F:/工作项目/率土之滨/rag/assets/20/20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f.jpg",
+      "sha256": "20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f"
+    },
+    {
+      "file": "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-youzhou-1440x900/smoke-overview.png",
+      "sha256": "b9a143f304199a7323b6200c4b9c1e90609eaad2a6c60f44f42f993bfd54724d"
+    },
+    {
+      "file": "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-mobile-1600x720/smoke-overview.png",
+      "sha256": "1bcc78f5f1f1b76786e283acd2a16dfc5762faeb474f4a48e7312e53726f964e"
+    },
+    {
+      "file": "Docs/DesignUI/s1-20261027-124251578/desktop/exports/map-hud-preview.png",
+      "sha256": "e637130e9444293320de8a2f00343b30717b5c9386cf441162e5aeb49bdf9221"
+    },
+    {
+      "file": "Docs/DesignUI/s1-20261027-124251578/mobile/exports/map-hud-preview.png",
+      "sha256": "b83bd6b0d7e198f52ec1270d7ed71db58763bd6487c66f4f91d57000b7104592"
+    },
+    {
+      "file": "Docs/DesignUI/s1-20261027-124251578/stress/exports/map-hud-preview.png",
+      "sha256": "abdee3c1d0dafd9648eb6ca3a107024cf1f1e85a339d2785a4b3efaed2960343"
+    },
+    {
+      "file": "Docs/DesignUI/s1-20261027-124251578/components/exports/header-preview.png",
+      "sha256": "5f555b7108e8e31e18b4ed30d158906c63a22fba9fa882fd7d74676618128d30"
+    }
+  ],
+  "result": "Final design previews show separated two-row stocks/rates and right currencies. Corrected first-export SVG crop overflow before implementation.",
+  "limitations": [
+    "Previews use historical game images as context, not new runtime screenshots.",
+    "Inkscape export is not Unity or device validation.",
+    "Existing legacy currency symbols and low-resolution resource icons remain; no new official icon pack.",
+    "Actual camera continuation, Chinese font, contrast and input await publisher."
+  ]
+}

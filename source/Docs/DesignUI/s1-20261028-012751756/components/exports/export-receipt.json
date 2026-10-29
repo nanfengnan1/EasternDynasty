@@ -1,0 +1,41 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T01:39:27.7732654Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-012751756\\components\\gallery.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-012751756\\components\\gallery.svg",
+    "sourceSha256":  "3EC3F6ECBF65C84B7CA1116CE557F880292E1AD34C253269A3F325FA10BFCF46",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-012751756\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-012751756\\components\\exports\\gallery-preview.png",
+                       "sha256":  "8A36835E437BBB5CC0370B2CFB31522376A34217AE6AF525C23C26909A1C8B3A",
+                       "width":  1920,
+                       "height":  1807,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-012751756\\components\\exports\\gallery-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-012751756\\components\\exports\\gallery-facility-stage.png",
+                       "sha256":  "979CBF666B01B1418EC40DE3C664F345C97831DF5ACF359B70BCEDDB357FB9F4",
+                       "width":  960,
+                       "height":  640,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-012751756\\components\\exports\\gallery-facility-stage.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-012751756\\components\\exports\\gallery-facility-stage-footer.png",
+                       "sha256":  "534DF39D064E8419873E5E5843AF8F8088A95540011E4F5BEE852ED119867492",
+                       "width":  960,
+                       "height":  68,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-012751756\\components\\exports\\gallery-facility-stage-footer.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-012751756\\components\\exports\\gallery-facility-stage-selected.png",
+                       "sha256":  "D3677DD8EFEACA612FF7A23DAC0367444CAF863E3A71260F290C2C28ACA02307",
+                       "width":  192,
+                       "height":  192,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-012751756\\components\\exports\\gallery-facility-stage-selected.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

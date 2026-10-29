@@ -1,0 +1,38 @@
+{
+  "version": "s1-20261028-151752217",
+  "status": "inspected-for-integration-runtime-pending",
+  "inspected": [
+    {
+      "preview": "Docs/DesignUI/s1-20261028-151752217/desktop/exports/army-rows-preview.png",
+      "receipt": "Docs/DesignUI/s1-20261028-151752217/desktop/exports/export-receipt.json",
+      "sha256": "ed7ce176a39777cc2bb6b15e641c54665b16d406a428220d5ae69f7915875094"
+    },
+    {
+      "preview": "Docs/DesignUI/s1-20261028-151752217/mobile/exports/army-rows-preview.png",
+      "receipt": "Docs/DesignUI/s1-20261028-151752217/mobile/exports/export-receipt.json",
+      "sha256": "5cf014e7f811bdc72a5774a66b992e99d9e0da9aefa8f96a9f5a70e716596fe7"
+    },
+    {
+      "preview": "Docs/DesignUI/s1-20261028-151752217/states/exports/army-rows-preview.png",
+      "receipt": "Docs/DesignUI/s1-20261028-151752217/states/exports/export-receipt.json",
+      "sha256": "761e2b178a43e489366a85d879181983a1517a4345dc879c76041069a9c4ed31"
+    },
+    {
+      "preview": "Docs/DesignUI/s1-20261028-151752217/components/exports/army-rows-preview.png",
+      "receipt": "Docs/DesignUI/s1-20261028-151752217/components/exports/export-receipt.json",
+      "sha256": "4daa63393d0d1afe43be0115117044fc0c70df96a451e0b1ce21e03e7af1621f"
+    }
+  ],
+  "findings": [
+    "Complete portrait containers increased from the rejected 30x42 draft to 44x62; phone preview now about 36.7x51.7 pixels. Smaller than prior running vertical cards, so publisher must review recognition.",
+    "Long-name sample uses matching existing portrait s1_100490 and name; no roster mutation.",
+    "Empty sample troop fill is zero. Training sample retains the real recall action.",
+    "Both actual skin exports are exactly 708x128 with inset strokes.",
+    "Whole blocked region grows 60 logical units upward; this is not a reduced-area claim.",
+    "Separate screenshot context and editable proposed components are design comparison boards, not new game screenshots."
+  ],
+  "runtimeChanged": true,
+  "productionImported": true,
+  "runtimeAccepted": false,
+  "tool": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)"
+}

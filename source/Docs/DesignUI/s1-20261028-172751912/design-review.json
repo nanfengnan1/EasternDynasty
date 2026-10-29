@@ -1,0 +1,167 @@
+{
+  "version": "s1-20261028-172751912",
+  "atUtc": "2026-10-28T17:58:10.180Z",
+  "status": "exported-inspected-integrated-runtime-pending",
+  "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+  "referencesViewed": [
+    {
+      "id": "STZB-0527",
+      "path": "F:/工作项目/率土之滨/rag/assets/4f/4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376.jpg",
+      "sha256": "4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376",
+      "size": [
+        720,
+        405
+      ],
+      "date": "2023-02-01",
+      "scope": "Historical third-party map. Current S1 unknown; layout only, no source pixels used in production."
+    },
+    {
+      "id": "STZB-0428",
+      "path": "F:/工作项目/率土之滨/rag/assets/d8/d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350.jpg",
+      "sha256": "d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350",
+      "size": [
+        500,
+        280
+      ],
+      "year": 2015,
+      "scope": "Historical city page only; no current S1 or shared footer equivalence asserted."
+    },
+    {
+      "id": "STZB-0499",
+      "path": "F:/工作项目/率土之滨/rag/assets/20/20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f.jpg",
+      "scope": "2021 exploration/anniversary map; secondary historical comparison only"
+    }
+  ],
+  "baselinesViewed": [
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-162252252/Project/Validation/Visual/s1-20261028-162252252-youzhou-1440x900/smoke-hud-design-quest.png",
+      "sha256": "bd9feeca4891565618a3ff8282d4cba20f4da1c79f8877b26ef921dfc29bfc9d",
+      "size": [
+        1440,
+        900
+      ]
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-162252252/Project/Validation/Visual/s1-20261028-162252252-mobile-1600x720/smoke-hud-design-quest.png",
+      "sha256": "9b6037e1e80afb4304023172f196bf766e76e901362cabb8ae17b6487cabc930",
+      "size": [
+        1600,
+        720
+      ]
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-162252252/Project/Validation/Visual/s1-20261028-162252252-youzhou-1440x900/smoke-city-footer-design.png",
+      "sha256": "4c5b21a038d0f758d799f9bf27df61f1410d20cbb8a000aea6c127c44cf43077",
+      "size": [
+        1440,
+        900
+      ]
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-162252252/Project/Validation/Visual/s1-20261028-162252252-mobile-1600x720/smoke-city-footer-design.png",
+      "sha256": "13cd176af0440752e1a6c1fadc574715d8b505aeca60a45a3b88c6cd8b36ea30",
+      "size": [
+        1600,
+        720
+      ]
+    }
+  ],
+  "exportsViewed": [
+    {
+      "source": "Docs\\DesignUI\\s1-20261028-172751912\\desktop\\navigation.svg",
+      "sourceSha256": "B53C2BA9C1363CA43C2E3A577E0DA642BF5306893FC3EC2A8E6BCFBA59BAE2CB",
+      "images": [
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-172751912\\desktop\\exports\\navigation-preview.png",
+          "sha256": "AF0875DCA75388110D945913CB0D875CB12308EFE30195479BF94AF179063C09",
+          "width": 1440,
+          "height": 1110
+        }
+      ]
+    },
+    {
+      "source": "Docs\\DesignUI\\s1-20261028-172751912\\mobile\\navigation.svg",
+      "sourceSha256": "B33C2F0CE293658BC90F5A9CAF2D9820D3A5B24870C545B4199B38767063CC61",
+      "images": [
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-172751912\\mobile\\exports\\navigation-preview.png",
+          "sha256": "B0228FD3BD64C171045AED7868F58803BF209C5B6D760512E4657D2E61E28AAE",
+          "width": 1600,
+          "height": 930
+        }
+      ]
+    },
+    {
+      "source": "Docs\\DesignUI\\s1-20261028-172751912\\states\\navigation.svg",
+      "sourceSha256": "E3BC25A7B90FAF2D19B6EC2DA3883C0EE6E8DE7F11A13C1C40B2871F0B206726",
+      "images": [
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-172751912\\states\\exports\\navigation-preview.png",
+          "sha256": "E4D4C74DA9DBB7FFA460F1DAC529882F87E8CCE51550FFDBA60AA5F90DDFACDE",
+          "width": 1440,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "source": "Docs\\DesignUI\\s1-20261028-172751912\\components\\navigation.svg",
+      "sourceSha256": "AD102AAF466037B64506267AF4D7C03A11388A57B1073EE75CA88215D0E36F2C",
+      "images": [
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-172751912\\components\\exports\\navigation-preview.png",
+          "sha256": "DC969763DC8B5C03A2FC0C53566D433F3705418B25CC545CAD0883F20CF4A23C",
+          "width": 1000,
+          "height": 320
+        },
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-172751912\\components\\exports\\navigation-navigation-panel.png",
+          "sha256": "494251E9976DE3E106F8E8A5ED9ACEB87614DB4D31D137A9D0041705F04D3CB8",
+          "width": 216,
+          "height": 140
+        },
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-172751912\\components\\exports\\navigation-navigation-panel-active.png",
+          "sha256": "973F8EB202835EE7F94C04CA055F1F96B031B9D541490105BF37BDEEA97DF7DE",
+          "width": 216,
+          "height": 140
+        }
+      ]
+    },
+    {
+      "source": "Docs\\DesignUI\\s1-20261028-172751912\\city-desktop\\navigation.svg",
+      "sourceSha256": "ADA7C615E6C6280D47C56905E9E9BBE67C4B93F6E8067243DEA23E286FDC91CD",
+      "images": [
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-172751912\\city-desktop\\exports\\navigation-preview.png",
+          "sha256": "ECD9B8CBB0C098DA69CA1AF927CE4DBB5BC126734973F1DA90761D40D5779154",
+          "width": 1440,
+          "height": 1110
+        }
+      ]
+    },
+    {
+      "source": "Docs\\DesignUI\\s1-20261028-172751912\\city-mobile\\navigation.svg",
+      "sourceSha256": "A572BCF3C89BC98699EB80C0DA2FC65E44BDAD62D7B08DF5F81EFB18D7F8E579",
+      "images": [
+        {
+          "path": "Docs\\DesignUI\\s1-20261028-172751912\\city-mobile\\exports\\navigation-preview.png",
+          "sha256": "6776C917F69D74551858344184FF759B7F6418E0C88B5EDA5B6DF5DB6147A732",
+          "width": 1600,
+          "height": 930
+        }
+      ]
+    }
+  ],
+  "inspection": [
+    "Five centered complete image regions sit above independent horizontal caption rails; no source screenshot pixels in formal skins.",
+    "Desktop and mobile use the actual 162 baseline at native size; separate proposed footer below is explicitly labelled design, not runtime.",
+    "First draft annotation contrast corrected; shelf aspect handling matches runtime; 15-point main captions chosen for the 22-high row.",
+    "Selected/hover panels are in a real separate editable state layer, independently of inactive surfaces, images, live labels and hit bounds.",
+    "Empty formation, selected city/map and disabled modal state inspected. Existing generic book/letter art retained; no claim of official HD art."
+  ],
+  "runtimeVerified": false,
+  "limitations": [
+    "Current S1 map/city HD visual identity remains unconfirmed.",
+    "Real CJK font metrics, alpha blending and image/caption mouse/touch routes require publisher screenshots and input."
+  ]
+}

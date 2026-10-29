@@ -1,0 +1,34 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T23:00:47.5541264Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-225251901\\components\\recruit.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-225251901\\components\\recruit.svg",
+    "sourceSha256":  "BC60AA52BF489CDD435C3FC8D480CF29EEAC5FE547FA898F41672FAEA8D9F13B",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-225251901\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-225251901\\components\\exports\\recruit-preview.png",
+                       "sha256":  "10031762BEA11A9ABD2163136822B9137569194795B9ABC3D02FAB27EFA19F31",
+                       "width":  680,
+                       "height":  280,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-225251901\\components\\exports\\recruit-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-225251901\\components\\exports\\recruit-recruit-seal.png",
+                       "sha256":  "BA1D836A3B0EDD979B1EDD2B3972ABEC755CF96EC3F878AF5E459BA75196CA83",
+                       "width":  320,
+                       "height":  280,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-225251901\\components\\exports\\recruit-recruit-seal.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-225251901\\components\\exports\\recruit-recruit-seal-hover.png",
+                       "sha256":  "57E48C9889FDE8B578911475328A7319F4CA6ACA276BC9854602F88ABBB9C9D6",
+                       "width":  320,
+                       "height":  280,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-225251901\\components\\exports\\recruit-recruit-seal-hover.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

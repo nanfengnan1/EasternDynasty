@@ -1,0 +1,11 @@
+{
+  "name": "EasternDynasty.Infrastructure",
+  "rootNamespace": "EasternDynasty",
+  "references": [
+    "EasternDynasty.Core",
+    "EasternDynasty.Application"
+  ],
+  "includePlatforms": [],
+  "autoReferenced": true,
+  "noEngineReferences": false
+}

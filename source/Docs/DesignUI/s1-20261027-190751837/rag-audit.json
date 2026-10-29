@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 1,
+  "version": "s1-20261027-190751837",
+  "atUtc": "2026-10-27T19:16:51.993Z",
+  "auditOnly": true,
+  "status": "observed-not-imported",
+  "snapshot": {
+    "id": "rag-20261027-190759849-3464",
+    "comparedTo": "rag-20261027-180304028-30328",
+    "changed": false,
+    "status": "ready",
+    "counts": {
+      "activeVersions": 59,
+      "assetIdentities": 980,
+      "uniqueImages": 721,
+      "configurationFiles": 125,
+      "newImages": 0
+    },
+    "addedVersions": [],
+    "changedVersions": [],
+    "addedConfigurations": [],
+    "changedConfigurations": [],
+    "newImages": 0,
+    "applicationStatus": "not-applied-by-sync"
+  },
+  "configurationHashSummary": {
+    "checked": 125,
+    "matches": 125,
+    "mismatches": []
+  },
+  "relevantConfigurationHashes": [
+    {
+      "path": "F:\\工作项目\\率土之滨\\rag\\imports\\base\\base-d728496fa74ee1ee61ed\\UI功能清单.json",
+      "expectedSha256": "a830bb69ab58d4871d960547653951ca010909d96fdac64cabd5c03874df6645",
+      "actualSha256": "a830bb69ab58d4871d960547653951ca010909d96fdac64cabd5c03874df6645",
+      "match": true
+    },
+    {
+      "path": "F:\\工作项目\\率土之滨\\rag\\imports\\base\\base-d728496fa74ee1ee61ed\\来源清单.csv",
+      "expectedSha256": "822518dd659a749e3ea11e9b7c9bdbe173c8309a9b8831e3a79c78e55b7fceb5",
+      "actualSha256": "822518dd659a749e3ea11e9b7c9bdbe173c8309a9b8831e3a79c78e55b7fceb5",
+      "match": true
+    },
+    {
+      "path": "F:\\工作项目\\率土之滨\\rag\\imports\\learning\\learn-daily-2026-10-27-track-resources-buildings-1166b12ac75de2610617\\batch.json",
+      "expectedSha256": "ce719760b127ccea858f283f046231d7207785b8b3de4ab02c5b7bf9f4ff7a14",
+      "actualSha256": "ce719760b127ccea858f283f046231d7207785b8b3de4ab02c5b7bf9f4ff7a14",
+      "match": true
+    },
+    {
+      "path": "F:\\工作项目\\率土之滨\\rag\\imports\\s1-guide\\s1-guide-3aa04a884bc81cfa42ba\\S1学习手册.txt",
+      "expectedSha256": "a996120ae3eb0ead43a664a99cb8fd2fa1def7e3c002e45e87e61327ba4606e8",
+      "actualSha256": "a996120ae3eb0ead43a664a99cb8fd2fa1def7e3c002e45e87e61327ba4606e8",
+      "match": true
+    }
+  ],
+  "originalUiEntries": [
+    {
+      "id": "UI-12",
+      "module": "城内界面",
+      "visible_information": "城建设施、部队入口、城池总览",
+      "purpose": "管理当前城市",
+      "asset_ids": [
+        "STZB-0428"
+      ],
+      "local_paths": [
+        "03_UI界面/2015版界面截图/cn_ui_37_城内主界面.jpg"
+      ],
+      "source_urls": [
+        "https://stzb.163.com/strategy/2015/9/10/20401_564811.html"
+      ],
+      "version_note": "各示例来自不同年代，日期见对应素材；仅描述已收集图片，不代表当前完整产品规范"
+    },
+    {
+      "id": "UI-13",
+      "module": "设施与技术树",
+      "visible_information": "建筑节点、等级、前置关系",
+      "purpose": "查看设施发展路径",
+      "asset_ids": [
+        "STZB-0453",
+        "STZB-0474",
+        "STZB-0483",
+        "STZB-0484"
+      ],
+      "local_paths": [
+        "03_UI界面/设施与城建/cn_guide_08_设施建造树.png",
+        "03_UI界面/器械与建造/cn_troops_06_考公府.png",
+        "03_UI界面/设施与城建/cn_troops_15_技术树与铁壁.png",
+        "03_UI界面/设施与城建/cn_troops_16_技术树与床弩.png"
+      ],
+      "source_urls": [
+        "https://stzb.163.com/zt/xinshou/",
+        "https://stzb.163.com/strategy/zxtj/2022/03/21/21004_1008206.html"
+      ],
+      "version_note": "各示例来自不同年代，日期见对应素材；仅描述已收集图片，不代表当前完整产品规范"
+    }
+  ],
+  "originalTextRead": [
+    {
+      "path": "F:\\工作项目\\率土之滨\\rag\\imports\\base\\base-d728496fa74ee1ee61ed\\UI功能清单.json",
+      "sections": [
+        "UI-12 城内界面",
+        "UI-13 设施与技术树"
+      ]
+    },
+    {
+      "path": "F:\\工作项目\\率土之滨\\rag\\imports\\s1-guide\\s1-guide-3aa04a884bc81cfa42ba\\S1学习手册.txt",
+      "section": "资源与城建：解决当前瓶颈",
+      "scope": "reviewed_s1; public sources reviewed, not in-game verified"
+    },
+    {
+      "path": "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\daily-2026-10-27-track-resources-buildings\\attempt-1\\validation-stage\\S1_持续学习\\批次\\daily-2026-10-27-track-resources-buildings\\evidence\\default-20250902.utf8.html",
+      "locator": "L215",
+      "interpretation": "2025公告确认默认外观套装与部分设施视觉尺寸改变；不能推导城区占地、产出或2026常规S1城内UI。"
+    },
+    {
+      "path": "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\daily-2026-10-27-track-resources-buildings\\attempt-1\\validation-stage\\S1_持续学习\\批次\\daily-2026-10-27-track-resources-buildings\\documents\\castle-appearance-2025.md",
+      "expectedSha256": "7fa7caf72a3ab2f4fbc00527344b6760f650100f1f08044279dc9fdd6c277c25",
+      "actualSha256": "7fa7caf72a3ab2f4fbc00527344b6760f650100f1f08044279dc9fdd6c277c25",
+      "match": true,
+      "id": "castle-appearance-history-2025",
+      "originalTextInspected": true
+    }
+  ],
+  "latestCityResearch": {
+    "versionId": "learn-daily-2026-10-27-track-resources-buildings-1166b12ac75de2610617",
+    "summary": "城主府默认外观小批：新增2条2025官方历史事实、1份查询说明；11新来源+1复用，0新增图片。定位2026年S1升级美术更新的官方社区入口，正文403，仅保留转载线索；当前常规S1原图仍缺，未更新数据库。",
+    "scope": {
+      "region": "CN",
+      "server_mode": "classic",
+      "season": "S1",
+      "theme": null,
+      "server_opened_at": null,
+      "as_of": "2026-10-27",
+      "content_scope": "research_target_with_historical_evidence",
+      "s1_applicability": "unknown",
+      "current_implementation_verified": false
+    },
+    "factIds": [
+      "RB27-CASTLE-F001",
+      "RB27-CASTLE-F002"
+    ],
+    "sourceByteHashes": [
+      {
+        "path": "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\daily-2026-10-27-track-resources-buildings\\attempt-1\\validation-stage\\S1_持续学习\\批次\\daily-2026-10-27-track-resources-buildings\\evidence\\castle-art-20260929.raw.html",
+        "expectedSha256": "6c9891bad7c6a7bb34b18395972758b41f3013b9e083b14fe4d94ed24f507e0d",
+        "actualSha256": "6c9891bad7c6a7bb34b18395972758b41f3013b9e083b14fe4d94ed24f507e0d",
+        "match": true,
+        "id": "castle-art-20260929",
+        "url": "https://stbj.163.com/timeline/m2026092916004791413402401Ii",
+        "publishedAt": null,
+        "kind": "page_shell_only",
+        "originalTextInspected": false
+      },
+      {
+        "path": "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\daily-2026-10-27-track-resources-buildings\\attempt-1\\validation-stage\\S1_持续学习\\批次\\daily-2026-10-27-track-resources-buildings\\evidence\\community-client-static.raw.js",
+        "expectedSha256": "cfde2ff20f0e6d2d92673c14a7c5cb12ad9925be6b0002a7ffbc8942775c1b03",
+        "actualSha256": "cfde2ff20f0e6d2d92673c14a7c5cb12ad9925be6b0002a7ffbc8942775c1b03",
+        "match": true,
+        "id": "community-client-static",
+        "url": "https://g0-web.gsf.netease.com/community/stbj/js/index-BAmzCTtZ.js",
+        "publishedAt": null,
+        "kind": "public_acquisition_context",
+        "originalTextInspected": false
+      },
+      {
+        "path": "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\daily-2026-10-27-track-resources-buildings\\attempt-1\\validation-stage\\S1_持续学习\\批次\\daily-2026-10-27-track-resources-buildings\\evidence\\community-public-config.raw.js",
+        "expectedSha256": "ffdf3aca7376830a87854f5a73d9149659f03921ea8159bd1a4d6de507da2730",
+        "actualSha256": "ffdf3aca7376830a87854f5a73d9149659f03921ea8159bd1a4d6de507da2730",
+        "match": true,
+        "id": "community-public-config",
+        "url": "https://stbj.163.com/config/module.js",
+        "publishedAt": null,
+        "kind": "public_acquisition_context",
+        "originalTextInspected": false
+      },
+      {
+        "path": "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\daily-2026-10-27-track-resources-buildings\\attempt-1\\validation-stage\\S1_持续学习\\批次\\daily-2026-10-27-track-resources-buildings\\evidence\\default-20250902.raw.html",
+        "expectedSha256": "87ddc2552bc2822ea80898314a3ad1d7dc9f13c57a0d2eba65df67c1dd817c62",
+        "actualSha256": "87ddc2552bc2822ea80898314a3ad1d7dc9f13c57a0d2eba65df67c1dd817c62",
+        "match": true,
+        "id": "default-20250902",
+        "url": "https://stzb.163.com/notice/20250902/20399_1257268.html",
+        "publishedAt": "2025-09-02",
+        "kind": "official_announcement",
+        "originalTextInspected": true
+      },
+      {
+        "path": "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\daily-2026-10-27-track-resources-buildings\\attempt-1\\validation-stage\\S1_持续学习\\批次\\daily-2026-10-27-track-resources-buildings\\evidence\\notice-index.raw.html",
+        "expectedSha256": "2f81625ab334315d4615930737203651ceb9bd3672a8b5905f2a3753291b32bd",
+        "actualSha256": "2f81625ab334315d4615930737203651ceb9bd3672a8b5905f2a3753291b32bd",
+        "match": true,
+        "id": "notice-index",
+        "url": "https://stzb.163.com/notice/",
+        "publishedAt": null,
+        "kind": "official_index",
+        "originalTextInspected": false
+      },
+      {
+        "path": "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\daily-2026-10-27-track-resources-buildings\\attempt-1\\validation-stage\\S1_持续学习\\批次\\daily-2026-10-27-track-resources-buildings\\evidence\\search-appearance-switch.raw.json",
+        "expectedSha256": "8c07f97c1dcae143d0832d403107033df66674c4631f01a3cbf9735a13834ca4",
+        "actualSha256": "8c07f97c1dcae143d0832d403107033df66674c4631f01a3cbf9735a13834ca4",
+        "match": true,
+        "id": "search-appearance-switch",
+        "url": "https://s3.game.163.com/8a6488bbec3d47f1/user/search?searchKey=%E5%88%87%E6%8D%A2%E5%A4%96%E8%A7%82&pageNum=1&pageSize=30",
+        "publishedAt": null,
+        "kind": "discovery_search",
+        "originalTextInspected": false
+      },
+      {
+        "path": "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\daily-2026-10-27-track-resources-buildings\\attempt-1\\validation-stage\\S1_持续学习\\批次\\daily-2026-10-27-track-resources-buildings\\evidence\\search-castle-page2.raw.json",
+        "expectedSha256": "dd6466bf2015f1bf904844eab3975ec97b71bb6e8339d0015f347b3bb024d35d",
+        "actualSha256": "dd6466bf2015f1bf904844eab3975ec97b71bb6e8339d0015f347b3bb024d35d",
+        "match": true,
+        "id": "search-castle-page2",
+        "url": "https://s3.game.163.com/8a6488bbec3d47f1/user/search?searchKey=%E5%9F%8E%E4%B8%BB%E5%BA%9C&pageNum=2&pageSize=30",
+        "publishedAt": null,
+        "kind": "discovery_search",
+        "originalTextInspected": false
+      },
+      {
+        "path": "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\daily-2026-10-27-track-resources-buildings\\attempt-1\\validation-stage\\S1_持续学习\\批次\\daily-2026-10-27-track-resources-buildings\\evidence\\search-castle-page3.raw.json",
+        "expectedSha256": "71b357726325e7db86703ab0b6e1e72df4df86d51258904ea9c7127457505bfc",
+        "actualSha256": "71b357726325e7db86703ab0b6e1e72df4df86d51258904ea9c7127457505bfc",
+        "match": true,
+        "id": "search-castle-page3",
+        "url": "https://s3.game.163.com/8a6488bbec3d47f1/user/search?searchKey=%E5%9F%8E%E4%B8%BB%E5%BA%9C&pageNum=3&pageSize=30",
+        "publishedAt": null,
+        "kind": "discovery_search",
+        "originalTextInspected": false
+      },
+      {
+        "path": "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\daily-2026-10-27-track-resources-buildings\\attempt-1\\validation-stage\\S1_持续学习\\批次\\daily-2026-10-27-track-resources-buildings\\evidence\\search-castle-reused.raw.json",
+        "expectedSha256": "c981b91ce45ab499a447d728b62b76e936537266e1e8931a6fbe326b59304cd5",
+        "actualSha256": "c981b91ce45ab499a447d728b62b76e936537266e1e8931a6fbe326b59304cd5",
+        "match": true,
+        "id": "search-castle-reused",
+        "url": "https://s3.game.163.com/8a6488bbec3d47f1/user/search?searchKey=%E5%9F%8E%E4%B8%BB%E5%BA%9C&pageNum=1&pageSize=30",
+        "publishedAt": null,
+        "kind": "discovery_search",
+        "originalTextInspected": false
+      },
+      {
+        "path": "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\daily-2026-10-27-track-resources-buildings\\attempt-1\\validation-stage\\S1_持续学习\\批次\\daily-2026-10-27-track-resources-buildings\\evidence\\search-default.raw.json",
+        "expectedSha256": "958308e76b8ba3e34dc305c3c31914c3e6bab6aecf8b4e0a7a9e897bcf162f7f",
+        "actualSha256": "958308e76b8ba3e34dc305c3c31914c3e6bab6aecf8b4e0a7a9e897bcf162f7f",
+        "match": true,
+        "id": "search-default",
+        "url": "https://s3.game.163.com/8a6488bbec3d47f1/user/search?searchKey=%E5%8F%A4%E6%9C%B4%E5%85%B8%E9%9B%85&pageNum=1&pageSize=30",
+        "publishedAt": null,
+        "kind": "discovery_search",
+        "originalTextInspected": false
+      },
+      {
+        "path": "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\daily-2026-10-27-track-resources-buildings\\attempt-1\\validation-stage\\S1_持续学习\\批次\\daily-2026-10-27-track-resources-buildings\\evidence\\search-visual-upgrade.raw.json",
+        "expectedSha256": "cca721bb8f5e99585820f6f2265f609413ab7056a7fb7e7cbcea1b0805d7083b",
+        "actualSha256": "cca721bb8f5e99585820f6f2265f609413ab7056a7fb7e7cbcea1b0805d7083b",
+        "match": true,
+        "id": "search-visual-upgrade",
+        "url": "https://s3.game.163.com/8a6488bbec3d47f1/user/search?searchKey=%E8%A7%86%E8%A7%89%E5%8D%87%E7%BA%A7&pageNum=1&pageSize=30",
+        "publishedAt": null,
+        "kind": "discovery_search",
+        "originalTextInspected": false
+      },
+      {
+        "path": "F:\\工作项目\\率土之滨\\rag\\automation\\runs\\daily-2026-10-27-track-resources-buildings\\attempt-1\\validation-stage\\S1_持续学习\\批次\\daily-2026-10-27-track-resources-buildings\\evidence\\sep2026-reprint.raw.html",
+        "expectedSha256": "1902c8037cda9ed3b47c74ecbb0005b55bf1329f8d5098b7b7ddb5e182ee3149",
+        "actualSha256": "1902c8037cda9ed3b47c74ecbb0005b55bf1329f8d5098b7b7ddb5e182ee3149",
+        "match": true,
+        "id": "sep2026-reprint",
+        "url": "https://news.17173.com/content/09302026/125357589.shtml",
+        "publishedAt": "2026-09-30T12:53:57+08:00",
+        "kind": "secondary_reprint",
+        "originalTextInspected": false
+      }
+    ],
+    "assets": 0,
+    "decision": "两条2025历史外观事实继续observed；2026官方社区仅外壳，无同页高清图，不更改规则/存档/建筑等级映射。"
+  },
+  "images": [
+    {
+      "id": "STZB-0428",
+      "versionId": "base-d728496fa74ee1ee61ed",
+      "title": "城内主界面",
+      "path": "F:\\工作项目\\率土之滨\\rag\\assets\\d8\\d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350.jpg",
+      "expectedSha256": "d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350",
+      "actualSha256": "d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350",
+      "match": true,
+      "width": 500,
+      "height": 280,
+      "s1Status": "unknown",
+      "excludedFromS1": false,
+      "subcategory": "2015版界面截图",
+      "sourceIds": [
+        "url-4e27c88faf8c1494"
+      ],
+      "note": "早期国服界面；按钮图是说明页原图中的局部，不代表完整面板",
+      "actuallyViewed": true
+    },
+    {
+      "id": "STZB-0429",
+      "versionId": "base-d728496fa74ee1ee61ed",
+      "title": "设施按钮",
+      "path": "F:\\工作项目\\率土之滨\\rag\\assets\\7e\\7ea7250a26d3e32a02433edacdc093a66e30260f140c0e3cba5da45e52d50b4f.jpg",
+      "expectedSha256": "7ea7250a26d3e32a02433edacdc093a66e30260f140c0e3cba5da45e52d50b4f",
+      "actualSha256": "7ea7250a26d3e32a02433edacdc093a66e30260f140c0e3cba5da45e52d50b4f",
+      "match": true,
+      "width": 123,
+      "height": 88,
+      "s1Status": "unknown",
+      "excludedFromS1": false,
+      "subcategory": "2015版按钮与局部",
+      "sourceIds": [
+        "url-4e27c88faf8c1494"
+      ],
+      "note": "早期国服界面；按钮图是说明页原图中的局部，不代表完整面板",
+      "actuallyViewed": true
+    },
+    {
+      "id": "STZB-0499",
+      "versionId": "base-d728496fa74ee1ee61ed",
+      "title": "新版主界面",
+      "path": "F:\\工作项目\\率土之滨\\rag\\assets\\20\\20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f.jpg",
+      "expectedSha256": "20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f",
+      "actualSha256": "20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f",
+      "match": true,
+      "width": 2340,
+      "height": 1080,
+      "s1Status": "unknown",
+      "excludedFromS1": false,
+      "subcategory": "2021版界面展示",
+      "sourceIds": [
+        "url-5ccdfe301b44eea1"
+      ],
+      "note": "六周年视觉升级展示图，含宣传文字，非2026版本截图",
+      "actuallyViewed": true
+    },
+    {
+      "id": "Q09-CU-A001",
+      "versionId": "learn-question-20261025-181753819-Q09-600ed624c883481a811d",
+      "title": "2024连续升级预告：城主府1/8详情弹窗",
+      "path": "F:\\工作项目\\率土之滨\\rag\\assets\\08\\08627a10e55883e80f67fb768ac95327aae33b4610dbdb45858ec548b930b5c9.png",
+      "expectedSha256": "08627a10e55883e80f67fb768ac95327aae33b4610dbdb45858ec548b930b5c9",
+      "actualSha256": "08627a10e55883e80f67fb768ac95327aae33b4610dbdb45858ec548b930b5c9",
+      "match": true,
+      "width": 800,
+      "height": 450,
+      "s1Status": "unknown",
+      "excludedFromS1": true,
+      "subcategory": "设施详情与连续升级",
+      "sourceIds": [
+        "q09-image-20240515",
+        "q09-plan-20240515"
+      ],
+      "note": "",
+      "actuallyViewed": true
+    }
+  ],
+  "selectedReference": {
+    "ids": [
+      "STZB-0428",
+      "STZB-0429"
+    ],
+    "sourceUrl": "https://stzb.163.com/strategy/2015/9/10/20401_564811.html",
+    "sourcePublishedAt": "2015-09-10",
+    "allowedUse": "低清历史城内全景与设施圆章仅作位置、比例、图像/标题层级测量；不得放大裁切充作正式高清资产。",
+    "currentClassicS1Verified": false,
+    "alternatives": [
+      {
+        "id": "STZB-0499",
+        "reason": "2021高清城外地图；可参考透明叠层但不能冒充城内同页。"
+      },
+      {
+        "id": "Q09-CU-A001",
+        "reason": "2024设施详情弹窗；页面、年代和当前S1状态不同，不能替代主城导航依据。"
+      }
+    ],
+    "externalLookup": {
+      "atUtc": "2026-10-27T19:16:51.995Z",
+      "queries": [
+        "率土之滨 2026 S1 城内 主界面 城邑外观; domains=stzb.163.com,stbj.163.com",
+        "率土之滨 古朴典雅 视觉升级 城内; domain=stzb.163.com"
+      ],
+      "searchResult": "empty results",
+      "attemptedUrls": [
+        "https://stbj.163.com/timeline/m2026092916004791413402401Ii",
+        "https://stzb.163.com/notice/20250902/20399_1257268.html"
+      ],
+      "openResult": "both non-retryable open errors; cached official source inspected instead",
+      "newOriginalImagesRetrieved": 0
+    }
+  },
+  "baseline": {
+    "path": "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-youzhou-1440x900/smoke-city-developed.png",
+    "expectedSha256": null,
+    "actualSha256": "c5a594126173e1eb918bda1153e57896e042bec408353ae16c96de53789b59a4",
+    "match": null,
+    "version": "s1-20261027-104752269",
+    "width": 1440,
+    "height": 900,
+    "actuallyViewed": true,
+    "currentIterationScreenshot": false
+  },
+  "visibleGaps": [
+    "原作设施圆章独立悬在城景上；基线左侧五入口被720高连续黑色栏包围，入口与场景割裂。",
+    "原作建筑图像与短标题在圆形主体内；基线图像较小、标题另占一行，五项构图过于相似，轮廓识别弱。",
+    "原作圆章有清楚的外缘和短标签，返回为独立边角入口；基线选中态是大矩形底色与细横线，底部返回仍是文字方块。"
+  ],
+  "applicationBoundary": {
+    "auditorImportedAssets": [],
+    "auditorChangedRules": false,
+    "auditorChangedSource": false,
+    "layoutCandidateOnly": "base UI-12/13和0428/0429可支持图像优先、独立导航及城景透显的设计；设计、正式ID导入与Runtime实现由主代理另记。",
+    "unapplied": [
+      "当前S1身份未确认资料保持observed；本轮零RAG增量不代表历史待办已完成。",
+      "未运行固定旧快照Import-S1Rag.ps1；未更新卡池/规则/存档。"
+    ]
+  },
+  "remaining": [
+    "当前常规S1高清城内同页、导航状态与正式建筑素材仍缺；现有S1UX-04/S1DEV-06已覆盖，未重复追加question.md。",
+    "发布者须对照原图/本轮设计/新运行截图及图像和标题分别点击、返回、模态隔离；本审计旧基线不是本轮运行证明。"
+  ],
+  "publicationReview": "Docs/DesignUI/s1-20261027-190751837/failure-review.json"
+}

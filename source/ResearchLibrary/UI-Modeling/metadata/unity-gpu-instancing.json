@@ -1,0 +1,18 @@
+{
+  "title": "Unity - Manual: Introduction to GPU instancing",
+  "source_url": "https://docs.unity3d.com/6000.3/Documentation/Manual/GPUInstancing.html",
+  "final_url": "https://docs.unity3d.com/6000.3/Documentation/Manual/GPUInstancing.html",
+  "accessed_at": "2026-10-24T10:36:36.585Z",
+  "sha256": "d76c3b9e6208b29357fc104bc904d90782709b4bf8d9bb86cae0bdfb64869381",
+  "byte_length": 14773,
+  "headings": [
+    "Unity Manual",
+    "Introduction to GPU instancing",
+    "Render pipeline compatibility",
+    "Indirect lighting compatibility",
+    "Shader and mesh compatibility",
+    "Additional resources"
+  ],
+  "image_links": [],
+  "storage_note": "Stores bibliographic metadata and image URLs only; full article body is not saved."
+}

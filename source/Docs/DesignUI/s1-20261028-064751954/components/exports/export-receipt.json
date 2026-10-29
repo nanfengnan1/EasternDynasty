@@ -1,0 +1,27 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T07:17:10.5747385Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-064751954\\components\\land.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-064751954\\components\\land.svg",
+    "sourceSha256":  "CAF2F2DF376ECE03AE9AA73759F4B2543B210F3D3B915515EF5B09E27EA05F9F",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-064751954\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-064751954\\components\\exports\\land-preview.png",
+                       "sha256":  "A99A5668F733272788C9704A42F4553245BECE4348F4AEE9D1BB018BF4F441C5",
+                       "width":  720,
+                       "height":  180,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-064751954\\components\\exports\\land-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-064751954\\components\\exports\\land-land-strip.png",
+                       "sha256":  "A99A5668F733272788C9704A42F4553245BECE4348F4AEE9D1BB018BF4F441C5",
+                       "width":  720,
+                       "height":  180,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-064751954\\components\\exports\\land-land-strip.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

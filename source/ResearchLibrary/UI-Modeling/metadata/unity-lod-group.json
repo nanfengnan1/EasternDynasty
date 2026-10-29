@@ -1,0 +1,22 @@
+{
+  "title": "Unity - Manual: LOD Group component reference",
+  "source_url": "https://docs.unity3d.com/6000.3/Documentation/Manual/class-LODGroup.html",
+  "final_url": "https://docs.unity3d.com/6000.3/Documentation/Manual/class-LODGroup.html",
+  "accessed_at": "2026-10-24T10:36:28.681Z",
+  "sha256": "09a288e79491ad35dbafead0ecfccd5ff82e8d130badba512fe8070e4d01f2da",
+  "byte_length": 19460,
+  "headings": [
+    "Unity Manual",
+    "LOD Group component reference",
+    "LOD Group selection bar",
+    "Renderers panel",
+    "Additional resources"
+  ],
+  "image_links": [
+    "https://docs.unity3d.com/6000.3/Documentation/uploads/Main/LODGroup-selectionbar.png",
+    "https://docs.unity3d.com/6000.3/Documentation/uploads/Main/LetterA.png",
+    "https://docs.unity3d.com/6000.3/Documentation/uploads/Main/LetterB.png",
+    "https://docs.unity3d.com/6000.3/Documentation/uploads/Main/LetterC.png"
+  ],
+  "storage_note": "Stores bibliographic metadata and image URLs only; full article body is not saved."
+}

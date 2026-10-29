@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Eastern Dynasty asset manifest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "entries"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "entries": {"type": "array", "items": {"$ref": "#/$defs/entry"}}
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "reference", "rights", "createdUtc"],
+      "properties": {
+        "kind": {"enum": ["imagegen", "user-provided", "licensed-local"]},
+        "reference": {"type": "string", "minLength": 1},
+        "rights": {"type": "string", "minLength": 1},
+        "createdUtc": {"type": "string", "description": "ISO date/time, or empty when unknown"}
+      }
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "status", "required", "resourcePath", "purpose", "source", "width", "height", "hasAlpha", "hasTransparency", "sha256", "importedUtc", "placeholderPolicy"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^(map\\.youzhou\\.|reference\\.youzhou\\.|ui\\.youzhou\\.|portrait\\.)[a-z][a-z0-9_]{0,63}$"},
+        "kind": {"enum": ["map-tile", "map-reference", "ui-sprite", "portrait"]},
+        "status": {"enum": ["ready", "missing"]},
+        "required": {"type": "boolean"},
+        "resourcePath": {"type": "string", "pattern": "^(Youzhou|YouzhouReferences|YouzhouUI|Portraits)/[a-z][a-z0-9_]{0,63}$"},
+        "purpose": {"type": "string", "minLength": 1},
+        "source": {"oneOf": [{"$ref": "#/$defs/source"}, {"type": "null"}]},
+        "width": {"type": "integer", "minimum": 0, "maximum": 8192},
+        "height": {"type": "integer", "minimum": 0, "maximum": 8192},
+        "hasAlpha": {"type": "boolean"},
+        "hasTransparency": {"type": "boolean"},
+        "sha256": {"type": "string"},
+        "importedUtc": {"type": "string"},
+        "placeholderPolicy": {"enum": ["none", "ui-placeholder"]}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"kind": {"const": "ui-sprite"}}},
+          "then": {"properties": {
+            "id": {"pattern": "^ui\\.youzhou\\.[a-z][a-z0-9_]{0,63}$"},
+            "resourcePath": {"pattern": "^YouzhouUI/[a-z][a-z0-9_]{0,63}$"},
+            "status": {"const": "ready"}
+          }}
+        },
+        {
+          "if": {"properties": {"status": {"const": "ready"}}},
+          "then": {"properties": {
+            "source": {"$ref": "#/$defs/source"},
+            "width": {"minimum": 1}, "height": {"minimum": 1},
+            "sha256": {"pattern": "^[a-f0-9]{64}$"},
+            "importedUtc": {"minLength": 1}, "placeholderPolicy": {"const": "none"}
+          }},
+          "else": {"properties": {
+            "kind": {"const": "portrait"}, "required": {"const": false},
+            "width": {"const": 0}, "height": {"const": 0}, "sha256": {"const": ""},
+            "hasAlpha": {"const": false}, "hasTransparency": {"const": false},
+            "placeholderPolicy": {"const": "ui-placeholder"}
+          }}
+        }
+      ]
+    }
+  }
+}

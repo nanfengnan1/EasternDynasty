@@ -1,0 +1,90 @@
+{
+  "version": "s1-20261029-010252300",
+  "reviewedUtc": "2026-10-29T01:26:18.891Z",
+  "status": "design-inspected-and-integrated-runtime-pending",
+  "reference": {
+    "id": "Q07-JA-A003",
+    "path": "F:/工作项目/率土之滨/rag/assets/cd/cda6606c2a9244c8751d1a0bc91c6c6c33086502298efc45e857eb54b41e4385.png",
+    "sha256": "cda6606c2a9244c8751d1a0bc91c6c6c33086502298efc45e857eb54b41e4385",
+    "size": [
+      572,
+      321
+    ],
+    "scope": "Historical skill popup, screenshot/client/season unknown; use composition only. No official skill parameters applied."
+  },
+  "baselines": [
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-225251901/Project/Validation/Visual/s1-20261028-225251901-youzhou-1440x900/smoke-card-skill.png",
+      "sha256": "ee7ccd502cc8679c4037cfd2cfa1d51b74ea7ccf6cacd2f9e6122f89653fa586",
+      "version": "s1-20261028-225251901"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-225251901/Project/Validation/Visual/s1-20261028-225251901-mobile-1600x720/smoke-card-skill.png",
+      "sha256": "3bd0fd1017811178e7c8084359b26ec52b257d8bb9d8f31fd14377e44f6ac736",
+      "version": "s1-20261028-225251901"
+    }
+  ],
+  "exports": [
+    {
+      "name": "desktop",
+      "receipt": "Docs/DesignUI/s1-20261029-010252300/desktop/exports/export-receipt.json",
+      "receiptSha256": "3abdedd971548be30e12283d1c67b9de4d0ee5abd408ac7f0bda03e630df5080",
+      "source": "Docs\\DesignUI\\s1-20261029-010252300\\desktop\\skill-sheet.svg",
+      "sourceSha256": "0eb8fc6e9d9072acf9456f377533007dc5ba92304980ce0c29b2c718a4e0ee52",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": "Docs\\DesignUI\\s1-20261029-010252300\\desktop\\exports\\skill-sheet-preview.png",
+      "previewSha256": "d06677ad0c99682237e018746a78f8bc1ae6bf87bf5bfa3dad1ecef6c71dba63",
+      "inspected": true
+    },
+    {
+      "name": "mobile",
+      "receipt": "Docs/DesignUI/s1-20261029-010252300/mobile/exports/export-receipt.json",
+      "receiptSha256": "2d8149fbc88f3cbfe9a6f2cd74f0331faafc4d3167055d92ead199a89fe2e8e5",
+      "source": "Docs\\DesignUI\\s1-20261029-010252300\\mobile\\skill-sheet.svg",
+      "sourceSha256": "2597955c5e6ebc09f281233536f9ce8062dd1c7470f9d3920608af754d6b62a4",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": "Docs\\DesignUI\\s1-20261029-010252300\\mobile\\exports\\skill-sheet-preview.png",
+      "previewSha256": "c233e9e6d30377226f08173f2d42f8a9719d64fb6ce6f0898b07d249b8c15e95",
+      "inspected": true
+    },
+    {
+      "name": "states",
+      "receipt": "Docs/DesignUI/s1-20261029-010252300/states/exports/export-receipt.json",
+      "receiptSha256": "d195b25a1e69c139b775fbf2f32da38fb0f03693cae1a3deb36b1da9baa8c10c",
+      "source": "Docs\\DesignUI\\s1-20261029-010252300\\states\\skill-sheet.svg",
+      "sourceSha256": "aa43f3850bc8240b239d24bfd38c057e057fbf61d7d39364821280d105c30026",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": "Docs\\DesignUI\\s1-20261029-010252300\\states\\exports\\skill-sheet-preview.png",
+      "previewSha256": "9742e42a07d632ac7fdbb6302090838488103713970a7b8c17ad47178a8356f5",
+      "inspected": true
+    },
+    {
+      "name": "components",
+      "receipt": "Docs/DesignUI/s1-20261029-010252300/components/exports/export-receipt.json",
+      "receiptSha256": "b04425b7619fb11e7e365b9af64572a7a958163152c48ce00a9c91e6c5a6dd0b",
+      "source": "Docs\\DesignUI\\s1-20261029-010252300\\components\\skill-sheet.svg",
+      "sourceSha256": "3fd316d101df7b2eb64f010a620158b858d9e0170da5f311f7b7bd275d5db011",
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "preview": "Docs\\DesignUI\\s1-20261029-010252300\\components\\exports\\skill-sheet-preview.png",
+      "previewSha256": "83e20d527f63cf9ef2725c791744bb764a4b29025617f6b9c3e0f8e051a48351",
+      "inspected": true
+    }
+  ],
+  "corrections": [
+    "Initial design paragraph exceeded the right edge; rewrapped and re-exported before integration.",
+    "Mobile baseline mask originally covered the upper return border; restricted to the actual 566-logical-height viewport before integration.",
+    "Component source is exported at 2x, including border/title heights; runtime preserves the top 48 and bottom 4 logical units."
+  ],
+  "assessment": [
+    "Shared title and bounded effect text now form one complete skill sheet.",
+    "Complete 96-unit existing ring and native-size book occupy a distinct left column; learning is a separate secondary row.",
+    "All existing descriptions and scope copy remain live, with font-measured heights and genuine overflow scrolling."
+  ],
+  "limitations": [
+    "Book is an existing project illustration, not official skill-specific artwork.",
+    "No current-S1 visual identity or numeric rule is inferred from the historical screenshot.",
+    "Previews are scoped editable design over a locked previous-game baseline, not new runtime screenshots.",
+    "Inkscape user-profile extension/recent-file writes were denied; retained stderr, successful PNGs and source/export receipts are the actual evidence."
+  ],
+  "runtimeReview": "pending publisher Windows dual-resolution and mobile-preview screenshots, actual Chinese fonts, slices, visible icon/title clicks, wheel, return and unchanged World"
+}

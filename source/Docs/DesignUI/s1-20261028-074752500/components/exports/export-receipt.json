@@ -1,0 +1,27 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T08:00:30.3163323Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-074752500\\components\\land.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-074752500\\components\\land.svg",
+    "sourceSha256":  "1432B6656AB4F1A57E0C04B487506914DC3A9C755050D5256F6BDA7E81600150",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-074752500\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-074752500\\components\\exports\\land-preview.png",
+                       "sha256":  "09CC4F6A0067C2344749F9D8B07194A0C6CCAF75DD1AB8CD1B5070B507DDA2E2",
+                       "width":  720,
+                       "height":  336,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-074752500\\components\\exports\\land-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-074752500\\components\\exports\\land-land-surface.png",
+                       "sha256":  "09CC4F6A0067C2344749F9D8B07194A0C6CCAF75DD1AB8CD1B5070B507DDA2E2",
+                       "width":  720,
+                       "height":  336,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-074752500\\components\\exports\\land-land-surface.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

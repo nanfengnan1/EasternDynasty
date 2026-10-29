@@ -1,0 +1,12 @@
+{
+    "id":  "font.cjk",
+    "resourcePath":  "Fonts/CJK",
+    "asset":  "Assets/EasternDynasty/Resources/Fonts/CJK.otf",
+    "family":  "Noto Sans SC Regular",
+    "source":  "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/SubsetOTF/SC/NotoSansSC-Regular.otf",
+    "license":  "SIL OFL 1.1",
+    "licenseFile":  "Assets/StreamingAssets/Licenses/NotoSansSC-OFL.txt",
+    "sha256":  "FAA6C9DF652116DDE789D351359F3D7E5D2285A2B2A1F04A2D7244DF706D5EA9",
+    "downloadedUtc":  "2026-10-25T09:23:12.3234993Z",
+    "modified":  false
+}

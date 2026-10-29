@@ -1,0 +1,101 @@
+{
+  "version": "s1-20261027-190751837",
+  "status": "exported-inspected-runtime-integrated-awaiting-publisher",
+  "reference": {
+    "id": "STZB-0428",
+    "detail": "STZB-0429",
+    "path": "F:/工作项目/率土之滨/rag/assets/d8/d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350.jpg",
+    "year": 2015,
+    "width": 500,
+    "height": 280,
+    "sha256": "d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350",
+    "scope": "Historical city page round facility entrance and lower caption; no confirmed newer same-page city panorama. Five-entry left dock is a project adaptation, not an official layout claim. No original pixels imported."
+  },
+  "baselineVersion": "s1-20261027-104752269",
+  "layout": {
+    "dockWidth": 92,
+    "navigation": [
+      4,
+      8,
+      84,
+      86
+    ],
+    "step": 90,
+    "art": [
+      6,
+      2,
+      72,
+      54
+    ],
+    "caption": [
+      2,
+      60,
+      80,
+      24
+    ],
+    "back": [
+      4,
+      "height-72",
+      84,
+      64
+    ],
+    "backArt": [
+      26,
+      6,
+      32,
+      32
+    ],
+    "backCaption": [
+      2,
+      42,
+      80,
+      22
+    ]
+  },
+  "components": [
+    "city_dock_seal",
+    "city_dock_seal_active",
+    "city_dock_seal_hover",
+    "city_dock_back",
+    "city_dock_back_hover"
+  ],
+  "fonts": {
+    "caption": 16,
+    "minimum": 13,
+    "backGlyph": 28
+  },
+  "colors": {
+    "text": "#eee6cb",
+    "activeText": "#1c2923",
+    "accent": "#e1cc8e"
+  },
+  "runtime": "CityDockDesignPresentation / CityDockLayout / CityPresentation",
+  "changes": [
+    "Remove continuous 92-wide full-height black backing.",
+    "Five independent round frames and curved caption plates; active caption carries the selected state.",
+    "Art bounds 60x48 to 72x54; full image fitting retained.",
+    "Separate circular return above caption, preserves planning/expanded/normal back behavior."
+  ],
+  "notes": [
+    "Current city canvas and right-side geometry unchanged.",
+    "Existing building artwork retained; no additional CitySceneRaster or HudLine algorithms.",
+    "Desktop/mobile context includes prior designs; only publisher can supply new game screenshots."
+  ],
+  "componentsVectorExportScale": 2,
+  "baselines": [
+    {
+      "path": "Docs\\DesignUI\\s1-20261027-190751837\\baseline\\desktop-104752269.png",
+      "sourcePath": "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-youzhou-1440x900/smoke-city-developed.png",
+      "sha256": "c5a594126173e1eb918bda1153e57896e042bec408353ae16c96de53789b59a4",
+      "actuallyViewed": true,
+      "currentIterationScreenshot": false
+    },
+    {
+      "path": "Docs\\DesignUI\\s1-20261027-190751837\\baseline\\mobile-104752269.png",
+      "sourcePath": "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-mobile-1600x720/smoke-city-developed.png",
+      "sha256": "aec64ff80b8622fac9fdbc2be4d5e09aef8d4c63854cf054af9c61fb9fcffb74",
+      "actuallyViewed": true,
+      "currentIterationScreenshot": false
+    }
+  ]
+}

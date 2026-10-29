@@ -1,0 +1,120 @@
+{
+  "version": "s1-20261028-225251901",
+  "reviewedAtUtc": "2026-10-28T23:21:23.975Z",
+  "status": "design-inspected-source-integrated-runtime-pending",
+  "actualTool": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+  "actualImagesViewed": [
+    {
+      "path": "F:\\工作项目\\率土之滨\\rag\\assets\\20\\20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f.jpg",
+      "sha256": "20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f"
+    },
+    {
+      "path": "F:\\工作项目\\率土之滨\\rag\\assets\\4f\\4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376.jpg",
+      "sha256": "4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-204251299/Project/Validation/Visual/s1-20261028-204251299-youzhou-1440x900/smoke-hud-header-ledger.png",
+      "sha256": "31179974f5fa0e7a5f33042feeef6c85224839cd4d9f353dff1adabbc3864532"
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-204251299/Project/Validation/Visual/s1-20261028-204251299-mobile-1600x720/smoke-hud-header-ledger.png",
+      "sha256": "d4dd52e3c68723b0d9d6dd6f12ee106e5751699233082cd622b51e9e2e0916d2"
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261028-225251901/desktop/exports/recruit-preview.png",
+      "sha256": "e7fcbb43ae54eb978c651a04464e3e6ade6e5d51410e702e7f64e0d538d7b514"
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261028-225251901/mobile/exports/recruit-preview.png",
+      "sha256": "35843a986fb2c8e5e996dbd060b9c08332836184c95f95b4aba91a080669ee77"
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261028-225251901/states/exports/recruit-preview.png",
+      "sha256": "c47501089174198f39d9a0516c528dd3ad82e5886178370aacf70f547c559958"
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261028-225251901/components/exports/recruit-preview.png",
+      "sha256": "10031762bea11a9abd2163136822b9137569194795b9abc3d02fab27efa19f31"
+    }
+  ],
+  "previews": [
+    {
+      "variant": "desktop",
+      "preview": {
+        "path": "Docs/DesignUI/s1-20261028-225251901/desktop/exports/recruit-preview.png",
+        "sha256": "e7fcbb43ae54eb978c651a04464e3e6ade6e5d51410e702e7f64e0d538d7b514"
+      },
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261028-225251901/desktop/exports/export-receipt.json",
+        "sha256": "59f67d0547344f31499e5624706718cb382c77f6578aa185d1bc3728c15bcf7a"
+      },
+      "source": {
+        "path": "Docs/DesignUI/s1-20261028-225251901/desktop/recruit.svg",
+        "sha256": "70485355986030d98f11c23bb1773a8bcffcb6bbcf7154171cbb2b0ed35b3cb9"
+      }
+    },
+    {
+      "variant": "mobile",
+      "preview": {
+        "path": "Docs/DesignUI/s1-20261028-225251901/mobile/exports/recruit-preview.png",
+        "sha256": "35843a986fb2c8e5e996dbd060b9c08332836184c95f95b4aba91a080669ee77"
+      },
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261028-225251901/mobile/exports/export-receipt.json",
+        "sha256": "78ab5172dbc1db464a4067c4490235bee6b83fac25b55e435822a7fc0b33324b"
+      },
+      "source": {
+        "path": "Docs/DesignUI/s1-20261028-225251901/mobile/recruit.svg",
+        "sha256": "6b6a32997bdbf0ce0fa050e20ca563279a338ce916199ed7e425134913b536b5"
+      }
+    },
+    {
+      "variant": "states",
+      "preview": {
+        "path": "Docs/DesignUI/s1-20261028-225251901/states/exports/recruit-preview.png",
+        "sha256": "c47501089174198f39d9a0516c528dd3ad82e5886178370aacf70f547c559958"
+      },
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261028-225251901/states/exports/export-receipt.json",
+        "sha256": "ffb71bfe17ae91a471fa996e6f854028e536af6ee1c0a33fbc85049d113736ce"
+      },
+      "source": {
+        "path": "Docs/DesignUI/s1-20261028-225251901/states/recruit.svg",
+        "sha256": "9baa1ed181e3006cf9e5b934ae27bd9c61c281fcf59f25941f83dc7e94d1d404"
+      }
+    },
+    {
+      "variant": "components",
+      "preview": {
+        "path": "Docs/DesignUI/s1-20261028-225251901/components/exports/recruit-preview.png",
+        "sha256": "10031762bea11a9abd2163136822b9137569194795b9abc3d02fab27efa19f31"
+      },
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261028-225251901/components/exports/export-receipt.json",
+        "sha256": "61e817398ef2ae8a4821a9d5f97fd4afc778a21558c6374824752f0d97950ecf"
+      },
+      "source": {
+        "path": "Docs/DesignUI/s1-20261028-225251901/components/recruit.svg",
+        "sha256": "bc60aa52bf489cdd435c3fc8d480cf29eeac5fe547fa898f41672faea8d9f13b"
+      }
+    }
+  ],
+  "accepted": [
+    "Larger complete existing portrait with separate pedestal/title; existing diamond reference remains identifiable",
+    "Separate desktop/mobile previews preserve safe-area scaling and the other navigation controls",
+    "Selected-land compact state preserves the existing command panel; city remains compact",
+    "Formal components contain vectors only; portraits and live captions remain separate"
+  ],
+  "correctedBeforeHandoff": [
+    "Preview background white band and missing context portraits corrected and re-exported",
+    "Added selected-land state had PowerShell stdin encoding question marks; UTF-8 corrected, re-exported and actually viewed"
+  ],
+  "limitations": [
+    "Not a current-S1 or original calligraphy recruitment emblem recreation",
+    "Existing rectangular portrait background remains; no new cutout",
+    "Modal opacity in the design is illustrative; runtime uses the existing modal overlay",
+    "Inkscape warned about denied user-profile log/recent-file writes; all exports exited successfully and their bytes match receipts",
+    "No Unity/client execution, new runtime capture or Android device test"
+  ],
+  "reviewEvidence": "Validation/UIRound/s1-20261028-225251901/review.json"
+}

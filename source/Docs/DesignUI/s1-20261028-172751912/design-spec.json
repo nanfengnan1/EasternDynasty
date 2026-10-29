@@ -1,0 +1,157 @@
+{
+  "version": "s1-20261028-172751912",
+  "status": "exported-inspected-integrated-runtime-pending",
+  "reference": {
+    "id": "STZB-0527",
+    "path": "F:/工作项目/率土之滨/rag/assets/4f/4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376.jpg",
+    "sha256": "4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376",
+    "size": [
+      720,
+      405
+    ],
+    "date": "2023-02-01",
+    "scope": "Historical third-party map. Current S1 unknown; layout only, no source pixels used in production."
+  },
+  "baselines": [
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-162252252/Project/Validation/Visual/s1-20261028-162252252-youzhou-1440x900/smoke-hud-design-quest.png",
+      "sha256": "bd9feeca4891565618a3ff8282d4cba20f4da1c79f8877b26ef921dfc29bfc9d",
+      "size": [
+        1440,
+        900
+      ]
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-162252252/Project/Validation/Visual/s1-20261028-162252252-mobile-1600x720/smoke-hud-design-quest.png",
+      "sha256": "9b6037e1e80afb4304023172f196bf766e76e901362cabb8ae17b6487cabc930",
+      "size": [
+        1600,
+        720
+      ]
+    }
+  ],
+  "layout": {
+    "footerHeight": 78,
+    "entry": [
+      20,
+      "height-74",
+      108,
+      70
+    ],
+    "pitch": 116,
+    "art": [
+      4,
+      3,
+      100,
+      42
+    ],
+    "caption": [
+      4,
+      46,
+      100,
+      22
+    ],
+    "portraits": {
+      "offset": 5,
+      "pitch": 30,
+      "width": 30,
+      "height": 42
+    },
+    "recruitArt": [
+      46,
+      7,
+      40,
+      38
+    ],
+    "recruitCaption": [
+      8,
+      47,
+      116,
+      22
+    ],
+    "utilities": "unchanged max(620,(width-270)/2), 8-unit gap"
+  },
+  "fonts": {
+    "title": 15,
+    "minimum": 12,
+    "empty": 14
+  },
+  "components": [
+    "ui.youzhou.nav_panel",
+    "ui.youzhou.nav_panel_active"
+  ],
+  "reusedAssets": [
+    {
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/nav_shelf.png",
+      "sha256": "b5a5195eb27153826bb2e43bd3fe195afcbd324af6174bf5a5330fe797c50167"
+    },
+    {
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/nav_letter.png",
+      "sha256": "409775ec3c73b0f92466e3d5361aaa9ecf757fe6ad713998adb99ab727d17713"
+    },
+    {
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/nav_book.png",
+      "sha256": "b3723281a06730a503f6dd0253f6612c816136a24c081c2f30b858f513c29a05"
+    },
+    {
+      "path": "Assets/EasternDynasty/Resources/YouzhouUI/nav_recruit.png",
+      "sha256": "0ebfc6e6e7eee96b776e520e804644c7c88f46a6c418cc328e8a8159aa3df773"
+    },
+    {
+      "path": "Assets/EasternDynasty/Resources/Youzhou/city.png",
+      "sha256": "178d9ac249e7178b9669edad891a1a40ec534e156a910e66d898f4155fba6b41"
+    },
+    {
+      "path": "Assets/EasternDynasty/Resources/Youzhou/mountain.png",
+      "sha256": "924917c7336928ed6ca9335740508b94f7f393f223e88536917fcd29061a8020"
+    },
+    {
+      "path": "Assets/EasternDynasty/Resources/Portraits/s1_100744.png",
+      "sha256": "4073a37982acb03126b9c60748fa27d38f785cd0b97cebe7539b54fb49dfbc93"
+    },
+    {
+      "path": "Assets/EasternDynasty/Resources/Portraits/s1_100039.png",
+      "sha256": "8aedfdee76a6804087a00b4337dc77e7ccf82ae2cd073fe22f6bb8592572fd9b"
+    },
+    {
+      "path": "Assets/EasternDynasty/Resources/Portraits/s1_100746.png",
+      "sha256": "be1051c234e8d4d3a617593435af4f5ef82ba0217ac39a7a7ea36943d1b9f2f0"
+    }
+  ],
+  "notes": [
+    "Five main entries change from vertical title/pale sideboard to complete centered images above horizontal caption rails.",
+    "Existing 78-high footprint, six commands and two utilities retained.",
+    "Existing illustrations remain project assets, not newly recovered official art.",
+    "Shared city footer is project adaptation; current same-page S1 city reference is still missing.",
+    "No Unity/client/desktop execution. Design export and runtime review remain distinct."
+  ],
+  "cityBaselines": [
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-162252252/Project/Validation/Visual/s1-20261028-162252252-youzhou-1440x900/smoke-city-footer-design.png",
+      "sha256": "4c5b21a038d0f758d799f9bf27df61f1410d20cbb8a000aea6c127c44cf43077",
+      "size": [
+        1440,
+        900
+      ]
+    },
+    {
+      "path": "F:/EasternDynastyBuild/Releases/s1-20261028-162252252/Project/Validation/Visual/s1-20261028-162252252-mobile-1600x720/smoke-city-footer-design.png",
+      "sha256": "13cd176af0440752e1a6c1fadc574715d8b505aeca60a45a3b88c6cd8b36ea30",
+      "size": [
+        1600,
+        720
+      ]
+    }
+  ],
+  "cityReference": {
+    "id": "STZB-0428",
+    "path": "F:/工作项目/率土之滨/rag/assets/d8/d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350.jpg",
+    "sha256": "d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350",
+    "size": [
+      500,
+      280
+    ],
+    "year": 2015,
+    "scope": "Historical city page only; no current S1 or shared footer equivalence asserted."
+  }
+}

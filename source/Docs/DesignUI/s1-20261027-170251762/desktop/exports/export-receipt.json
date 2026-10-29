@@ -1,0 +1,20 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T17:22:08.5553506Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\desktop\\city-army.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261027-170251762\\desktop\\city-army.svg",
+    "sourceSha256":  "BE40A74166D189177F1E08AF9B1838F34989CFB894EE8E934EEFAB7A940E99C7",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\desktop\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-170251762\\desktop\\exports\\city-army-preview.png",
+                       "sha256":  "2F5C679C9A06957F7C9B961B995B04AB70D772D7F456CECE699FC8140239FCBB",
+                       "width":  1440,
+                       "height":  900,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-170251762\\desktop\\exports\\city-army-preview.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

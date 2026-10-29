@@ -1,0 +1,112 @@
+{
+    "version":  "s1-20261028-162252252",
+    "status":  "exported-inspected-integrated-runtime-pending",
+    "reference":  {
+                      "id":  "STZB-0527",
+                      "path":  "F:/工作项目/率土之滨/rag/assets/4f/4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376.jpg",
+                      "sha256":  "4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376",
+                      "width":  720,
+                      "height":  405,
+                      "year":  2023,
+                      "scope":  "Historical map book task entrance; current S1 unknown. Expanded objective layout is project adaptation, not reconstructed original artwork."
+                  },
+    "baselines":  [
+                      {
+                          "path":  "F:/EasternDynastyBuild/Releases/s1-20261028-141251981/Project/Validation/Visual/s1-20261028-141251981-youzhou-1440x900/smoke-hud-design-quest.png",
+                          "sha256":  "40b6ec83cffd0ca2c03358ceff97d628af3a0bf9e21c14b67353680dc4d337fd"
+                      },
+                      {
+                          "path":  "F:/EasternDynastyBuild/Releases/s1-20261028-141251981/Project/Validation/Visual/s1-20261028-141251981-mobile-1600x720/smoke-hud-design-quest.png",
+                          "sha256":  "dc5c00c9ca7f76d96226315fb601ebc57e0b0d8d1815c4cddd6473bc172ca10a"
+                      }
+                  ],
+    "layout":  {
+                   "panel":  [
+                                 20,
+                                 90,
+                                 354,
+                                 132
+                             ],
+                   "open":  [
+                                20,
+                                90,
+                                354,
+                                82
+                            ],
+                   "book":  [
+                                20,
+                                90,
+                                56,
+                                48
+                            ],
+                   "chapter":  [
+                                   94,
+                                   92,
+                                   270,
+                                   20
+                               ],
+                   "title":  [
+                                 94,
+                                 112,
+                                 270,
+                                 26
+                             ],
+                   "objective":  [
+                                     30,
+                                     146,
+                                     334,
+                                     26
+                                 ],
+                   "progress":  [
+                                    20,
+                                    178,
+                                    212,
+                                    44
+                                ],
+                   "action":  [
+                                  242,
+                                  178,
+                                  132,
+                                  44
+                              ]
+               },
+    "fonts":  {
+                  "chapter":  13,
+                  "title":  19,
+                  "objective":  14,
+                  "progress":  13,
+                  "action":  16
+              },
+    "components":  [
+                       "ui.youzhou.quest_docket"
+                   ],
+    "reusedAssets":  [
+                         {
+                             "id":  "ui.youzhou.nav_book",
+                             "path":  "Assets/EasternDynasty/Resources/YouzhouUI/nav_book.png",
+                             "sha256":  "b3723281a06730a503f6dd0253f6612c816136a24c081c2f30b858f513c29a05"
+                         },
+                         {
+                             "id":  "ui.youzhou.quest_strip",
+                             "path":  "Assets/EasternDynasty/Resources/YouzhouUI/quest_strip.png",
+                             "sha256":  "e4cc9d78ca2e4c2ac88d328b1b9732495d250972a62cd45c30f725d353bafbec"
+                         },
+                         {
+                             "id":  "ui.youzhou.quest_action",
+                             "path":  "Assets/EasternDynasty/Resources/YouzhouUI/quest_action.png",
+                             "sha256":  "b1c422a9dec8dd91f09904848f6f41760682a1bdb21bc9552c8c52e4f3fea7f9"
+                         },
+                         {
+                             "id":  "ui.youzhou.quest_action_ready",
+                             "path":  "Assets/EasternDynasty/Resources/YouzhouUI/quest_action_ready.png",
+                             "sha256":  "bcc8b0aababd738b6fefd6ddaf5b583730ecb274d0a347e12787c87e2082a058"
+                         }
+                     ],
+    "notes":  [
+                  "Book, live text, surfaces, progress and click bounds remain separate editable layers.",
+                  "One 354x82 chapter control contains the book/title/full-width objective; independent 132x44 action below.",
+                  "Area grows 12 units; no claim of reduced map footprint. Historical image pixels are never production artwork.",
+                  "No new rules, rewards, save fields, roster or illustrative algorithms."
+              ],
+    "baselineRevision":  "Originally reviewed 110 desktop/mobile; additionally reviewed 141 desktop/mobile before final handoff. Quest region unchanged, city labels newer. Final design comparison boards use 141; UI geometry and Runtime unchanged."
+}

@@ -1,0 +1,157 @@
+{
+    "version":  "s1-20261028-204251299",
+    "status":  "exported-inspected-runtime-integrated-awaiting-publisher",
+    "style":  "inkscape-city-ledger-v2",
+    "reference":  {
+                      "id":  "STZB-0428",
+                      "path":  "F:/工作项目/率土之滨/rag/assets/d8/d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350.jpg",
+                      "sha256":  "d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350",
+                      "size":  [
+                                   500,
+                                   280
+                               ],
+                      "date":  "2015-09-10",
+                      "scope":  "Historical city page; circular identity and compact two-row resources only; current S1 unknown"
+                  },
+    "support":  {
+                    "id":  "STZB-0527",
+                    "path":  "F:/工作项目/率土之滨/rag/assets/4f/4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376.jpg",
+                    "sha256":  "4ff3395ce69c1849a0b0561c1c3b2cc0f875fb1fdf2db9b9e5439c449cbd8376",
+                    "size":  [
+                                 720,
+                                 405
+                             ],
+                    "date":  "2023-02-01",
+                    "scope":  "Later map header only; no claim of current city appearance"
+                },
+    "baselineVersion":  "s1-20261028-193752561",
+    "baselines":  [
+                      {
+                          "path":  "Docs/DesignUI/s1-20261028-204251299/baseline/desktop-193752561.png",
+                          "size":  [
+                                       1440,
+                                       900
+                                   ],
+                          "scale":  1,
+                          "x":  0,
+                          "y":  0,
+                          "logicalWidth":  1440,
+                          "sourcePath":  "F:/EasternDynastyBuild/Releases/s1-20261028-193752561/Project/Validation/Visual/s1-20261028-193752561-youzhou-1440x900/smoke-city-overview.png",
+                          "sha256":  "d22959226adc270b76f556ae5a47cd3a3283fb8a73fa2d37ed99f50c73e47a28"
+                      },
+                      {
+                          "path":  "Docs/DesignUI/s1-20261028-204251299/baseline/mobile-193752561.png",
+                          "size":  [
+                                       1600,
+                                       720
+                                   ],
+                          "scale":  0.8341463414634146,
+                          "x":  56,
+                          "y":  12,
+                          "logicalWidth":  1803.0409356725147,
+                          "sourcePath":  "F:/EasternDynastyBuild/Releases/s1-20261028-193752561/Project/Validation/Visual/s1-20261028-193752561-mobile-1600x720/smoke-city-overview.png",
+                          "sha256":  "c6ea02c1fddb62e93dc5449e4f7cfcf3ac0b6c1cdfa7b7aa454a014386165e2f"
+                      }
+                  ],
+    "layout":  {
+                   "backdrop":  [
+                                    0,
+                                    0,
+                                    "width",
+                                    70
+                                ],
+                   "identity":  [
+                                    16,
+                                    4,
+                                    246,
+                                    62
+                                ],
+                   "crest":  [
+                                 16,
+                                 4,
+                                 62,
+                                 62
+                             ],
+                   "art":  [
+                               22,
+                               13,
+                               50,
+                               44
+                           ],
+                   "name":  [
+                                84,
+                                7,
+                                174,
+                                30
+                            ],
+                   "wrappedName":  [
+                                       84,
+                                       5,
+                                       174,
+                                       38
+                                   ],
+                   "detail":  [
+                                  84,
+                                  44,
+                                  174,
+                                  20
+                              ],
+                   "production":  [
+                                      280,
+                                      5,
+                                      "min(168,(width-604)/4)*4",
+                                      58
+                                  ],
+                   "currencyX":  "280+pitch*4+16+index*150",
+                   "stockY":  30,
+                   "detailY":  6
+               },
+    "fonts":  {
+                  "name":  20,
+                  "wrappedName":  14,
+                  "stock":  21,
+                  "detail":  13
+              },
+    "components":  [
+                       "ui.youzhou.city_header_backdrop"
+                   ],
+    "reusedAssets":  [
+                         {
+                             "path":  "Assets/EasternDynasty/Resources/YouzhouUI/header_identity.png",
+                             "sha256":  "a551b65d93d6ead78b58d86e15261abf42cadf2085fa93d2e557ea4377a63a55"
+                         },
+                         {
+                             "path":  "Assets/EasternDynasty/Resources/YouzhouUI/header_ledger.png",
+                             "sha256":  "7d8919c6dbfcb11a97a45f1a0812192790c0fdc821e5236f2e6671e775b6411d"
+                         },
+                         {
+                             "path":  "Assets/EasternDynasty/Resources/YouzhouUI/header_currency.png",
+                             "sha256":  "3a79bf938004dbf11aa9f21527ed6731ffee7260e0b914e199adf2102ebec581"
+                         },
+                         {
+                             "path":  "Assets/EasternDynasty/Resources/YouzhouUI/city_marker_crest.png",
+                             "sha256":  "9e4de179e50912b5ec086c179e66ae6730faca0f2d8a3698c55628814bd560e1"
+                         },
+                         {
+                             "path":  "Assets/EasternDynasty/Resources/YouzhouUI/city_marker_selected.png",
+                             "sha256":  "b9be0a61c0b3e3b3de03118b174ba360cc5c93ac36930bec315fb205e8c4e5e8"
+                         }
+                     ],
+    "previewAssets":  [
+                          {
+                              "path":  "Validation/CityArt/TownHall.png",
+                              "sha256":  "3914b4fc703957919854b46ee7916dbda1b3d2b5dc28ee550efef7c8a17fec7c"
+                          },
+                          {
+                              "path":  "Assets/EasternDynasty/Resources/YouzhouReferences/resource_hud.png",
+                              "sha256":  "30fbedbfbae80f06a8a34175bc2a4ef1baeab965034d0621274bec7de2f90ea9"
+                          }
+                      ],
+    "notes":  [
+                  "Opaque city-only backdrop is required because the map camera starts below this band; transparent overlays alone retain previous-page pixels.",
+                  "Map remains transparent over actual terrain. No city camera, facility art generation, rules, pool or save changes.",
+                  "The town hall preview reuses existing project output; all historical image crops remain preview/reference material.",
+                  "Dynamic values and Chinese text remain Runtime controls; component contains only the full opaque backing.",
+                  "City identity uses the existing shared crest/identity/ledger rather than adding unrelated decoration."
+              ]
+}

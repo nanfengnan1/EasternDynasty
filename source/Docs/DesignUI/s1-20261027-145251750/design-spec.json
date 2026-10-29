@@ -1,0 +1,113 @@
+{
+    "version":  "s1-20261027-145251750",
+    "status":  "exported-inspected-runtime-integrated-awaiting-publisher",
+    "reference":  {
+                      "id":  "STZB-0499",
+                      "year":  2021,
+                      "file":  "F:/工作项目/率土之滨/rag/assets/20/20c7ebba88a57755f11b7b69c6f93e6544ef25ad04dcb34e0f1380cfe153433f.jpg",
+                      "scope":  "Map unit label strips and separated light navigation tickets; project adapts these observed components for the existing three-general roster. Not an official expanded army panel."
+                  },
+    "newerReference":  {
+                           "id":  "STZB-0527",
+                           "year":  2023,
+                           "width":  720,
+                           "height":  405,
+                           "scope":  "Same map page; later horizontal navigation variant, low-resolution measurement only, current S1 unconfirmed."
+                       },
+    "baselineVersion":  "s1-20261027-104752269",
+    "area":  {
+                 "x":  20,
+                 "bottom":  94,
+                 "width":  354,
+                 "height":  242
+             },
+    "header":  [
+                   0,
+                   0,
+                   354,
+                   28
+               ],
+    "card":  [
+                 0,
+                 32,
+                 110,
+                 142
+             ],
+    "cardPitch":  122,
+    "art":  [
+                26,
+                4,
+                80,
+                116
+            ],
+    "name":  [
+                 3,
+                 4,
+                 21,
+                 112
+             ],
+    "identity":  [
+                     3,
+                     122,
+                     104,
+                     20
+                 ],
+    "statusStrip":  [
+                        0,
+                        176,
+                        354,
+                        20
+                    ],
+    "actions":  [
+                    [
+                        0,
+                        198,
+                        171,
+                        44
+                    ],
+                    [
+                        183,
+                        198,
+                        171,
+                        44
+                    ]
+                ],
+    "fonts":  {
+                  "header":  16,
+                  "strength":  20,
+                  "name":  17,
+                  "identity":  13,
+                  "status":  13,
+                  "command":  16
+              },
+    "components":  [
+                       "ui.youzhou.army_card",
+                       "ui.youzhou.army_strip",
+                       "ui.youzhou.army_command",
+                       "ui.youzhou.army_command_hover"
+                   ],
+    "states":  [
+                   "idle",
+                   "long-name-max-level",
+                   "empty",
+                   "training",
+                   "marching",
+                   "returning",
+                   "modal-suppressed"
+               ],
+    "runtime":  "MapHudArmyLayout / MapHudArmyPresentation",
+    "notes":  [
+                  "No full rectangular backdrop: gaps between individual tickets expose the map. Existing overall bounds and blocking remain, preserving touch protection.",
+                  "Complete portrait region grows 76x99 to 80x116. Image remains ScaleToFit, no crop/upscaled historical screenshot.",
+                  "Short name pennants and light tickets derive from visible 2021 map references; no invented insignia or unit icon.",
+                  "All three generals, slot/level, live strength/status, reinforcement and formation/recall remain visible.",
+                  "Inherited header/quest/navigation designs are context from prior iterations, not new work or current runtime screenshots."
+              ],
+    "commandStates":  {
+                          "normal":  "army_command",
+                          "hover":  "army_command_hover",
+                          "disabledRgbMultiplier":  0.55,
+                          "disabledAction":  "recall while returning",
+                          "disabledClick":  false
+                      }
+}

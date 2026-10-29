@@ -1,0 +1,52 @@
+{
+    "version":  "s1-20261028-064751954",
+    "reference":  "F:/工作项目/率土之滨/rag/assets/ea/ead909e3cd3ff7f4a6b2a1c98bcada429ae47bb1a77d5801c202c2c26b10dd6a.jpg",
+    "baseline":  "F:/EasternDynastyBuild/Releases/s1-20261028-022752190/Project/Validation/Visual/s1-20261028-022752190-youzhou-1440x900/smoke-land-grain.png",
+    "referenceScope":  "Historical S1 tutorial; current applicability unknown; measurement only",
+    "status":  "exported-inspected-rejected-not-runtime-integrated",
+    "layout":  {
+                   "panel":  [
+                                 360,
+                                 506
+                             ],
+                   "title":  [
+                                 0,
+                                 0,
+                                 360,
+                                 70
+                             ],
+                   "image":  [
+                                 16,
+                                 77,
+                                 232,
+                                 168
+                             ],
+                   "identity":  [
+                                    256,
+                                    81,
+                                    88,
+                                    160
+                                ],
+                   "facts":  [
+                                 0,
+                                 260,
+                                 360,
+                                 86
+                             ],
+                   "actions":  [
+                                   0,
+                                   358,
+                                   360,
+                                   148
+                               ],
+                   "utilityGap":  8
+               },
+    "components":  [
+                       "ui.youzhou.land_strip"
+                   ],
+    "notes":  [
+                  "Separate floating terrain image, no invented circle/diamond ornament.",
+                  "Existing full terrain image remains uncropped; existing action geometry and rules retained.",
+                  "Mobile canvas is a logical safe-area design, not an Android runtime capture."
+              ]
+}

@@ -1,0 +1,144 @@
+{
+  "version": "s1-20261027-201251989",
+  "atUtc": "2026-10-27T20:28:46.852Z",
+  "status": "design-inspected-runtime-awaiting-publisher",
+  "original": {
+    "path": "F:/工作项目/率土之滨/rag/assets/d8/d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350.jpg",
+    "sha256": "d8a56f2b7e2504fa7319cfa8f022d5cb0ca0168e3a7ac013f6883da1f848a350",
+    "id": "STZB-0428",
+    "size": [
+      500,
+      280
+    ],
+    "actuallyViewed": true,
+    "scope": "Historical city header compact production strip and round identity only; current S1 appearance unconfirmed; no original pixels imported."
+  },
+  "baselines": [
+    {
+      "path": "Docs/DesignUI/s1-20261027-190751837/baseline/desktop-104752269.png",
+      "sha256": "c5a594126173e1eb918bda1153e57896e042bec408353ae16c96de53789b59a4",
+      "version": "s1-20261027-104752269",
+      "actuallyViewed": true,
+      "currentIterationScreenshot": false
+    },
+    {
+      "path": "Docs/DesignUI/s1-20261027-190751837/baseline/mobile-104752269.png",
+      "sha256": "aec64ff80b8622fac9fdbc2be4d5e09aef8d4c63854cf054af9c61fb9fcffb74",
+      "version": "s1-20261027-104752269",
+      "actuallyViewed": true,
+      "currentIterationScreenshot": false
+    }
+  ],
+  "previews": [
+    {
+      "target": "desktop",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261027-201251989/desktop/exports/export-receipt.json",
+        "sha256": "8e188ad7f2070b4093aaedc196784f6a4efadfe1d3eae7ecf38f4303f891060b"
+      },
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261027-201251989\\desktop\\city-header.svg",
+        "sha256": "b47d27fd73a62ad87a69c5a2193e5f076359e0e4dcd1246ffad504f0ceffcdb2"
+      },
+      "images": [
+        {
+          "path": "Docs\\DesignUI\\s1-20261027-201251989\\desktop\\exports\\city-header-preview.png",
+          "sha256": "3b3b38e284357b92054a6a90fc57edec357f8b8e24b36e3f00ce6650042e402f",
+          "width": 1440,
+          "height": 900
+        }
+      ],
+      "actuallyViewedPreview": true
+    },
+    {
+      "target": "mobile",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261027-201251989/mobile/exports/export-receipt.json",
+        "sha256": "6551567a86203128e13ece721ac87b78c902a942322d5c1ed516e7b034c0f0c3"
+      },
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261027-201251989\\mobile\\city-header.svg",
+        "sha256": "9c80d071af5a671d4d962476a745f0db8f0dc361a9c6cda685a2e99d89e80e30"
+      },
+      "images": [
+        {
+          "path": "Docs\\DesignUI\\s1-20261027-201251989\\mobile\\exports\\city-header-preview.png",
+          "sha256": "86abfa14b79975e12e64acdff87d632edd7ab2d51ef33adfe7767c07533202f8",
+          "width": 1600,
+          "height": 720
+        }
+      ],
+      "actuallyViewedPreview": true
+    },
+    {
+      "target": "stress",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261027-201251989/stress/exports/export-receipt.json",
+        "sha256": "2a77d4ef763f18707ddf26d1b354081d61b4bd7f98d198b18179a7d264beafe7"
+      },
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261027-201251989\\stress\\city-header.svg",
+        "sha256": "71b3137d791956c429d5063772148fc5d5f3d5286837a651a6cb95e7743fe6b7"
+      },
+      "images": [
+        {
+          "path": "Docs\\DesignUI\\s1-20261027-201251989\\stress\\exports\\city-header-preview.png",
+          "sha256": "a39b505188d3478e21f64f8c9b9d66ee207f7cafa3b2b17b44094f852dbd7da7",
+          "width": 1440,
+          "height": 180
+        }
+      ],
+      "actuallyViewedPreview": true
+    },
+    {
+      "target": "components",
+      "receipt": {
+        "path": "Docs/DesignUI/s1-20261027-201251989/components/exports/export-receipt.json",
+        "sha256": "125389ef2ab93cc2e505ab6f6570bc86165fa7ece17b5cab1675601a6cbe7059"
+      },
+      "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+      "source": {
+        "path": "Docs\\DesignUI\\s1-20261027-201251989\\components\\city-header.svg",
+        "sha256": "84ee1f8db683f38aa4f163ae47ca641b8ca6cacaa0dba3d3f67443404c67d3f9"
+      },
+      "images": [
+        {
+          "path": "Docs\\DesignUI\\s1-20261027-201251989\\components\\exports\\city-header-preview.png",
+          "sha256": "475e353131991ae4b42041855100918553ec372eb53f36b028651c63c9bd6f6c",
+          "width": 1440,
+          "height": 140
+        },
+        {
+          "path": "Docs\\DesignUI\\s1-20261027-201251989\\components\\exports\\city-header-city-identity.png",
+          "sha256": "6fd71d784c59bffbeeb819ff2aeb7df784def5c4c0982c61431ea80a082efd37",
+          "width": 504,
+          "height": 124
+        },
+        {
+          "path": "Docs\\DesignUI\\s1-20261027-201251989\\components\\exports\\city-header-city-identity-hover.png",
+          "sha256": "7d55e9ff7e9eba0cdcd128b544eee9112626a72a4b581c8b79be91275daec780",
+          "width": 504,
+          "height": 124
+        },
+        {
+          "path": "Docs\\DesignUI\\s1-20261027-201251989\\components\\exports\\city-header-city-resource.png",
+          "sha256": "b7ef4cac5373274d675b219df6fe5c549e3b78ac1325a07cefb6509242ea6613",
+          "width": 368,
+          "height": 116
+        }
+      ],
+      "actuallyViewedPreview": true
+    }
+  ],
+  "findings": [
+    "Removed the continuous black backing; identity, four production strips and right currencies are separate.",
+    "Both desktop/mobile full-screen designs inspected; long-name and large-stock strip fits without overlapping level or other resource text.",
+    "Final component page expanded from 1400 to 1440 to include the final 8 pixels of preview content; object slices remain 504x124/368x116 and unchanged SHA.",
+    "Reference pixels and dynamic text are absent from all formal component SVG groups.",
+    "City scene and previous side designs are context only; final runtime font/rendering requires new publisher screenshots."
+  ],
+  "runtimeAccepted": false
+}

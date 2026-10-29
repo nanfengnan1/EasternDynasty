@@ -1,0 +1,26 @@
+[
+  {
+    "id": "huangfu_song",
+    "path": "Assets/EasternDynasty/Resources/Portraits/huangfu_song.png",
+    "prompt": "Use case: historical-scene. Asset type: original character portrait for the Unity historical strategy game Eastern Dynasty. Make one exquisite vertical 2:3 painted game illustration, no text, no letters, no card border, no logo. Subject: Huangfu Song (皇甫嵩), a late Eastern Han Chinese veteran commander around age 50, composed sharp gaze, salt-and-pepper beard, tied hair under a simple Han military cap; layered dark lacquer lamellar cuirass, weathered bronze details, muted deep vermilion robe. Distinct original face and original composition; not a copy of any existing game's artwork. Waist-up three-quarter view with head near upper third, one hand resting at waist on a sheathed straight sword, other hand holding a folded command scroll. Refined realistic digital oil / ink painting, sophisticated confident brushwork, beautiful face and cloth detail, no anime, no plastic 3D. Warm ivory aged silk backdrop with faint misty mountains, subdued ink charcoal and antique gold palette, side-lit with soft natural sunlight, dignified restrained mood, character occupies 75% of frame, strong readable silhouette at small card size. Head and hands entirely in frame, bottom may fade into ink. This is a concept interpretation, not archaeological reconstruction.",
+    "generated_by": "built-in image_gen",
+    "date": "2026-10-24",
+    "purpose": "Original concept interpretation; not archaeological reconstruction or copied game artwork."
+  },
+  {
+    "id": "han_officer",
+    "path": "Assets/EasternDynasty/Resources/Portraits/han_officer.png",
+    "prompt": "Use case: historical-scene. Asset: original vertical 2:3 character portrait for Unity historical strategy game Eastern Dynasty. A Han Chinese military captain about 35, clean-shaven angular face, stern eyes, practical dark lamellar cuirass over moss-green robe, black cloth military cap, leather belt, one hand resting on spear shaft, standing three-quarter waist-up. Late Eastern Han China around AD184. Exquisite realistic painted illustration with refined digital oil and ink brushwork, hand painted face, natural material textures, restrained sophisticated historical atmosphere. Warm ivory aged silk background, faint misty hills and sepia ink washes, antique bronze and charcoal accents, soft sunlight from upper left. Character occupies75% of picture, head at upper third, full head visible, strong differentiated silhouette readable at small card size. No text, no letters, no frame, no logo, no anime, no plastic 3D. Original character concept, no copying any existing game's art; a period-inspired interpretation rather than archaeological reconstruction.",
+    "generated_by": "built-in image_gen",
+    "date": "2026-10-24",
+    "purpose": "Original concept interpretation; not archaeological reconstruction or copied game artwork."
+  },
+  {
+    "id": "han_scout",
+    "path": "Assets/EasternDynasty/Resources/Portraits/han_scout.png",
+    "prompt": "Use case: historical-scene. Asset: original vertical 2:3 character portrait for Unity historical strategy game Eastern Dynasty. A young Han Chinese scout about 22, lean expressive alert face without beard, long hair tied under a simple dark head cloth, practical weathered tan linen tunic with muted indigo scarf and light leather vest, simple bow carried over shoulder, looking to the side, waist-up. Late Eastern Han China around AD184. Exquisite realistic painted illustration with refined digital oil and ink brushwork, hand painted face, natural material textures, restrained sophisticated historical atmosphere. Warm ivory aged silk background, faint misty hills and sepia ink washes, antique bronze and charcoal accents, soft sunlight from upper left. Character occupies75% of picture, head at upper third, full head visible, strong differentiated silhouette readable at small card size. No text, no letters, no frame, no logo, no anime, no plastic 3D. Original character concept, no copying any existing game's art; a period-inspired interpretation rather than archaeological reconstruction.",
+    "generated_by": "built-in image_gen",
+    "date": "2026-10-24",
+    "purpose": "Original concept interpretation; not archaeological reconstruction or copied game artwork."
+  }
+]

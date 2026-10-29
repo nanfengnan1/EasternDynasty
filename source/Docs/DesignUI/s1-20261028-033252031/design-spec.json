@@ -1,0 +1,62 @@
+{
+  "version": "s1-20261028-033252031",
+  "status": "draft-awaiting-export",
+  "reference": {
+    "id": "STZB-0506",
+    "path": "F:/工作项目/率土之滨/rag/assets/a0/a0fa7fbb94eb4b1692827442ec2a0865e28f6694df2f15a63e7341dfe003cddb.jpg",
+    "resolution": [
+      1034,
+      517
+    ],
+    "s1Status": "unknown",
+    "date": "unknown; historical collection screenshot",
+    "use": "Compact image grid, thin frame, vertical identity and footer only"
+  },
+  "secondaryReference": "STZB-0509 early historical list 516x317",
+  "baselineVersion": "s1-20261027-104752269",
+  "layout": {
+    "gap": 12,
+    "maxHeight": 252,
+    "height": "min(252,(viewportHeight-12)/2)",
+    "desiredWidth": "(height-52)/1.45+38",
+    "art": [
+      36,
+      30,
+      "width-40",
+      "height-80"
+    ],
+    "ribbon": [
+      4,
+      32,
+      28,
+      "min(24,(artHeight-38)/nameLength)*nameLength+8"
+    ],
+    "footer": [
+      2,
+      "height-50",
+      "width-4",
+      48
+    ]
+  },
+  "components": [
+    "archive_frame",
+    "archive_selected",
+    "archive_ribbon",
+    "archive_footer"
+  ],
+  "fonts": {
+    "name": 20,
+    "skill": 14,
+    "scope": 12,
+    "cost": 12,
+    "stars": 13,
+    "minimum": 12
+  },
+  "notes": [
+    "Complete existing portraits; no crops/upscaling into new production art.",
+    "Two complete rows adapt to available safe-area height.",
+    "No change to roster/search/scope/navigation/rules/save.",
+    "Scope remains explicit: 245 archived identities and 41 trial recruitables, not official current S1 pool.",
+    "Surrounding baseline chrome remains old runtime; preview is not runtime evidence."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+    "checkedUtc":  "2026-10-27T11:30:11.3633025Z",
+    "scope":  "read-only research; only research directory written",
+    "figma":  {
+                  "connected":  false,
+                  "connectionEvidence":  "Root plugin discovery installed:false",
+                  "nativeCanvasEditing":  "Available in official remote MCP subject to account/file access; not invoked",
+                  "unityCodeConversion":  "No official one-click production conversion verified"
+              },
+    "inkscape":  {
+                     "format":  "Editable Inkscape SVG with actual vector/text layers",
+                     "export":  "PNG page/objects via actual CLI",
+                     "installation":  "Root owns download/extraction and export verification"
+                 },
+    "unity":  {
+                  "projectUi":  "IMGUI",
+                  "uxmlFound":  false,
+                  "uiBuilder":  "Visual UXML/USS editor, requires adapter/migration for existing views"
+              },
+    "recommendation":  "Reference measurement -\u003e editable layered source -\u003e actual tool export -\u003e visual comparison -\u003e view implementation -\u003e runtime screenshot comparison",
+    "report":  "professional-ui-tools.md",
+    "sources":  [
+                    "https://developers.figma.com/docs/figma-mcp-server/write-to-canvas/",
+                    "https://developers.figma.com/docs/figma-mcp-server/tools-and-prompts/",
+                    "https://developers.figma.com/docs/figma-mcp-server/server-returning-web-code/",
+                    "https://developers.figma.com/docs/figma-mcp-server/add-custom-rules/",
+                    "https://inkscape-manuals.readthedocs.io/en/latest/saving.html",
+                    "https://inkscape-manuals.readthedocs.io/en/latest/import-pictures.html",
+                    "https://inkscape-manuals.readthedocs.io/en/latest/export-png.html",
+                    "https://wiki.inkscape.org/wiki/Using_the_Command_Line",
+                    "https://docs.unity3d.com/6000.3/Documentation/Manual/UIBuilder.html",
+                    "https://docs.unity3d.com/6000.3/Documentation/Manual/UI-system-compare.html",
+                    "https://docs.unity3d.com/6000.3/Documentation/Manual/UIE-IMGUI-migration.html"
+                ]
+}

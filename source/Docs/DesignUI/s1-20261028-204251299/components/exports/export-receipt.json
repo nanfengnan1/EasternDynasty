@@ -1,0 +1,27 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-28T20:53:17.0507174Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-204251299\\components\\city-header.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261028-204251299\\components\\city-header.svg",
+    "sourceSha256":  "3BA47290965F20C34596E1574696AF965AB48EC7E740D7FE49D34502C9F109FA",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-204251299\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-204251299\\components\\exports\\city-header-preview.png",
+                       "sha256":  "F34C36B1AFC0D4D0335F3BDA44FC258D33CABACD7FD472B41537513902BF6774",
+                       "width":  1440,
+                       "height":  70,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-204251299\\components\\exports\\city-header-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261028-204251299\\components\\exports\\city-header-city-header-backdrop.png",
+                       "sha256":  "F34C36B1AFC0D4D0335F3BDA44FC258D33CABACD7FD472B41537513902BF6774",
+                       "width":  1440,
+                       "height":  70,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261028-204251299\\components\\exports\\city-header-city-header-backdrop.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

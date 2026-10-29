@@ -1,0 +1,55 @@
+{
+    "status":  "exported-not-runtime-verified",
+    "atUtc":  "2026-10-27T18:11:59.2774383Z",
+    "tool":  "F:\\EasternDynastyBuild\\DesignTools\\Inkscape-1.4.4\\PFiles64\\Inkscape\\bin\\inkscape.com",
+    "toolVersion":  "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+    "source":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-180252216\\components\\city-affairs.svg",
+    "relativeSource":  "Docs\\DesignUI\\s1-20261027-180252216\\components\\city-affairs.svg",
+    "sourceSha256":  "E110B09D2996955A2B6788234065DD13AA873E44CDAD2F8F313FEAAE5914D7F1",
+    "geometry":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-180252216\\components\\exports\\geometry.csv",
+    "images":  [
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-180252216\\components\\exports\\city-affairs-preview.png",
+                       "sha256":  "38D3400D6E78822228A25CB3CE87078AF39C35313A329DD41F023A46C4A540C3",
+                       "width":  1640,
+                       "height":  500,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-180252216\\components\\exports\\city-affairs-preview.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-180252216\\components\\exports\\city-affairs-affairs-seal.png",
+                       "sha256":  "40AD23C73972871F0D74544331D2692C408D5360BD0B32544D3193E45A5533CF",
+                       "width":  112,
+                       "height":  112,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-180252216\\components\\exports\\city-affairs-affairs-seal.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-180252216\\components\\exports\\city-affairs-affairs-seal-hover.png",
+                       "sha256":  "117FADAC990C29ED6A1CE83EBB09A8AE65C4C63291431525D7774752C6FF0851",
+                       "width":  112,
+                       "height":  112,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-180252216\\components\\exports\\city-affairs-affairs-seal-hover.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-180252216\\components\\exports\\city-affairs-affairs-ribbon.png",
+                       "sha256":  "AD53F21E59EC414581C95F5C25EE35DCE2CEA2EC012C38586EC94C714405E6E5",
+                       "width":  248,
+                       "height":  109,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-180252216\\components\\exports\\city-affairs-affairs-ribbon.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-180252216\\components\\exports\\city-affairs-affairs-quest.png",
+                       "sha256":  "43CA2677B5E655FA37268A4DB04ECB50B71DA08E940DE5DB70217E861B0EB589",
+                       "width":  390,
+                       "height":  44,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-180252216\\components\\exports\\city-affairs-affairs-quest.png"
+                   },
+                   {
+                       "path":  "F:\\工作项目\\率土之滨\\source\\Docs\\DesignUI\\s1-20261027-180252216\\components\\exports\\city-affairs-affairs-quest-hover.png",
+                       "sha256":  "C5AD91E31DD677CDA1A6AC70F5739520746D83631729B3516B4F7AFBE6EB56B6",
+                       "width":  390,
+                       "height":  44,
+                       "relativePath":  "Docs\\DesignUI\\s1-20261027-180252216\\components\\exports\\city-affairs-affairs-quest-hover.png"
+                   }
+               ],
+    "note":  "Design export only. Reference measurement sheets and design previews are not playable UI or production artwork."
+}

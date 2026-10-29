@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "version": "s1-20261027-190751837",
+  "atUtc": "2026-10-27T19:16:51.998Z",
+  "readOnly": true,
+  "failureFeedback": {
+    "path": "F:\\工作项目\\率土之滨\\source\\.local\\publication\\last-failure.json",
+    "sha256": "5053256b2def0ec554c17929eb1791ff68a8c1b4e319b3ce5a4b3bf4d0d304db",
+    "version": "s1-20261027-094252047",
+    "message": "Publication subprocess failed (1): F:\\EasternDynastyBuild\\Releases\\s1-20261027-094252047\\PublicationRuns\\2026-10-27T10-22-54-491Z-31336\\validation",
+    "stage": "validating",
+    "runDirectory": "F:\\EasternDynastyBuild\\Releases\\s1-20261027-094252047\\PublicationRuns\\2026-10-27T10-22-54-491Z-31336",
+    "projectRoot": "F:\\EasternDynastyBuild\\Releases\\s1-20261027-094252047\\Project",
+    "atUtc": "2026-10-27T10:23:24.918Z"
+  },
+  "failureEvidence": {
+    "path": "F:/EasternDynastyBuild/Releases/s1-20261027-094252047/Project/Validation/Visual/s1-20261027-094252047-youzhou-1440x900/player.log",
+    "expectedSha256": null,
+    "actualSha256": "0c3483d14029d3ddf65c22dace23fbf5aa936ba1c53c340f66f30290e68d8b12",
+    "match": null,
+    "line": 80,
+    "error": "Visible city composition target missing: city-overview",
+    "stderr": {
+      "path": "F:\\EasternDynastyBuild\\Releases\\s1-20261027-094252047\\PublicationRuns\\2026-10-27T10-22-54-491Z-31336\\validation\\stderr.log",
+      "expectedSha256": null,
+      "actualSha256": "5cc71db03cb0f3dee75b2ce291beff2344a65fb6812b93f92509a9d7647de84e",
+      "match": null,
+      "message": "Player failed: 1"
+    }
+  },
+  "sourceFix": {
+    "path": "F:\\工作项目\\率土之滨\\source\\Assets\\EasternDynasty\\Scripts\\Runtime\\Diagnostics\\CityOverviewDiagnostics.cs",
+    "sha256AtAudit": "e1b67a28195e1920546795cbaee5e51bb86a8f2a6fdc56ff67146bd490015bca",
+    "saveReviewLine": 587,
+    "enableReviewLine": 596,
+    "restoredAtFinally": true,
+    "missingTargetAssertionRetained": true,
+    "cause": "规划夹具原先未独立开启reviewMode，真实OnGUI目标未采集；修复保留断言并独立开启/恢复capture。"
+  },
+  "fixedRuntimeEvidence": {
+    "path": "F:/EasternDynastyBuild/Releases/s1-20261027-104752269/Project/Validation/Visual/s1-20261027-104752269-youzhou-1440x900/player.log",
+    "expectedSha256": null,
+    "actualSha256": "ec3754994b82287e08b6fd5bbc23e95b2a046e94c038993c270d0c75d533dc06",
+    "match": null,
+    "line": 79,
+    "marker": "CITY_PLANNING_RUNTIME_OK",
+    "version": "s1-20261027-104752269",
+    "newRuntimeInvokedByAuditor": false
+  },
+  "previousWorker": {
+    "version": "s1-20261027-180252216",
+    "resultPath": "F:\\工作项目\\率土之滨\\source\\.local\\continuous-development\\runs\\s1-20261027-180252216\\worker-result.json",
+    "resultSha256": "f3fdec3586b12ff1393dfecd212db34ab3deff98f34912b5a2db32d8fbdb6b7a",
+    "status": "changed",
+    "summary": "主城城务区已按 Inkscape 分层稿接入；纯逻辑、资源校验及引用编译通过，运行观感待发布者验收。",
+    "stderrPath": "F:\\工作项目\\率土之滨\\source\\.local\\continuous-development\\runs\\s1-20261027-180252216\\stderr.log",
+    "stderrBytes": 0,
+    "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "validationReceipt": "Validation/CityAffairsDesign/s1-20261027-180252216/result.json",
+    "validationStatus": "passed-pure-validation-runtime-pending"
+  },
+  "publisherSnapshotAtRead": {
+    "path": "F:\\工作项目\\率土之滨\\source\\.local\\publication\\status.json",
+    "status": "waiting_for_desktop",
+    "atUtc": "2026-10-27T19:16:37.310Z",
+    "version": "s1-20261027-104752269",
+    "runDirectory": "F:\\EasternDynastyBuild\\Releases\\s1-20261027-104752269\\PublicationRuns\\2026-10-27T19-12-54-030Z-24540"
+  },
+  "decision": {
+    "newSourceFixRequired": false,
+    "reason": "last-failure为旧版本采集失败；主工程修复仍在且后续104752269实际日志已有通过标记。上一轮worker stderr为空；没有本轮发现的新代码故障。",
+    "visualAcceptanceStillPending": true,
+    "publicationOperated": false,
+    "publicationWaited": false
+  }
+}

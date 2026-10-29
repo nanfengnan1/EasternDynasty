@@ -1,0 +1,31 @@
+{
+  "version": "s1-20261027-155751815",
+  "recordedAtUtc": "2026-10-27T16:11:23.650Z",
+  "toolVersion": "Inkscape 1.4.4 (dcaf3e7, 2026-05-05)",
+  "opened": [
+    "components/exports/atlas-preview.png",
+    "desktop/exports/map-hud-preview.png",
+    "mobile/exports/map-hud-preview.png",
+    "states/exports/atlas-states-preview.png"
+  ],
+  "referenceOpened": [
+    "STZB-0527",
+    "STZB-0499"
+  ],
+  "baselineVersion": "s1-20261027-104752269",
+  "verdict": "Proceed with the bounded minimap region; runtime visual approval pending",
+  "observations": [
+    "Whole black slab removed; independent round locator and coordinate/title strip are recognizable in both compositions.",
+    "204-square map remains readable in design previews; true runtime map transparency and tiny 11-point home caption require publisher inspection with actual CJK font.",
+    "State sheet is an editable example with a clipped old map image, not a new camera or runtime capture.",
+    "Full-page previews inherit prior designs and map-context patches. They are composited design documents, not claimed current game screenshots."
+  ],
+  "correctedDuringDesign": [
+    "Initial page exports rejected a duplicate SVG fill attribute; corrected before successful exports and runtime implementation."
+  ],
+  "warnings": [
+    "Inkscape user-directory extension log/recent-file writes denied; no permissions bypass, actual PNG/geometry/source-hash receipts produced."
+  ],
+  "runtimeVerified": false,
+  "figmaUsed": false
+}
